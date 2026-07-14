@@ -2,12 +2,9 @@
 
 The AppTrainers curriculum materials as a website, built with
 [Astro](https://astro.build) + [Starlight](https://starlight.astro.build).
-Currently hosts two workbooks:
+Currently hosts the **Build a Checkers Game in Unity** workbook (17 chapters).
 
-- **Build a Checkers Game in Unity** — the full 17-chapter workbook.
-- **A Reusable Game Board** — the game-agnostic board foundation.
-
-Live site: <https://apptrainers-curriculums.github.io/materials-web/>
+Live site: <https://apptrainers-curriculums.github.io/>
 
 ## How it works
 
@@ -48,6 +45,6 @@ Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds the site
 and publishes it to GitHub Pages. Enable it once in the repo:
 **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
-The site is served from a sub-path, so `astro.config.mjs` sets
-`base: '/materials-web'`. If you move it to a custom domain or a different repo
-name, update `site` and `base` there.
+This is the org root site (repo name `apptrainers-curriculums.github.io`), so
+`astro.config.mjs` sets `base: '/'`. For a custom domain, add a `public/CNAME`
+file and keep `base` at root.

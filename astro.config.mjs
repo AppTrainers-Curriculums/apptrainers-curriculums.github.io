@@ -1,31 +1,27 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// GitHub Pages project site: https://apptrainers-curriculums.github.io/materials-web/
+// GitHub Pages org root site: https://apptrainers-curriculums.github.io/
 export default defineConfig({
   site: 'https://apptrainers-curriculums.github.io',
-  base: '/materials-web',
+  base: '/',
   integrations: [
     starlight({
       title: 'AppTrainers Materials',
       description: 'Hands-on game-development workbooks that build real Unity games, step by step.',
       logo: {
-        light: './src/assets/apptrainers-logo.svg',
-        dark: './src/assets/apptrainers-logo-dark.svg',
+        light: './src/assets/apptrainers-logo.png',
+        dark: './src/assets/apptrainers-logo-dark.png',
         replacesTitle: true,
       },
       customCss: ['./src/styles/theme.css'],
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/AppTrainers-Curriculums/materials-web' },
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/AppTrainers-Curriculums/apptrainers-curriculums.github.io' },
       ],
       sidebar: [
         {
           label: 'Build a Checkers Game',
           autogenerate: { directory: 'checkers' },
-        },
-        {
-          label: 'A Reusable Game Board',
-          autogenerate: { directory: 'board-foundation' },
         },
       ],
       lastUpdated: true,
