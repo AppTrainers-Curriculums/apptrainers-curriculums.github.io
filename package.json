@@ -1,0 +1,18 @@
+{
+  "name": "materials-web",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AppTrainers curriculum materials — web edition",
+  "scripts": {
+    "import": "node scripts/import.mjs",
+    "dev": "astro dev",
+    "build": "npm run import && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.34.8",
+    "astro": "^5.18.2",
+    "sharp": "^0.33.5"
+  }
+}

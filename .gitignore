@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# generated from content-src/ by scripts/import.mjs (run at build time)
+src/content/docs/checkers/
+src/content/docs/board-foundation/
+
+# os
+.DS_Store

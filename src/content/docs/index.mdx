@@ -1,0 +1,56 @@
+---
+title: AppTrainers Materials
+description: Hands-on game-development workbooks that build real Unity games, step by step.
+template: splash
+hero:
+  tagline: Learn to code · make games. Hands-on workbooks that take students from an empty scene to a complete, playable Unity game — one runnable step at a time.
+  image:
+    file: ../../assets/board.png
+    alt: A wooden checkers board with pieces
+  actions:
+    - text: Start with Checkers
+      link: /materials-web/checkers/before-you-start/
+      icon: right-arrow
+      variant: primary
+    - text: The Board Foundation
+      link: /materials-web/board-foundation/a-board-you-can-reuse/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Materials
+
+<CardGrid>
+  <LinkCard
+    title="Build a Checkers Game in Unity"
+    description="A 17-chapter, copy-along workbook: the board, the rules, capturing, kings, a simple AI, then animation and sound — built toward a real, shipped project."
+    href="/materials-web/checkers/before-you-start/"
+  />
+  <LinkCard
+    title="A Reusable Game Board"
+    description="The board plumbing on its own — numbering, world-position maths, a self-drawing/click-reading Board, and a tiny model — ready to drop under any grid game."
+    href="/materials-web/board-foundation/a-board-you-can-reuse/"
+  />
+</CardGrid>
+
+## How the workbooks work
+
+<CardGrid>
+  <Card title="Copy-along" icon="pencil">
+    Every step shows the code and explains what each part does. Type it in, press
+    Play, see it work.
+  </Card>
+  <Card title="Always runnable" icon="rocket">
+    No chapter is code you can't run. Each ends with a checkpoint you can play.
+  </Card>
+  <Card title="Rules first, polish last" icon="setting">
+    Make the game *work* — even if pieces teleport — before making it pretty.
+    Animation and sound come last.
+  </Card>
+  <Card title="Built for Unity" icon="star">
+    Written for students who already know Unity, focused on the interesting part:
+    turning game rules into clean, well-organised code.
+  </Card>
+</CardGrid>

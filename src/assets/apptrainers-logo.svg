@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 340" width="1300" height="340" font-family="'Poppins','Segoe UI',Verdana,sans-serif">
+  <!-- red block behind "app" + "Translating ideas" -->
+  <rect x="0" y="0" width="402" height="340" rx="26" fill="#EE4C5B"/>
+  <!-- wordmark -->
+  <text x="26" y="252" font-size="232" font-weight="500" fill="#ffffff" letter-spacing="-6">app</text>
+  <text x="404" y="252" font-size="232" font-weight="500" fill="#141414" letter-spacing="-6">trainers</text>
+  <!-- tagline -->
+  <text x="30" y="316" font-size="46" font-weight="500" fill="#ffffff">Translating ideas</text>
+  <text x="410" y="316" font-size="46" font-weight="400" fill="#141414">to reality through innovative education</text>
+</svg>
