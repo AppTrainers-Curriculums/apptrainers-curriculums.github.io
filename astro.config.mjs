@@ -15,9 +15,6 @@ export default defineConfig({
         replacesTitle: true,
       },
       customCss: ['./src/styles/theme.css'],
-      social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/AppTrainers-Curriculums/apptrainers-curriculums.github.io' },
-      ],
       sidebar: [
         {
           label: 'Build a Checkers Game',
