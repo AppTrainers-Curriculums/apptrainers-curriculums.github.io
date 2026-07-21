@@ -3,16 +3,17 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { materials } from '../materials.config.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
 const SRC = path.join(ROOT, 'content-src');
 const OUT = path.join(ROOT, 'src', 'content', 'docs');
 
-const DOCS = [
-  { src: 'checkers.md', dir: 'checkers', introTitle: 'Before You Start' },
-  { src: 'tank-survival.md', dir: 'tank-survival', introTitle: 'Before You Start' },
-];
+// Only build the published materials; each entry maps to { src, dir, introTitle }.
+const DOCS = materials
+  .filter((m) => m.published)
+  .map((m) => ({ src: m.src, dir: m.slug, introTitle: m.introTitle || 'Before You Start' }));
 
 const stripFrontMatter = (md) => md.replace(/^---\n[\s\S]*?\n---\n?/, '');
 const stripMd = (s) => s.replace(/[`*]/g, '').trim();
@@ -78,5 +79,9 @@ function build(doc) {
 }
 
 fs.mkdirSync(OUT, { recursive: true });
+// Remove any stale pages for materials that are now unpublished.
+materials
+  .filter((m) => !m.published)
+  .forEach((m) => fs.rmSync(path.join(OUT, m.slug), { recursive: true, force: true }));
 DOCS.forEach(build);
 console.log('import done ->', path.relative(ROOT, OUT));

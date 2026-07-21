@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { publishedMaterials } from './materials.config.mjs';
 
 // GitHub Pages org root site: https://apptrainers-curriculums.github.io/
 export default defineConfig({
@@ -15,18 +16,16 @@ export default defineConfig({
         replacesTitle: true,
       },
       customCss: ['./src/styles/theme.css'],
-      sidebar: [
-        {
-          label: 'Build a Checkers Game',
-          autogenerate: { directory: 'checkers' },
-        },
-        {
-          label: 'Build a Tank Survival Game',
-          autogenerate: { directory: 'tank-survival' },
-        },
-      ],
+      sidebar: publishedMaterials.map((m) => ({
+        label: m.sidebarLabel,
+        autogenerate: { directory: m.slug },
+      })),
       lastUpdated: true,
       pagination: true,
+      // Search is disabled: courses are AES-encrypted at build time (see
+      // scripts/encrypt.mjs), but Pagefind would index the plaintext pages and
+      // leak protected content through the search box. No index = no leak.
+      pagefind: false,
     }),
   ],
 });

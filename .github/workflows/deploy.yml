@@ -28,8 +28,17 @@ jobs:
           cache: npm
       - name: Install
         run: npm ci
-      - name: Build (import workbooks + astro build)
+      - name: Build (import workbooks + astro build + encrypt protected courses)
         run: npm run build
+        env:
+          # Strict: fail the build if a protected course has no password, so we
+          # never deploy a course that should be locked but isn't.
+          STATICRYPT_STRICT: '1'
+          # Per-course passwords. Add each as a repo secret:
+          # Settings → Secrets and variables → Actions → New repository secret.
+          # One secret per protected course, named COURSE_PW_<SLUG>.
+          COURSE_PW_CHECKERS: ${{ secrets.COURSE_PW_CHECKERS }}
+          COURSE_PW_TANK_SURVIVAL: ${{ secrets.COURSE_PW_TANK_SURVIVAL }}
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

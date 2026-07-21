@@ -10,20 +10,23 @@ hero:
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { publishedMaterials } from '../../../materials.config.mjs';
 
 ## Materials
 
 <CardGrid>
-  <LinkCard
-    title="Build a Checkers Game in Unity"
-    description="A 17-chapter, copy-along workbook: the board, the rules, capturing, kings, a simple AI, then animation and sound — built toward a real, shipped project."
-    href="/checkers/before-you-start/"
-  />
-  <LinkCard
-    title="Build a Top-Down Tank Survival Game in Unity"
-    description="An 11-chapter, copy-along workbook: drive a tank, shoot, spawn endless enemies, then add health, score, and a game-over screen — a complete survival game, step by step."
-    href="/tank-survival/before-you-start/"
-  />
+  {publishedMaterials.map((m) => (
+    <LinkCard
+      key={m.slug}
+      title={m.protected ? `🔒 ${m.cardTitle}` : m.cardTitle}
+      description={
+        m.protected
+          ? `${m.cardDescription} (Password required — ask your instructor.)`
+          : m.cardDescription
+      }
+      href={`/${m.slug}/before-you-start/`}
+    />
+  ))}
 </CardGrid>
 
 ## How the workbooks work

@@ -6,13 +6,17 @@
   "description": "AppTrainers curriculum materials — web edition",
   "scripts": {
     "import": "node scripts/import.mjs",
+    "encrypt": "node scripts/encrypt.mjs",
     "dev": "astro dev",
-    "build": "npm run import && astro build",
+    "build": "npm run import && astro build && npm run encrypt",
     "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.34.8",
     "astro": "^5.18.2",
     "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "staticrypt": "^3.5.4"
   }
 }
