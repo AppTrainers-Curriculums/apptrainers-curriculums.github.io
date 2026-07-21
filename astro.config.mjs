@@ -20,6 +20,10 @@ export default defineConfig({
           label: 'Build a Checkers Game',
           autogenerate: { directory: 'checkers' },
         },
+        {
+          label: 'Build a Tank Survival Game',
+          autogenerate: { directory: 'tank-survival' },
+        },
       ],
       lastUpdated: true,
       pagination: true,

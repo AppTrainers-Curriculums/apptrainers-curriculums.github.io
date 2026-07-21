@@ -11,6 +11,7 @@ const OUT = path.join(ROOT, 'src', 'content', 'docs');
 
 const DOCS = [
   { src: 'checkers.md', dir: 'checkers', introTitle: 'Before You Start' },
+  { src: 'tank-survival.md', dir: 'tank-survival', introTitle: 'Before You Start' },
 ];
 
 const stripFrontMatter = (md) => md.replace(/^---\n[\s\S]*?\n---\n?/, '');

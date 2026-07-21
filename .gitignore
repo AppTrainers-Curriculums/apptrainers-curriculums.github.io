@@ -8,6 +8,7 @@ dist/
 # generated from content-src/ by scripts/import.mjs (run at build time)
 src/content/docs/checkers/
 src/content/docs/board-foundation/
+src/content/docs/tank-survival/
 
 # os
 .DS_Store
