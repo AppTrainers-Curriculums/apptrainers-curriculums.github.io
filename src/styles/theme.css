@@ -55,3 +55,11 @@ h1, h2, h3, h4,
   border: 1px solid rgba(236, 74, 90, 0.25);
   color: var(--sl-color-text);
 }
+
+/* Show only the course you're currently in: hide any top-level sidebar group
+   that doesn't contain the active page. Each course is one top-level <li>, and
+   the current page carries aria-current="page". Applies to the desktop sidebar
+   and the mobile nav (same markup). */
+ul.top-level > li:not(:has([aria-current='page'])) {
+  display: none;
+}
