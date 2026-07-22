@@ -22,6 +22,24 @@ const REMEMBER_DAYS = 30; // "Remember me" keeps a course unlocked in the browse
 const toEncrypt = materials.filter((m) => m.published && m.protected);
 let didEncryptSomething = false;
 
+// Make "Remember me" checked by default in every encrypted page, so a student
+// enters the password ONCE per course and every chapter then auto-unlocks
+// (StatiCrypt only persists across pages when this box is ticked).
+const REMEMBER_OFF = 'id="staticrypt-remember" type="checkbox" name="remember" />';
+const REMEMBER_ON = 'id="staticrypt-remember" type="checkbox" name="remember" checked />';
+function defaultCheckRemember(dir) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) defaultCheckRemember(full);
+    else if (entry.name.endsWith('.html')) {
+      const html = fs.readFileSync(full, 'utf8');
+      if (html.includes(REMEMBER_OFF)) {
+        fs.writeFileSync(full, html.replaceAll(REMEMBER_OFF, REMEMBER_ON));
+      }
+    }
+  }
+}
+
 for (const m of toEncrypt) {
   const courseDir = path.join(DIST, m.slug);
   if (!fs.existsSync(courseDir)) continue; // course wasn't built (unpublished)
@@ -62,6 +80,7 @@ for (const m of toEncrypt) {
 
   fs.cpSync(path.join(tmp, m.slug), courseDir, { recursive: true });
   fs.rmSync(tmp, { recursive: true, force: true });
+  defaultCheckRemember(courseDir); // enter the password once, stay unlocked
   console.log(`🔒 encrypted ${m.slug}`);
   didEncryptSomething = true;
 }
