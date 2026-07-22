@@ -137,6 +137,12 @@ remember them in two little variables, then **do the physics move** in
 Left/Right and *push forward* along the direction the tank faces. Because the
 Kenney tank sprite points **up**, "forward" is `transform.up`.
 
+We also **keep the tank on screen**. The walls stop it at the arena edges, but we
+add a safety net in code too: before each move we **clamp** the new position to the
+camera's view, so the tank can never slip off the edge. We work out the screen
+border from the orthographic camera (`orthographicSize` and `aspect`) and shave off
+half the tank's size so its *edge* — not its center — stops at the border.
+
 ### Do it — build the player tank
 
 1. **Right-click → 2D Object → Sprite**, name it `Player`. Set its **Sprite** to a
@@ -165,11 +171,20 @@ public class PlayerTankController : MonoBehaviour {
   [SerializeField] private float rotationSpeed = 180f;  // degrees per second
 
   private Rigidbody2D rb;
+  private Camera cam;       // used to work out the screen edges
+  private Vector2 halfSize; // half the tank's width/height, to keep it fully on screen
 
   float moveInput, turnInput;
 
   private void Awake() {
     rb = GetComponent<Rigidbody2D>();
+    cam = Camera.main;
+
+    // Measure the tank so we can stop its edge (not just its center) at the screen border.
+    Collider2D col = GetComponent<Collider2D>();
+    if (col != null) {
+      halfSize = col.bounds.extents;
+    }
   }
 
   void Update() {
@@ -206,7 +221,27 @@ public class PlayerTankController : MonoBehaviour {
 
     // Move along the facing direction. The Kenney tank sprite points UP, so transform.up is "forward".
     Vector2 newPos = rb.position + (Vector2)transform.up * moveInput * moveSpeed * Time.fixedDeltaTime;
-    rb.MovePosition(newPos);
+    rb.MovePosition(ClampToScreen(newPos));
+  }
+
+  // Keep the tank inside the camera's view so it can't drive off-screen.
+  private Vector2 ClampToScreen(Vector2 pos) {
+    if (cam == null || !cam.orthographic) {
+      return pos;
+    }
+
+    float halfHeight = cam.orthographicSize;
+    float halfWidth = halfHeight * cam.aspect;
+    Vector2 center = cam.transform.position;
+
+    float minX = center.x - halfWidth + halfSize.x;
+    float maxX = center.x + halfWidth - halfSize.x;
+    float minY = center.y - halfHeight + halfSize.y;
+    float maxY = center.y + halfHeight - halfSize.y;
+
+    pos.x = Mathf.Clamp(pos.x, minX, maxX);
+    pos.y = Mathf.Clamp(pos.y, minY, maxY);
+    return pos;
   }
 }
 ```
@@ -217,7 +252,13 @@ public class PlayerTankController : MonoBehaviour {
 ### Test it
 
 Press **Play**. Use the **arrow keys**: Up/Down drive, Left/Right spin the tank in
-place. Drive up to a wall — the collider stops you.
+place. Drive up to a wall — the collider stops you. Drive toward any screen edge —
+the `ClampToScreen` safety net holds you inside the camera view even where there's
+no wall.
+
+> **Note:** `ClampToScreen` reads the tank's size from its **Collider 2D**, which
+> we add in the "build the player tank" steps above. No collider = the clamp falls
+> back to stopping the tank's *center* at the edge, which is still on-screen.
 
 > **Tip:** the numbers **Move Speed** and **Rotation Speed** show up in the
 > Inspector because we marked them `[SerializeField]`. Tweak them while the game
@@ -245,8 +286,17 @@ bullets never pile up and slow the game down).
 We want it to hit **tanks**, so instead of checking colours or teams, the bullet
 just looks for a **`Health`** component. Every tank has one (we build `Health` in
 Part 3), so a bullet damages *any* tank it touches — even an enemy can wing
-another enemy. Because bullets spawn at the **muzzle** (the tip of the barrel,
-just ahead of the tank), a tank never shoots itself.
+another enemy.
+
+There's one tank a bullet must **never** hit: the one that fired it. Bullets spawn
+right on top of the shooter's own collider, so without a guard a tank would blow
+itself up the instant it pulled the trigger. We fix that by having each bullet
+remember its **owner** (the gun tells it who fired — see Chapter 4) and skip that
+tank when checking for a hit.
+
+Finally, a bullet should feel like it *lands*: when it hits a tank or a wall it
+spawns a little **explosion** at the impact point before it disappears. We keep
+that in one small `Die()` helper so both the tank-hit and wall-hit paths share it.
 
 ### Do it — the script
 
@@ -262,6 +312,15 @@ public class Bullet : MonoBehaviour {
   [SerializeField] private float speed = 12f;
   [SerializeField] private int damage = 1;
   [SerializeField] private float lifetime = 2f; // self-destruct so bullets never pile up
+  [Tooltip("Effect spawned where the bullet hits. Leave empty for no explosion.")]
+  [SerializeField] private GameObject explosionPrefab;
+
+  private GameObject owner; // the tank that fired this bullet — never damages it
+
+  // Called right after spawning so the bullet knows who not to hit.
+  public void SetOwner(GameObject shooter) {
+    owner = shooter;
+  }
 
   private void Start() {
     // Clean up automatically after 'lifetime' seconds if we never hit anything.
@@ -277,17 +336,29 @@ public class Bullet : MonoBehaviour {
     // Did we hit a tank (anything with a Health component)?
     Health health = other.GetComponent<Health>();
     if (health != null) {
+      // Ignore the tank that fired us — no self-damage, keep flying.
+      if (health.gameObject == owner) {
+        return;
+      }
       // The tank takes damage, and the bullet dies.
       health.TakeDamage(damage);
-      Destroy(gameObject);
+      Die();
       return;
     }
 
     // Hit a wall? Just die (no damage).
     if (other.CompareTag("Wall")) {
-      Destroy(gameObject);
+      Die();
     }
     // Anything else (other bullets, pickups): ignore and keep flying.
+  }
+
+  // Spawn the explosion at the bullet's spot and destroy the bullet.
+  private void Die() {
+    if (explosionPrefab != null) {
+      Instantiate(explosionPrefab, transform.position, transform.rotation);
+    }
+    Destroy(gameObject);
   }
 }
 ```
@@ -305,6 +376,10 @@ public class Bullet : MonoBehaviour {
    into a **prefab**, then delete the one left in the scene. (A prefab is a
    reusable blueprint we spawn copies of.)
 
+Leave the **Explosion Prefab** slot empty for now — we build the explosion in
+Chapter 8 and drop it in there, so bullets pop on impact. An empty slot just means
+"no explosion," so nothing breaks in the meantime.
+
 > **Note:** the line `other.GetComponent<Health>()` won't compile until we add the
 > `Health` script in Chapter 5 — that's expected. Unity will show a red error
 > until then; it clears the moment `Health` exists.
@@ -316,9 +391,12 @@ public class Bullet : MonoBehaviour {
 ### Idea
 
 The gun spawns a bullet at the **muzzle** facing the same way the tank faces. We
-use a small **cooldown** so you can't fire faster than a set rate. That's it —
-because the bullet already knows how to fly and deal damage, the gun's only job is
-to make one at the right spot, at the right time.
+use a small **cooldown** so you can't fire faster than a set rate. Because the
+bullet already knows how to fly and deal damage, the gun does three quick things
+each shot: make the bullet, **tell it who fired it** (`SetOwner`, so it won't
+damage us — Chapter 3), and spawn an optional **muzzle flash** at the barrel tip
+for a bit of "juice." We pass `transform.root.gameObject` as the owner so it works
+whether this script sits on the tank body or a barrel child.
 
 ### Do it — the fire point
 
@@ -341,6 +419,8 @@ public class PlayerTankGun : MonoBehaviour {
   [Tooltip("Empty transform at the muzzle tip. Bullets spawn here, facing its 'up'.")]
   [SerializeField] private Transform firePoint;
   [SerializeField] private GameObject bulletPrefab;
+  [Tooltip("Muzzle-flash effect spawned at the fire point on each shot.")]
+  [SerializeField] private GameObject explosionBulletPrefab;
   [SerializeField] private float fireCooldown = 0.3f; // seconds between shots
 
   private float cooldownTimer;
@@ -357,7 +437,17 @@ public class PlayerTankGun : MonoBehaviour {
     // Fire when Space is pressed and the cooldown has elapsed.
     if (kb.spaceKey.wasPressedThisFrame && cooldownTimer <= 0f) {
       // Spawn at the muzzle, inheriting the barrel's rotation so it flies forward.
-      Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+      GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+      // Tell the bullet which tank fired it, so it won't damage us.
+      Bullet bulletScript = bullet.GetComponent<Bullet>();
+      if (bulletScript != null) {
+        bulletScript.SetOwner(transform.root.gameObject);
+      }
+
+      // Muzzle-flash burst at the same spot.
+      if (explosionBulletPrefab != null) {
+        Instantiate(explosionBulletPrefab, firePoint.position, firePoint.rotation);
+      }
 
       cooldownTimer = fireCooldown;
     }
@@ -367,7 +457,9 @@ public class PlayerTankGun : MonoBehaviour {
 
 2. Add the **Player Tank Gun** script to the `Player` object.
 3. In its Inspector: drag the `FirePoint` object into **Fire Point**, and drag the
-   `Bullet` **prefab** into **Bullet Prefab**.
+   `Bullet` **prefab** into **Bullet Prefab**. Leave **Explosion Bullet Prefab**
+   empty for now — it's an optional muzzle flash you can drop in once you've made an
+   explosion prefab (Chapter 8), and it's safe to leave empty.
 
 ### Test it
 
@@ -583,7 +675,8 @@ and drop its **Move Speed**. You now have a slow tank that soaks up more hits.
 This is the player's gun with one change: instead of waiting for Spacebar, it
 fires **automatically** on a cooldown. The `EnemyTank` script already turns the
 body to face you, so the gun only needs to shoot straight ahead. If the player is
-gone, it stops firing.
+gone, it stops firing. Just like the player's gun, it tags each bullet with its
+owner (so an enemy never shoots itself) and spawns the same optional muzzle flash.
 
 ### Do it
 
@@ -598,6 +691,8 @@ using UnityEngine;
 public class EnemyGun : MonoBehaviour {
   [Header("Firing")]
   [SerializeField] private GameObject bulletPrefab;
+  [Tooltip("Muzzle-flash effect spawned at the fire point on each shot.")]
+  [SerializeField] private GameObject explosionBulletPrefab;
   [SerializeField] private Transform firePoint;       // muzzle tip (falls back to this tank if empty)
   [SerializeField] private float fireCooldown = 1.5f; // seconds between shots
 
@@ -629,8 +724,18 @@ public class EnemyGun : MonoBehaviour {
   }
 
   private void Fire() {
-    // Spawn from the muzzle, facing forward.
-    Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    // Spawn from the muzzle (or this tank if no firePoint is set), facing forward.
+    GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+    // Tell the bullet which tank fired it, so it won't damage us.
+    Bullet bulletScript = bullet.GetComponent<Bullet>();
+    if (bulletScript != null) {
+      bulletScript.SetOwner(transform.root.gameObject);
+    }
+
+    // Muzzle-flash burst at the same spot.
+    if (explosionBulletPrefab != null) {
+      Instantiate(explosionBulletPrefab, firePoint.position, firePoint.rotation);
+    }
   }
 }
 ```
@@ -638,7 +743,8 @@ public class EnemyGun : MonoBehaviour {
 1. Open the `EnemyTank` **prefab** and add the **Enemy Gun** script.
 2. Drag the `Bullet` prefab into **Bullet Prefab** and the enemy's `FirePoint`
    into **Fire Point**. (Want enemy shots to look different? Make a second Bullet
-   prefab with a red bullet sprite and use that instead — no code change.)
+   prefab with a red bullet sprite and use that instead — no code change.) Leave
+   **Explosion Bullet Prefab** empty unless you want an enemy muzzle flash too.
 
 ### Test it
 
@@ -680,11 +786,19 @@ public class Explosion : MonoBehaviour {
    the **Explosion** script, and save it as a prefab. Delete the scene copy.
 2. Select the `Player` and the `EnemyTank` prefab and drag the `Explosion` prefab
    into each one's **Health → Explosion Prefab** slot.
+3. Now go back and fill the explosion slots we left empty earlier — the same prefab
+   powers all of them:
+   - `Bullet` prefab → **Bullet → Explosion Prefab** (bullets pop on impact).
+   - `Player` → **Player Tank Gun → Explosion Bullet Prefab** (muzzle flash).
+   - `EnemyTank` prefab → **Enemy Gun → Explosion Bullet Prefab** (optional).
+   For a snappier muzzle flash, duplicate the prefab and lower its **Duration** to
+   about `0.1`.
 
 ### Test it
 
 Press **Play** and destroy an enemy — a smoke puff pops where it died, then
-disappears. Small touch, big difference in "juice."
+disappears. Fire a shot: a flash blooms at the barrel and each bullet bursts where
+it lands. Small touches, big difference in "juice."
 
 ### Challenge
 
