@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { materials } from '../materials.config.mjs';
+import { buildCodePage } from './code-page.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -58,7 +59,7 @@ function build(doc) {
     const chapter = line.match(/^##\s+Chapter\s+(\d+)\s*[—-]\s*(.+)$/i);
     if (chapter) {
       inIntro = false;
-      cur = { num: Number(chapter[1]), title: stripMd(chapter[2]), lines: [] };
+      cur = { num: Number(chapter[1]), title: stripMd(chapter[2]), pageSlug: slug(chapter[2]), lines: [] };
       chapters.push(cur);
       continue;                       // heading becomes the page title
     }
@@ -75,7 +76,13 @@ function build(doc) {
   write(0, doc.introTitle, doc.introTitle, introLines.join('\n'));
   for (const c of chapters) write(c.num, `${c.num}. ${c.title}`, c.title, c.lines.join('\n'));
 
-  console.log(`${doc.dir}: ${count} pages`);
+  // Code-only companion: every block, no prose. Written directly (not through
+  // page()/transform()) because it is generated markdown, not workbook prose.
+  const code = buildCodePage(doc.dir, chapters);
+  fs.writeFileSync(path.join(outDir, 'all-the-code.md'), code.body);
+  count++;
+
+  console.log(`${doc.dir}: ${count} pages (code page: ${code.whole} complete files, ${code.snippet} snippets)`);
 }
 
 fs.mkdirSync(OUT, { recursive: true });
