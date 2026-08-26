@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import { publishedMaterials, codePath } from './materials.config.mjs';
+import { publishedMaterials } from './materials.config.mjs';
 
 // GitHub Pages org root site: https://apptrainers-curriculums.github.io/
 export default defineConfig({
@@ -16,20 +16,12 @@ export default defineConfig({
         replacesTitle: true,
       },
       customCss: ['./src/styles/theme.css'],
-      sidebar: [
-        ...publishedMaterials.map((m) => ({
-          label: m.sidebarLabel,
-          autogenerate: { directory: m.slug },
-        })),
-        {
-          // Public, un-encrypted copy sheets — see scripts/code-page.mjs.
-          label: 'Code to Copy',
-          items: publishedMaterials.map((m) => ({
-            label: m.shortName,
-            link: codePath(m.slug),
-          })),
-        },
-      ],
+      // The /code/<slug>/ copy sheets are deliberately NOT in the sidebar: they
+      // are unlisted pages you hand out by URL. See scripts/code-page.mjs.
+      sidebar: publishedMaterials.map((m) => ({
+        label: m.sidebarLabel,
+        autogenerate: { directory: m.slug },
+      })),
       lastUpdated: true,
       pagination: true,
       // Search is disabled: courses are AES-encrypted at build time (see

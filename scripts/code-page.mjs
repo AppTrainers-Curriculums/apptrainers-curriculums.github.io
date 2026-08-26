@@ -101,7 +101,22 @@ export function buildCodePage(material, chapters) {
     }
   }
 
+  // Unlisted, not secret: no sidebar entry and no link from the site, so the
+  // page is reached by handing out its URL. Starlight still lists it in the
+  // sitemap, so mark it noindex — otherwise "hidden" would only mean "hidden
+  // from the nav" while search engines indexed it anyway.
   const title = `${material.shortName} — All the Code`;
-  const body = `---\ntitle: "${title}"\ndescription: "Every code block from the ${material.shortName} workbook, ready to copy."\n---\n\n${INTRO}\n\n${out.join('\n')}`;
+  const frontMatter = [
+    '---',
+    `title: "${title}"`,
+    `description: "Every code block from the ${material.shortName} workbook, ready to copy."`,
+    'head:',
+    '  - tag: meta',
+    '    attrs:',
+    '      name: robots',
+    '      content: noindex, nofollow',
+    '---',
+  ].join('\n');
+  const body = `${frontMatter}\n\n${INTRO}\n\n${out.join('\n')}`;
   return { body, whole, snippet };
 }

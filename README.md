@@ -25,7 +25,11 @@ workbook gives one, and marked **· snippet** when the block is a piece that goe
 inside an existing file rather than a whole file. It is generated on every
 build, so it cannot drift out of sync with the workbook.
 
-These pages live **outside** the course directories on purpose. `encrypt.mjs`
+These pages are **unlisted**: no sidebar entry, no link anywhere on the site, and
+`noindex, nofollow` so they stay out of search results. You hand out the URL —
+`/code/<slug>/` — to whoever should have the code.
+
+They live **outside** the course directories on purpose. `encrypt.mjs`
 locks `dist/<slug>/`, so a code page inside a course would demand the course
 password; at `/code/<slug>/` it stays readable. That means **the C# of a
 protected course is public** — hand out the code without handing out the
