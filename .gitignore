@@ -9,6 +9,7 @@ dist/
 src/content/docs/checkers/
 src/content/docs/board-foundation/
 src/content/docs/tank-survival/
+src/content/docs/balloon-pop/
 
 # os
 .DS_Store

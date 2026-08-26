@@ -42,6 +42,18 @@ export const materials = [
     protected: true,
     salt: '8b89ae7a4d0459b23756cc738a01037b',
   },
+  {
+    slug: 'balloon-pop',
+    src: 'balloon-pop.md',
+    introTitle: 'Before You Start',
+    sidebarLabel: 'Build a Balloon Pop Game',
+    cardTitle: 'Build a Balloon Pop Game in Unity',
+    cardDescription:
+      'A 9-chapter, copy-along workbook for absolute beginners: float a balloon, pop it with a raycast, add a burst animation, seven colours, endless spawns, then score, sound and game over.',
+    published: true,
+    protected: true,
+    salt: 'ccc8fa68e64a3f062c23d284d08d1e5a',
+  },
 ];
 
 export const publishedMaterials = materials.filter((m) => m.published);

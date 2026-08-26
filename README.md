@@ -2,7 +2,8 @@
 
 The AppTrainers curriculum materials as a website, built with
 [Astro](https://astro.build) + [Starlight](https://starlight.astro.build).
-Hosts copy-along Unity game workbooks (Checkers, Top-Down Tank Survival, …).
+Hosts copy-along Unity game workbooks (Checkers, Top-Down Tank Survival,
+Balloon Pop, …).
 
 Live site: <https://apptrainers-curriculums.github.io/>
 
@@ -65,6 +66,7 @@ an environment variable **`COURSE_PW_<SLUG>`** (slug uppercased, `-` → `_`):
 | --------------- | ------------------------- |
 | `checkers`      | `COURSE_PW_CHECKERS`      |
 | `tank-survival` | `COURSE_PW_TANK_SURVIVAL` |
+| `balloon-pop`   | `COURSE_PW_BALLOON_POP`   |
 
 - **In CI:** add each as a GitHub **repository secret**
   (Settings → Secrets and variables → Actions → New repository secret). The
@@ -72,7 +74,7 @@ an environment variable **`COURSE_PW_<SLUG>`** (slug uppercased, `-` → `_`):
   (`STATICRYPT_STRICT=1`): if a protected course has no password, the build
   **fails** — so a locked course is never accidentally deployed unlocked.
 - **Locally:** pass them inline, e.g.
-  `COURSE_PW_CHECKERS=… COURSE_PW_TANK_SURVIVAL=… npm run build`. A missing
+  `COURSE_PW_CHECKERS=… COURSE_PW_TANK_SURVIVAL=… COURSE_PW_BALLOON_POP=… npm run build`. A missing
   password locally just skips (leaves that course unencrypted) with a warning.
 
 To run a course for students: keep it `published: true` / `protected: true` and
