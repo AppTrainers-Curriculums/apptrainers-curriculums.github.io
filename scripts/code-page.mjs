@@ -110,6 +110,11 @@ export function buildCodePage(material, chapters) {
     '---',
     `title: "${title}"`,
     `description: "Every code block from the ${material.shortName} workbook, ready to copy."`,
+    // splash = no sidebar at all. Without it Starlight renders the full course
+    // navigation into this PUBLIC page and merely hides it with CSS, which put
+    // every chapter URL of all three courses in the markup.
+    'template: splash',
+    'tableOfContents: true',
     'head:',
     '  - tag: meta',
     '    attrs:',
