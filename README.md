@@ -18,12 +18,19 @@ chapter — and applies our conventions:
 - `**Goal:** …` → a highlighted "Goal" aside
 
 Each workbook also gets a generated **"All the Code"** page
-(`scripts/code-page.mjs`): every C# block from the workbook, in chapter order,
-with the prose stripped out, so a student can copy a step without scrolling.
-Blocks are tabbed with their filename when the workbook gives one, and marked
-**· snippet** when the block is a piece that goes inside an existing file rather
-than a whole file. It is generated on every build, so it cannot drift out of
-sync with the workbook.
+(`scripts/code-page.mjs`) at **`/code/<slug>/`**: every C# block from the
+workbook, in chapter order, with the prose stripped out, so a student can copy a
+step straight into Unity. Blocks are tabbed with their filename when the
+workbook gives one, and marked **· snippet** when the block is a piece that goes
+inside an existing file rather than a whole file. It is generated on every
+build, so it cannot drift out of sync with the workbook.
+
+These pages live **outside** the course directories on purpose. `encrypt.mjs`
+locks `dist/<slug>/`, so a code page inside a course would demand the course
+password; at `/code/<slug>/` it stays readable. That means **the C# of a
+protected course is public** — hand out the code without handing out the
+workbook. If you ever need a course's code locked too, move the page back under
+`src/content/docs/<slug>/`.
 
 **`materials.config.mjs`** is the single source of truth: it lists every
 workbook and drives the generated pages, the sidebar, and the home-page cards.

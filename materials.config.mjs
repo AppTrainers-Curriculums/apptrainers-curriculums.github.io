@@ -21,6 +21,7 @@ export const materials = [
   {
     slug: 'checkers',
     src: 'checkers.md',
+    shortName: 'Checkers',
     introTitle: 'Before You Start',
     sidebarLabel: 'Build a Checkers Game',
     cardTitle: 'Build a Checkers Game in Unity',
@@ -33,6 +34,7 @@ export const materials = [
   {
     slug: 'tank-survival',
     src: 'tank-survival.md',
+    shortName: 'Tank Survival',
     introTitle: 'Before You Start',
     sidebarLabel: 'Build a Tank Survival Game',
     cardTitle: 'Build a Top-Down Tank Survival Game in Unity',
@@ -45,6 +47,7 @@ export const materials = [
   {
     slug: 'balloon-pop',
     src: 'balloon-pop.md',
+    shortName: 'Balloon Pop',
     introTitle: 'Before You Start',
     sidebarLabel: 'Build a Balloon Pop Game',
     cardTitle: 'Build a Balloon Pop Game in Unity',
@@ -57,6 +60,9 @@ export const materials = [
 ];
 
 export const publishedMaterials = materials.filter((m) => m.published);
+
+// The public, un-encrypted "code to copy" page for a course.
+export const codePath = (slug) => `/code/${slug}/`;
 
 // Env var name that holds a course's password, e.g. 'COURSE_PW_TANK_SURVIVAL'.
 export const passwordEnvVar = (slug) =>

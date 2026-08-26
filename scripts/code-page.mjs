@@ -65,26 +65,31 @@ export function extractBlocks(lines) {
   return blocks;
 }
 
-const INTRO = `Every piece of code in this workbook, in order, with the prose taken out — so
-you can copy a step without scrolling through the chapter. Hit the copy button
-in the corner of a block.
+const INTRO = `Every piece of C# from the workbook, chapter by chapter, with the prose taken
+out — so you can copy a step straight into Unity. Hit the copy button in the
+corner of a block.
 
-A block tabbed with just a filename is that **whole file** — paste it over
+A block tabbed with just a filename is that **whole file**: paste it over
 everything in the file. A block tabbed **· snippet** is a piece that goes
-*inside* a file you already have; open the chapter if you're unsure where it
-lands.`;
+*inside* a file you already have, next to the code that's already there.`;
 
-export function buildCodePage(slug, chapters) {
+// Chapters that are pure Editor work have no code. Say so, rather than skipping
+// the number and leaving the page looking like it starts at chapter 2.
+const NO_CODE = '*No code in this chapter — it is all Unity Editor work.*';
+
+export function buildCodePage(material, chapters) {
   const out = [];
   let whole = 0;
   let snippet = 0;
 
   for (const c of chapters) {
     const blocks = extractBlocks(c.lines).filter((b) => b.lang === 'csharp');
-    if (!blocks.length) continue;
-
     out.push(`## ${c.num}. ${c.title}`, '');
-    out.push(`<a href="/${slug}/${c.pageSlug}/">Read chapter ${c.num} →</a>`, '');
+
+    if (!blocks.length) {
+      out.push(NO_CODE, '');
+      continue;
+    }
 
     for (const b of blocks) {
       b.whole ? whole++ : snippet++;
@@ -96,6 +101,7 @@ export function buildCodePage(slug, chapters) {
     }
   }
 
-  const body = `---\ntitle: "All the Code"\nsidebar:\n  order: 999\n---\n\n${INTRO}\n\n${out.join('\n')}`;
+  const title = `${material.shortName} — All the Code`;
+  const body = `---\ntitle: "${title}"\ndescription: "Every code block from the ${material.shortName} workbook, ready to copy."\n---\n\n${INTRO}\n\n${out.join('\n')}`;
   return { body, whole, snippet };
 }

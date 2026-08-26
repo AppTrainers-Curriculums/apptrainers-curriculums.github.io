@@ -10,7 +10,7 @@ hero:
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
-import { publishedMaterials } from '../../../materials.config.mjs';
+import { publishedMaterials, codePath } from '../../../materials.config.mjs';
 
 ## Materials
 
@@ -25,6 +25,22 @@ import { publishedMaterials } from '../../../materials.config.mjs';
           : m.cardDescription
       }
       href={`/${m.slug}/before-you-start/`}
+    />
+  ))}
+</CardGrid>
+
+## Just the code
+
+Every workbook's C# in one page, chapter by chapter, ready to copy — no password
+needed.
+
+<CardGrid>
+  {publishedMaterials.map((m) => (
+    <LinkCard
+      key={`code-${m.slug}`}
+      title={`${m.shortName} — All the Code`}
+      description={`Every code block from the ${m.shortName} workbook, in order, with the prose stripped out.`}
+      href={codePath(m.slug)}
     />
   ))}
 </CardGrid>

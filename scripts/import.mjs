@@ -12,9 +12,11 @@ const SRC = path.join(ROOT, 'content-src');
 const OUT = path.join(ROOT, 'src', 'content', 'docs');
 
 // Only build the published materials; each entry maps to { src, dir, introTitle }.
+const CODE_OUT = path.join(OUT, 'code');
+
 const DOCS = materials
   .filter((m) => m.published)
-  .map((m) => ({ src: m.src, dir: m.slug, introTitle: m.introTitle || 'Before You Start' }));
+  .map((m) => ({ src: m.src, dir: m.slug, introTitle: m.introTitle || 'Before You Start', material: m }));
 
 const stripFrontMatter = (md) => md.replace(/^---\n[\s\S]*?\n---\n?/, '');
 const stripMd = (s) => s.replace(/[`*]/g, '').trim();
@@ -76,19 +78,25 @@ function build(doc) {
   write(0, doc.introTitle, doc.introTitle, introLines.join('\n'));
   for (const c of chapters) write(c.num, `${c.num}. ${c.title}`, c.title, c.lines.join('\n'));
 
-  // Code-only companion: every block, no prose. Written directly (not through
-  // page()/transform()) because it is generated markdown, not workbook prose.
-  const code = buildCodePage(doc.dir, chapters);
-  fs.writeFileSync(path.join(outDir, 'all-the-code.md'), code.body);
-  count++;
+  // Code-only companion. It lives OUTSIDE the course directory, under code/,
+  // on purpose: encrypt.mjs locks dist/<slug>/, so a page in there would demand
+  // the course password. Students who only need the code can read this one.
+  // Written directly (not through page()/transform()) — it is generated
+  // markdown, not workbook prose.
+  const code = buildCodePage(doc.material, chapters);
+  fs.mkdirSync(CODE_OUT, { recursive: true });
+  fs.writeFileSync(path.join(CODE_OUT, `${doc.dir}.md`), code.body);
 
-  console.log(`${doc.dir}: ${count} pages (code page: ${code.whole} complete files, ${code.snippet} snippets)`);
+  console.log(`${doc.dir}: ${count} pages + code page (${code.whole} complete files, ${code.snippet} snippets)`);
 }
 
 fs.mkdirSync(OUT, { recursive: true });
 // Remove any stale pages for materials that are now unpublished.
 materials
   .filter((m) => !m.published)
-  .forEach((m) => fs.rmSync(path.join(OUT, m.slug), { recursive: true, force: true }));
+  .forEach((m) => {
+    fs.rmSync(path.join(OUT, m.slug), { recursive: true, force: true });
+    fs.rmSync(path.join(CODE_OUT, `${m.slug}.md`), { force: true });
+  });
 DOCS.forEach(build);
 console.log('import done ->', path.relative(ROOT, OUT));
