@@ -57,6 +57,19 @@ export const materials = [
     protected: true,
     salt: 'ccc8fa68e64a3f062c23d284d08d1e5a',
   },
+  {
+    slug: 'rocket-bootcamp',
+    src: 'rocket-bootcamp.md',
+    shortName: 'Rocket Bootcamp',
+    introTitle: 'Before You Start',
+    sidebarLabel: 'Build a Rocket Lander Game',
+    cardTitle: 'Build a Rocket Lander Game in Unity',
+    cardDescription:
+      'A 10-chapter, copy-along workbook: fly a rocket on real physics, crash it, land it, add engine flames and explosions, then build three levels with moving hazards and ship a Windows build.',
+    published: true,
+    protected: true,
+    salt: 'a99c7a263c02d93ac8c755e010c362c1',
+  },
 ];
 
 export const publishedMaterials = materials.filter((m) => m.published);
