@@ -39,6 +39,7 @@ jobs:
           # One secret per protected course, named COURSE_PW_<SLUG>.
           COURSE_PW_CHECKERS: ${{ secrets.COURSE_PW_CHECKERS }}
           COURSE_PW_TANK_SURVIVAL: ${{ secrets.COURSE_PW_TANK_SURVIVAL }}
+          COURSE_PW_TANK_SURVIVAL_3D: ${{ secrets.COURSE_PW_TANK_SURVIVAL_3D }}
           COURSE_PW_BALLOON_POP: ${{ secrets.COURSE_PW_BALLOON_POP }}
           COURSE_PW_ROCKET_BOOTCAMP: ${{ secrets.COURSE_PW_ROCKET_BOOTCAMP }}
       - name: Upload Pages artifact

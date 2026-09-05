@@ -45,6 +45,19 @@ export const materials = [
     salt: '8b89ae7a4d0459b23756cc738a01037b',
   },
   {
+    slug: 'tank-survival-3d',
+    src: 'tank-survival-3d.md',
+    shortName: '3D Tank Survival',
+    introTitle: 'Before You Start',
+    sidebarLabel: 'Build a 3D Tank Survival Game',
+    cardTitle: 'Build a 3D Tank Survival Game in Unity',
+    cardDescription:
+      'A 12-chapter, copy-along workbook and a first step into 3D: build a desert battlefield, drive a tank with the camera chasing it, shell enemy tanks that hunt you down, then survive endless waves with health, kills and a survival clock.',
+    published: true,
+    protected: true,
+    salt: 'e9856d73659fadaca02d877767865534',
+  },
+  {
     slug: 'balloon-pop',
     src: 'balloon-pop.md',
     shortName: 'Balloon Pop',
