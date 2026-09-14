@@ -403,8 +403,8 @@ ahead of you than behind.
 
 ## Chapter 4 — The Shell
 
-**Goal:** a shell prefab that flies forward, damages any tank it hits, and cleans
-itself up.
+**Goal:** a shell prefab that flies forward, stops on the first solid thing it
+hits, and cleans itself up.
 
 ### Idea
 
@@ -412,16 +412,9 @@ A shell is a small GameObject that moves forward every frame and disappears when
 hits something — or after a couple of seconds if it hits nothing, so shells never
 pile up and slow the game down.
 
-We want it to hit **tanks**, so instead of checking colours or teams, the shell just
-looks for a **`Health`** component. Every tank has one (we build `Health` in Part 3),
-so a shell damages *any* tank it touches — even an enemy can wing another enemy.
-
-Here's the one genuinely 3D wrinkle. A 3D tank isn't a single sprite — it's a model
-made of dozens of child pieces: a chassis, a turret, wheels, track links. The
-collider the shell actually clips might belong to any of them, but the `Health`
-script lives on the tank's **root** object. So instead of `GetComponent<Health>()`
-we use **`GetComponentInParent<Health>()`**, which checks the thing we hit *and*
-every parent above it until it finds one.
+Nothing in the game has health yet, so for now a shell can't *hurt* anything — it
+just flies and stops. We teach it to damage tanks in Chapter 6, the moment tanks
+have health to lose.
 
 There's one tank a shell must **never** hit: the one that fired it. Shells spawn
 right on top of the shooter's own collider, so without a guard a tank would blow
@@ -429,7 +422,14 @@ itself up the instant it pulled the trigger. We fix that by having each shell
 remember its **owner** (the gun tells it who fired — see Chapter 5) and skip that
 tank when checking for a hit.
 
-Anything else solid — a cliff, a rock, a building — just stops the shell. We spot
+Here's the one genuinely 3D wrinkle. A 3D tank isn't a single sprite — it's a model
+made of dozens of child pieces: a chassis, a turret, wheels, track links. The
+collider the shell actually clips might belong to any of them. So we don't compare
+the piece we touched with the owner — we compare its **root**, the top object the
+pieces all hang under, which is the tank itself. `other.transform.root` gives us
+exactly that.
+
+Anything else solid — a cliff, a rock, a building — stops the shell. We spot
 "solid" by checking `isTrigger`: shells pass through other triggers (like other
 shells in flight) but die on anything real.
 
@@ -440,17 +440,16 @@ Create `Assets/Scripts/Shell.cs`:
 ```csharp:Shell.cs
 using UnityEngine;
 
-// Travels forward, damages the first tank it hits (ANY tank — friendly fire is on),
-// then dies. Uses a trigger collider so it passes through until it finds something.
+// Travels forward and dies on the first solid thing it hits.
+// Uses a trigger collider so it passes through until it finds something.
 public class Shell : MonoBehaviour {
   [Header("Shell")]
   [SerializeField] private float speed = 25f;
-  [SerializeField] private int damage = 1;
   [SerializeField] private float lifetime = 3f; // self-destruct so shells never pile up
   [Tooltip("Effect spawned where the shell hits. Leave empty for no explosion.")]
   [SerializeField] private GameObject explosionPrefab;
 
-  private GameObject owner; // the tank that fired this shell — never damages it
+  private GameObject owner; // the tank that fired this shell — never hits it
 
   // Called right after spawning so the shell knows who not to hit.
   public void SetOwner(GameObject shooter) {
@@ -468,22 +467,13 @@ public class Shell : MonoBehaviour {
   }
 
   private void OnTriggerEnter(Collider other) {
-    // Did we hit a tank? We look for a Health component on what we touched OR on any
-    // parent above it — a 3D tank is a model made of many child pieces, and the Health
-    // script lives on the tank's root object, not on the piece we actually clipped.
-    Health health = other.GetComponentInParent<Health>();
-    if (health != null) {
-      // Ignore the tank that fired us — no self-damage, keep flying.
-      if (health.gameObject == owner) {
-        return;
-      }
-      // The tank takes damage, and the shell dies.
-      health.TakeDamage(damage);
-      Die();
+    // Ignore the tank that fired us. A 3D tank is made of many child pieces, so we
+    // compare the ROOT of what we touched (the tank itself) with our owner.
+    if (other.transform.root.gameObject == owner) {
       return;
     }
 
-    // Hit something solid — a cliff, a rock, a building? Die there, no damage.
+    // Hit something solid — a cliff, a rock, a tank? Die there.
     // Other triggers (shells in flight, pickups) are ignored so we keep flying.
     if (!other.isTrigger) {
       Die();
@@ -517,10 +507,6 @@ Leave the **Explosion Prefab** slot empty for now — we wire up explosions in
 Chapter 9. An empty slot just means "no explosion," so nothing breaks in the
 meantime.
 
-> **Note:** the line `other.GetComponentInParent<Health>()` won't compile until we
-> add the `Health` script in Chapter 6 — that's expected. Unity will show a red
-> error until then; it clears the moment `Health` exists.
-
 ## Chapter 5 — The Tank's Gun
 
 **Goal:** press **Spacebar** and your tank fires a shell straight ahead.
@@ -529,7 +515,7 @@ meantime.
 
 The gun spawns a shell at the **muzzle**, facing the same way the barrel faces. We
 use a small **cooldown** so you can't fire faster than a set rate. Because the shell
-already knows how to fly and deal damage, the gun does three quick things each shot:
+already knows how to fly and stop, the gun does three quick things each shot:
 make the shell, **tell it who fired it** (`SetOwner`, so it won't damage us —
 Chapter 4), and spawn an optional **muzzle flash** at the barrel tip for a bit of
 "juice." We pass `transform.root.gameObject` as the owner so it works whether this
@@ -615,7 +601,7 @@ Press **Play** and tap **Space**. A shell leaves the barrel tip and flies straig
 out across the sand, then vanishes after a few seconds. Fire at a cliff — the shell
 stops dead when it hits.
 
-Nothing takes damage yet, because nothing has `Health`. That's Part 3.
+Nothing takes damage yet, because nothing has `Health`. That's Chapter 6.
 
 > **Tip:** if shells appear *inside* the tank or fly off sideways, your `FirePoint`
 > is in the wrong spot or turned the wrong way. Select it and check the blue arrow.
@@ -630,23 +616,30 @@ tank?
 
 ## Chapter 6 — Health for Every Tank
 
-**Goal:** one health script that works for the player *and* every enemy.
+**Goal:** one health script that works for the player *and* every enemy — and
+shells that take health away.
 
 ### Idea
 
 Both kinds of tank need the same thing: a pool of hit points, a way to lose them,
-and something that happens at zero. So we write it **once** and put it on both.
-
-The clever bit is what happens on death. Rather than writing two death scripts, the
-one `Health` script asks a single question: *am I the player?* We answer it with the
-**tag**. If the tag is `Player`, dying ends the game; anything else counts as a kill
-for the score. That's the whole difference.
+and something that happens at zero. So we write it **once** and put it on both. For
+now, "something that happens at zero" is simple: the tank is destroyed. (In
+Chapter 11 the same death will also end the game or score a kill.)
 
 `[RequireComponent(typeof(Collider))]` at the top is a small safety net — Unity will
 refuse to let you add `Health` to something with no collider, because a tank with no
 collider could never be hit.
 
-### Do it
+Once tanks have `Health`, the shell can finally hurt them. Instead of checking
+colours or teams, the shell just looks for a **`Health`** component on whatever it
+touched — so a shell damages *any* tank, and even an enemy can wing another enemy.
+
+Remember the 3D wrinkle from Chapter 4: the shell clips one small child piece, but
+`Health` lives on the tank's **root** object. So instead of `GetComponent<Health>()`
+we use **`GetComponentInParent<Health>()`**, which checks the thing we hit *and*
+every parent above it until it finds one.
+
+### Do it — the health script
 
 Create `Assets/Scripts/Health.cs`:
 
@@ -654,7 +647,7 @@ Create `Assets/Scripts/Health.cs`:
 using UnityEngine;
 
 // Reusable health for BOTH the player and enemy tanks.
-// On death: the player (tagged "Player") ends the game; any other tank counts as a kill.
+// On death: pop an explosion and remove the tank.
 [RequireComponent(typeof(Collider))]
 public class Health : MonoBehaviour {
   [Header("Health")]
@@ -700,32 +693,97 @@ public class Health : MonoBehaviour {
       Instantiate(explosionPrefab, transform.position, Quaternion.identity);
     }
 
-    // React to the death before we disappear: the player ends the game, everyone else is a kill.
-    if (GameManager.Instance != null) {
-      if (CompareTag("Player")) {
-        GameManager.Instance.GameOver();
-      }
-      else {
-        GameManager.Instance.AddKill();
-      }
-    }
-
     Destroy(gameObject);
   }
 }
 ```
 
+`CurrentHealth` and `MaxHealth` let *other* scripts read the numbers without being
+able to change them — the HUD in Chapter 12 will use them to show your health.
+
 1. Select `Player` and add the **Health** script. Set **Max Health** to `5` — the
    player should be tougher than the enemies.
+2. Leave **Explosion Prefab** empty for now, just like the shell's — Chapter 9 fills
+   it in.
 
-> **Note:** the `GameManager` lines won't compile until Chapter 11. Unity will show
-> a red error in the Console until then, and it clears the moment `GameManager`
-> exists. This is normal — the scripts are a team, and some members arrive late.
+### Do it — let shells deal damage
+
+Open `Shell.cs`. Add a `damage` setting, and replace `OnTriggerEnter` so it looks
+for `Health` first. The owner check moves inside: `Health` sits on the tank's root,
+so `health.gameObject` *is* the tank — the same thing we compared before.
+
+```csharp:Shell.cs
+using UnityEngine;
+
+// Travels forward, damages the first tank it hits (ANY tank — friendly fire is on),
+// then dies. Uses a trigger collider so it passes through until it finds something.
+public class Shell : MonoBehaviour {
+  [Header("Shell")]
+  [SerializeField] private float speed = 25f;
+  [SerializeField] private int damage = 1;                 // ← new
+  [SerializeField] private float lifetime = 3f; // self-destruct so shells never pile up
+  [Tooltip("Effect spawned where the shell hits. Leave empty for no explosion.")]
+  [SerializeField] private GameObject explosionPrefab;
+
+  private GameObject owner; // the tank that fired this shell — never damages it
+
+  // Called right after spawning so the shell knows who not to hit.
+  public void SetOwner(GameObject shooter) {
+    owner = shooter;
+  }
+
+  private void Start() {
+    // Clean up automatically after 'lifetime' seconds if we never hit anything.
+    Destroy(gameObject, lifetime);
+  }
+
+  private void Update() {
+    // Fly forward along the way we're pointing.
+    transform.position += transform.forward * speed * Time.deltaTime;
+  }
+
+  private void OnTriggerEnter(Collider other) {
+    // Did we hit a tank? We look for a Health component on what we touched OR on any
+    // parent above it — a 3D tank is a model made of many child pieces, and the Health
+    // script lives on the tank's root object, not on the piece we actually clipped.
+    Health health = other.GetComponentInParent<Health>();   // ← new
+    if (health != null) {                                    // ← new
+      // Ignore the tank that fired us — no self-damage, keep flying.
+      if (health.gameObject == owner) {                      // ← new
+        return;
+      }
+      // The tank takes damage, and the shell dies.
+      health.TakeDamage(damage);                             // ← new
+      Die();
+      return;
+    }
+
+    // Hit something solid — a cliff, a rock, a building? Die there, no damage.
+    // Other triggers (shells in flight, pickups) are ignored so we keep flying.
+    if (!other.isTrigger) {
+      Die();
+    }
+  }
+
+  // Spawn the explosion at the shell's spot and destroy the shell.
+  private void Die() {
+    if (explosionPrefab != null) {
+      Instantiate(explosionPrefab, transform.position, transform.rotation);
+    }
+    Destroy(gameObject);
+  }
+}
+```
+
+The old `other.transform.root` check is gone — the new owner check inside the
+`Health` block does the same job. Anything *without* `Health` (a cliff, a rock)
+falls through to the `isTrigger` check exactly as before.
 
 ### Test it
 
-There's nothing to shoot yet, so nothing visible happens. Press **Play** just to
-confirm the Console has no *new* errors beyond the expected `GameManager` one.
+There's no enemy to shoot yet, so nothing new is visible. Press **Play**, drive and
+fire as before, and confirm the Console has **no red errors** — every script now
+compiles on its own. You'll see shells do damage in the very next chapter.
 
 ## Chapter 7 — Enemy Tanks that Chase
 
@@ -836,7 +894,7 @@ about 12 units away. Drive around it — it keeps turning to track you.
 
 Now shoot it. Each shell takes **1** damage off its **3** health, so the third hit
 destroys it and the tank disappears. It can't shoot back yet — that's the next
-chapter. Watch the Console for the `GameManager` error; it's still expected.
+chapter.
 
 ### Challenge
 
@@ -1188,12 +1246,14 @@ live — the classic survivor difficulty curve.
 We want one object any script can reach — a **singleton**. `GameManager.Instance`
 is that single, always-available object. It counts survival time each frame, adds
 kills when a `Health` reports one, and on the player's death **freezes the game**
-(`Time.timeScale = 0`) and tells the UI to show the game-over screen.
+(`Time.timeScale = 0`). The on-screen game-over panel comes in the next chapter.
 
-You don't wire player death by hand — remember, `Health` already calls
-`GameManager.GameOver()` itself when the `Player` tank dies (Chapter 6).
+Then we go back to `Health` and give its death the clever bit. Rather than writing
+two death scripts, the one `Health` script asks a single question: *am I the
+player?* We answer it with the **tag**. If the tag is `Player`, dying ends the game;
+anything else counts as a kill for the score. That's the whole difference.
 
-### Do it
+### Do it — the manager script
 
 Create `Assets/Scripts/GameManager.cs`:
 
@@ -1205,9 +1265,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
   // The one-and-only instance.
   public static GameManager Instance { get; private set; }
-
-  [Header("UI (assign the Canvas's UIController)")]
-  [SerializeField] private UIController ui;
 
   // Stats other scripts read (UI) or update (enemies).
   int kills;
@@ -1257,18 +1314,95 @@ public class GameManager : MonoBehaviour {
     isGameOver = true;
 
     Time.timeScale = 0f; // freeze the game
-
-    ui.ShowGameOver(Kills, SurvivalTime);
   }
 }
 ```
 
-1. Add the **Game Manager** script to the `Managers` object. (We'll fill its **Ui**
-   slot in the next chapter, once the Canvas exists.)
+1. Add the **Game Manager** script to the `Managers` object.
+
+### Do it — report deaths to the manager
+
+Open `Health.cs` and add the tag check to `Die()`, just before the tank is
+destroyed:
+
+```csharp:Health.cs
+using UnityEngine;
+
+// Reusable health for BOTH the player and enemy tanks.
+// On death: the player (tagged "Player") ends the game; any other tank counts as a kill.
+[RequireComponent(typeof(Collider))]
+public class Health : MonoBehaviour {
+  [Header("Health")]
+  [SerializeField] private int maxHealth = 3;
+
+  [Header("Death")]
+  [Tooltip("Optional explosion prefab spawned where this tank dies.")]
+  [SerializeField] private GameObject explosionPrefab;
+
+  // Read-only access for the UI (health bar).
+  int currentHealth;
+  public int CurrentHealth {
+    get { return currentHealth; }
+    private set { currentHealth = value; }
+  }
+  public int MaxHealth => maxHealth;
+
+  private bool isDead; // guard so we only die once
+
+  private void Awake() {
+    currentHealth = maxHealth;
+  }
+
+  // Call this to hurt the tank. Shells hurt whatever tank they land on.
+  public void TakeDamage(int amount) {
+    if (isDead) {
+      return;
+    }
+
+    currentHealth -= amount;
+
+    if (currentHealth <= 0) {
+      currentHealth = 0;
+      Die();
+    }
+  }
+
+  private void Die() {
+    isDead = true;
+
+    // Pop an explosion where we died (if one is assigned).
+    if (explosionPrefab != null) {
+      Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+    }
+
+    // React to the death before we disappear: the player ends the game, everyone else is a kill.
+    if (GameManager.Instance != null) {                      // ← new
+      if (CompareTag("Player")) {                            // ← new
+        GameManager.Instance.GameOver();                     // ← new
+      }
+      else {
+        GameManager.Instance.AddKill();                      // ← new
+      }
+    }
+
+    Destroy(gameObject);
+  }
+}
+```
+
+The `GameManager.Instance != null` check keeps `Health` safe in a scene with no
+manager — handy when you're testing a single tank on its own.
 
 > **Tip:** enemy kills and player death are both handled **automatically** by
 > `Health`'s tag check. `GameManager` just holds the numbers and the game-over
 > switch — you never wire those events in the Inspector.
+
+### Test it
+
+Press **Play** and let the enemies wear you down. The moment your last point of
+health goes, the whole battlefield **freezes**: enemies stop rolling and shells hang
+in mid-air. That's `Time.timeScale = 0`. Kills and time are being counted too — you
+just can't see them yet. The HUD in the next chapter puts them on screen.
 
 ## Chapter 12 — The HUD & Restart
 
@@ -1370,8 +1504,81 @@ public class UIController : MonoBehaviour {
    `GameOverPanel`, and `FinalStatsText` into their matching slots.
 5. Wire the button: select `RestartButton`, under **On Click ()** click **+**, drag
    the `Canvas` in, and choose **UIController → RestartGame**.
-6. Finally, connect the manager to the UI: select `Managers`, and on its
-   **GameManager**, drag the `Canvas` into the **Ui** slot.
+
+### Do it — connect the manager to the UI
+
+The HUD already reads from `GameManager`, but the game-over panel only appears if
+the manager *tells* the UI the game has ended. Open `GameManager.cs` and add the two
+marked lines:
+
+```csharp:GameManager.cs
+using UnityEngine;
+
+// Tracks score/time and game state; handles game over.
+// Simple singleton so any script can reach it via GameManager.Instance.
+public class GameManager : MonoBehaviour {
+  // The one-and-only instance.
+  public static GameManager Instance { get; private set; }
+
+  [Header("UI (assign the Canvas's UIController)")]        // ← new
+  [SerializeField] private UIController ui;                // ← new
+
+  // Stats other scripts read (UI) or update (enemies).
+  int kills;
+  float survivalTime;
+  public int Kills {
+    get {
+      return kills;
+    }
+    private set { kills = value; }
+  }
+  public float SurvivalTime {
+    get {
+      return survivalTime;
+    }
+    private set { survivalTime = value; }
+  }
+
+  private bool isGameOver;
+
+  private void Awake() {
+    Instance = this;
+  }
+
+  private void Start() {
+    // Make sure the game runs at normal speed (in case a previous game over paused it).
+    Time.timeScale = 1f;
+  }
+
+  private void Update() {
+    // Count up survival time while we're still alive.
+    if (!isGameOver) {
+      SurvivalTime += Time.deltaTime;
+    }
+  }
+
+  // Called by an enemy when it dies.
+  public void AddKill() {
+    Kills += 1;
+  }
+
+  // Called by the player's Health when it hits 0.
+  public void GameOver() {
+    if (isGameOver) {
+      return;
+    }
+
+    isGameOver = true;
+
+    Time.timeScale = 0f; // freeze the game
+
+    ui.ShowGameOver(Kills, SurvivalTime);                    // ← new
+  }
+}
+```
+
+1. Select `Managers`, and on its **GameManager**, drag the `Canvas` into the new
+   **Ui** slot.
 
 ### Test it
 
