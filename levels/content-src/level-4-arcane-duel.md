@@ -155,15 +155,20 @@ heart of this book: interfaces, events, and plugging in code someone else wrote.
 them the most time. Chapter 2 builds the battle screen by hand, value by value; slower
 students can finish it at home from the book.
 
-**What you share with your students,** from the course project's
-`Level4-ArcaneDuel/Handouts~` folder and the game's `Art` and `Audio` folders:
+**What you share with your students** is ready in the course project's
+`Student Files/Level 4 - Arcane Duel` folder, one folder for each row: zip it, and share
+it.
 
 | When | What |
 | --- | --- |
-| Before Chapter 1 | the `Art` and `Audio` folders, and `STYLE_GUIDE.md` |
-| Chapter 11 | `Arcane Duel Opponent 1.2.unitypackage`, the lead's module |
-| Chapter 12 | `intern/ResultsScreen.cs`, the intern's script |
-| Chapter 17 | `extras/Lorestrome Portraits (whole sheet).jpg` |
+| Before Chapter 1 | the `Art` and `Audio` folders, `CREDITS.md` and `STYLE_GUIDE.md` |
+| Chapter 11 | `Arcane Duel Opponent 1.2.unitypackage`, the lead's module, and its README |
+| Chapter 12 | `ResultsScreen.cs`, the intern's script |
+| Chapter 17 | `Lorestrome Portraits (whole sheet).jpg` |
+
+One thing they get themselves, if they do Chapter 17's optional step: **Cartoon FX
+Remaster Free**, from the Asset Store, with their own free Unity account. Tell them
+before Chapter 17. Its licence lets each of them use it, not get its files from you.
 
 Your trainer project has the finished game, and a menu item that builds it from scratch:
 **Tools → Arcane Duel (Level 4) → Build Scenes**. Use it to show the goal on the first
