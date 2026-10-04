@@ -8953,6 +8953,14 @@ List<GameObject> UnlockedKarts(SaveData data)
 }
 ```
 
+> **Note:** in other people's code you'll also meet `Resources.Load<GameObject>("Karts/" +
+> id)`: Unity loads an asset by its path, from a folder called `Resources`. It needs no
+> list to fill in, but it has costs. Everything in a `Resources` folder goes into the
+> build, used or not; Unity indexes all of it when the game starts; and a renamed file
+> just returns `null`, found only when that line runs. Unity advises against it in
+> finished games, so this course keeps references set in the Inspector, as above. Level 5
+> measures those costs, and loads assets with **Addressables** instead.
+
 > **Note:** a WebGL game runs in a browser, which gives it no folder on the disk, so Unity
 > keeps `persistentDataPath` in the browser's own storage, for that website (the path
 > starts `/idbfs/`). The save file and PlayerPrefs survive closing the browser: in a
