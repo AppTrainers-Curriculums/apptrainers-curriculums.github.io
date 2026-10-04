@@ -7,6 +7,11 @@ Hosts copy-along Unity game workbooks (Checkers, Top-Down Tank Survival,
 
 Live site: <https://apptrainers-curriculums.github.io/>
 
+The **Unity Programmer Curriculum**'s levels are a second site in **`levels/`**,
+with their own style, served at <https://apptrainers-curriculums.github.io/levels/>.
+Their books are written in the private Unity project and copied here: see
+`levels/README.md`.
+
 ## How it works
 
 Each workbook lives as plain Markdown in **`content-src/`**. A small script
@@ -115,8 +120,9 @@ reproducible and lets "Remember me" work across a course's chapters.
 ## Deploy
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds and
-publishes to GitHub Pages. Protected courses need their `COURSE_PW_*` secrets
-set first, or the strict build will fail.
+publishes to GitHub Pages: this site, then the levels site in `levels/`, put in
+`/levels/`. Protected courses and levels need their `COURSE_PW_*` secrets set
+first, or the strict build will fail.
 
 This is the org root site (repo `apptrainers-curriculums.github.io`), so
 `astro.config.mjs` sets `base: '/'`. For a custom domain, add a `public/CNAME`

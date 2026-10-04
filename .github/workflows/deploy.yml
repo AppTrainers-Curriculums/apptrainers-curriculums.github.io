@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            levels/package-lock.json
       - name: Install
         run: npm ci
       - name: Build (import workbooks + astro build + encrypt protected courses)
@@ -42,6 +45,29 @@ jobs:
           COURSE_PW_TANK_SURVIVAL_3D: ${{ secrets.COURSE_PW_TANK_SURVIVAL_3D }}
           COURSE_PW_BALLOON_POP: ${{ secrets.COURSE_PW_BALLOON_POP }}
           COURSE_PW_ROCKET_BOOTCAMP: ${{ secrets.COURSE_PW_ROCKET_BOOTCAMP }}
+      # The Unity Programmer Curriculum's levels: a site of their own in levels/,
+      # with their own style, served at /levels/. See levels/README.md.
+      - name: Install the levels site
+        run: npm ci
+        working-directory: levels
+      - name: Build the levels site (import workbooks + astro build + encrypt protected levels)
+        run: npm run build
+        working-directory: levels
+        env:
+          STATICRYPT_STRICT: '1'
+          # One secret per protected level, named COURSE_PW_<SLUG>
+          # (levels/levels.config.mjs).
+          COURSE_PW_LEVEL_0: ${{ secrets.COURSE_PW_LEVEL_0 }}
+          COURSE_PW_LEVEL_1: ${{ secrets.COURSE_PW_LEVEL_1 }}
+          COURSE_PW_LEVEL_2_MINI_GOLF: ${{ secrets.COURSE_PW_LEVEL_2_MINI_GOLF }}
+          COURSE_PW_LEVEL_2_SPACE_SHOOTER: ${{ secrets.COURSE_PW_LEVEL_2_SPACE_SHOOTER }}
+          COURSE_PW_LEVEL_2_TANK_ARENA: ${{ secrets.COURSE_PW_LEVEL_2_TANK_ARENA }}
+          COURSE_PW_LEVEL_3_KNIGHT_RUN: ${{ secrets.COURSE_PW_LEVEL_3_KNIGHT_RUN }}
+          COURSE_PW_LEVEL_3_CRYPT_KEYS: ${{ secrets.COURSE_PW_LEVEL_3_CRYPT_KEYS }}
+          COURSE_PW_LEVEL_3_GATE_GUARD: ${{ secrets.COURSE_PW_LEVEL_3_GATE_GUARD }}
+          COURSE_PW_LEVEL_4_ARCANE_DUEL: ${{ secrets.COURSE_PW_LEVEL_4_ARCANE_DUEL }}
+      - name: Put the levels site under /levels/
+        run: cp -R levels/dist dist/levels
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

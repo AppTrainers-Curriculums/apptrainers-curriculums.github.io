@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# generated from content-src/ by scripts/import.mjs (run on every dev / build):
+# everything under docs/ except the hand-written home page
+src/content/docs/*
+!src/content/docs/index.mdx
+
+# os
+.DS_Store
+
+# copied from content-src/files/ by scripts/import.mjs (levels.config.mjs → downloads)
+public/files/
