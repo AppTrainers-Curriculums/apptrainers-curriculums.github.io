@@ -102,9 +102,9 @@ Every new game's book goes on the site this way, here, not in the Unity project.
    project), sidebar label, home-card text, `published`, `protected`, and a new
    `salt` (`openssl rand -hex 16`).
 3. `npm run sync`, so `content-src/` has its copy.
-4. If it's protected, add its `COURSE_PW_<SLUG>` secret to this repo, and pass
-   it in `.github/workflows/deploy.yml` (at this repo's root) next to
-   `COURSE_PW_LEVEL_0`.
+4. If it's protected, add its `COURSE_PW_<SLUG>` **organization secret** (see
+   below), and pass it in `.github/workflows/deploy.yml` (at this repo's root)
+   next to `COURSE_PW_LEVEL_0`.
 5. Commit and push.
 
 That one entry wires up the pages, the sidebar group, and the home card.
@@ -159,8 +159,10 @@ Level 4 works the same way, from `Assets/Levels/Level4-Shared`. Its first book,
 Arcane Duel, is published, locked with `COURSE_PW_LEVEL_4_ARCANE_DUEL` (Moayad added
 the secret on 3 October 2026).
 
-- **In CI:** add each as a GitHub **repository secret**
-  (Settings → Secrets and variables → Actions → New repository secret). The
+- **In CI:** add each as a GitHub **organization secret** of
+  AppTrainers-Curriculums, like the materials' passwords (Settings → Secrets and
+  variables → Actions → Manage organization secrets → New organization secret),
+  with this repo, `apptrainers-curriculums.github.io`, given access to it. The
   deploy workflow runs in **strict mode** (`STATICRYPT_STRICT=1`): if a
   protected level has no password, the build **fails**, so a locked level is
   never accidentally deployed unlocked.
@@ -181,9 +183,9 @@ builds the materials site, then this one on its own (with its own
 site's `/levels/`, and publishes both to GitHub Pages. A change to a workbook in
 the Unity project reaches the site only when you sync it here and push.
 
-The levels' `COURSE_PW_*` secrets are this repo's secrets, next to the
-materials' (Settings → Secrets and variables → Actions). A protected level
-without one fails the strict build, and with it the whole deploy.
+The levels' `COURSE_PW_*` secrets are organization secrets, next to the
+materials' (added 4 October 2026). A protected level without one fails the strict
+build, and with it the whole deploy.
 
 `astro.config.mjs` sets `base: '/levels/'`: this site lives in the root site's
 `/levels/` folder. Its links are built from the base, so moving it means
