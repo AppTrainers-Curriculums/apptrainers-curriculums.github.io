@@ -158,8 +158,8 @@ secret: `COURSE_PW_LEVEL_3_KNIGHT_RUN`, `COURSE_PW_LEVEL_3_CRYPT_KEYS` and
 
 Level 4 works the same way, from `Assets/Levels/Level4-Shared`. Its first book,
 Arcane Duel, is published, locked with `COURSE_PW_LEVEL_4_ARCANE_DUEL` (Moayad added
-the secret on 3 October 2026). Its second, Pocket Karts, is in `levels.config.mjs`
-with `published: false` until its secret, `COURSE_PW_LEVEL_4_POCKET_KARTS`, is added.
+the secret on 3 October 2026). Its second, Pocket Karts, is published too, locked with
+`COURSE_PW_LEVEL_4_POCKET_KARTS` (added on 29 October 2026).
 
 - **In CI:** add each as a GitHub **organization secret** of
   AppTrainers-Curriculums, like the materials' passwords (Settings → Secrets and
