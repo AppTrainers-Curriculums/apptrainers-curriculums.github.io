@@ -163,6 +163,20 @@ export const levels = [
     protected: true,
     salt: '6b8316f82b7ea8b3a2049a6a7f0330e0',
   },
+  {
+    slug: 'level-4-pocket-karts',
+    src: 'levels/content-src/level-4-pocket-karts.md',
+    course: 'Assets/Levels/Level4-PocketKarts/Docs~/workbook/workbook.md',
+    shortName: 'Level 4 Pocket Karts',
+    introTitle: 'Before You Start',
+    sidebarLabel: 'Level 4 — Pocket Karts',
+    cardTitle: 'Level 4 — Pocket Karts',
+    cardDescription:
+      'Level 4 in 3D: a kart racer against three computer rivals on three tracks. Kart stats are ScriptableObjects, checkpoints and the finish line share a base class, any driver plugs into a kart through an interface, the racing line is a circular Queue, your records and the ghost of your best lap are saved as JSON, and the kart handling arrives from the studio lead as a module you plug in. 21 build chapters and the 20 Level 4 C# Concept chapters, ending with practice for the Unity Certified Associate: Programmer exam.',
+    published: false,
+    protected: true,
+    salt: '9b726635dc1001b281fedd846e2abcde',
+  },
 ];
 
 export const publishedLevels = levels.filter((l) => l.published);
