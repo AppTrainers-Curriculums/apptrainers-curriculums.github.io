@@ -177,6 +177,20 @@ export const levels = [
     protected: true,
     salt: '9b726635dc1001b281fedd846e2abcde',
   },
+  {
+    slug: 'level-4-juice-tycoon',
+    src: 'levels/content-src/level-4-juice-tycoon.md',
+    course: 'Assets/Levels/Level4-JuiceTycoon/Docs~/workbook/workbook.md',
+    shortName: 'Level 4 Juice Tycoon',
+    introTitle: 'Before You Start',
+    sidebarLabel: 'Level 4 — Juice Tycoon',
+    cardTitle: 'Level 4 — Juice Tycoon',
+    cardDescription:
+      "Level 4 made for a phone: an idle tycoon by the sea, played upright. Businesses and upgrades are ScriptableObjects, three kinds of upgrade share an abstract class, a business and a delivery van both earn through an interface, money is a long, the game keeps earning while you're away, a new beach resets it for Juice Stars, DOTween animates it, ads come through an interface, and the achievements arrive from the studio lead as a module you plug in. 21 build chapters and the 20 Level 4 C# Concept chapters, ending with practice for the Unity Certified Associate: Programmer exam.",
+    published: true,
+    protected: true,
+    salt: 'd08f62f388b854903cf24d5100b02797',
+  },
 ];
 
 export const publishedLevels = levels.filter((l) => l.published);

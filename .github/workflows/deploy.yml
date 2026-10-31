@@ -67,6 +67,7 @@ jobs:
           COURSE_PW_LEVEL_3_GATE_GUARD: ${{ secrets.COURSE_PW_LEVEL_3_GATE_GUARD }}
           COURSE_PW_LEVEL_4_ARCANE_DUEL: ${{ secrets.COURSE_PW_LEVEL_4_ARCANE_DUEL }}
           COURSE_PW_LEVEL_4_POCKET_KARTS: ${{ secrets.COURSE_PW_LEVEL_4_POCKET_KARTS }}
+          COURSE_PW_LEVEL_4_JUICE_TYCOON: ${{ secrets.COURSE_PW_LEVEL_4_JUICE_TYCOON }}
       - name: Put the levels site under /levels/
         run: cp -R levels/dist dist/levels
       - name: Upload Pages artifact

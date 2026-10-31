@@ -141,6 +141,7 @@ an environment variable **`COURSE_PW_<SLUG>`** (slug uppercased, `-` → `_`):
 | `level-3-gate-guard`    | `COURSE_PW_LEVEL_3_GATE_GUARD`    |
 | `level-4-arcane-duel`   | `COURSE_PW_LEVEL_4_ARCANE_DUEL`   |
 | `level-4-pocket-karts`  | `COURSE_PW_LEVEL_4_POCKET_KARTS`  |
+| `level-4-juice-tycoon`  | `COURSE_PW_LEVEL_4_JUICE_TYCOON`  |
 
 Level 2 has three books, one per game (Mini Golf, Space Shooter, Tank Arena),
 each its own entry in `levels.config.mjs` with its own secret. The three can
@@ -159,7 +160,8 @@ secret: `COURSE_PW_LEVEL_3_KNIGHT_RUN`, `COURSE_PW_LEVEL_3_CRYPT_KEYS` and
 Level 4 works the same way, from `Assets/Levels/Level4-Shared`. Its first book,
 Arcane Duel, is published, locked with `COURSE_PW_LEVEL_4_ARCANE_DUEL` (Moayad added
 the secret on 3 October 2026). Its second, Pocket Karts, is published too, locked with
-`COURSE_PW_LEVEL_4_POCKET_KARTS` (added on 29 October 2026).
+`COURSE_PW_LEVEL_4_POCKET_KARTS` (added on 29 October 2026), and so is its third, Juice
+Tycoon, locked with `COURSE_PW_LEVEL_4_JUICE_TYCOON` (added on 31 October 2026).
 
 - **In CI:** add each as a GitHub **organization secret** of
   AppTrainers-Curriculums, like the materials' passwords (Settings → Secrets and
