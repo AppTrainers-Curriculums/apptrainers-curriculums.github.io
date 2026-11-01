@@ -16,6 +16,10 @@ The **Robotics course** (Arduino, in Arabic) is a third site in **`robotics/`**,
 ready-made static site served at
 <https://apptrainers-curriculums.github.io/robotics/>: see `robotics/README.md`.
 
+The **MakeCode Arcade course** (in Arabic) is another ready-made static site, in
+**`arcade/`**, served at <https://apptrainers-curriculums.github.io/arcade/>: see
+`arcade/README.md`.
+
 ## How it works
 
 Each workbook lives as plain Markdown in **`content-src/`**. A small script
@@ -125,9 +129,9 @@ reproducible and lets "Remember me" work across a course's chapters.
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds and
 publishes to GitHub Pages: this site, then the levels site in `levels/`, put in
-`/levels/`, and the Robotics course in `robotics/`, put in `/robotics/`. Protected
-courses and levels need their `COURSE_PW_*` secrets set first, or the strict build
-will fail.
+`/levels/`, the Robotics course in `robotics/`, put in `/robotics/`, and the MakeCode
+Arcade course in `arcade/`, put in `/arcade/`. Protected courses and levels need their
+`COURSE_PW_*` secrets set first, or the strict build will fail.
 
 This is the org root site (repo `apptrainers-curriculums.github.io`), so
 `astro.config.mjs` sets `base: '/'`. For a custom domain, add a `public/CNAME`

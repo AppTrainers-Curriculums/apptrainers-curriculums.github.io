@@ -79,6 +79,15 @@ jobs:
           COURSE_PW_ROBOTICS: ${{ secrets.COURSE_PW_ROBOTICS }}
       - name: Put the robotics site under /robotics/
         run: cp -R robotics/dist dist/robotics
+      # The MakeCode Arcade course: a ready-made static site in arcade/, with its own
+      # style, served at /arcade/. See arcade/README.md.
+      - name: Build the arcade site (copy it + encrypt its page)
+        run: node arcade/build.mjs
+        env:
+          STATICRYPT_STRICT: '1'
+          COURSE_PW_PYTHON: ${{ secrets.COURSE_PW_PYTHON }}
+      - name: Put the arcade site under /arcade/
+        run: cp -R arcade/dist dist/arcade
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
