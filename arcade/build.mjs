@@ -35,14 +35,22 @@ fs.cpSync(SITE, DIST, { recursive: true });
 const PAGE = path.join(DIST, 'index.html');
 const APP = path.join(DIST, 'app.js');
 const APP_TAG = '<script defer src="app.js"></script>';
+// GitHub Pages labels .ts files as video, so a browser would download the games' code
+// instead of showing it. It's served as .ts.txt, which opens as plain text.
+const SOURCE_LINK = 'evidence/${g.slug}-main.ts';
 const page = fs.readFileSync(PAGE, 'utf8');
 const app = fs.readFileSync(APP, 'utf8');
-if (!page.includes(APP_TAG) || app.includes('</script')) {
+if (!page.includes(APP_TAG) || !app.includes(SOURCE_LINK) || app.includes('</script')) {
   console.error('✗ Could not move app.js into index.html: the page or the script has changed.');
   process.exit(1);
 }
-fs.writeFileSync(PAGE, page.replace(APP_TAG, '').replace('</body>', () => `<script>${app}</script></body>`));
+const inlined = app.replaceAll(SOURCE_LINK, () => `${SOURCE_LINK}.txt`);
+fs.writeFileSync(PAGE, page.replace(APP_TAG, '').replace('</body>', () => `<script>${inlined}</script></body>`));
 fs.rmSync(APP);
+const EVIDENCE = path.join(DIST, 'evidence');
+for (const file of fs.readdirSync(EVIDENCE)) {
+  fs.renameSync(path.join(EVIDENCE, file), path.join(EVIDENCE, `${file}.txt`));
+}
 
 const password = process.env[PASSWORD_VAR];
 if (!password) {

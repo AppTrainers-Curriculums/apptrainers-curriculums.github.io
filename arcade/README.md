@@ -14,12 +14,14 @@ static site, the page and files of the course package as they came:
 - `index.html`, `styles.css`: the page
 - `app.js`: the curriculum (the `games` array) and the code that renders the page from it
 - `assets/`: the logo, the favicon, and the games' thumbnails and simulator captures
-- `evidence/`: the source of the four games as reviewed, which each teaching plan links
+- `evidence/`: the source of the four games as reviewed, which each teaching plan links.
+  It's served as `.ts.txt`, because GitHub Pages labels `.ts` files as video and a browser
+  would download them instead of showing them
 
 The package's own README isn't here: this one replaces it.
 
-`build.mjs` copies `site/` to `dist/`, moves `app.js` into the page, and encrypts the
-HTML. It needs no install of its own: it uses the StatiCrypt from the npm install at this
+`build.mjs` copies `site/` to `dist/`, moves `app.js` into the page, renames the games'
+code, and encrypts the HTML. It needs no install of its own: it uses the StatiCrypt from the npm install at this
 repo's root.
 
 The four games, their thumbnails and their code belong to their creators and Microsoft
@@ -30,8 +32,9 @@ MakeCode. The plan is AppTrainers' own, and not an official Microsoft curriculum
 Replace the files in `site/` with the new package's (the same files, nothing else), then
 commit and push. To change the curriculum itself, edit `games` in `site/app.js`.
 
-If the page's `<script>` tag for `app.js` changes, `build.mjs` stops with an error rather
-than leave the curriculum unencrypted: update `APP_TAG` there to match.
+If the page's `<script>` tag for `app.js` or its links to `evidence/` change, `build.mjs`
+stops with an error rather than leave the curriculum unencrypted or the links broken:
+update `APP_TAG` or `SOURCE_LINK` there to match.
 
 ## Develop
 
