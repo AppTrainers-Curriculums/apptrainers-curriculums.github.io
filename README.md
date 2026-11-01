@@ -12,6 +12,10 @@ with their own style, served at <https://apptrainers-curriculums.github.io/level
 Their books are written in the private Unity project and copied here: see
 `levels/README.md`.
 
+The **Robotics course** (Arduino, in Arabic) is a third site in **`robotics/`**, a
+ready-made static site served at
+<https://apptrainers-curriculums.github.io/robotics/>: see `robotics/README.md`.
+
 ## How it works
 
 Each workbook lives as plain Markdown in **`content-src/`**. A small script
@@ -121,8 +125,9 @@ reproducible and lets "Remember me" work across a course's chapters.
 
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds and
 publishes to GitHub Pages: this site, then the levels site in `levels/`, put in
-`/levels/`. Protected courses and levels need their `COURSE_PW_*` secrets set
-first, or the strict build will fail.
+`/levels/`, and the Robotics course in `robotics/`, put in `/robotics/`. Protected
+courses and levels need their `COURSE_PW_*` secrets set first, or the strict build
+will fail.
 
 This is the org root site (repo `apptrainers-curriculums.github.io`), so
 `astro.config.mjs` sets `base: '/'`. For a custom domain, add a `public/CNAME`

@@ -70,6 +70,15 @@ jobs:
           COURSE_PW_LEVEL_4_JUICE_TYCOON: ${{ secrets.COURSE_PW_LEVEL_4_JUICE_TYCOON }}
       - name: Put the levels site under /levels/
         run: cp -R levels/dist dist/levels
+      # The Robotics course: a ready-made static site in robotics/, with its own
+      # style, served at /robotics/. See robotics/README.md.
+      - name: Build the robotics site (copy it + encrypt its pages)
+        run: node robotics/build.mjs
+        env:
+          STATICRYPT_STRICT: '1'
+          COURSE_PW_ROBOTICS: ${{ secrets.COURSE_PW_ROBOTICS }}
+      - name: Put the robotics site under /robotics/
+        run: cp -R robotics/dist dist/robotics
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
