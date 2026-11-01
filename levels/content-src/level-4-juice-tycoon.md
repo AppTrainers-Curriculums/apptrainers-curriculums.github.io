@@ -5,9 +5,9 @@ author: "Unity Programmer Curriculum  ·  Level 4"
 coverEyebrow: "Level 4 · Junior · Learn to Code · Make Games"
 coverTop: "Juice"
 coverRed: "Tycoon"
-coverSub: "An idle tycoon game, made for a phone: five juice businesses by the sea, managers and upgrades, money that keeps coming while you're away, a new beach for Juice Stars, ads, and the achievements written by your lead."
+coverSub: "A 3D juice bar on the beach, made for a phone: walk with your thumb, carry fruit and cups, serve the queue, build your bar spot by spot, hire helpers who work while you're away, sail to new beaches, and plug in the achievements your lead wrote."
 coverPill: "Level 4 Workbook · Juice Tycoon"
-coverCaption: "3 scenes · 5 businesses · 19 upgrades · 1 lead's module"
+coverCaption: "3 scenes · 4 bars · 20 build spots · 1 lead's module"
 coverArt: image
 coverImage: cover.png
 footer: "Juice Tycoon  ·  Level 4 Workbook"
@@ -17,61 +17,63 @@ footer: "Juice Tycoon  ·  Level 4 Workbook"
 
 ## What you're going to build
 
-An **idle tycoon game**, made the way phone games are: tall, played with one thumb, and
-still earning while it's closed. You run a juice business by the sea. You start with one
-lemonade cup: tap it to squeeze, and sell. Buy more cups, then a beach stand, a smoothie
-bar, a juice shop and a juice factory. Hire managers so they squeeze by themselves, buy
-fruit recipes and faster juicers, and send out a delivery van. When you come back
-tomorrow, your managers have been working. When the growth slows, sell up and **open a
-new beach**: you start again, faster, with **Juice Stars**.
-
-**Five businesses**, each with its own picture, price and speed:
-
-| Business | First one costs | Each costs more by | One cycle | Each one earns a cycle |
-| --- | --- | --- | --- | --- |
-| **Lemonade Cup** | $4 | ×1.07 | 1 s | $1 |
-| **Beach Stand** | $60 | ×1.15 | 3 s | $60 |
-| **Smoothie Bar** | $720 | ×1.14 | 6 s | $540 |
-| **Juice Shop** | $8,640 | ×1.13 | 12 s | $4,320 |
-| **Juice Factory** | $103,680 | ×1.12 | 24 s | $51,840 |
+A **juice bar on a beach**, made the way phone games of this kind are: tall, played with
+one thumb, and still earning while it's closed. You're the juice maker. You start on an
+almost empty beach with one orange crate, one juicer and a counter, and a queue of thirsty
+customers on its way from the boardwalk.
 
 **The loop:**
 
-- **Squeeze:** tap a business, on the beach or in its row, to start a **cycle**. When its
-  bar fills, it sells: the money goes up, and a "+$" number rises from the business.
-- **Buy:** every business costs more with each one you own; buy **×1, ×10, ×100** or
-  **Max**. Every one you own adds to what a cycle earns, and owning 25, 50, 100, 200, 300
-  or 400 of one doubles its earnings each time.
-- **Upgrades:** fruit recipes make a business earn three times as much; better equipment
-  makes it squeeze twice as fast. **Managers** are upgrades too: a business with a
-  manager squeezes by itself.
-- **The delivery van** opens with your first Juice Factory, drives along the road, and
-  earns by itself. **Bigger Van** levels it up.
-- **The bonus balloon** floats across the sky every couple of minutes: tap it for a
-  minute's income, or double income for 30 seconds.
-- **While you're away,** every business with a manager, and the van, keep earning, for up
-  to 8 hours. Coming back shows **Welcome back**, and what each of them made.
-- **A new beach:** everything you've ever earned turns into **Juice Stars**, each worth
-  **+5 %** on everything, for good. Your businesses, upgrades and money start again.
+- **Walk.** Touch the lower half of the screen and drag: a stick appears under your thumb,
+  and the chef walks that way. On a computer, WASD or the arrow keys.
+- **Carry.** Stand by the crate and oranges hop onto your hands, a stack of them. Stand by
+  the juicer and they hop in. A ring shows the juicer working; cups pile up on its tray.
+  Pick the cups up and carry them to the counter.
+- **Serve.** Stand on the yellow mat behind the counter: the customer at the front of the
+  queue is served, one cup at a time. A bubble over their head says how many they want.
+- **Collect.** Every cup sold leaves a note on the counter's cash pile. Walk over it and
+  the money flies to you.
+- **Build.** Dashed squares in the sand show a picture and a price. Stand on one and your
+  money pours in; when it's paid, a table, a juicer or a whole new bar pops up, and the
+  next spots appear.
+- **Tables.** Customers sit, drink, and leave an empty cup and a tip. Carry the cups to
+  the bin, or nobody else can sit there.
+- **The Office and the Staff Hut.** Step on their mats to buy upgrades (better recipes,
+  faster machines, a bigger tray, faster flip-flops) and to hire **runners** who carry for
+  a bar and **cashiers** who serve at its till.
+- **While you're away,** every bar with a runner and a cashier keeps selling, and so does
+  the **Juice Kart** on the beach road. Coming back says *Welcome back*, and what each of
+  them made.
+- **A new beach.** The last spot is **the Pier**. Build it and you sail to the next beach:
+  the same plan on new sand, where every cup sells for more.
 - **Trophies:** twelve of them, from *First Sip* to *New Horizons*, some with a reward.
 - **Ads,** always the player's choice: watch one to double what you made while away, or
-  to double your income for five minutes.
+  to double every sale for three minutes.
 
-**Three scenes:** the **Title**; the **Report**, which says *Welcome back* or *Your new
-beach*; and the **Beach**, the game itself. Your money, businesses, upgrades, stars and
-trophies are **saved**, and so is the time, so the game knows how long you were away.
+**Four bars**, each with its own fruit, machine and price:
+
+| Bar | Fruit | Machine | A cup sells for |
+| --- | --- | --- | --- |
+| **Orange Bar** | oranges | a juicer | $5 |
+| **Apple Bar** | apples | a juicer | $10 |
+| **Smoothie Bar** | bananas | a blender | $18 |
+| **Coconut Bar** | coconuts | a cutter | $32 |
+
+**Three scenes:** the **Title**; the **Report**, which says *Welcome back* or *Beach
+complete!*; and the **Beach**, the game itself. What you've built and bought, your money,
+your helpers and your trophies are **saved**, and so is the time, so the game knows how
+long you were away.
 
 **How to play:**
 
-| Action | Tap or click | Keyboard |
+| Action | Touch | Keyboard |
 | --- | --- | --- |
-| Squeeze a business | the business on the beach, or its picture in the list | 1 to 5 |
-| Buy | its row's **Buy** button | |
-| How many Buy buys | **×1**, **×10**, **×100**, **Max** | Tab |
-| Upgrades, Managers, Trophies | the tabs at the bottom | U, M, T |
+| Walk | drag in the lower half of the screen | WASD or the arrows |
+| Pick up, put down, serve, collect, pay | stand there | stand there |
+| Upgrades, helpers | step on the Office's or the Staff Hut's mat | |
+| Trophies | the trophy, top right | |
 | Settings | the cog, top right | Esc |
 | Close a panel | its red **×** | Esc |
-| Pop the balloon | the balloon | |
 
 In the settings you can choose your own keys.
 
@@ -87,8 +89,8 @@ you something:
 | --- | --- | --- |
 | Chapter 1 | Sam's **style guide**, `STYLE_GUIDE.md` | following a team's coding standards |
 | Chapter 4 | the economy designer's **balance sheet**, `BALANCE.md` | building from someone else's numbers |
-| Chapter 7 | an **Upgrades shop** written by last summer's intern: it works, but… | refactoring code to fit the standards (Chapter 19) |
-| Chapter 9 | Sam's **achievements**, as a package | reading, judging and plugging in code you didn't write |
+| Chapter 9 | an **Upgrades shop** written by last summer's intern: it works, but… | refactoring code to fit the standards (Chapter 21) |
+| Chapter 12 | Sam's **achievements**, as a package | reading, judging and plugging in code you didn't write |
 
 That's not just a story. The **Unity Certified Associate: Programmer** exam, which Level 4
 ends at, asks exactly these questions: *which code integrates into a system designed by a
@@ -116,56 +118,59 @@ Level 4 has three books: **Arcane Duel** (a 2D card duel), **Pocket Karts** (a 3
 racer) and **Juice Tycoon** (this one). Each teaches **every** Level 4 topic, and they
 share the same C# Concept chapters, so the examples in those chapters come from all three
 kinds of game: cards, karts and juice stands. This book is the one the juice stands come
-from: you'll meet `JuiceStand`, `Upgrade` and the floating "+$" numbers in the C#
-chapters first, then build the real ones.
+from: you'll meet `JuiceStand`, `Upgrade`, the `Wallet` and the floating "+$" numbers in
+the C# chapters first, then build the real ones.
 
 > **Tip:** you passed the Level 4 entry test, so everything in Levels 0 to 3 is yours:
-> properties, coroutines, lists and dictionaries, `static` and `const`, raycasts, UI
-> events, the Input System, state machines with `enum` and `switch`, the Animator, and
-> naming conventions. Keep the Level 3 cheat sheet next to you.
+> properties, coroutines, lists and dictionaries, `static` and `const`, raycasts and
+> triggers, UI events, the Input System, state machines with `enum` and `switch`, the
+> Animator and Override Controllers, waypoints, and naming conventions. Keep the Level 3
+> cheat sheet next to you.
 
 ## The route through this book
 
 | Step | Chapter | You learn | You build |
 | --- | --- | --- | --- |
 | 1 | C# 1 | Version control with Git | — |
-| 2 | Chapter 1 | A repository, `.meta` files, the style guide, cutting a sprite sheet | A project under Git |
-| 3 | C# 2 | Canvas scaling, anchors, pivots, layout groups | — |
-| 4 | Chapter 2 | A portrait screen, the safe area, a scrolling list | The screen |
-| 5 | C# 3 | Nested prefabs, variants, overrides | — |
-| 6 | Chapter 3 | A button with four variants, rows and panels, tabs | Buttons and rows |
-| 7 | C# 4 | Data assets | — |
-| 8 | Chapter 4 | A `StandInfo` for each business, rows made in code | Stand info |
-| 9 | C# 5, C# 6 | `event`, `Action`, lambdas; `Queue`, `Stack`, choosing types | — |
-| 10 | Chapter 5 | A cycle, a wallet, money as `long` | Squeeze and sell |
-| 11 | Chapter 6 | Prices that grow, buttons that know you can't afford them | Buy more |
-| 12 | C# 7 | Base classes, `abstract`, `override` | — |
-| 13 | Chapter 7 | Three kinds of upgrade, one shop; the intern's code | Upgrades and managers |
-| 14 | C# 8 | Contracts | — |
-| 15 | Chapter 8 | `IIncomeSource`: a business and a van, both earning | Money per second |
-| 16 | C# 9 | Reading, judging and plugging in someone else's code | — |
-| 17 | Chapter 9 | A package, a namespace, a contract, three errors | Sam's achievements |
-| 18 | C# 10, C# 11 | Static and its risks; loading scenes | — |
-| 19 | Chapter 10 | A fader, data between scenes, one scene used two ways | Title, Beach and Report |
-| 20 | C# 12, C# 13 | `try` / `catch`; PlayerPrefs and JSON | — |
-| 21 | Chapter 11 | A save file that can't break the game | Save and load |
-| 22 | Chapter 12 | Time as a number, a cap, a clock set backwards | While you were away |
-| 23 | Chapter 13 | A reset that keeps what matters, a Git branch | A new beach |
-| 24 | C# 14 | Actions, maps, bindings | — |
-| 25 | Chapter 14 | Shortcuts, maps that swap, rebinding, touch for free | Shortcuts |
-| 26 | C# 15 | Reusing objects | — |
-| 27 | Chapter 15 | A pool of numbers, the balloon, sounds and volumes | Juice and sound |
-| 28 | C# 16 | The Package Manager and the Asset Store | — |
-| 29 | Chapter 16 | Tweens: each animation in a line | DOTween |
-| 30 | Chapter 17 | An interface for ads, pretend and real | Ads |
-| 31 | C# 17 | The Profiler, Frame Debugger and Memory Profiler | — |
-| 32 | Chapter 18 | Three problems, three tools | Profile it |
-| 33 | C# 18, C# 19 | Style guides and refactoring; logs and compile errors | — |
-| 34 | Chapter 19 | Small, tested refactoring steps | The intern's code, cleaned up |
-| 35 | Chapter 20 | Level 4's mistakes, and Git to undo them | Break it, then fix it |
-| 36 | Chapter 21 | Web and PC builds, the Device Simulator, a release tag | A game you can share |
-| 37 | Part 6 | The Associate exam | — |
-| 38 | Part 7 | Exam-style practice | — |
+| 2 | Chapter 1 | A repository, `.meta` files, the style guide, importing models | A project under Git, and a beach |
+| 3 | C# 2, C# 3 | `event`, `Action`, lambdas; actions, maps, bindings | — |
+| 4 | Chapter 2 | A Move action, a stick on the screen, a Rigidbody, a camera that follows | The juice maker |
+| 5 | C# 4 | Nested prefabs, variants, overrides | — |
+| 6 | Chapter 3 | A bar made of models, a variant for each fruit, World Space canvases | Crates, counters and spots |
+| 7 | C# 5, C# 6 | Data assets; `Queue`, `Stack`, choosing types | — |
+| 8 | Chapter 4 | Item data, a pile that's a `Stack`, your hands | Fruit in your hands |
+| 9 | Chapter 5 | Fruit in, cups out, a ring that fills | The juicer |
+| 10 | C# 7 | Canvas scaling, anchors, pivots, the safe area | — |
+| 11 | Chapter 6 | Paths, a `Queue` of customers, a wallet, money as `int` | Customers and cash |
+| 12 | C# 8 | Base classes, `abstract`, `override` | — |
+| 13 | Chapter 7 | One base class for every station; build spots | Stations and build spots |
+| 14 | Chapter 8 | Sitting, tips, empty cups; a new bar from spots | Tables and the bin |
+| 15 | Chapter 9 | Three kinds of upgrade, one shop; the intern's code; action maps | Upgrades |
+| 16 | Chapter 10 | A runner with hands like yours, a cashier at the till | Helpers |
+| 17 | C# 9 | Contracts | — |
+| 18 | Chapter 11 | `IIncomeSource`: a bar and a kart, both earning | The Juice Kart |
+| 19 | C# 10 | Reading, judging and plugging in someone else's code | — |
+| 20 | Chapter 12 | A package, a namespace, a contract, three errors | Sam's achievements |
+| 21 | C# 11, C# 12 | Static and its risks; loading scenes | — |
+| 22 | Chapter 13 | A fader, data between scenes, one scene used two ways | Title, Beach and Report |
+| 23 | C# 13, C# 14 | `try` / `catch`; PlayerPrefs and JSON | — |
+| 24 | Chapter 14 | A save file that can't break the game; keys you choose | Save and load |
+| 25 | Chapter 15 | Time as a number, a cap, a clock set backwards | While you were away |
+| 26 | Chapter 16 | A new beach in an asset, a Git branch | A new beach |
+| 27 | C# 15 | Reusing objects | — |
+| 28 | Chapter 17 | One pool for every item, numbers, sounds and volumes | Juice and sound |
+| 29 | C# 16 | The Package Manager and the Asset Store | — |
+| 30 | Chapter 18 | Tweens: each animation in a line | DOTween |
+| 31 | Chapter 19 | An interface for ads, pretend and real | Ads |
+| 32 | C# 17 | The Profiler, Frame Debugger and Memory Profiler | — |
+| 33 | Chapter 20 | Three problems, three tools | Profile it |
+| 34 | C# 18 | Style guides and refactoring | — |
+| 35 | Chapter 21 | Small, tested refactoring steps | The intern's code, cleaned up |
+| 36 | C# 19 | Logs and compile errors | — |
+| 37 | Chapter 22 | Level 4's mistakes, and Git to undo them | Break it, then fix it |
+| 38 | Chapter 23 | Web and PC builds, the Device Simulator, a release tag | A game you can share |
+| 39 | Part 6 | The Associate exam | — |
+| 40 | Part 7 | Exam-style practice | — |
 
 ## For trainers: running a session
 
@@ -177,10 +182,10 @@ Sessions follow the route above, with the same rhythm as Levels 0 to 3:
 | About 60% | **Build:** students follow the chapter in Unity, press Play at every checkpoint, and commit. | Build chapters |
 | About 20% | **Practice:** the **Do it** exercises, in class or as homework. | C# Concept chapters |
 
-Students join Level 4 by passing the **Level 4 entry test**. Chapters 5, 7 and 9 are the
-heart of this book: events and money, inheritance in data, and plugging in code someone
-else wrote. Give them the most time. Chapters 2 and 3 build a whole screen of UI by hand;
-slower students can finish them at home from the book.
+Students join Level 4 by passing the **Level 4 entry test**. Chapters 4, 6 and 7 are the
+heart of this book: a pile that's a `Stack`, a queue that's a `Queue`, and one base class
+for every station. Give them the most time. Chapters 1 and 3 build a beach and a bar by
+hand, from models; slower students can finish them at home from the book.
 
 **What you share with your students** is ready in the course project's
 `Student Files/Level 4 - Juice Tycoon` folder, one folder for each row: zip it, and share
@@ -190,12 +195,12 @@ it.
 | --- | --- |
 | Before Chapter 1 | the `Art` and `Audio` folders, `CREDITS.md` and `STYLE_GUIDE.md` |
 | Chapter 4 | `BALANCE.md`, the economy designer's balance sheet |
-| Chapter 7 | `UpgradeShop.cs`, the intern's script |
-| Chapter 9 | `Juice Tycoon Achievements 1.0.unitypackage`, Sam's module, and its README |
+| Chapter 9 | `UpgradeShop.cs`, the intern's script |
+| Chapter 12 | `Juice Tycoon Achievements 1.0.unitypackage`, Sam's module, and its README |
 
-Two things they get themselves. In Chapter 16, **DOTween** from the Asset Store, with
-their own free Unity account: tell them before Chapter 16. In Chapter 17, the **Ads
-Mediation** package, from Unity's Package Manager. Chapter 17 has one optional step that
+Two things they get themselves. In Chapter 18, **DOTween** from the Asset Store, with
+their own free Unity account: tell them before Chapter 18. In Chapter 19, the **Ads
+Mediation** package, from Unity's Package Manager. Chapter 19 has one optional step that
 needs **Android Build Support**, a big download: students without it skip that step.
 
 Your trainer project has the finished game, and a menu item that builds it from scratch:
@@ -204,46 +209,76 @@ day, or to rescue a project that's beyond repair.
 
 ## The pieces we'll build
 
-Sixty scripts, in ten folders. Most are short; a few grow through the book.
+Eighty-four scripts, in fourteen folders. Most are short; a few grow through the book.
 
 ```
-Business ── StandInfo ──────── one business's numbers, in an asset
-            JuiceStand ─────── one business on the beach: owned, cycle, upgrades
-            Wallet ─────────── the money, and what you've earned in your life
-            CostMath ───────── what the next one costs, and the next ten
-            NumberFormat ───── 1.25K, 12.5M, 125B; 3 h 05 min
+Chef ────── Chef ───────────── you: the Move action, a Rigidbody, the Animator
+            Carrier ────────── hands: a pile in front of the chest
+            CameraFollow ───── follows you, a moment late
+            ChefLevels ─────── your tray and your flip-flops
 
-Upgrades ── Upgrade ────────── abstract: an id, a name, a price, a target
-            PriceUpgrade ───── a fruit recipe: earn ×3
-            SpeedUpgrade ───── better equipment: squeeze ×2 as fast
-            ManagerUpgrade ─── a manager: squeezes by itself
-            UpgradeLibrary ─── every upgrade, found by id
-            Upgrades ───────── which are bought, and buying one
+Items ───── ItemKind ───────── fruit, cup, empty cup, cash
+            ItemInfo ───────── one kind of item, in an asset
+            Item ───────────── one orange, cup or note; it hops
+            ItemPile ───────── a Stack of items, in rows and layers
+            ItemPool ───────── where items come from and go back to
+
+Bar ─────── BarInfo ────────── one bar's numbers, in an asset
+            JuiceStand ─────── one bar: its price, speed, stations and helpers
+            Station ────────── abstract: a place you stand to trade
+            FruitCrate ─────── fills by itself; gives fruit
+            Juicer ─────────── takes fruit, makes cups
+            Counter ────────── takes cups; serves its Queue of customers
+            CashPile ───────── the notes waiting for you
+            Table, Seating ─── seats, tips, empty cups
+            Bin ────────────── takes what you throw away
+            BuildSpot ──────── pay, and something appears
+            BuildList ──────── every spot, in order
+            ShopMat ────────── opens a panel
+            ProgressRing ───── the ring over a machine
+            PriceTag ───────── the sign on a counter
+            Billboard ──────── turns a sign to the camera
+
+People ──── Walker ─────────── walks a Queue of points
+            WalkPath ───────── a path's points, for the kart
+            Customer ───────── a visit, as a state machine
+            CustomerState ──── where a customer is in it
+            CustomerSpawner ── sends them, from a pool
+            OrderBubble ────── what they want
+            Helper ─────────── a runner or a cashier
+            HelperKind ─────── which
 
 Income ──── IIncomeSource ──── anything that earns by itself
             IncomeSources ──── all of them, in one list
-            DeliveryVan ────── drives, delivers, levels up: an IIncomeSource too
-            IncomeBonus ────── the stars' +5 %s, and a ×2 boost
-            BonusBalloon ───── floats across the sky; tap it
-            BalloonSpawner ─── sends it, pays its reward
+            JuiceKart ──────── drives the road, sells each lap
+            IncomeBoost ────── every sale ×2, for a while
 
-Trophies ── GameStats ──────── the numbers Sam's achievements count
-            ToastMessage ───── one message waiting to be shown
-            Toast ──────────── slides down, waits, slides back up
-            ToastQueue ─────── the messages, one at a time
-            TrophiesPanel ──── every trophy, won or not
-            TrophyRow ──────── one of them
+Upgrades ── Upgrade ────────── abstract: an id, a name, a price, a bar
+            PriceUpgrade ───── a better recipe
+            SpeedUpgrade ───── a faster machine
+            HireUpgrade ────── a helper
+            UpgradeLibrary ─── every upgrade, found by id
+            Upgrades ───────── which are bought, and buying one
 
-Flow ────── Session ────────── what one scene leaves the next (static)
-            Report ─────────── Welcome back, or Your new beach
+Business ── Wallet ─────────── the money
+            NumberFormat ───── 1.25K, 12.5M; 1 h 05 min
+
+UI ──────── MoneyText ──────── the money, counting up
+            UpgradeRow ─────── one upgrade in a shop
+            UpgradesPanel ──── the shop (the intern's first, then yours)
+            LevelRow ───────── a row with levels
+            OfficeLevels ───── your tray, flip-flops and the kart
+
+Flow ────── BeachInfo ──────── one beach, in an asset
+            BeachGame ──────── loads the save, autosaves
+            NewBeach ───────── the Pier: sail on
+            Session ────────── what one scene leaves the next (static)
+            Report ─────────── Welcome back, or Beach complete
             SceneFader ─────── fades between scenes
             SafeArea ───────── keeps the screen clear of a phone's notch
             TitleScreen ────── the Title's buttons
             ReportScreen ───── the Report scene
-            BeachGame ──────── loads the save, autosaves
             AwayEarnings ───── what you earned while you were away
-            NewBeach ───────── the stars, the reset, what's kept
-            NewBeachPanel ──── the New Beach tab
             PanelSwitcher ──── one panel open at a time
 
 Save ────── SaveData ───────── what the save file holds
@@ -252,19 +287,18 @@ Save ────── SaveData ───────── what the save file 
             SettingsPanel ──── volumes, keys, Delete Save
             RebindRow ──────── choose a new key
 
-UI ──────── MoneyText ──────── the money, counting up
-            IncomeText ─────── +38.2K / s
-            StarsText ──────── your Juice Stars
-            StandRow ───────── one business in the list
-            StandList ──────── makes the rows
-            BuyAmountBar ───── ×1, ×10, ×100, Max
-            VanRow ─────────── the van's row
-            UpgradeRow ─────── one upgrade in the shop
-            UpgradesPanel ──── the shop (the intern's first, then yours)
+Input ───── Controls ───────── the action maps, and Escape
+
+Trophies ── GameStats ──────── the numbers Sam's achievements count
+            ToastMessage ───── one message waiting to be shown
+            Toast ──────────── slides down, waits, slides back up
+            ToastQueue ─────── the messages, one at a time
+            TrophiesPanel ──── every trophy, won or not
+            TrophyRow ──────── one of them
 
 Juice ───── FloatingNumber ─── a "+$" that rises and fades
             NumberPool ─────── floating numbers, reused
-            StandSprite ────── a business on the beach: tap it
+            SaleNumbers ────── one over a counter at every sale
             PunchOnClick ───── every button bounces
             SoundPlayer ────── squeezes, coins, jingles
             MusicPlayer ────── the scene's music
@@ -273,9 +307,7 @@ Ads ─────── IAdService ─────── show an ad, whoever s
             PretendAds ─────── a countdown where an ad would be
             LevelPlayAds ───── Unity LevelPlay's ads
             AdServiceProvider ─ picks one
-            BoostOffer ─────── the TV button: ×2 for 5 minutes
-
-Input ───── Shortcuts ──────── the keys, and the maps they swap
+            BoostOffer ─────── the TV button: ×2 for 3 minutes
 ```
 
 Sam's module brings five more, in their own folder: `AchievementTracker`, `Achievement`,
@@ -283,28 +315,38 @@ Sam's module brings five more, in their own folder: `AchievementTracker`, `Achie
 
 ## One-time setup
 
-- **Unity 6** (6000.6), with a new project made from the **Universal 2D** template, as for
-  Arcane Duel. Call it `Juice Tycoon`. The **Input System** package comes with it, and so
+- **Unity 6** (6000.6), with a new project made from the **Universal 3D** template, as for
+  Pocket Karts. Call it `Juice Tycoon`. The **Input System** package comes with it, and so
   does the UI (uGUI) with TextMeshPro.
 - **Git and GitHub Desktop.** Install **GitHub Desktop** from desktop.github.com (it
   brings Git with it), and make a free account on github.com. Chapter 1 sets up the
   rest.
-- **WebGL and PC builds** (Chapter 21): in the **Unity Hub**, **Installs**, the cog next
+- **WebGL and PC builds** (Chapter 23): in the **Unity Hub**, **Installs**, the cog next
   to your Unity 6 → **Add modules**, tick **Web Build Support**, and the build support for
   your computer (**Mac Build Support** or **Windows Build Support**) if it isn't there.
-- **A free Unity account** (Chapter 16), to get DOTween from the Asset Store. You already
+- **A free Unity account** (Chapter 18), to get DOTween from the Asset Store. You already
   sign in to the Unity Hub with one.
 - **Art and sound:** your trainer shares two folders, `Art` and `Audio`, holding every
   file this book uses, each pack's licence beside them. `CREDITS.md` names them all:
-  - **Fluent Emoji** by Microsoft: the businesses, the fruit, the van, the balloon, the
-    coins and the icons, 42 pictures in a soft 3D style.
-  - **Free Game GUI** by pzUH: the candy buttons, the panels, the ribbons, the bars.
-  - **Free Beach game background** by bevouliin: the sky, the sea and the grass.
+  - **Ultimate Animated Character Pack** by Quaternius: the chef, the customers and the
+    helpers, with their walks, runs, carrying, sitting and standing up.
+  - **Ultimate Food Pack** by Quaternius: the oranges, apples, bananas, coconuts and the
+    cup.
+  - **Restaurant Bits** by Kay Lousberg (KayKit): the crates, counters, cabinets, jugs,
+    tables and stools.
+  - **Nature Props** and **Racing Kart** by Fertile Soil Productions: the palms, rocks and
+    shells, and the Juice Kart.
+  - **Fluent Emoji** by Microsoft: the pictures on buttons, trophies and messages.
+  - **Free Game GUI** by pzUH: the candy buttons, the panels, the ribbons.
   - **Lilita One**, a font by Juan Montoreano, under the SIL Open Font License.
   - **Ninja Adventure** by Pixel-Boy and AAA: the sounds and the music.
 
-  The GUI, the beach and the sounds are CC0: free to use for anything. The emoji are under
-  the MIT License, which asks one thing: its licence file goes with them
+  Two folders were made for this book: `Art/Ground` (the dashed square of a build spot,
+  the mats, a ring and a speech bubble) and `Art/Icons` (a picture of each item, for the
+  bubbles and the shop).
+
+  Everything is CC0, free to use for anything, except two. The emoji are under the MIT
+  License, which asks one thing: its licence file goes with them
   (`Art/Licences/FluentEmoji-LICENSE.txt`). The font's licence lets you use and share it,
   as long as its licence, `Art/Fonts/OFL.txt`, goes with it.
 
@@ -574,8 +616,10 @@ commit. Then explain in two sentences why a scene conflict is worse, and how to 
 ## Chapter 1 — A Project Under Git
 
 **Goal:** a new Unity project that lives in a Git repository, published to your GitHub
-account, with the studio's style guide beside it; the emoji, the beach and the font
-imported; and the GUI's two big sheets cut into the named pieces the game uses.
+account, with the studio's style guide beside it; the people, the food, the bar and the
+palms imported at sizes that fit together; the GUI's two big sheets cut into the named
+pieces the game uses; and the beach: sand, sea, a boardwalk and palms, seen from above by a
+camera made for a phone.
 
 ### Idea — a project the whole team can trust
 
@@ -592,20 +636,21 @@ should ignore, and GitHub keeps one made for Unity projects.
 
 | Folder or file | In Git? | Why |
 | --- | --- | --- |
-| `Assets/` (with every `.meta` file) | **yes** | your work: scripts, scenes, prefabs, pictures |
+| `Assets/` (with every `.meta` file) | **yes** | your work: scripts, scenes, prefabs, models |
 | `Packages/manifest.json`, `packages-lock.json` | **yes** | which packages the project uses |
 | `ProjectSettings/` | **yes** | the project's settings |
 | `Library/`, `Temp/`, `Logs/`, `obj/`, `UserSettings/` | no | Unity rebuilds them |
 | `Builds/` | no | anyone can make a build from the project |
 
-The second half of the chapter is about **sprite sheets**. A game's buttons and panels
-often come as one big picture with dozens of pieces on it. Unity can cut such a sheet
-into many sprites, each with its own name, and remember the cuts in the picture's `.meta`
-file.
+The rest of the chapter is about **models**: 3D files made by artists in other programs.
+Each pack was made at its own size, so the chef might be twice as tall as a crate, and a
+cup as big as a person. Unity's **Import Settings** fix that once, in the model's `.meta`
+file, so every copy of it in every scene comes in at the right size. You'll also meet a
+model's **rig** (its skeleton) and its **clips** (the animations it brings with it).
 
 ### Do it — the repository
 
-1. In the **Unity Hub**, **New project**, choose Unity 6 and the **Universal 2D**
+1. In the **Unity Hub**, **New project**, choose Unity 6 and the **Universal 3D**
    template, call it `Juice Tycoon`, and **Create project**. When Unity opens, close it
    again for now.
 2. Open **GitHub Desktop** and sign in with your GitHub account. **File → Add Local
@@ -639,9 +684,9 @@ file.
 | --- | --- |
 | Interfaces start with `I` and name a capability | `IIncomeSource` |
 | C# events say what happened, in the past tense, without `On` | `CupSold`, `MoneyChanged` |
-| Methods that an event or Unity calls start with `On` | `OnCupSold` |
-| Fields set in the Inspector are `[SerializeField]` and private: never `public` | `[SerializeField] long baseCost = 4;` |
-| A number that means something gets a name | `const double MaxSeconds = 8 * 60 * 60;` |
+| Methods that an event or Unity calls start with `On` | `OnCustomerServed` |
+| Fields set in the Inspector are `[SerializeField]` and private: never `public` | `[SerializeField] int price = 5;` |
+| A number that means something gets a name | `const double MaxSeconds = 2 * 60 * 60;` |
 | One class per file, named after it | `JuiceStand.cs` |
 | Subscribe in `OnEnable`, unsubscribe in `OnDisable` | |
 | Not allowed: `var`, `GameObject.Find`, `FindObjectOfType`, `public` fields | |
@@ -649,26 +694,81 @@ file.
 8. In GitHub Desktop, the Changes tab shows `STYLE_GUIDE.md`. Commit it: *Add the studio's
    style guide*.
 
-### Do it — the emoji, the beach and the font
+### Do it — the art
 
 9. Your trainer shares two folders, `Art` and `Audio`. Drag both into Unity's **Project**
-   window, into `Assets`. In the 2D template every picture comes in as a **Sprite (2D and
-   UI)**, ready for the screen. Give it a minute.
-10. **The emoji.** Open `Art/Emoji`: 42 pictures, each 256 pixels square. Click the first,
-    **Shift**-click the last, and the Inspector edits all of them at once. **Pixels Per
-    Unit** `128`, then **Apply** at the bottom. A Sprite Renderer draws a sprite at its
-    pixels per unit: at 128, a 256-pixel emoji is 2 units across on the beach, the size
-    of a business. A UI Image ignores it, so the same emoji works on the screen too.
-11. **The beach.** Select `Art/Background/Beach`: a sky, the sea and a strip of grass,
-    3072 × 1536 pixels. Its **Max Size** is 2048, Unity's default, so Unity would shrink
-    it. The artist asked for every pixel, and no blotches in the sky: set **Max Size**
-    `4096` and **Compression** `None`, and **Apply**. (Chapter 18 looks at what that
-    costs.)
-12. **The font.** Select `Art/Fonts/LilitaOne-Regular`, then **Assets → Create →
-    TextMeshPro → Font Asset → SDF**. Unity asks to import the **TMP Essentials** the
-    first time: **Import**, then make the font asset again. `LilitaOne-Regular SDF` is the
-    game's one font: round and bold, like the buttons.
-13. **The font's shadow.** Big white words on a candy button need an edge to stand out.
+   window, into `Assets`, and give Unity a minute: there are thirty-odd models to import.
+10. **The people.** Open `Art/Characters`: twelve people from the same pack, all on the
+    same skeleton. Select all twelve (click the first, **Shift**-click the last), and in
+    the Inspector:
+    - **Model** tab: **Scale Factor** `0.55`. The pack draws people 3.3 units tall; at
+      0.55 they're 1.8 m, next to a 1 m counter. **Apply**.
+    - **Rig** tab: **Animation Type** `Generic`, **Avatar Definition** `Create From This
+      Model`. **Apply**. (Gate Guard's skeletons were **Humanoid**, so one set of clips
+      could play on bodies of every shape. These people already share one skeleton, bone
+      for bone: Generic is enough, and Unity can't map this skeleton to a Humanoid by
+      itself anyway.)
+    - **Animation** tab: untick **Import Animation**, **Apply**. Every file brings the same
+      17 clips; one copy is plenty.
+11. **The chef's clips.** Select `Chef_Male` alone. **Animation** tab: tick **Import
+    Animation** again, **Apply**. The **Clips** list shows 17 clips, each called
+    `CharacterArmature|` and a name. Keep seven, rename them, and set **Loop Time** where
+    the table says (select a clip, change it below the list, then the next):
+
+| Clip in the file | Rename to | Loop Time |
+| --- | --- | --- |
+| `CharacterArmature\|Idle` | `Idle` | ticked |
+| `CharacterArmature\|Walk` | `Walk` | ticked |
+| `CharacterArmature\|Run` | `Run` | ticked |
+| `CharacterArmature\|Walk_Carry` | `Walk_Carry` | ticked |
+| `CharacterArmature\|Run_Carry` | `Run_Carry` | ticked |
+| `CharacterArmature\|SitDown` | `SitDown` | |
+| `CharacterArmature\|StandUp` | `StandUp` | |
+
+Remove the other ten from the list (select one, the **−** under the list), and
+**Apply**. Open `Chef_Male` in the Project window: the seven clips are inside it. The
+two `_Carry` clips walk and run with the arms held out in front: the arms of someone
+carrying a stack of cups.
+
+12. **The food.** Open `Art/Food`. One at a time, set each model's **Model → Scale Factor**,
+    and on its **Rig** tab **Animation Type** `None`, then **Apply**:
+
+| Model | Scale Factor | Size in the game |
+| --- | --- | --- |
+| `Orange` | `0.4` | 0.3 m: a big, easy-to-see orange |
+| `Apple` | `0.37` | 0.3 m |
+| `Banana` | `0.27` | 0.35 m long |
+| `Coconut`, `Coconut_Half` | `0.4` | 0.3 m |
+| `Soda` | `0.22` | a cup 0.42 m tall, with a lid and a straw |
+
+Everything you carry is a little bigger than life: on a phone, from above, a real-sized
+orange would be a dot.
+
+13. **The bar.** Open `Art/Bar`: crates, counters, cabinets, jars, tables, stools, a chair
+    and a menu board, as `.obj` files, and one picture, `restaurantbits_texture`. The pack
+    paints everything from that one picture of colour patches, but its `.obj` files only
+    name a material, `restaurant`, without the picture. Select all eighteen models
+    (search `t:Model` in the folder), and on the **Materials** tab set **Location** to
+    `Use External Materials (Legacy)`, **Apply**. Unity makes one material for all of them,
+    `Art/Bar/Materials/restaurant`. Select it, and drag `restaurantbits_texture` into its
+    **Base Map**: every bar piece gets its colours. Then set **Smoothness** `0.15`: wood
+    and paint, not glass.
+14. **The scenery.** `Art/Nature` holds Pocket Karts' palms, rocks, shells, starfish and
+    bushes, with the small pictures of their colours in `Art/Nature/textures`. Unity made
+    their materials when it imported them: nothing to do. `Art/Kart/kart` is Pocket Karts'
+    kart: **Scale Factor** `0.45`, **Apply** (it's 4 units long; at 0.45, 1.8 m).
+15. **The flat pictures.** In a 3D project a picture comes in as a texture for models. The
+    game's UI needs sprites. Select every picture in `Art/Emoji`, `Art/Ground` and
+    `Art/Icons` (one folder at a time), and set **Texture Type** `Sprite (2D and UI)`,
+    **Apply**.
+
+### Do it — the font
+
+16. Select `Art/Fonts/LilitaOne-Regular`, then **Assets → Create → TextMeshPro → Font
+    Asset → SDF**. Unity asks to import the **TMP Essentials** the first time: **Import**,
+    then make the font asset again. `LilitaOne-Regular SDF` is the game's one font: round
+    and bold, like the buttons.
+17. **The font's shadow.** Big white words on a candy button need an edge to stand out.
     Open `LilitaOne-Regular SDF` in the Project window (the arrow beside it) and select the
     material inside. In the Inspector, open the material's **⋮** menu (top right) and
     choose **Create Material Preset**: a copy, next to the font asset. Rename it
@@ -684,16 +784,17 @@ file.
 
 ### Do it — cutting the GUI sheets
 
-14. Select `Art/GUI/Buttons`. It's one picture, 2399 × 1822, holding every button and icon
+18. Select `Art/GUI/Buttons`. It's one picture, 2399 × 1822, holding every button and icon
     of the pack: candy buttons in four colours, a grid of square icon buttons, and more.
-    In the Inspector, **Sprite Mode** `Multiple`, **Apply**, then **Open Sprite Editor**.
-15. In the Sprite Editor, open the **Slice** menu at the top. **Type** `Automatic`,
+    In the Inspector, **Texture Type** `Sprite (2D and UI)`, **Sprite Mode** `Multiple`,
+    **Apply**, then **Open Sprite Editor**.
+19. In the Sprite Editor, open the **Slice** menu at the top. **Type** `Automatic`,
     **Pivot** `Center`, **Method** `Delete Existing`, and click **Slice**. Unity finds
     every piece on the sheet by its see-through edges: 185 boxes, named `Buttons_0`,
     `Buttons_1`… Click one: the **Sprite** box, bottom right, shows its **Name** and
     **Position** (**X** and **Y**, from the sheet's bottom-left corner, then **W** and
     **H**).
-16. The game uses 13 of them. Click each one below (find it by the picture, then check
+20. The game uses 13 of them. Click each one below (find it by the picture, then check
     its X and Y), and type its new **Name**. For the four candy buttons, set **Border** too:
     **L** 40, **T** 34, **R** 40, **B** 34.
 
@@ -713,12 +814,12 @@ file.
 | `Icon Close` | 2100, 1385 | a red square with a white cross | |
 | `Icon Tick` | 1977, 1255 | a green square with a white tick | |
 
-17. Click **Apply** (top right), and close the Sprite Editor. Open `Buttons` in the
+21. Click **Apply** (top right), and close the Sprite Editor. Open `Buttons` in the
     Project window: 185 sprites, 13 of them with names you can read. The others can stay;
     they cost nothing until something uses them.
-18. Do the same for `Art/GUI/Windows` (2000 × 2500: panels, ribbons, bars): **Sprite
-    Mode** `Multiple`, **Apply**, **Open Sprite Editor**, **Slice**, **Automatic**. Name
-    three pieces, and **Apply**:
+22. Do the same for `Art/GUI/Windows` (2000 × 2500: panels, ribbons, bars): **Texture
+    Type** `Sprite (2D and UI)`, **Sprite Mode** `Multiple`, **Apply**, **Open Sprite
+    Editor**, **Slice**, **Automatic**. Name three pieces, and **Apply**:
 
 | Name | X, Y | What it is | Border |
 | --- | --- | --- | --- |
@@ -726,1459 +827,116 @@ file.
 | `Panel Light` | 1161, 660 | the same, paler | 40, 40, 40, 40 |
 | `Ribbon` | 822, 1070 | a red ribbon | 90, 0, 90, 0 |
 
-19. **Why the borders:** a button or a panel gets stretched to many sizes. A **9-slice
+23. **Why the borders:** a button or a panel gets stretched to many sizes. A **9-slice
     border** cuts the sprite into nine parts: the four corners never stretch, the edges
     stretch one way, and the middle both ways. A 290-wide button and a 600-wide one keep
     the same round corners. The ribbon only stretches sideways, so its ends keep their
     folds.
-20. Make the folders the game will need, in `Assets`: `Scripts` (with ten folders in it:
-    `Business`, `Upgrades`, `Income`, `Trophies`, `Flow`, `Save`, `UI`, `Juice`, `Ads`
-    and `Input`), `Prefabs` (with a `UI` folder in it), `Data` and `Input`. `Scenes` is
-    already there.
+
+### Do it — the beach
+
+24. Make the folders the game will need, in `Assets`: `Scripts` (with fourteen folders in
+    it: `Chef`, `Items`, `Bar`, `People`, `Income`, `Upgrades`, `Business`, `UI`, `Flow`,
+    `Save`, `Input`, `Trophies`, `Juice` and `Ads`), `Prefabs` (with `Items`, `People` and
+    `UI` folders in it), `Data`, `Animation` and `Input`, and `Art/Materials`. In
+    `Scenes`, rename `SampleScene` to `Beach` and open it.
+25. **Materials.** In `Art/Materials`, **Create → Material** five times. Each is a URP
+    **Lit** material: set its **Base Map** colour and its **Smoothness**:
+
+| Material | Base Map colour | Smoothness |
+| --- | --- | --- |
+| `Sand` | `#EBCB8B` | 0.15 |
+| `Wet Sand` | `#D8B57A` | 0.15 |
+| `Sea` | `#2FB0D0` | 0.65 |
+| `Wood` | `#B98A5B` | 0.15 |
+| `Wood Dark` | `#8F653E` | 0.15 |
+
+26. **The ground.** The beach runs from the boardwalk in the south (−z) to the sea in the
+    north (+z): the camera looks north, so the sea is at the top of the screen.
+    - **GameObject → 3D Object → Plane**, `Sand`: **Position** (0, 0, −4.7), **Scale**
+      (4, 1, 2.66), the `Sand` material. A Plane is 10 × 10 units: this one is 40 wide and
+      26.6 deep, from z = −18 to the shoreline at z = 8.6. Remove its **Mesh Collider**:
+      nothing stands on the sand by physics (Chapter 2 says why).
+    - A second Plane, `Sea`: **Position** (0, −0.05, 28.6), **Scale** (8, 1, 4), the `Sea`
+      material, no collider. A touch lower than the sand, so the shoreline is crisp.
+    - **3D Object → Cube**, `Wet Sand`: **Position** (0, −0.02, 8.2), **Scale** (40, 0.05,
+      0.8), `Wet Sand`, no collider: the dark strip the waves keep wet.
+27. **The boardwalk.** An empty GameObject, `Scenery`. Inside it, a Cube, `Plank`:
+    **Position** (−14, 0.05, −11.4), **Scale** (1.94, 0.1, 2.2), `Wood`, no collider.
+    Duplicate it (**Ctrl+D**, **Cmd+D** on a Mac) fourteen times, and set each copy's **X**
+    2 more than the last: −12, −10, … up to 14. Give every other plank `Wood Dark`. The
+    customers will arrive along it.
+28. **Palms, rocks and shells**, from `Art/Nature`, into `Scenery`. The palms are 2.7 m
+    tall; at a scale of 2 or so they tower over the bar, as palms should:
+
+| Model | Position | Rotation Y | Scale |
+| --- | --- | --- | --- |
+| `Tree_Palm_1` | (−9.6, 0, 6.8) | 0 | 2.2 |
+| `Tree_Palm_2` | (9.8, 0, 4.2) | 90 | 2.4 |
+| `Tree_Palm_3` | (−9.8, 0, −2.5) | 200 | 2 |
+| `Tree_Palm_1` | (9.9, 0, −5.5) | 140 | 2.1 |
+| `Tree_Palm_2` | (−10, 0, −13.6) | 40 | 2.2 |
+| `Rock_1` | (−9.4, 0, 2.4) | 30 | 1.2 |
+| `Rock_2` | (9.4, 0, 8.2) | 80 | 1 |
+| `Rock_3` | (9.6, 0, −9.8) | 0 | 0.9 |
+| `Shell_Salmon` | (−7.5, 0, −3.6) | 20 | 2 |
+| `Starfish_Salmon` | (0.4, 0, 7.6) | 60 | 2 |
+| `Shell_Salmon` | (7.6, 0, 1.6) | 140 | 2 |
+| `Bush_1` | (−9.2, 0, −8) | 0 | 1 |
+| `Bush_2` | (9.3, 0, −12.6) | 0 | 1 |
+
+29. **The sun.** Select the scene's `Directional Light`, rename it `Sun`: **Rotation**
+    (52, −35, 0), **Intensity** `1.15`, **Shadow Type** `Soft Shadows`. **Window →
+    Rendering → Lighting**, the **Environment** tab: **Environment Lighting Source**
+    `Gradient`, **Sky** `#CDE9F5`, **Equator** `#E8D9B8`, **Ground** `#B59A6E` (a bright
+    sky, warm sand bouncing light back up). Tick **Fog**: **Color** `#9FD6EC`, **Mode**
+    `Linear`, **Start** `30`, **End** `60`: the far sea fades into the sky.
+30. **The camera.** Select `Main Camera`: **Position** (0, 14, −10), **Rotation** (55, 0,
+    0), **Field of View** `60`. Under **Environment**, **Background Type** `Solid Color`,
+    **Background** `#9FD6EC`, the sky's colour. It looks down at the beach from above and
+    behind, as these games do: steep enough to see where you're going, low enough to see
+    the people.
+31. **A phone-shaped Game view.** In the **Game** view, open the size menu (it says **Free
+    Aspect**), click **+**, and add a **Fixed Resolution** called `Portrait`, **1080 ×
+    1920**. Choose it. The game is played upright, like a phone.
 
 ### Test it
 
-- Drag `Art/Emoji/cup_with_straw_3d` into the **Scene** view: a cup, 2 units across, two
-  squares of the grid. Delete it again.
-- Right-click the Hierarchy → **UI (Canvas) → Image**. In its **Source Image**, choose
-  `Button Green`, set **Image Type** **Sliced**, and make it 600 wide and 120 high: the
-  corners stay round. Set it to `Simple`: the corners stretch. Delete the `Canvas` and
-  `EventSystem` again.
-- In GitHub Desktop, the Changes tab lists every new picture **and a `.meta` file beside
-  it**. Click `Buttons.png.meta`: it's text, and among its lines are your names
-  (`name: Button Green`) and your borders (`border: {x: 40, y: 34, z: 40, w: 34}`). One line
-  near the top says `guid:` followed by 32 letters and numbers. That **GUID** is how Unity
-  knows the picture: a scene or a prefab that uses the picture stores its GUID, not its
-  name. A sprite cut from the sheet is the GUID plus a number for the piece.
-- Find the same `.meta` file in Finder or Explorer: it's next to the picture, hidden from
-  Unity's Project window.
+- Press **Play**. The beach fills the screen: sand, the wet strip, the sea fading into the
+  sky, the boardwalk across the bottom, palms at the edges throwing soft shadows.
+- Drag `Art/Characters/Chef_Male` into the scene, beside the boardwalk. Next to a plank
+  he's the right size: a person, not a giant. Click the arrow beside him in the Hierarchy:
+  his `CharacterArmature` (the skeleton) and his body parts. Drag `Art/Food/Soda` and
+  `Art/Bar/crate` beside him: a cup the size of his head, a crate up to his knees. Delete
+  all three.
+- In GitHub Desktop, the Changes tab lists every new model **and a `.meta` file beside
+  it**. Click `Chef_Male.fbx.meta`: it's text, and among its lines are your settings
+  (`globalScale: 0.55`, `animationType: 2` for Generic, your clips' names). One line near
+  the top says `guid:` followed by 32 letters and numbers. That **GUID** is how Unity
+  knows the model: a scene or a prefab that uses it stores its GUID, not its name.
 
 > **Watch out:** move or rename assets **in Unity's Project window**, never in Finder or
 > Explorer. Unity moves the `.meta` file with the asset. Move one outside Unity, and Unity
 > sees a new file, gives it a new `.meta` with a new GUID, and everything that used the old
-> one loses it: a missing sprite here, a missing script there. Lose `Buttons.png.meta`,
-> and every cut and every name goes with it.
+> one loses it: a missing model here, a missing script there. Lose `Chef_Male.fbx.meta`,
+> and your scale, your rig and your seven clips go with it.
 
 ### Commit
 
-*Add the art, sounds and font.* Then **Push origin**, so GitHub has it too.
+*Add the art, sounds and font, and the beach.* Then **Push origin**, so GitHub has it too.
 
-> **Note:** big binary files (pictures, sounds) make a Git repository grow, since Git
-> keeps every version of every file. Big teams use **Git LFS** (Large File Storage), which
-> keeps them outside the history. This game's art is about 8 MB, which Git handles well,
-> so this book doesn't need it.
+> **Note:** big binary files (models, pictures, sounds) make a Git repository grow, since
+> Git keeps every version of every file. Big teams use **Git LFS** (Large File Storage),
+> which keeps them outside the history. This game's art is about 35 MB, most of it the
+> twelve people, which Git handles well, so this book doesn't need it.
 
 ### Challenge
 
 Find the pink progress bar on `Windows`, name it `Bar Pink`, and give it a border that
-lets it stretch sideways only, like the ribbon. Then, in the **History** tab, find the commit that changed
-`Windows.png.meta`.
+lets it stretch sideways only, like the ribbon. Then put a rock or two of your own on the
+beach, and in the **History** tab, find the commit that added `Chef_Male.fbx.meta`.
 
-## C# 2 — UI in Depth
-
-**Goal:** you can build a screen that fits every shape, from a wide phone to a tablet, with
-the Canvas Scaler, anchors, pivots, layout groups and a scrolling list, and keep it up to
-date without wasted work (Associate: UI — lay out UI with anchors, pivots and groups;
-display data in UI elements).
-
-### Idea — the Canvas's three render modes
-
-| **Render Mode** | Drawn | Use it for |
-| --- | --- | --- |
-| **Screen Space - Overlay** | on top of everything, after the cameras have drawn | most menus and HUDs |
-| **Screen Space - Camera** | by a camera, on a flat sheet **Plane Distance** in front of it | UI that effects must draw in front of |
-| **World Space** | as an object in the world, with its own position, rotation and scale | a health bar over a kart, a price sign on a stand |
-
-Nothing can be in front of an Overlay Canvas: sparks from a played card, or coins
-bursting out of a juice stand, vanish behind the UI. In **Screen Space - Camera**, with
-**Render Camera** set to the Main Camera, the Canvas sorts with everything that camera
-draws, by **Sorting Layer** and **Order in Layer** like a sprite: give the effect a higher
-**Order in Layer** (in its **Renderer** module) and it draws in front. With no camera, the
-Inspector says "A Screen Space Canvas with no specified camera acts like an Overlay Canvas."
-
-### Idea — the Canvas Scaler
-
-On the Canvas, the **Canvas Scaler** decides how big the UI is on each screen:
-
-| Setting | Set it to | Means |
-| --- | --- | --- |
-| **UI Scale Mode** | **Scale With Screen Size** | the UI grows and shrinks with the screen |
-| **Reference Resolution** | 1920 × 1080 | the space you design in |
-| **Screen Match Mode** | **Match Width Or Height** | what to keep when the screen isn't 16:9… |
-| **Match** | 0.5 | …0 keeps the width, 1 the height, 0.5 meets halfway |
-
-A screen of another shape can't keep both 1920 and 1080. Here is the space, in UI units,
-that your Canvas really has on three shapes:
-
-| Screen | Match 0 | Match 0.5 | Match 1 |
-| --- | --- | --- | --- |
-| 16:9 monitor | 1920 × 1080 | 1920 × 1080 | 1920 × 1080 |
-| 20:9 phone | 1920 × 864 | 2147 × 966 | 2400 × 1080 |
-| 4:3 tablet | 1920 × 1440 | 1663 × 1247 | 1440 × 1080 |
-
-At 0.5 the phone is **wider and a little shorter** than your design: what's anchored to
-the sides moves outwards, and a column that filled 1080 loses 114 units. The tablet is
-**narrower and taller**: side panels move inwards, and a row of buttons 1800 wide no
-longer fits. Keep what must always show inside about 1660 × 960 in the middle, and anchor the
-rest to the edges.
-
-> **Note:** phones also have notches and rounded corners. uGUI 2.6's **Safe Area**
-> component (**Add Component → UI (Canvas) → Safe Area**) shrinks a panel to the part of
-> the screen that's safe to use.
-
-### Idea — anchors: a point or a stretch
-
-A Rect Transform's **anchors** are two points, **Min** and **Max**, given as fractions of
-the parent: (0, 0) is its bottom-left corner, (1, 1) its top-right.
-
-| Anchors | The element | The Rect Transform shows |
-| --- | --- | --- |
-| together: a **point** (Min = Max) | keeps its distance from that point, and its size | **Pos X**, **Pos Y**, **Width**, **Height** |
-| apart across: a **stretch** | stretches with the parent's width | **Left** and **Right**, instead of Pos X and Width |
-| apart up and down | stretches with the parent's height | **Top** and **Bottom**, instead of Pos Y and Height |
-
-Left, Right, Top and Bottom are **offsets**, from each edge to its anchor: a top bar
-stretched across, with Left and Right at 20, is 20 units from both sides on any screen.
-In code they're `offsetMin` and `offsetMax`; a point's `anchoredPosition` and `sizeDelta`.
-
-The **anchor presets** (the square at the top left of the Rect Transform) set common
-anchors in one click. Hold **Shift** to set the pivot too, and **Alt** (**Option** on a
-Mac) to move the element there as well.
-
-### Idea — pivots: where it grows from
-
-The **pivot** is the point an element rotates and scales around, from (0, 0), its
-bottom-left corner, to (1, 1). A row of buttons along the bottom of a menu, each growing
-when the pointer is over it, shows why it matters: with the pivot in the middle,
-(0.5, 0.5), a button grows downwards too, off the bottom of the screen. With the pivot on
-its bottom edge, (0.5, 0), the bottom stays put and the button grows upwards.
-
-```csharp
-using UnityEngine;
-
-// Pointer Enter and Pointer Exit in an Event Trigger call these. The button grows
-// from its pivot: put the pivot at (0.5, 0) and it grows upwards, away from the
-// screen's edge.
-public class HoverGrow : MonoBehaviour
-{
-    const float HoverScale = 1.2f;
-
-    public void Grow()
-    {
-        transform.localScale = Vector3.one * HoverScale;
-    }
-
-    public void Shrink()
-    {
-        transform.localScale = Vector3.one;
-    }
-}
-```
-
-A layout group ignores its children's scale (unless **Use Child Scale** is ticked), so a
-growing button doesn't push its neighbours. C# 8 shows a way to do it with no
-Event Trigger.
-
-### Idea — layout groups
-
-Put a layout group on a parent, and it places the children for you, in their order in the
-Hierarchy: a **Horizontal Layout Group** in a row, a **Vertical Layout Group** in a
-column, a **Grid Layout Group** in rows and columns of equal cells.
-
-| Setting | Does |
-| --- | --- |
-| **Padding** | space inside the parent's edges: Left, Right, Top, Bottom |
-| **Spacing** | the gap between children; negative, and they overlap |
-| **Child Alignment** | where the children sit when they don't fill the parent, such as **Lower Center** |
-| **Control Child Size** | the group sets the children's width or height, from their Layout Elements |
-| **Child Force Expand** | spare space is shared out between the children |
-| **Cell Size**, **Constraint** (Grid only) | every cell's size; **Fixed Column Count** keeps, say, 5 per row |
-
-A row of buttons is a Horizontal Layout Group, a shop's list of upgrades a Vertical one,
-a deck builder's collection of cards a Grid. The group owns its children's positions: their Rect Transform
-fields go grey and say they're driven by it, so don't set them from code either.
-
-Two more components fine-tune a layout:
-
-- A **Layout Element**, on a child, tells the group about it: **Ignore Layout** leaves it
-  out altogether (a glow behind the chosen button), and **Min**, **Preferred** and
-  **Flexible** **Width** and **Height** say what size it wants when the group controls it.
-- A **Content Size Fitter**, on the parent, resizes the parent to fit what's inside:
-  **Vertical Fit: Preferred Size** makes a list exactly as tall as its rows.
-
-### Idea — a list that scrolls
-
-**GameObject → UI (Canvas) → Scroll View** makes a ready-made list:
-
-| Object | Has | Does |
-| --- | --- | --- |
-| `Scroll View` | **Scroll Rect** | moves the content when you drag or scroll |
-| `Viewport` | **Mask** and an Image | the window: content outside it is hidden |
-| `Content` | (you add the layout) | the long list that moves |
-
-For a vertical list, untick the Scroll Rect's **Horizontal**, and give `Content` a
-**Vertical Layout Group** and a **Content Size Fitter** (**Vertical Fit: Preferred
-Size**). Each row you add makes `Content` taller, and the scroll range follows. On the
-`Viewport`, you can swap the Mask and its Image for a **Rect Mask 2D**: it clips to a
-rectangle without an Image, and costs less.
-
-### Idea — nested Canvases
-
-Unity rebuilds a Canvas's drawing whenever anything in it changes, so a timer that changes
-every frame rebuilds the whole screen around it every frame. Give the part that changes
-often its own **Canvas** component (a **nested Canvas**): its changes rebuild only it. If
-it has buttons, give it a **Graphic Raycaster** too. Split by how often things change: a
-Canvas for every element costs more, not less.
-
-### Idea — showing data only when it changes
-
-Setting `text` in `Update` makes a new string and rebuilds the Canvas sixty times a second,
-even when the number is the same. Set it when the value changes instead:
-
-```csharp
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// A juice stand's stock, as a number and a bar. The stand calls Show when its
-// stock changes; nothing here runs every frame.
-public class StockDisplay : MonoBehaviour
-{
-    [SerializeField] TMP_Text stockText;
-    [SerializeField] Image stockBar;        // Image Type: Filled
-
-    public void Show(int stock, int capacity)
-    {
-        stockText.text = $"{stock} / {capacity}";
-        stockBar.fillAmount = (float)stock / capacity;
-    }
-}
-```
-
-When you must check every frame, compare with what's on screen first. A race clock
-changes its text once a second, not sixty times:
-
-```csharp
-[SerializeField] TMP_Text clockText;
-
-float raceTime;
-int shownSeconds = -1;
-
-void Update()
-{
-    raceTime += Time.deltaTime;
-    int seconds = Mathf.FloorToInt(raceTime);
-    if (seconds != shownSeconds)
-    {
-        shownSeconds = seconds;
-        clockText.text = $"{seconds / 60}:{seconds % 60:00}";
-    }
-}
-```
-
-Layout settings can change from code too. A row of item icons that overlaps them once it
-holds more than five, so it never grows wider:
-
-```csharp
-const int MaxIconsSideBySide = 5;
-const float NormalSpacing = 10f;
-const float OverlapSpacing = -30f;
-
-[SerializeField] HorizontalLayoutGroup itemRow;
-
-void ArrangeItems(int itemCount)
-{
-    itemRow.spacing = itemCount > MaxIconsSideBySide ? OverlapSpacing : NormalSpacing;
-}
-```
-
-### Idea — Image types
-
-| **Image Type** | Does | Use it for |
-| --- | --- | --- |
-| **Simple** | stretches the whole picture (tick **Preserve Aspect** to stop squashing) | icons, portraits |
-| **Sliced** | a **9-slice**: corners keep their size, edges stretch one way, the middle both | panels, buttons and frames of any size, from one small sprite |
-| **Tiled** | repeats the picture | patterns |
-| **Filled** | shows part of it: **Fill Method**, **Fill Origin**, **Fill Amount** | bars, and round cooldowns with **Radial 360** |
-
-A 9-slice needs the sprite's **border**: click **Open Sprite Editor** in the sprite's
-Inspector, and drag the green lines in from each edge (or type **L**, **T**, **R**, **B**).
-Without one, the Image's Inspector warns: "This Image doesn't have a border."
-
-### Idea — test every shape
-
-- **The Game view's aspect menu** (it starts as **Free Aspect**): try **16:9 Aspect** and
-  **4:3 Aspect**, and add your own with **+**, such as an aspect ratio of 20 × 9.
-- **The Device Simulator**: switch the Game view's **Game** menu to **Simulator** (or
-  **Window → General → Device Simulator**), pick a phone and a tablet, and rotate them.
-  It shows the notch and the safe area too.
-
-On each: is anything cut off, overlapping, or too small to read or press?
-
-### Do it
-
-1. Set a Canvas's Canvas Scaler as above. Anchor a button to each corner, a bar
-   stretched across the top, and a panel in the middle. Check 16:9, 4:3 and 20:9.
-2. Make a row of five Images under a Horizontal Layout Group. Try **Spacing** −40,
-   **Child Alignment** **Lower Center**, and **Child Force Expand** on and off.
-3. Add `HoverGrow` to one Image, with an **Event Trigger** calling `Grow` and `Shrink`.
-   Try its pivot at (0.5, 0.5), then at (0.5, 0).
-4. Make a Scroll View with twenty rows in a Vertical Layout Group and a Content Size
-   Fitter. Swap the Viewport's Mask for a Rect Mask 2D.
-5. Make a panel from a small sprite with **Image Type: Sliced**, and give the sprite a
-   border. Stretch the panel: the corners should stay sharp.
-
-### Challenge
-
-Build a shop screen: a title bar stretched across the top, a money counter anchored top
-right, and a scrolling grid of items (a Grid Layout Group with **Fixed Column Count**)
-that has three columns on a tablet and four on a phone. Set the count from code when the
-screen starts, from the Canvas's width in UI units: its Rect Transform's `rect.width`.
-
-## Chapter 2 — The Screen
-
-**Goal:** the Beach scene's screen, tall like a phone's: the beach across the top, drawn in
-the world by the camera; over it a **canvas** with the money and the stars at the top, and
-a cream list area covering the bottom 60 %, ready for a row per business; all of it kept
-clear of a phone's notch.
-
-### Idea — a phone held upright
-
-Phone games are played upright, so this one is **portrait**: 1080 pixels wide and 1920
-tall. Two layers make the screen, as in every 2D game from Level 2 on:
-
-| Layer | Made of | Holds |
-| --- | --- | --- |
-| **The world** | sprites, drawn by an orthographic camera | the beach; the businesses, the van and the balloon later |
-| **The canvas** | UI (C# 2), a **Screen Space – Overlay** canvas | the money, the list, the buttons, the tabs, the panels |
-
-An orthographic camera shows a fixed **height** of the world. At **Size** 10 that's 20
-units, whatever the phone: the beach is always the same height on the screen.
-
-The canvas has the opposite problem. Phones are all 1080 or so wide, but their heights
-differ: a 9:16 phone is 1920 tall, a 9:20 one 2400. The **Canvas Scaler** keeps the UI's
-size from the **width** (**Match** 0): every phone shows the same 1080-wide layout, and a
-taller phone gets more list, not smaller buttons.
-
-Then the **notch**. Most phones have a camera cut into the top of the screen, and rounded
-corners. Anything under them can't be read or tapped. Unity knows the part of the screen
-that's clear: `Screen.safeArea`, a rectangle in pixels. A small script keeps the UI
-inside it; the beach and the cream behind the list can go to the edges.
-
-### Do it — the scene and the camera
-
-1. In `Assets/Scenes`, rename `SampleScene` to `Beach` (select it, **F2** on Windows or
-   **Return** on a Mac). Open it. It has a **Main Camera** and a **Global Light 2D**:
-   keep both. The light lights every sprite; without one, the 2D Renderer would draw them
-   dark.
-2. In the **Game** view, open the aspect menu (it says **Free Aspect**) and click **+**:
-   **Label** `Phone`, **Type** **Fixed Resolution**, **Width & Height** 1080 × 1920, **OK**.
-   Choose it. The Game view is now a tall phone screen.
-3. Select the **Main Camera**: **Projection** is already **Orthographic**. **Size** `10`.
-   Under **Environment**, **Background Type** **Solid Color**, and **Background**
-   `#8ED8F5`, the beach's sky blue, for any sky the picture doesn't cover.
-4. Drag `Art/Background/Beach` into the **Hierarchy**. **Position** (0, 6.75, 0), **Scale**
-   (0.62, 0.62, 1), **Order in Layer** `-10`. At 100 pixels a unit the picture is 30.7 ×
-   15.4 units; at 0.62 it's 19 × 9.5: the whole sea and the grass, from the screen's top
-   down to y = 2, with the sides cut off by the tall screen.
-
-### Do it — the canvas and the safe area
-
-5. **Edit → Project Settings → TextMesh Pro → Settings**: drag `LilitaOne-Regular SDF`
-   into **Default Font Asset**. Every new text uses it from now on.
-6. **GameObject → UI (Canvas) → Canvas**. Unity makes a `Canvas` and an `EventSystem`.
-   Select the `EventSystem`: it has an **Input System UI Input Module**, the Input
-   System's way of pointing at UI. (If it shows the older **Standalone Input Module**
-   instead, click **Replace with InputSystemUIInputModule**.)
-7. Select the `Canvas`. **Render Mode** stays **Screen Space - Overlay**: drawn over
-   everything the camera draws. In its **Canvas Scaler**: **UI Scale Mode** **Scale With
-   Screen Size**, **Reference Resolution** 1080 × 1920, **Screen Match Mode** **Match
-   Width Or Height**, **Match** `0` (all the way to **Width**).
-8. Right-click the `Canvas` → **Create Empty**, `Safe Area`. In its Rect Transform, open
-   the anchor presets, hold **Alt** (**Option** on a Mac), and click the bottom-right one,
-   **stretch–stretch**: it fills the canvas.
-9. In `Scripts/Flow`, a new script, `SafeArea`, and add it to `Safe Area`:
-
-```csharp:SafeArea.cs
-using UnityEngine;
-
-// Keeps this rectangle inside the screen's safe area: clear of a phone's notch
-// and rounded corners. Everything the player must read or tap goes inside it;
-// the background can stay full-screen behind. It checks again when the safe
-// area changes, as when a phone turns.
-[RequireComponent(typeof(RectTransform))]
-public class SafeArea : MonoBehaviour
-{
-    RectTransform rect;
-    Rect applied;
-
-    void Awake()
-    {
-        rect = GetComponent<RectTransform>();
-        Apply();
-    }
-
-    void Update()
-    {
-        if (Screen.safeArea != applied)
-        {
-            Apply();
-        }
-    }
-
-    // The safe area is in pixels; anchors are 0 to 1 across the screen.
-    void Apply()
-    {
-        applied = Screen.safeArea;
-        Vector2 min = applied.position;
-        Vector2 max = applied.position + applied.size;
-        min.x /= Screen.width;
-        min.y /= Screen.height;
-        max.x /= Screen.width;
-        max.y /= Screen.height;
-        rect.anchorMin = min;
-        rect.anchorMax = max;
-        rect.offsetMin = Vector2.zero;
-        rect.offsetMax = Vector2.zero;
-    }
-}
-```
-
-10. Read it with the docs open: search the Unity Scripting API for **Screen.safeArea**. It's
-    a `Rect` in **pixels**, from the bottom-left corner. Anchors are **fractions** of the
-    parent, 0 to 1, so the script divides by the screen's size. With the anchors on the
-    safe area's edges and the offsets at zero, the rectangle **is** the safe area. It
-    checks every frame, but only does the work when the safe area changed, as when a phone
-    turns over.
-
-### Do it — the top bar
-
-11. Right-click `Safe Area` → **Create Empty**, `Top Bar`. Anchor preset **top–stretch**
-    with **Alt** and **Shift** (anchor, position and pivot at the top). **Height** `170`.
-12. In `Top Bar`, an **Image**, `Money`: anchor **middle–left** with Shift, **Pos** (14, 0),
-    **Width** 530, **Height** 150. **Source Image** `Panel Light`, **Image Type**
-    **Sliced**.
-13. In `Money`, an **Image**, `Coin`: anchor **middle–left** with Shift, **Pos** (18, 0),
-    100 × 100, **Source Image** `coin_3d`, **Preserve Aspect** ticked, **Raycast Target**
-    off.
-14. In `Money`, a **Text - TextMeshPro**, `Money Text`: anchor **top–left** with Shift,
-    **Pos** (128, −12), 390 × 78. Text `$0`, size 66, colour `#7A4A1E` (the game's brown),
-    aligned left and middle, **Raycast Target** off.
-15. In `Money`, another text, `Income Text`: anchor **bottom–left** with Shift, **Pos**
-    (128, 14), 390 × 46. Text `Tap to squeeze!`, size 32, colour `#B07A3E` (light brown),
-    left and middle, **Raycast Target** off.
-16. In `Top Bar`, an **Image**, `Stars`: anchor **middle–left** with Shift, **Pos** (556,
-    0), 230 × 150, `Panel Light`, **Sliced**. In it, an Image `Star`: middle–left, **Pos**
-    (14, 0), 92 × 92, `glowing_star_3d`, **Preserve Aspect**, no raycast; and a text `Stars
-    Text`: middle–left, **Pos** (112, 0), 104 × 80, text `0`, size 58, brown, centred.
-
-    The space between the stars and the right edge is for two buttons: the cog (Chapter
-    3) and the ad's TV (Chapter 17).
-
-### Do it — the list area
-
-17. The beach shows at the top; a cream list covers the rest. Right-click `Safe Area` →
-    **UI (Canvas) → Image**, `Bottom`. Set its anchors by hand: **Min** (0, 0), **Max**
-    (1, 0.604), **Pivot** (0.5, 0), and **Left**, **Top**, **Right**, **Bottom** all 0. **Color**
-    `#FCE9BE` (cream). The anchors keep it to the bottom 60.4 % of the safe area: on a
-    1920-tall screen its top is at y = 2.08 in the world, just over the beach picture's
-    bottom edge, so no gap shows.
-18. In `Bottom`, an **Image**, `Edge`: anchor **top–stretch**, then set **Pivot** (0.5, 0),
-    **Pos Y** 0 and **Height** 10. **Color** `#B07A3E`. It sits on top of `Bottom`, a
-    brown line along the shore.
-19. On a phone with a notch the safe area stops short of the screen's bottom too, and the
-    beach would show under the list. Right-click the **Canvas** (not the safe area) →
-    **UI (Canvas) → Image**, `Under`: anchor **bottom–stretch** with Shift, **Height**
-    400, cream (`#FCE9BE`), **Raycast Target** off. Drag it to the top of the Canvas's
-    children, so it's drawn first, behind everything.
-20. In `Bottom`, **Create Empty**, `Buy Bar`: anchor **top–stretch** with Shift, **Pos Y**
-    −10, **Height** 114. In it, a text `Buy`: middle–left with Shift, **Pos** (30, 0), 150 ×
-    80, size 52, brown. The ×1, ×10, ×100 and Max buttons go beside it in Chapter 3.
-21. In `Bottom`, **Create Empty**, `Stand List`. Anchor **stretch–stretch** with Alt, then
-    **Left** 0, **Top** 124, **Right** 0, **Bottom** 190: under the buy bar, above the tabs.
-22. Right-click `Stand List` → **UI (Canvas) → Scroll View**. Make it fill `Stand List`
-    (**stretch–stretch** with Alt). Then tidy what Unity made:
-    - Delete `Scrollbar Horizontal` and `Scrollbar Vertical`: a finger scrolls the list.
-    - On `Scroll View`: remove its **Image** component (the list has no frame). In its
-      **Scroll Rect**, untick **Horizontal**, **Scroll Sensitivity** `30`.
-    - On `Viewport`: if it has a **Mask**, remove it and **Add Component → Rect Mask 2D**.
-      It hides the rows that scroll out of the list, more cheaply than a Mask: a rectangle
-      needs no stencil. Keep its **Image**, but set its **Color** alpha to 0: invisible,
-      but it catches the finger's drag.
-    - Rename `Content` to `List`. **Add Component → Vertical Layout Group**: **Padding**
-      left 24, right 24, top 18, bottom 24; **Spacing** 14; **Control Child Size** both
-      ticked; **Child Force Expand** only **Width**. **Add Component → Content Size
-      Fitter**: **Vertical Fit** **Preferred Size**. The layout group puts the rows one
-      under another, full width; the fitter makes `List` as tall as its rows, so the
-      scroll view knows how far it can scroll.
-23. In `Safe Area`, an **Image**, `Tab Bar`: anchor **bottom–stretch** with Shift,
-    **Height** 190, **Color** `#F5D79A`. The five tabs go in it in Chapter 3. Make sure
-    `Tab Bar` is below `Bottom` in the Hierarchy, so it's drawn over it.
-
-### Test it
-
-- **Play.** Nothing moves yet, but the screen is there: the sky and the sea, the money
-  and the stars, a cream list area with its brown edge, and the tab bar at the bottom.
-- **Window → General → Device Simulator.** A phone, drawn around the Game view. Choose a
-  phone with a notch from the menu at the top (an iPhone 13, say). Play: the top bar moves
-  down, clear of the notch, and the tab bar up, clear of the bar along the bottom. The
-  sea and the cream still reach the edges. Select `Safe Area` while playing: its anchors
-  are no longer 0 and 1.
-- Turn the simulated phone on its side (the rotate button): the safe area changes, and
-  `SafeArea` follows it. The layout looks odd sideways; the game will stay upright
-  (Chapter 21).
-- In the Game view, choose the `Phone` size again and change **Match** on the Canvas
-  Scaler to 1 (**Height**) while playing, then try the Device Simulator on a tall phone:
-  the whole UI shrinks to fit the height. Back to 0.
-
-### Commit
-
-*Add the Beach screen: the top bar, the beach and the list area.*
-
-### Challenge
-
-Make `SafeArea` log the safe area each time it changes, with
-`Debug.Log($"Safe area: {applied}")` in `Apply`, and watch the Console while you turn the simulated
-phone. Then take the log out again: the style guide says why.
-
-## C# 3 — Prefabs in Depth
-
-**Goal:** you can build prefabs out of other prefabs, make variants of them, change an
-instance and then apply or revert the change, predict which objects a change reaches, and
-make instances from code (Associate: Assets — change nested prefabs and prefab variants,
-and predict the outcome; use prefabs in a scene).
-
-### Idea — a prefab, again
-
-A **prefab** is an asset that holds a GameObject, with its children and components, ready
-to use many times. Every copy of it in a scene is an **instance**, linked to the asset:
-change the prefab, and every instance changes. In the Hierarchy, instances have blue names
-and a blue cube icon.
-
-Three ideas take prefabs much further, and the exam asks about all three: prefabs inside
-prefabs (**nested**), prefabs based on prefabs (**variants**), and the changes an instance
-makes to its prefab (**overrides**).
-
-### Idea — Prefab Mode
-
-You edit a prefab itself in **Prefab Mode**. Open it by double-clicking it in the Project
-window, by clicking the arrow (**>**) to the right of an instance in the Hierarchy, or with
-**Open** in an instance's Inspector.
-
-- The **Hierarchy** shows only the prefab, under a header with a back arrow (**<**).
-- The **breadcrumbs** at the top of the Scene view show where you are: the scene, then
-  **Duelist Panel**, then **Health Bar**, say. Click one to go back up.
-- **Auto Save**, at the top right of the Scene view, saves every change at once. Turn it
-  off, and a **Save** button appears instead; Unity asks you to save when you leave.
-
-Opened from an instance, the scene stays visible around the prefab, greyed out, so you
-can see it in its place. Leave with the back arrow or a breadcrumb.
-
-### Idea — nested prefabs
-
-A prefab can hold instances of other prefabs, and each keeps its own link:
-
-| Outer prefab | Holds (nested prefabs) |
-| --- | --- |
-| a Kart | four Wheel instances |
-| a Juice Stand | a Price Tag and a Counter |
-| a Duelist Panel | a Health Bar and a Mana Bar |
-
-To nest one, open the outer prefab in Prefab Mode and drag the inner prefab into its
-Hierarchy. Change the Wheel prefab, and the wheels on every kart change, in every scene:
-you made the change once, in one place.
-
-### Idea — variants
-
-A **variant** is a prefab based on another one, its **base**. It holds everything the base
-holds, plus its own changes. A Health Bar is a Bar with a red fill and a heart icon; a Fast
-Kart is a Kart with a bigger engine and a stripe.
-
-To make one: right-click the base in the Project window → **Create → Prefab Variant**,
-then open the variant and change what differs. Its icon is a prefab cube with an arrow.
-
-A variant stores **only its differences**. Its file names its base by GUID (the ID in the
-base's `.meta` file, C# 1) and lists the changes:
-
-```
-PrefabInstance:
-  m_Modification:
-    m_Modifications:
-    - target: {fileID: 5389347945180400670, guid: 3b8e…, type: 3}
-      propertyPath: m_Color.r
-      value: 0.76
-    …
-  m_SourcePrefab: {fileID: 100100000, guid: 3b8e…, type: 3}
-```
-
-So a change to the base reaches the variant, except where the variant has its own value.
-A **duplicate** (**Ctrl + D**, **Cmd + D** on a Mac) is different: a separate prefab, with
-no link to the original at all.
-
-### Idea — overrides
-
-Change an instance, and the change is an **override**: the instance's own value, kept
-instead of the prefab's.
-
-| Override | How Unity shows it |
-| --- | --- |
-| a changed property | its label turns **bold**, with a blue line in the Inspector's margin |
-| an added component | a **+** on the component's icon |
-| an added child GameObject | a **+** on its icon in the Hierarchy |
-| a removed component or child | listed in the **Overrides** drop-down |
-
-The root's name, position and rotation belong to each instance: they're left out of the
-**Overrides** drop-down, and out of **Apply All**.
-
-The **Overrides** drop-down, at the top of the instance root's Inspector, lists every
-override. Click one to compare it with the prefab, side by side. Then:
-
-- **Apply** sends the change into the prefab: every instance gets it. **Apply All**
-  applies them all.
-- **Revert** throws it away: the instance takes the prefab's value again. **Revert All**
-  reverts them all.
-
-For one property, right-click it: the menu offers **Revert**, and an **Apply** for each
-prefab the change could go to.
-
-### Idea — how a change travels
-
-This is the exam's favourite prefab question. Here is the setup:
-
-1. **Bar**, a prefab: a frame, a **Fill** image (white), an icon and a value text (**Font
-   Size** 28).
-2. **Health Bar** and **Shield Bar**, two variants of Bar: Health Bar overrides the fill
-   to red, Shield Bar to blue.
-3. **Duelist Panel**, a prefab with a portrait and a Health Bar instance nested in it.
-4. A scene with two Duelist Panel instances: **Left Panel** and **Right Panel**.
-
-Now make four changes, one at a time, and predict which bars change:
-
-- **A.** In Bar's Prefab Mode, set the text's **Font Size** to 32.
-- **B.** In Health Bar's Prefab Mode, set the fill to dark red.
-- **C.** In Duelist Panel's Prefab Mode, select its Health Bar's icon and switch it off:
-  an override, kept in the Duelist Panel prefab.
-- **D.** In the scene, select Right Panel's Health Bar and set its fill to purple: an
-  override, kept in the scene.
-
-| Change made in | Bar | Shield Bar | Health Bar | Duelist Panel's bar | Left Panel's bar | Right Panel's bar |
-| --- | --- | --- | --- | --- | --- | --- |
-| **A**, Bar | changes | changes | changes | changes | changes | changes |
-| **B**, Health Bar | — | — | changes | changes | changes | changes |
-| **C**, Duelist Panel | — | — | — | changes | changes | changes |
-| **D**, the scene | — | — | — | — | — | changes |
-
-The rule: a change reaches **everything built on top of the place you made it**, and
-nothing underneath. Bar is at the bottom of the pile; the scene is at the top.
-
-And one more rule: **an override wins**. Make change D first, then B: Right Panel's bar
-stays purple, because its fill colour is its own now. It still takes A and C, which change
-other properties. In the same way, if Health Bar had overridden the font size, change A
-would reach Shield Bar but no Health Bar anywhere.
-
-Where should D go, if every panel's bar should be purple? Right-click the fill's
-**Color** in the scene. The menu offers an **Apply** entry for each prefab the bar comes
-from, each named: the Duelist Panel (every Duelist Panel would get it), the Health Bar
-variant (every Health Bar, in the panels and anywhere else), and so on down to Bar.
-Apply it to the prefab whose every use should change.
-
-> **Tip:** before changing a prefab, ask "what's built on this?": every variant of it,
-> every prefab it's nested in, and all their instances will change too.
-
-### Idea — unpacking
-
-Right-click an instance in the Hierarchy → **Prefab**:
-
-| Choice | Does |
-| --- | --- |
-| **Unpack** | the instance becomes plain GameObjects, but prefabs nested inside it stay instances |
-| **Unpack Completely** | everything becomes plain GameObjects, nested prefabs too |
-
-An unpacked object has no link: fixes to the prefab never reach it again. That's
-occasionally what you want, for a one-off made from a prefab's parts. Almost always, a
-variant or an override does the job and keeps the link, so reach for those first.
-
-### Idea — instances from code
-
-Type the prefab field as the **component** you'll use, not as a `GameObject`. Then
-`Instantiate` returns that component on the new copy, with no `GetComponent` needed, and
-the Inspector only accepts a prefab that has one:
-
-```csharp
-using UnityEngine;
-
-public class Coin : MonoBehaviour
-{
-    [SerializeField] int value = 1;
-
-    public int Value { get { return value; } }
-
-    public void SetValue(int newValue)
-    {
-        value = newValue;
-    }
-}
-```
-
-```csharp
-using UnityEngine;
-
-// Makes a row of coins from the Coin prefab, each worth more than the last.
-public class CoinRow : MonoBehaviour
-{
-    const int CoinCount = 3;
-    const float Gap = 1.5f;
-
-    [SerializeField] Coin coinPrefab;
-    [SerializeField] Transform coinParent;
-
-    void Start()
-    {
-        for (int i = 0; i < CoinCount; i++)
-        {
-            Coin coin = Instantiate(coinPrefab, coinParent);
-            coin.transform.localPosition = new Vector3(i * Gap, 0f, 0f);
-            coin.SetValue(i + 1);
-            Debug.Log($"{coin.name} is worth {coin.Value}");
-        }
-    }
-}
-```
-
-With a prefab called `Coin` in **Coin Prefab**:
-
-```
-Coin(Clone) is worth 1
-Coin(Clone) is worth 2
-Coin(Clone) is worth 3
-```
-
-`Instantiate(prefab, parent)` puts the copy under `parent`: in a UI list with a layout
-group, that's all a new row needs. `Instantiate(prefab, position, rotation, parent)` also
-places it.
-
-> **Watch out:** change the copy that `Instantiate` returns, never the prefab field
-> itself. `coinPrefab.SetValue(5)` changes the prefab **asset**: in the Editor, the change
-> stays after Play stops, and every coin made from it afterwards starts at 5.
-
-### Do it
-
-1. Make a Bar prefab and two variants, with different fill colours. Change the base's
-   frame colour, and check that both variants follow.
-2. Nest a Health Bar in a Panel prefab, and put two Panels in a scene. Make changes A to
-   D from this chapter, predicting each result before you look.
-3. Revert D, then make it again, and change Health Bar's fill colour once more. Which bars
-   change? Then revert D with the **Overrides** drop-down, and check again.
-4. Add a component to one instance, and find it in the **Overrides** drop-down. Apply
-   it, and check the prefab.
-5. Make `Coin` and `CoinRow`, and play. Then change `CoinRow` to place each coin with
-   `Instantiate(prefab, position, rotation, parent)`, in a column instead of a row.
-
-### Challenge
-
-Build a Kart prefab with four nested Wheel prefabs, then a Fast Kart variant with bigger
-rear wheels. Before each step, write down which karts will change: change the Wheel
-prefab's colour; change the Kart's body colour; override one wheel's size on one Fast
-Kart in the scene, then apply it as an override in the Fast Kart variant.
-
-## Chapter 3 — Buttons and Rows
-
-**Goal:** the pieces every screen of the game is made of, as prefabs: a **Candy Button**
-with a green, a grey and a red variant; a square **Icon Button**; a **Progress Bar**; the
-**Stand Row** and **Upgrade Row**, built from those; a **Panel** with a variant for each
-of the game's five panels; and the tabs along the bottom, opening and closing them.
-
-### Idea — one button, four colours
-
-The game has dozens of buttons, all the same candy shape in four colours. Make one
-**Candy Button** prefab, then a **variant** for each other colour: a variant is the
-original plus a few overrides, here only its picture. Later a change to the Candy Button
-(its press colour, its font, a bounce in Chapter 16) reaches all four at once.
-
-The rows are **nested prefabs**: a Stand Row holds an Icon Button, a Progress Bar and a
-green Candy Button, each still linked to its own prefab. Make the Progress Bar's pink a
-little darker, and every row's bar changes.
-
-| Prefab | Holds | Variants |
-| --- | --- | --- |
-| **Candy Button** | the blue button, a label | **Green**, **Grey**, **Red** |
-| **Icon Button** | a blue square, an emoji | |
-| **Progress Bar** | a back, a pink fill | |
-| **Stand Row** | an **Icon Button**, a **Progress Bar**, a **Green** button, the texts, the manager's badge | |
-| **Upgrade Row** | a picture, the texts, a **Green** button | |
-| **Panel** | the frame, the ribbon, a close button, an empty `Content` | **Upgrades**, **Managers** (a variant of Upgrades), **Trophies**, **New Beach**, **Settings** |
-
-### Do it — the Candy Button and its variants
-
-1. Right-click `Safe Area` → **UI (Canvas) → Image**, `Candy Button`, 290 × 114. **Source
-   Image** `Button Blue`, **Image Type** **Sliced**. **Add Component → Button**: in its
-   colours, **Pressed** `#D1D1D1` and **Disabled** white (`#FFFFFF`). A button that can't
-   be pressed will show it with a grey picture, not a faded one.
-2. Right-click `Candy Button` → **UI (Canvas) → Text - TextMeshPro**, `Label`:
-   **stretch–stretch** (with Alt), then **Left** 14, **Top** 10, **Right** 14, **Bottom**
-   12. Text `Button`, size 44, white, centred both ways, **Raycast Target** off. **Material
-   Preset** `LilitaOne-Regular SDF Shadow`: white letters with a brown edge.
-3. Drag `Candy Button` into `Assets/Prefabs/UI`. Delete it from the scene.
-4. Right-click the `Candy Button` prefab → **Create → Prefab Variant**, and name it
-   `Candy Button Green`. Open it (double-click), set its **Source Image** to `Button
-   Green`, and go back (the arrow at the top of the Hierarchy). Make `Candy Button Grey`
-   (`Button Grey`) and `Candy Button Red` (`Button Red`) the same way.
-
-### Do it — the Icon Button and the Progress Bar
-
-5. In `Safe Area`, an **Image**, `Icon Button`, 122 × 126: **Source Image** `Square Blue`,
-   **Preserve Aspect**. **Add Component → Button**. In it, an **Image** `Icon`:
-   **stretch–stretch**, **Left** 22, **Top** 20, **Right** 22, **Bottom** 24, **Source
-   Image** `star_3d`, **Preserve Aspect**, **Raycast Target** off. Drag it into
-   `Prefabs/UI` and delete it from the scene. Each Icon Button in the game sets its own
-   emoji: an override.
-6. In `Safe Area`, an **Image**, `Progress Bar`, 360 × 36. For **Source Image**, click the
-   small circle and choose `UISprite`, Unity's own rounded rectangle. **Sliced**, colour
-   `#EAD7AE`. In it, an **Image** `Fill`: **stretch–stretch**, 4 from every side, `UISprite`
-   again, colour `#FF4FA3` (pink), and **Image Type** **Filled**: **Fill Method**
-   **Horizontal**, **Fill Origin** **Left**, **Fill Amount** 0.6 for now. Slide **Fill
-   Amount** between 0 and 1: the bar fills from the left. A script will set it to the
-   cycle's progress. Set it back to 0, drag the bar into `Prefabs/UI`, and delete it.
-
-### Do it — the Stand Row
-
-7. In `Safe Area`, an **Image**, `Stand Row`, 1000 × 156, `Panel Light`, **Sliced**. **Add
-   Component → Layout Element**: **Preferred Height** 156 and **Flexible Width** 1. The
-   list's layout group reads these: every row 156 tall, as wide as the list.
-8. Fill it. Every position is from the anchor named, with the pivot moved there too
-   (**Shift** with the anchor preset):
-
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Picture Button` | the **Icon Button** prefab | middle–left | (14, 0) | 122 × 126 | its `Icon`: `cup_with_straw_3d` |
-| `Name` | a text | top–left | (150, −10) | 360 × 52 | `Lemonade Cup`, size 42, brown, left |
-| `Owned` | a text | top–left | (150, −60) | 400 × 36 | `owns 1 · next ×2 at 25`, size 27, light brown, left |
-| `Manager` | an Image | top–left | (456, −10) | 58 × 58 | `office_worker_3d_default`, Preserve Aspect |
-| `Progress Bar` | the **Progress Bar** prefab | bottom–left | (150, 16) | 330 × 36 | |
-| `Earnings` | a text | bottom–left | (490, 10) | 200 × 48 | `$1`, size 34, brown, left |
-| `Buy Button` | the **Candy Button Green** prefab | middle–right | (−12, 0) | 290 × 124 | |
-
-9. Untick **Raycast Target** on every text and on `Manager`: only the buttons need taps.
-10. The Buy button has two lines: what you buy, and its price. Select `Buy Button`'s
-   `Label`: **Bottom** 46, **Top** 6, size 38, text `Buy ×1`. Duplicate it (**Ctrl+D**),
-   name the copy `Price`: **Top** 58, **Bottom** 10, size 32, text `$4`.
-11. Drag `Stand Row` into `Prefabs/UI`, and delete it from the scene. Open the prefab and
-    look at the Hierarchy: `Picture Button`, `Progress Bar` and `Buy Button` have blue
-    cube icons. They're still the Icon Button, Progress Bar and Candy Button Green prefabs,
-    nested inside this one.
-
-### Do it — the Upgrade Row
-
-12. The same way, an `Upgrade Row`: an **Image**, 1000 × 150, `Panel Light`, **Sliced**,
-    with a **Layout Element** (**Preferred Height** 150, **Flexible Width** 1):
-
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Picture` | an Image | middle–left | (20, 0) | 104 × 104 | `lemon_3d`, Preserve Aspect |
-| `Name` | a text | top–left | (140, −12) | 520 × 50 | `Fresh Lemons`, size 40, brown |
-| `Description` | a text | top–left | (140, −62) | 520 × 76 | `Lemonade Cup earns ×3.`, size 27, light brown |
-| `Buy Button` | the **Candy Button Green** prefab | middle–right | (−12, 0) | 260 × 114 | its `Label`: `$25K` |
-
-13. The names matter: the intern's code, in Chapter 7, finds the row's parts by them.
-    Drag it into `Prefabs/UI` and delete it from the scene.
-
-### Do it — the buy bar and the cog
-
-14. In `Buy Bar`, drag in four **Candy Button** prefabs: `×1 Button`, `×10 Button`, `×100
-    Button` and `Max Button`. Each: anchor **middle–left** with Shift, 200 × 96, **Pos X**
-    190, 408, 626 and 844 (218 apart), **Pos Y** 0. Their labels: `×1`, `×10`, `×100`, `Max`,
-    size 42.
-15. In `Top Bar`, an **Icon Button** prefab, `Settings Button`: anchor **middle–right**
-    with Shift, **Pos** (−14, 0), 126 × 130. Its **Source Image** `Icon Gear`, and untick
-    its `Icon` child: pzUH's icons are whole buttons, picture and all.
-
-### Do it — the Panel and its variants
-
-16. Right-click `Safe Area` → **Create Empty**, `Panels`: **stretch–stretch**, **Left** 0,
-    **Top** 170, **Right** 0, **Bottom** 178. The panels open in this space, between the top
-    bar and the tabs.
-17. Right-click `Panels` → **Create Empty**, `Panel`, **stretch–stretch** with no gaps:
-
-| Child | What | Anchor | Set |
-| --- | --- | --- | --- |
-| `Frame` | an Image | stretch–stretch: **Left** 12, **Top** 60, **Right** 12, **Bottom** 12 | `Panel`, **Sliced**; **Raycast Target** on: a tap on the panel mustn't reach the game behind it |
-| `Ribbon` | an Image | top–center with Shift, **Pos** (0, 0), 660 × 128 | `Ribbon`, **Sliced** |
-| `Ribbon/Title` | a text | stretch–stretch: **Left** 90, **Top** 10, **Right** 90, **Bottom** 34 | `Panel`, size 50, white, centred, the Shadow preset |
-| `Close Button` | the **Icon Button** prefab | top–right with Shift, **Pos** (0, −36), 104 × 108 | **Source Image** `Icon Close`; untick its `Icon` |
-| `Content` | an empty | stretch–stretch: **Left** 52, **Top** 160, **Right** 52, **Bottom** 48 | where each panel puts its own things |
-
-18. Drag `Panel` into `Prefabs/UI`, and delete it from the scene.
-19. Right-click the `Panel` prefab → **Create → Prefab Variant**, `Upgrades Panel`. Open it:
-    rename its root `Upgrades Panel`, set its `Title` to `Upgrades`. In `Content`, a
-    scrolling list, made as in Chapter 2: **UI (Canvas) → Scroll View** filling
-    `Content`, without its scrollbars or its Image, **Horizontal** off; `Viewport` with a
-    **Rect Mask 2D** and an invisible Image; `Content` renamed `List`, with a **Vertical
-    Layout Group** (**Spacing** 12, **Control Child Size** both, **Child Force Expand**
-    only **Width**) and a **Content Size Fitter** (**Vertical Fit** **Preferred Size**).
-    Then, in `Content`, a text `All Bought`: centred, 800 × 200, `Every upgrade is
-    bought!`, size 44, brown, centred; untick it at the top of the Inspector. Chapter 19
-    shows it when the list is empty.
-20. Right-click the `Upgrades Panel` prefab → **Create → Prefab Variant**: a variant of a
-    variant. Name it `Managers Panel`; open it, rename its root, set its `Title` to
-    `Managers` and its `All Bought` text to `Every business has a manager!`.
-21. Back to variants of `Panel`: `Trophies Panel` (title `Trophies`, and a scrolling list in
-    `Content`, made the same way, without `All Bought`), `New Beach Panel` (title `New
-    Beach`) and `Settings Panel` (title `Settings`). The last two stay empty until Chapters
-    13 and 14.
-22. Drag the five into `Panels`, in this order: Upgrades, Managers, Trophies, New Beach,
-    Settings. They lie on top of each other.
-
-### Do it — the tabs, and a switcher
-
-23. In `Tab Bar`, **Create Empty**, `Beach Tab`: anchor **middle–left** with Shift, **Pos**
-    (10, 0), 204 × 186. In it, an **Icon Button** prefab `Button`: anchor **top–center**
-    with Shift, **Pos** (0, −6), 124 × 128, **Source Image** `Icon Home`, its `Icon`
-    unticked; and a text `Label`: **bottom–center** with Shift, **Pos** (0, 4), 204 × 46,
-    `Beach`, size 32, brown, centred.
-24. Duplicate `Beach Tab` four times, 214 apart (**Pos X** 224, 438, 652, 866): `Upgrades
-    Tab` (`Icon Cart`), `Managers Tab` (`Icon Person`), `Trophies Tab` (`Icon Trophy`), and
-    `New Beach Tab`, which keeps `Square Blue` and ticks its `Icon` back on, with
-    `glowing_star_3d`. Change each `Label`.
-25. Now the code. Each tab opens its panel and closes the others; a second press closes it.
-    In `Scripts/Flow`, `PanelSwitcher`, and add it to `Panels`:
-
-```csharp
-using UnityEngine;
-
-// The panels over the Beach (Upgrades, Managers, Trophies, New Beach,
-// Settings): one open at a time. A tab's button calls Toggle with its panel,
-// set in the button's On Click () list; a panel's close button calls CloseAll.
-public class PanelSwitcher : MonoBehaviour
-{
-    [SerializeField] GameObject[] panels;
-
-    void Start()
-    {
-        CloseAll();
-    }
-
-    // Opens this panel and closes the others; a second press closes it.
-    public void Toggle(GameObject panel)
-    {
-        bool wasOpen = panel.activeSelf;
-        foreach (GameObject each in panels)
-        {
-            each.SetActive(false);
-        }
-        panel.SetActive(!wasOpen);
-    }
-
-    public void CloseAll()
-    {
-        foreach (GameObject each in panels)
-        {
-            each.SetActive(false);
-        }
-    }
-}
-```
-
-26. Drag the five panels into its **Panels** list, in the same order.
-27. Wire the buttons, in each **Button**'s **On Click ()** list (**+**, drag `Panels` into
-    the box, then choose the method):
-    - `Beach Tab`'s button: **PanelSwitcher → CloseAll**.
-    - `Upgrades Tab`'s button: **PanelSwitcher → Toggle (GameObject)**, and drag the
-      `Upgrades Panel` into the box under it. The same for Managers, Trophies and New
-      Beach, each with its panel.
-    - `Settings Button`, on the top bar: **Toggle**, with the `Settings Panel`.
-    - Each panel's `Close Button`: **CloseAll**. Do it in the scene, on each of the five:
-      the prefab can't know the scene's `Panels`.
-
-    Nothing here needs code of its own: **UnityEvents** are for what a designer wires in
-    the Inspector. C# events, in Chapter 5, are for what scripts tell each other.
-28. Untick the five panels at the top of the Inspector, so the game starts on the beach.
-
-### Test it
-
-- **Play.** Click **Upgrades**: its panel opens over the list. Click **Managers**: the
-  Upgrades panel closes, Managers opens. Click **Managers** again: it closes. The cog opens
-  Settings; the red **×** closes any of them; **Beach** closes whatever is open.
-- Click a candy button: it darkens while pressed.
-
-### The experiment: predict, then look
-
-The exam asks this about prefabs, so do it slowly. For each change, **write down** which
-panels or buttons you think will change, then look.
-
-1. Open the **Panel** prefab and set the `Ribbon`'s **Color** to a pale green. Which of
-   the five panels change?
-2. Open **Upgrades Panel** and change its `Title` to `Shop`. Does **Managers Panel**
-   change?
-3. In the scene, select the `×10 Button` in the buy bar and set its **Source Image** to
-   `Button Red`. Does the **Candy Button** prefab change? The other three buy buttons?
-4. Open the **Candy Button** prefab and set its label's size to 30. Which buttons change:
-   the buy bar's? The Stand Row's green **Buy Button**? The ×10 you made red?
-
-The answers: (1) all five: a variant takes everything it doesn't override from its base.
-(2) No: `Managers Panel` overrides its title, and an override wins. (3) Neither: it's an
-override on that one instance, shown **bold** in the Inspector, with a blue line. (4) All
-of them, the red ×10 too, since its size was never overridden; the Stand Row's button
-changes because it's nested, still linked to its prefab. Put everything back: the
-ribbon's colour (right-click **Color** → **Revert**), `Upgrades`, the ×10's **Source
-Image** (right-click → **Revert**), size 44.
-
-### Commit
-
-*Add the candy buttons, the rows, the panels and the tabs.*
-
-### Challenge
-
-Make a fifth Candy Button variant, `Candy Button Small`: a variant of **Candy Button
-Green**, 200 × 80, with a label of size 32. Then change Candy Button Green's picture to
-`Button Blue`, and predict what happens to Small before you look.
-
-# Part 2 — The Business
-
-## C# 4 — ScriptableObjects
-
-**Goal:** you can write your own ScriptableObject classes, make and fill in their assets,
-share one asset between many objects, keep play-time changes out of them, and choose
-between a ScriptableObject, a prefab, a plain class and a file for a piece of data
-(Associate: Programming — choose GameObject properties, scripts and components for a
-task).
-
-### Idea — data as an asset
-
-Level 3's *Kinds of Classes* taught you to recognise a ScriptableObject: a class built on
-`ScriptableObject`, whose objects are **assets** in the Project, like a material or a
-sound. Now you write your own.
-
-A ScriptableObject holds **data that many things share**: the stats of one kind of kart,
-the rules of a card, the price of an upgrade. In an asset, instead of in fields on every
-object, it has **one place to change it** (ten karts read one asset: change its top speed
-once, and all ten change), **one copy in memory**, and **one Inspector** where a designer
-can tune it without opening a scene or a script.
-
-### Idea — writing one
-
-```csharp
-using UnityEngine;
-
-// What one kind of kart can do. Every kart of this kind reads the same asset.
-[CreateAssetMenu(fileName = "New Kart Stats", menuName = "Karts/Kart Stats")]
-public class KartStats : ScriptableObject
-{
-    [SerializeField] string displayName = "Kart";
-    [SerializeField] float topSpeed = 20f;
-    [SerializeField] float acceleration = 8f;
-    [SerializeField, Range(0f, 1f)] float grip = 0.8f;
-
-    public string DisplayName { get { return displayName; } }
-    public float TopSpeed { get { return topSpeed; } }
-    public float Acceleration { get { return acceleration; } }
-    public float Grip { get { return grip; } }
-}
-```
-
-- `: ScriptableObject` instead of `: MonoBehaviour`, and the file is named after the
-  class, `KartStats.cs`, as a MonoBehaviour's is.
-- `[CreateAssetMenu]` adds it to the **Create** menu: `menuName` is where it appears, and
-  `fileName` is the name a new asset starts with.
-- The fields are `[SerializeField]`, so the Inspector edits them; the properties only have
-  a `get`, so any script can read the stats, and none can change them by accident.
-
-### Idea — making assets, and using them
-
-**Assets → Create → Karts → Kart Stats** (or **Create** in the Project window's
-right-click menu) makes a `New Kart Stats` asset. Rename it `Speedy Stats`, fill it in in
-the Inspector, and make a `Heavy Stats` beside it.
-
-A MonoBehaviour uses one through a `[SerializeField]` field: drag an asset into it.
-
-```csharp
-using UnityEngine;
-
-public class Kart : MonoBehaviour
-{
-    [SerializeField] KartStats stats;
-
-    float speed;    // this kart's own speed, right now: it belongs here, not in the asset
-
-    void Update()
-    {
-        speed = Mathf.MoveTowards(speed, stats.TopSpeed, stats.Acceleration * Time.deltaTime);
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-    }
-}
-```
-
-Give five karts `Speedy Stats` and three `Heavy Stats`: there are still only two sets of
-numbers. Raise **Top Speed** on `Speedy Stats` while playing, and all five speed up. When
-you stop, the asset keeps the new value: quick for tuning, and also the trap below.
-
-### Idea — methods and inheritance
-
-A ScriptableObject can have methods and take part in inheritance (C# 7). A
-tycoon's upgrades all differ, but each has a name and a cost, and does something to a stand:
-
-```csharp
-using UnityEngine;
-
-public class JuiceStand : MonoBehaviour
-{
-    [SerializeField] float pricePerCup = 2f;
-
-    public void MultiplyPrice(float factor)
-    {
-        pricePerCup *= factor;
-    }
-}
-```
-
-```csharp
-using UnityEngine;
-
-// What every upgrade has. It's abstract: each kind says what it does.
-public abstract class Upgrade : ScriptableObject
-{
-    [SerializeField] string id;         // never changes: a save file stores it
-    [SerializeField] string displayName;
-    [SerializeField] int cost = 50;
-
-    public string Id { get { return id; } }
-    public string DisplayName { get { return displayName; } }
-    public int Cost { get { return cost; } }
-
-    public abstract void ApplyTo(JuiceStand stand);
-}
-```
-
-```csharp
-using UnityEngine;
-
-[CreateAssetMenu(fileName = "New Price Upgrade", menuName = "Juice/Price Upgrade")]
-public class PriceUpgrade : Upgrade
-{
-    [SerializeField] float factor = 1.5f;
-
-    public override void ApplyTo(JuiceStand stand)
-    {
-        stand.MultiplyPrice(factor);
-    }
-}
-```
-
-Only kinds you can make get `[CreateAssetMenu]`: there's no abstract `Upgrade` asset. A
-field `Upgrade[] upgrades` accepts every kind, and `upgrade.ApplyTo(stand)` runs each one's
-own version. And what changes is the **stand**, a scene object: the asset never does.
-
-### Idea — the Play-mode trap
-
-Change a scene object while playing, and it goes back when you stop. Change an asset, and
-the change **stays after Play stops**. Here's the mistake, on purpose: sales in an asset.
-
-```csharp
-using UnityEngine;
-
-// Wrong on purpose: cupsSold changes while playing, so it doesn't belong in an asset.
-[CreateAssetMenu(fileName = "New Stand Data", menuName = "Juice/Stand Data")]
-public class StandData : ScriptableObject
-{
-    [SerializeField] int cupsSold;
-
-    public int CupsSold { get { return cupsSold; } }
-
-    public void SellCup()
-    {
-        cupsSold++;
-    }
-}
-```
-
-```csharp
-[SerializeField] StandData data;
-
-void Start()
-{
-    data.SellCup();
-    data.SellCup();
-    Debug.Log($"Cups sold: {data.CupsSold}");
-}
-```
-
-```
-Cups sold: 2
-```
-
-That's the first Play. Stop, and press Play again:
-
-```
-Cups sold: 4
-```
-
-Select the asset while stopped: **Cups Sold** says 4. Edit and save anything on it, and
-the 4 goes into its file, a change in Git you never meant to make. A build is worse: it
-starts from whatever the asset held when you built it, and forgets every sale when it
-quits. The game behaves one way in the Editor and another in the build.
-
-The rule: **an asset holds data that doesn't change while playing.** Whatever changes
-belongs on the object it describes: the cups sold on the `JuiceStand`, a kart's speed on
-the `Kart`. When a value needs a starting point from the asset, copy it in `Awake`
-(`stock = data.StartingStock;`) and change the copy.
-
-### Idea — which one, for which data?
-
-| Use a… | When the data… | For example |
-| --- | --- | --- |
-| **ScriptableObject** | is shared by many things, set by a designer, and doesn't change while playing | kart stats, card rules, an upgrade's price |
-| **prefab** | is a thing in the scene: GameObjects, components, looks | the kart itself, a juice stand, a card's view |
-| **plain C# class** | belongs to one object, or is made in code while playing | a lap time, a race result, one row of a high-score table |
-| **JSON file** (or PlayerPrefs) | changes while playing and must still be there after quitting | the money, the unlocked upgrades, the best times (C# 13) |
-
-Three questions decide it. Does it change while playing? Then not a ScriptableObject.
-Must it outlive quitting? Then a file. Does it need a place in the scene? Then a prefab.
-
-### Idea — a library of everything
-
-A game often needs **all** of its items in one place: for a shop, or to turn the ids in a
-save file back into assets. Keep them in one more asset, a library:
-
-```csharp
-using System.Collections.Generic;
-using UnityEngine;
-
-// Every upgrade in the game. A save file keeps upgrade ids; the library turns
-// an id back into its upgrade.
-[CreateAssetMenu(fileName = "Upgrade Library", menuName = "Juice/Upgrade Library")]
-public class UpgradeLibrary : ScriptableObject
-{
-    [SerializeField] Upgrade[] upgrades;
-
-    Dictionary<string, Upgrade> upgradesById;   // built the first time it's needed
-
-    public IReadOnlyList<Upgrade> Upgrades { get { return upgrades; } }
-
-    public bool TryGetUpgrade(string id, out Upgrade upgrade)
-    {
-        if (upgradesById == null)
-        {
-            upgradesById = new Dictionary<string, Upgrade>();
-            foreach (Upgrade each in upgrades)
-            {
-                upgradesById.Add(each.Id, each);
-            }
-        }
-        return upgradesById.TryGetValue(id, out upgrade);
-    }
-
-    // A change in the Inspector rebuilds the lookup the next time it's used.
-    void OnValidate()
-    {
-        upgradesById = null;
-    }
-}
-```
-
-A `Dictionary` finds a value by its key at once, where a loop would check every upgrade in
-turn; `TryGetValue` returns `false` for an id it doesn't know, instead of failing; and
-`IReadOnlyList` lets a shop read the list but not change it: C# 6 has more.
-
-### Do it
-
-1. Make `KartStats`, `Kart`, two assets, and five karts (cubes will do) sharing them.
-   Change **Top Speed** while playing, then stop: did it stay? Try a kart's **Transform**.
-2. Make `JuiceStand`, `Upgrade` and `PriceUpgrade`, and two price upgrades with different
-   factors. Look for **Upgrade** in the **Create** menu: why isn't it there?
-3. Make `StandData` and the test above, and press Play three times. Then fix it: move
-   `cupsSold` and `SellCup` to `JuiceStand`, and play three times again.
-4. For five pieces of data in your own game, choose a ScriptableObject, a prefab, a plain
-   class or a file, and give the reason in one line each.
-
-### Challenge
-
-Add a `SpeedUpgrade` (a stand makes cups faster) without changing `Upgrade`. Then write a
-`Shop` that logs every upgrade in an `UpgradeLibrary` with its cost, and applies one chosen
-by id, with a `Debug.LogWarning` for an id the library doesn't know.
-
-## Chapter 4 — Stand Info
-
-**Goal:** the economy designer's balance sheet turned into five **`StandInfo`** assets,
-one for each business, and the list on the screen showing a row for each, made in code
-from those assets.
-
-### Idea — the designer's numbers, in assets
-
-The studio's economy designer sends you `BALANCE.md`: every number the game runs on. The
-businesses come first: a name, a picture, what the first one costs, how much more each
-next one costs, how long a **cycle** takes, and what one business earns a cycle.
-
-Those numbers are the same for every player, set by a designer, and **never change while
-playing**: the shape of data for a ScriptableObject (C# 4). What
-does change while playing (how many you own, what upgrades did) will live on a component
-in the scene, in Chapter 5.
-
-| Data | Changes while playing? | Lives in |
-| --- | --- | --- |
-| a business's name, picture, prices, cycle | no | a `StandInfo` asset |
-| how many you own, the cycle's progress | yes | `JuiceStand`, on the beach (Chapter 5) |
-| your money | yes, and must outlive quitting | the `Wallet`, then the save file (Chapter 11) |
-
-Two of the fields are **`long`**s, not `int`s: the prices and the earnings. A `long`
-holds bigger whole numbers than an `int`. Chapter 5 shows why a juice empire needs them.
-
-The list comes from the assets too: one **Stand Row** for each `StandInfo`, made in code
-with `Instantiate`. Add a business to the array, and its row appears; no one lays it out
-by hand.
-
-### Do it — the balance sheet
-
-1. Your trainer shares `BALANCE.md`. Put it next to `STYLE_GUIDE.md`, outside `Assets`,
-   and read its first two tables: the five businesses, and what each costs with 0, 1, 10
-   and 25 already owned. Chapter 6 checks your maths against that second table.
-2. Commit it: *Add the designer's balance sheet*.
-
-### Do it — StandInfo
-
-3. In `Scripts/Business`, `StandInfo`:
-
-```csharp:StandInfo.cs
-using UnityEngine;
-
-// One kind of business, with the numbers from the economy designer's balance
-// sheet. It's shared and read-only while playing: how many you own, and what
-// upgrades did to it, live on the JuiceStand in the scene.
-[CreateAssetMenu(fileName = "New Stand Info", menuName = "Juice/Stand Info")]
-public class StandInfo : ScriptableObject
-{
-    [SerializeField] string id;                 // never changes: the save file stores it
-    [SerializeField] string displayName;
-    [SerializeField] Sprite picture;
-    [SerializeField] long baseCost = 4;         // the first one's price
-    [SerializeField] float costGrowth = 1.07f;  // each one costs this much more than the last
-    [SerializeField] float cycleSeconds = 1f;
-    [SerializeField] long earningsPerCycle = 1; // for each one you own
-
-    public string Id { get { return id; } }
-    public string DisplayName { get { return displayName; } }
-    public Sprite Picture { get { return picture; } }
-    public long BaseCost { get { return baseCost; } }
-    public float CostGrowth { get { return costGrowth; } }
-    public float CycleSeconds { get { return cycleSeconds; } }
-    public long EarningsPerCycle { get { return earningsPerCycle; } }
-}
-```
-
-4. Every field is private and set in the Inspector; every property has only a `get`. Other
-   scripts can read a business's numbers and can't change them, which is the rule for an
-   asset in one line of C#.
-5. The **id** is for the save file (Chapter 11): `lemonade-cup`, lowercase with dashes. The
-   **display name** can change one day (*Lemon Cup*), and a save file must still find its
-   business; so the save stores the id, which never changes.
-
-### Do it — the five businesses
-
-6. In `Assets/Data`, a folder `Stands`. In it, **Assets → Create → Juice → Stand Info**,
-   five times, named after the businesses. Fill each from the balance sheet:
-
-| Asset | Id | Display Name | Picture | Base Cost | Cost Growth | Cycle Seconds | Earnings Per Cycle |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| `Lemonade Cup` | `lemonade-cup` | Lemonade Cup | `cup_with_straw_3d` | 4 | 1.07 | 1 | 1 |
-| `Beach Stand` | `beach-stand` | Beach Stand | `umbrella_on_ground_3d` | 60 | 1.15 | 3 | 60 |
-| `Smoothie Bar` | `smoothie-bar` | Smoothie Bar | `tropical_drink_3d` | 720 | 1.14 | 6 | 540 |
-| `Juice Shop` | `juice-shop` | Juice Shop | `convenience_store_3d` | 8640 | 1.13 | 12 | 4320 |
-| `Juice Factory` | `juice-factory` | Juice Factory | `factory_3d` | 103680 | 1.12 | 24 | 51840 |
-
-7. Look at the numbers side by side. Each business costs 12 times the one before, earns 9
-   to 60 times more a cycle, and takes twice as long. A designer chose them so each new
-   business is worth saving up for, and the next always seems just out of reach.
-
-### Do it — a row for each
-
-8. In `Scripts/UI`, `StandRow`. For now it shows a business's numbers; it grows a lot in
-   the next two chapters:
-
-```csharp
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// One row of the list: a business's picture, its name, what one earns a cycle,
-// and what the first one costs. StandList makes the rows in code and calls Show.
-public class StandRow : MonoBehaviour
-{
-    [SerializeField] Image picture;
-    [SerializeField] TMP_Text nameText;
-    [SerializeField] TMP_Text ownedText;
-    [SerializeField] TMP_Text earningsText;
-    [SerializeField] TMP_Text priceText;
-
-    public void Show(StandInfo info)
-    {
-        picture.sprite = info.Picture;
-        nameText.text = info.DisplayName;
-        ownedText.text = "not open yet";
-        earningsText.text = "$" + info.EarningsPerCycle;
-        priceText.text = "$" + info.BaseCost;
-    }
-}
-```
-
-9. Open the **Stand Row** prefab and add `StandRow` to its root. Fill its fields by
-   dragging the row's own children in: **Picture** is `Picture Button/Icon`, **Name Text**
-   `Name`, **Owned Text** `Owned`, **Earnings Text** `Earnings`, and **Price Text** `Buy
-   Button/Price`.
-10. In `Scripts/UI`, `StandList`:
-
-```csharp
-using UnityEngine;
-
-// The scrolling list under the beach: one Stand Row for each business, made in
-// code from the businesses' StandInfo assets. The List's Vertical Layout Group
-// puts them one under another.
-public class StandList : MonoBehaviour
-{
-    [SerializeField] StandInfo[] stands;
-    [SerializeField] StandRow rowPrefab;
-    [SerializeField] Transform content;
-
-    void Start()
-    {
-        foreach (StandInfo info in stands)
-        {
-            StandRow row = Instantiate(rowPrefab, content);
-            row.name = info.DisplayName + " Row";
-            row.Show(info);
-        }
-    }
-}
-```
-
-11. Add it to `Stand List` (in `Bottom`). Drag the five `StandInfo` assets into **Stands**,
-    in the balance sheet's order; the **Stand Row** prefab into **Row Prefab**; and
-    `Stand List/Scroll View/Viewport/List` into **Content**.
-12. The field's type is `StandRow`, not `GameObject`, so `Instantiate` hands back the
-    row's `StandRow` script, ready to call: no `GetComponent`. And the Inspector only
-    accepts a prefab that has a `StandRow` on it.
-
-### Test it
-
-- **Play.** Five rows, from Lemonade Cup to Juice Factory, each with its picture and name,
-  *not open yet*, its earnings and its price. Drag the list up and down: it scrolls, and
-  the rows slide under the buy bar without showing over it (the Rect Mask 2D).
-- Select a row in the Hierarchy while playing: its name is `Smoothie Bar Row`, from
-  `row.name`. A name in the Hierarchy costs nothing and saves time when you look for one.
-- **The trap, for real.** While playing, select the `Lemonade Cup` asset and change its
-  **Display Name** to `Lemon Cup`. Stop. The asset still says `Lemon Cup`: an asset keeps
-  what you change while playing. GitHub Desktop shows `Lemonade Cup.asset` changed. Put the
-  name back. This is why nothing that changes while playing will ever go in a `StandInfo`.
-- The prices say `$103680`: hard to read. Chapter 5 writes `NumberFormat`.
-
-### Commit
-
-*Add the five businesses from the balance sheet.*
-
-### Challenge
-
-Make a sixth business, `Bubble Tea Bar`, with `bubble_tea_3d` and numbers of your own
-between the Juice Shop's and the Juice Factory's. Add it to **Stands**, between them,
-and Play. Then take it out again: the designer owns the numbers.
-
-## C# 5 — Events and Delegates
+## C# 2 — Events and Delegates
 
 **Goal:** you can let a script announce what happened without knowing who listens,
 subscribe and unsubscribe safely, write a short lambda, and choose between a C# event and
@@ -2447,6 +1205,1215 @@ raises `MoneyChanged(int money)`. A money text and an upgrade button listen to t
 wallet: the button is only clickable when you can afford the upgrade. No script may
 have a field for the one that listens to it. Draw the arrows first, then build it.
 
+## C# 3 — The Input Actions Asset
+
+**Goal:** you can make an Input Actions asset, use its actions from code, switch action
+maps for a pause menu, and let players change a key and keep it (the Level Reference's
+Level 4 topic: New Input System; Associate: Programming — determine code for a specified
+interaction or logic).
+
+### Idea — from devices to actions
+
+Until now, your code has read devices: `Keyboard.current` and `Pointer.current`, each
+checked for `null`. That writes every device into the code; a player can't swap Space for
+another key; and a pause menu has to stop every script that reads Space.
+
+An **Input Actions asset** splits it in two. An **action** names what the player wants to
+do (*Boost*, *End Turn*, *Steer*), and its **bindings** say which controls do it: Space,
+a gamepad button, a touch. Your code listens to the action; the asset holds the controls.
+The old `Input` class is in the table only because exams use it: here it throws errors.
+
+| To… | the old `Input` class | the Input System's devices | an Input Actions asset |
+| --- | --- | --- | --- |
+| react to a press | `Input.GetKeyDown(KeyCode.Space)` | `Keyboard.current.spaceKey.wasPressedThisFrame` | `boostAction.action.performed += OnBoost;` |
+| check a held key | `Input.GetKey(KeyCode.Space)` | `Keyboard.current.spaceKey.isPressed` | `boostAction.action.IsPressed()` |
+| steer | `Input.GetAxis("Horizontal")` | four keys, checked one by one | `steerAction.action.ReadValue<Vector2>()` |
+| find the pointer | `Input.mousePosition` | `Pointer.current.position.ReadValue()` | a Value action bound to the pointer's position |
+| let the player change a key | not while playing | change the code | `PerformInteractiveRebinding` |
+
+### Idea — making the asset
+
+**Assets → Create → Input Actions** makes one; double-click it to open its window:
+
+| Part of the window | Holds |
+| --- | --- |
+| **Action Maps** (left) | groups of actions that work together: *Driving*, *Menu* |
+| **Actions** (middle) | the map's actions, each with its bindings under it |
+| **Action Properties** or **Binding Properties** (right) | the settings of whatever you selected |
+| **Save Asset** (top) | saves your changes; or tick **Auto-Save** |
+
+| Each action's **Action Type** | For | Example |
+| --- | --- | --- |
+| **Button** | a press | Boost, End Turn, Pause |
+| **Value** | something that changes, with a **Control Type** such as **Vector 2** | Steer, from WASD or a stick |
+| **Pass Through** | every change from every device, unfiltered | rarely needed: a pointer's position |
+
+Select a binding, open its **Path**, and pick a control from the list, or press **Listen**
+and then the key. For WASD, use the action's **+** menu:
+**Add Up\Down\Left\Right Composite** makes one binding from four keys. One action can have
+many bindings: give Boost both Space and the gamepad's south button.
+
+### Idea — an action in code
+
+A script gets an action through an `InputActionReference` field: drag the action into it,
+or pick it from the field's list. `performed` is a C# event (C# 2), so subscribe
+in `OnEnable` and unsubscribe in `OnDisable`. The handler takes a `CallbackContext`:
+
+```csharp
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class KartBoost : MonoBehaviour
+{
+    [SerializeField] InputActionReference boostAction;
+
+    void OnEnable()
+    {
+        boostAction.action.performed += OnBoost;
+        boostAction.action.actionMap.Enable();      // nothing fires until it's enabled
+    }
+
+    void OnDisable()
+    {
+        boostAction.action.performed -= OnBoost;
+    }
+
+    void OnBoost(InputAction.CallbackContext context)
+    {
+        Debug.Log("Boost!");
+    }
+}
+```
+
+Space and the gamepad button both print `Boost!`, and the script names neither. Besides
+`performed`, an action has two more events:
+
+| Event | For a Button | For a Value |
+| --- | --- | --- |
+| `started` | the press begins | the control moves from rest |
+| `performed` | the press counts: use this one | every change of value |
+| `canceled` | the button is let go | back at rest |
+
+> **Watch out:** the actions in your own asset start **disabled**, and a disabled action
+> never fires, with no error. Enable its map with `Enable()`.
+
+> **Note:** Unity 6 also has **project-wide actions**: one asset, chosen in **Edit →
+> Project Settings → Input System Package**, enabled for you and read through
+> `InputSystem.actions`. New projects come with one, **InputSystem_Actions**. This course
+> makes its own asset, to learn every part of one.
+
+### Idea — reading a Value action
+
+A Value action changes all the time, so read it every frame with `ReadValue`:
+
+```csharp
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+public class KartSteering : MonoBehaviour
+{
+    [SerializeField] InputActionReference steerAction;
+    [SerializeField] float turnSpeed = 120f;    // degrees a second
+    [SerializeField] float driveSpeed = 8f;     // units a second
+
+    void Update()
+    {
+        Vector2 steer = steerAction.action.ReadValue<Vector2>();
+        transform.Rotate(0f, steer.x * turnSpeed * Time.deltaTime, 0f);
+        transform.Translate(Vector3.forward * steer.y * driveSpeed * Time.deltaTime);
+    }
+}
+```
+
+**D** gives `(1, 0)`, **W** gives `(0, 1)`, and a stick gives anything in between.
+
+### Idea — action maps: one at a time
+
+With a pause menu open, Space mustn't boost the kart behind it. Put the game's actions in
+a Driving map and the menu's in a Menu map, and keep only one enabled. Pause and Resume
+are both Escape, but only the enabled map hears it. Their `performed` handlers call:
+
+```csharp
+[SerializeField] InputActionReference pauseAction;      // in the Driving map
+[SerializeField] InputActionReference resumeAction;     // in the Menu map
+
+void Pause()
+{
+    pauseAction.action.actionMap.Disable();     // Steer and Boost stop too
+    resumeAction.action.actionMap.Enable();
+}
+
+void Resume()
+{
+    resumeAction.action.actionMap.Disable();
+    pauseAction.action.actionMap.Enable();
+}
+```
+
+### Idea — rebinding: the player picks a key
+
+`PerformInteractiveRebinding` waits for the next control the player presses, and makes it
+the binding's new path. It's a chain of calls, then `Start()`:
+
+```csharp
+using TMPro;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// One row of a controls menu: the action's key, and a Change button that calls
+// StartRebinding through its On Click () list.
+public class KeyRebinder : MonoBehaviour
+{
+    const string BindingsKey = "Bindings";
+
+    [SerializeField] InputActionReference action;
+    [SerializeField] int bindingIndex;          // which binding: 0 is the action's first
+    [SerializeField] TMP_Text keyText;
+
+    InputActionRebindingExtensions.RebindingOperation rebinding;
+
+    void Start()
+    {
+        ShowKey();
+    }
+
+    public void StartRebinding()
+    {
+        bool wasEnabled = action.action.enabled;
+        action.action.Disable();                // an action can't be rebound while it's on
+        keyText.text = "Press a key...";
+        rebinding = action.action.PerformInteractiveRebinding(bindingIndex)
+            .WithControlsExcluding("<Pointer>")             // clicking Change isn't a key
+            .WithCancelingThrough("<Keyboard>/escape")      // Escape keeps the old key
+            .OnComplete(operation => Finish(wasEnabled))    // a key was chosen
+            .OnCancel(operation => Finish(wasEnabled))      // or it wasn't
+            .Start();
+    }
+
+    void Finish(bool enableAgain)
+    {
+        rebinding.Dispose();                    // frees the operation: always do it
+        rebinding = null;
+        if (enableAgain)
+        {
+            action.action.Enable();
+        }
+        PlayerPrefs.SetString(BindingsKey, action.asset.SaveBindingOverridesAsJson());
+        PlayerPrefs.Save();
+        ShowKey();
+    }
+
+    // "<Keyboard>/k" becomes "K"; OmitDevice leaves out the word Keyboard.
+    void ShowKey()
+    {
+        string path = action.action.bindings[bindingIndex].effectivePath;
+        keyText.text = InputControlPath.ToHumanReadableString(path, InputControlPath.HumanReadableStringOptions.OmitDevice);
+    }
+}
+```
+
+> **Watch out:** `action.GetBindingDisplayString()` also names a key, but by the
+> computer's keyboard layout: on an Arabic layout, K shows as **ن**, which your game's
+> font may not have. `ToHumanReadableString` always gives **K**.
+
+### Idea — keeping the new keys
+
+A rebind lasts until the game closes. `SaveBindingOverridesAsJson()` gives every changed
+binding as one string for PlayerPrefs (C# 14); a card game's End Turn, set to K:
+
+```json
+{"bindings":[{"action":"Battle/End Turn","id":"830b9d5d-1263-4f52-9be6-9373795c84a8","path":"<Keyboard>/k","interactions":"null","processors":"null"}]}
+```
+
+Load it back in `Awake`, before anything shows a key; `ResetControls` undoes every change:
+
+```csharp
+const string BindingsKey = "Bindings";
+
+[SerializeField] InputActionReference boostAction;
+
+void Awake()
+{
+    string json = PlayerPrefs.GetString(BindingsKey, "");
+    if (json != "")
+    {
+        boostAction.asset.LoadBindingOverridesFromJson(json);
+    }
+    boostAction.action.actionMap.Enable();
+}
+
+// Called by a Reset Controls button.
+public void ResetControls()
+{
+    boostAction.asset.RemoveAllBindingOverrides();
+    PlayerPrefs.DeleteKey(BindingsKey);
+}
+```
+
+### Do it
+
+1. Make an Input Actions asset with a Driving map: **Steer** (Value, Vector 2, with a
+   WASD composite) and **Boost** (Button: Space and the gamepad's south button). Save it.
+2. Put `KartBoost` and `KartSteering` on a cube, fill in the references, and drive.
+3. Remove the line that enables the map, and play. What happens? What does the Console say?
+4. Add a Menu map with Resume, and a script whose `performed` handlers call `Pause` and
+   `Resume`. Check that Space does nothing while it's paused.
+5. Add a `KeyRebinder` row for Boost, and the loading code. Change Boost to **B**, stop,
+   and play again: is it still B?
+
+### Challenge
+
+Add a row for Boost's gamepad binding (its `bindingIndex` is 1) and a **Reset Controls**
+button. What if the player gives Boost and Pause the same key? Find a way to warn them.
+
+## Chapter 2 — The Juice Maker
+
+**Goal:** you on the beach: the chef, walking and running where you push, turning to face
+the way he goes, bumping into the beach's edges, with a camera that follows him; pushed by
+WASD, the arrow keys, a gamepad's stick, or a stick on the screen that appears under your
+thumb.
+
+### Idea — one action, many ways to push it
+
+C# 3 showed an **Input Actions asset**: actions grouped in maps, each action with
+bindings. This game needs one action above all: **Move**, a `Vector2` from −1 to 1 on
+each axis. Its bindings are WASD, the arrow keys and a gamepad's left stick. The chef's
+script asks the action for its value every frame and never knows which of them was
+pushed.
+
+A phone has no keys and no stick. The Input System's **On-Screen Stick** is a UI
+component that **pretends to be a gamepad's left stick**: drag it, and the Input System
+sees a gamepad stick move. So the Move action, which already listens to `<Gamepad>/leftStick`,
+works on a phone with no change to the chef. With **Exact Position With Dynamic Origin**,
+the stick jumps to wherever your thumb lands, and follows it from there.
+
+Three more pieces make the chef feel solid:
+
+| Piece | Why |
+| --- | --- |
+| A **Rigidbody** whose velocity the script sets in `FixedUpdate` | physics stops him at counters and walls, with no code of ours |
+| Its rotation **frozen** on every axis, and `MoveRotation` to turn him | a bump can't set him spinning: only our code turns him |
+| No gravity, and its height frozen | the beach is flat; nothing needs to fall, so nothing needs a floor collider |
+
+And a camera that follows him in `LateUpdate`, after he has moved this frame, a moment
+late (`Vector3.SmoothDamp`), so the picture glides instead of jerking.
+
+### Do it — the actions
+
+1. In `Assets/Input`, **Create → Input Actions**, called `Juice Tycoon Controls`, and open
+   it.
+2. **Action Maps +**: `Chef`. Its first action: `Move`, **Action Type** `Value`, **Control
+   Type** `Vector2`. Delete the empty binding it comes with. Then:
+   - **+** → **Add Up/Down/Left/Right Composite**. Bind **Up** to **W**, **Down** to
+     **S**, **Left** to **A**, **Right** to **D** (click each, then **Path** → **Listen**,
+     and press the key).
+   - Another composite, with the four **arrow keys**.
+   - **+** → **Add Binding**, **Path** `Left Stick [Gamepad]`.
+3. A second action in `Chef`: `Menu`, **Action Type** `Button`, bound to **Escape**
+   [Keyboard] and **Start** [Gamepad]. (Chapter 9 uses it.)
+4. **Action Maps +**: `Panel`, with one action, `Close`, a `Button` bound to **Escape**
+   [Keyboard] and **Button East** [Gamepad]. (Chapter 9 too.)
+5. **Save Asset**.
+
+### Do it — the animator controllers
+
+6. In `Assets/Animation`, **Create → Animator Controller**, `Person`. Every person in the
+   game will use it. Open it (**Window → Animation → Animator**). **Parameters +**:
+   `Speed`, a **Float**.
+7. Drag the `Idle` clip from inside `Art/Characters/Chef_Male` into the Animator window:
+   an orange state, the default. Then the `Walk` clip. Rename them `Idle` and `Walk`.
+8. Right-click `Idle` → **Make Transition** → `Walk`. Select the arrow: untick **Has Exit
+   Time**, **Transition Duration** `0.15` (a fifth of a second's blend: people blend from
+   one clip to the next, sprites don't), and a **Condition**: `Speed` **Greater** `0.1`.
+   And back, `Walk` → `Idle`: the same, with `Speed` **Less** `0.1`.
+9. The chef runs where the customers walk. In `Assets/Animation`, **Create → Animator
+   Override Controller**, `Chef`. Its **Controller**: `Person`. The list shows Person's
+   clips: next to `Walk`, choose `Run`. The same states and transitions, with a run where
+   Person walks.
+
+### Do it — the chef
+
+10. An empty GameObject, `Chef`, at (−5.4, 0, 1.2), **Rotation Y** `180` (facing the
+    camera). Add a **Rigidbody**: untick **Use Gravity**, **Interpolate** `Interpolate`,
+    and under **Constraints** tick **Freeze Position Y** and all three **Freeze
+    Rotation**. Add a **Capsule Collider**: **Center** (0, 0.9, 0), **Radius** `0.35`,
+    **Height** `1.8`.
+11. Drag `Art/Characters/Chef_Male` onto `Chef` in the Hierarchy: a child. Rename it
+    `Model`, and check its position is (0, 0, 0). It has an **Animator** already: set its
+    **Controller** to `Chef` (the override), untick **Apply Root Motion** (our script
+    moves him, not his clips), and **Culling Mode** `Cull Update Transforms`.
+12. **Layers.** **Add Layer…** in the top of the Inspector: `Chef` and `Helpers` (Chapter 10
+    uses the second). Put `Chef` on the `Chef` layer, its children too.
+13. In `Scripts/Chef`, a new script, `Chef`:
+
+```csharp
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// You: the juice maker. The Move action (WASD, the arrows, a gamepad's stick,
+// and the thumb stick on the screen, which pretends to be a gamepad's) sets
+// the Rigidbody's velocity. The chef turns to face the way it walks, and tells
+// its Animator how fast it goes.
+[RequireComponent(typeof(Rigidbody))]
+public class Chef : MonoBehaviour
+{
+    static readonly int SpeedId = Animator.StringToHash("Speed");
+
+    [SerializeField] InputActionReference move;
+    [SerializeField] Animator animator;
+    [SerializeField] float speed = 4.5f;                // metres a second
+    [SerializeField] float turnDegreesPerSecond = 720f;
+
+    Rigidbody body;
+    Vector3 velocity;
+
+    // The flip-flops make you faster.
+    public float Speed
+    {
+        get { return speed; }
+        set { speed = value; }
+    }
+
+    void Awake()
+    {
+        body = GetComponent<Rigidbody>();
+    }
+
+    // An action reads nothing until it's switched on. Controls switches whole
+    // maps on and off for the panels; the chef makes sure its own action is on.
+    void OnEnable()
+    {
+        move.action.Enable();
+    }
+
+    // Read the input every frame; move the body in FixedUpdate, with the physics.
+    void Update()
+    {
+        Vector2 input = Vector2.ClampMagnitude(move.action.ReadValue<Vector2>(), 1f);
+        // The camera looks north: up on the stick walks into the screen, along z.
+        velocity = new Vector3(input.x, 0f, input.y) * speed;
+        animator.SetFloat(SpeedId, velocity.magnitude);
+    }
+
+    void FixedUpdate()
+    {
+        body.linearVelocity = new Vector3(velocity.x, body.linearVelocity.y, velocity.z);
+        if (velocity.sqrMagnitude > 0.01f)
+        {
+            Quaternion facing = Quaternion.LookRotation(velocity);
+            body.MoveRotation(Quaternion.RotateTowards(body.rotation, facing, turnDegreesPerSecond * Time.fixedDeltaTime));
+        }
+    }
+}
+```
+
+14. Read it before you use it:
+    - `InputActionReference move`: drag the **Move** action from `Juice Tycoon Controls`
+      into it (open the asset in the Project window: each action is an object inside it).
+    - `Vector2.ClampMagnitude(…, 1f)`: pushing W and D together gives (1, 1), longer than
+      1; diagonals would be faster than straight lines. Clamped, they aren't.
+    - The input's `y` becomes the velocity's `z`: up on the stick is north, into the
+      screen, because the camera looks north.
+    - `Update` reads; `FixedUpdate` moves. Physics runs at its own fixed steps, and a
+      Rigidbody's velocity belongs there. `MoveRotation` turns him towards the way he's
+      going, at most 720° a second: a quick turn, not a snap.
+    - `Speed` is a property, so another script can make him faster (Chapter 9's
+      flip-flops) without reaching into his fields.
+15. Add `Chef` to the `Chef` GameObject. Drag **Move** into **Move**, and `Model` into
+    **Animator**. Then drag `Chef` from the Hierarchy into `Prefabs/People`: a prefab.
+
+### Do it — the edges and the camera
+
+16. An empty GameObject, `Edges`, with four empty children, each with a **Box Collider**:
+
+| Child | Position | Box Collider Size |
+| --- | --- | --- |
+| `North` | (0, 1, 8.4) | (20, 2, 0.4) |
+| `South` | (0, 1, −10.6) | (20, 2, 0.4) |
+| `West` | (−8.8, 1, −1) | (0.4, 2, 20) |
+| `East` | (8.8, 1, −1) | (0.4, 2, 20) |
+
+Invisible walls: the chef stays on the sand, out of the sea and off the boardwalk.
+
+17. In `Scripts/Chef`, `CameraFollow`:
+
+```csharp:CameraFollow.cs
+using UnityEngine;
+
+// Follows the chef from above and behind, a moment late, so the picture
+// glides instead of jerking. LateUpdate, so the chef has already moved this
+// frame. The camera never turns, and it stays over the beach: what it follows
+// is kept inside a rectangle.
+public class CameraFollow : MonoBehaviour
+{
+    [SerializeField] Transform target;
+    [SerializeField] Vector3 offset = new Vector3(0f, 13f, -9.5f);
+    [SerializeField] float smoothSeconds = 0.2f;
+    [SerializeField] Vector2 lowestFocus = new Vector2(-4.5f, -8f);     // x and z
+    [SerializeField] Vector2 highestFocus = new Vector2(4.5f, 4f);
+
+    Vector3 velocity;
+
+    void Start()
+    {
+        transform.position = Focus() + offset;
+    }
+
+    void LateUpdate()
+    {
+        transform.position = Vector3.SmoothDamp(transform.position, Focus() + offset, ref velocity, smoothSeconds);
+    }
+
+    Vector3 Focus()
+    {
+        Vector3 focus = target.position;
+        focus.x = Mathf.Clamp(focus.x, lowestFocus.x, highestFocus.x);
+        focus.y = 0f;
+        focus.z = Mathf.Clamp(focus.z, lowestFocus.y, highestFocus.y);
+        return focus;
+    }
+}
+```
+
+18. Add it to `Main Camera`: drag `Chef` into **Target**, **Offset** (0, 14, −10). The
+    rectangle keeps what it follows between x −4.5 and 4.5, z −8 and 4, so the camera never
+    shows the beach's empty edges.
+
+### Do it — the stick on the screen
+
+19. **GameObject → UI → Canvas**. Unity adds an **EventSystem** too, with the Input
+    System's **Input System UI Input Module**. On the Canvas's **Canvas Scaler**: **UI
+    Scale Mode** `Scale With Screen Size`, **Reference Resolution** 1080 × 1920, **Match**
+    `0` (width). C# 7 explains it; for now, it means the UI is laid out for a
+    1080-wide phone, and grows or shrinks with the screen's width.
+20. Right-click the Canvas → **UI → Image**, `Stick`. Its **Rect Transform**: anchor at the
+    bottom centre (hold nothing, pick the bottom-middle preset), **Pos X** 0, **Pos Y**
+    `420`, **Width** and **Height** `150`. **Source Image** `Art/Ground/Disc`, **Color**
+    white with **A** 128: a faint circle, until you touch it.
+21. **Add Component → On-Screen Stick**: **Movement Range** `110`, **Control Path**
+    `Left Stick [Gamepad]`, **Behaviour** `Exact Position With Dynamic Origin`, **Dynamic
+    Origin Range** `640`. A touch anywhere within 640 pixels of the stick's place moves the
+    stick there; then the stick follows the finger, up to 110 pixels away.
+
+### Test it
+
+- Press **Play**, click the Game view, and hold **W**: the chef runs up the beach, away
+  from you, with his run, and the camera glides after him. **A**, **S**, **D**, the
+  arrows, two keys at once. Let go: he stops, and stands facing the way he was going.
+- Run into the sea: the north wall stops him. Run along the wall at a slant: he slides
+  along it. That's the Rigidbody, with no code of ours.
+- With the mouse, press anywhere in the lower half of the Game view and drag: the circle
+  jumps under the pointer and the chef follows it. It's the gamepad binding at work.
+- **Window → General → Device Simulator**, and pick a phone: the same drag works as a
+  touch.
+- Select `Model` while he runs: the Animator window shows the blue bar moving through
+  **Walk** (the override plays **Run** in it), and `Speed` near 4.5.
+
+### Commit
+
+*Add the juice maker: actions, a stick, the chef and a camera.*
+
+### Challenge
+
+Add a **Dash** action on **Left Shift** (and a gamepad button): while it's held, the chef
+is half as fast again. Read it with `IsPressed()` in `Update`. Which file did you change,
+and which did you add to? Look at the commit.
+
+## C# 4 — Prefabs in Depth
+
+**Goal:** you can build prefabs out of other prefabs, make variants of them, change an
+instance and then apply or revert the change, predict which objects a change reaches, and
+make instances from code (Associate: Assets — change nested prefabs and prefab variants,
+and predict the outcome; use prefabs in a scene).
+
+### Idea — a prefab, again
+
+A **prefab** is an asset that holds a GameObject, with its children and components, ready
+to use many times. Every copy of it in a scene is an **instance**, linked to the asset:
+change the prefab, and every instance changes. In the Hierarchy, instances have blue names
+and a blue cube icon.
+
+Three ideas take prefabs much further, and the exam asks about all three: prefabs inside
+prefabs (**nested**), prefabs based on prefabs (**variants**), and the changes an instance
+makes to its prefab (**overrides**).
+
+### Idea — Prefab Mode
+
+You edit a prefab itself in **Prefab Mode**. Open it by double-clicking it in the Project
+window, by clicking the arrow (**>**) to the right of an instance in the Hierarchy, or with
+**Open** in an instance's Inspector.
+
+- The **Hierarchy** shows only the prefab, under a header with a back arrow (**<**).
+- The **breadcrumbs** at the top of the Scene view show where you are: the scene, then
+  **Duelist Panel**, then **Health Bar**, say. Click one to go back up.
+- **Auto Save**, at the top right of the Scene view, saves every change at once. Turn it
+  off, and a **Save** button appears instead; Unity asks you to save when you leave.
+
+Opened from an instance, the scene stays visible around the prefab, greyed out, so you
+can see it in its place. Leave with the back arrow or a breadcrumb.
+
+### Idea — nested prefabs
+
+A prefab can hold instances of other prefabs, and each keeps its own link:
+
+| Outer prefab | Holds (nested prefabs) |
+| --- | --- |
+| a Kart | four Wheel instances |
+| a Juice Stand | a Price Tag and a Counter |
+| a Duelist Panel | a Health Bar and a Mana Bar |
+
+To nest one, open the outer prefab in Prefab Mode and drag the inner prefab into its
+Hierarchy. Change the Wheel prefab, and the wheels on every kart change, in every scene:
+you made the change once, in one place.
+
+### Idea — variants
+
+A **variant** is a prefab based on another one, its **base**. It holds everything the base
+holds, plus its own changes. A Health Bar is a Bar with a red fill and a heart icon; a Fast
+Kart is a Kart with a bigger engine and a stripe.
+
+To make one: right-click the base in the Project window → **Create → Prefab Variant**,
+then open the variant and change what differs. Its icon is a prefab cube with an arrow.
+
+A variant stores **only its differences**. Its file names its base by GUID (the ID in the
+base's `.meta` file, C# 1) and lists the changes:
+
+```
+PrefabInstance:
+  m_Modification:
+    m_Modifications:
+    - target: {fileID: 5389347945180400670, guid: 3b8e…, type: 3}
+      propertyPath: m_Color.r
+      value: 0.76
+    …
+  m_SourcePrefab: {fileID: 100100000, guid: 3b8e…, type: 3}
+```
+
+So a change to the base reaches the variant, except where the variant has its own value.
+A **duplicate** (**Ctrl + D**, **Cmd + D** on a Mac) is different: a separate prefab, with
+no link to the original at all.
+
+### Idea — overrides
+
+Change an instance, and the change is an **override**: the instance's own value, kept
+instead of the prefab's.
+
+| Override | How Unity shows it |
+| --- | --- |
+| a changed property | its label turns **bold**, with a blue line in the Inspector's margin |
+| an added component | a **+** on the component's icon |
+| an added child GameObject | a **+** on its icon in the Hierarchy |
+| a removed component or child | listed in the **Overrides** drop-down |
+
+The root's name, position and rotation belong to each instance: they're left out of the
+**Overrides** drop-down, and out of **Apply All**.
+
+The **Overrides** drop-down, at the top of the instance root's Inspector, lists every
+override. Click one to compare it with the prefab, side by side. Then:
+
+- **Apply** sends the change into the prefab: every instance gets it. **Apply All**
+  applies them all.
+- **Revert** throws it away: the instance takes the prefab's value again. **Revert All**
+  reverts them all.
+
+For one property, right-click it: the menu offers **Revert**, and an **Apply** for each
+prefab the change could go to.
+
+### Idea — how a change travels
+
+This is the exam's favourite prefab question. Here is the setup:
+
+1. **Bar**, a prefab: a frame, a **Fill** image (white), an icon and a value text (**Font
+   Size** 28).
+2. **Health Bar** and **Shield Bar**, two variants of Bar: Health Bar overrides the fill
+   to red, Shield Bar to blue.
+3. **Duelist Panel**, a prefab with a portrait and a Health Bar instance nested in it.
+4. A scene with two Duelist Panel instances: **Left Panel** and **Right Panel**.
+
+Now make four changes, one at a time, and predict which bars change:
+
+- **A.** In Bar's Prefab Mode, set the text's **Font Size** to 32.
+- **B.** In Health Bar's Prefab Mode, set the fill to dark red.
+- **C.** In Duelist Panel's Prefab Mode, select its Health Bar's icon and switch it off:
+  an override, kept in the Duelist Panel prefab.
+- **D.** In the scene, select Right Panel's Health Bar and set its fill to purple: an
+  override, kept in the scene.
+
+| Change made in | Bar | Shield Bar | Health Bar | Duelist Panel's bar | Left Panel's bar | Right Panel's bar |
+| --- | --- | --- | --- | --- | --- | --- |
+| **A**, Bar | changes | changes | changes | changes | changes | changes |
+| **B**, Health Bar | — | — | changes | changes | changes | changes |
+| **C**, Duelist Panel | — | — | — | changes | changes | changes |
+| **D**, the scene | — | — | — | — | — | changes |
+
+The rule: a change reaches **everything built on top of the place you made it**, and
+nothing underneath. Bar is at the bottom of the pile; the scene is at the top.
+
+And one more rule: **an override wins**. Make change D first, then B: Right Panel's bar
+stays purple, because its fill colour is its own now. It still takes A and C, which change
+other properties. In the same way, if Health Bar had overridden the font size, change A
+would reach Shield Bar but no Health Bar anywhere.
+
+Where should D go, if every panel's bar should be purple? Right-click the fill's
+**Color** in the scene. The menu offers an **Apply** entry for each prefab the bar comes
+from, each named: the Duelist Panel (every Duelist Panel would get it), the Health Bar
+variant (every Health Bar, in the panels and anywhere else), and so on down to Bar.
+Apply it to the prefab whose every use should change.
+
+> **Tip:** before changing a prefab, ask "what's built on this?": every variant of it,
+> every prefab it's nested in, and all their instances will change too.
+
+### Idea — unpacking
+
+Right-click an instance in the Hierarchy → **Prefab**:
+
+| Choice | Does |
+| --- | --- |
+| **Unpack** | the instance becomes plain GameObjects, but prefabs nested inside it stay instances |
+| **Unpack Completely** | everything becomes plain GameObjects, nested prefabs too |
+
+An unpacked object has no link: fixes to the prefab never reach it again. That's
+occasionally what you want, for a one-off made from a prefab's parts. Almost always, a
+variant or an override does the job and keeps the link, so reach for those first.
+
+### Idea — instances from code
+
+Type the prefab field as the **component** you'll use, not as a `GameObject`. Then
+`Instantiate` returns that component on the new copy, with no `GetComponent` needed, and
+the Inspector only accepts a prefab that has one:
+
+```csharp
+using UnityEngine;
+
+public class Coin : MonoBehaviour
+{
+    [SerializeField] int value = 1;
+
+    public int Value { get { return value; } }
+
+    public void SetValue(int newValue)
+    {
+        value = newValue;
+    }
+}
+```
+
+```csharp
+using UnityEngine;
+
+// Makes a row of coins from the Coin prefab, each worth more than the last.
+public class CoinRow : MonoBehaviour
+{
+    const int CoinCount = 3;
+    const float Gap = 1.5f;
+
+    [SerializeField] Coin coinPrefab;
+    [SerializeField] Transform coinParent;
+
+    void Start()
+    {
+        for (int i = 0; i < CoinCount; i++)
+        {
+            Coin coin = Instantiate(coinPrefab, coinParent);
+            coin.transform.localPosition = new Vector3(i * Gap, 0f, 0f);
+            coin.SetValue(i + 1);
+            Debug.Log($"{coin.name} is worth {coin.Value}");
+        }
+    }
+}
+```
+
+With a prefab called `Coin` in **Coin Prefab**:
+
+```
+Coin(Clone) is worth 1
+Coin(Clone) is worth 2
+Coin(Clone) is worth 3
+```
+
+`Instantiate(prefab, parent)` puts the copy under `parent`: in a UI list with a layout
+group, that's all a new row needs. `Instantiate(prefab, position, rotation, parent)` also
+places it.
+
+> **Watch out:** change the copy that `Instantiate` returns, never the prefab field
+> itself. `coinPrefab.SetValue(5)` changes the prefab **asset**: in the Editor, the change
+> stays after Play stops, and every coin made from it afterwards starts at 5.
+
+### Do it
+
+1. Make a Bar prefab and two variants, with different fill colours. Change the base's
+   frame colour, and check that both variants follow.
+2. Nest a Health Bar in a Panel prefab, and put two Panels in a scene. Make changes A to
+   D from this chapter, predicting each result before you look.
+3. Revert D, then make it again, and change Health Bar's fill colour once more. Which bars
+   change? Then revert D with the **Overrides** drop-down, and check again.
+4. Add a component to one instance, and find it in the **Overrides** drop-down. Apply
+   it, and check the prefab.
+5. Make `Coin` and `CoinRow`, and play. Then change `CoinRow` to place each coin with
+   `Instantiate(prefab, position, rotation, parent)`, in a column instead of a row.
+
+### Challenge
+
+Build a Kart prefab with four nested Wheel prefabs, then a Fast Kart variant with bigger
+rear wheels. Before each step, write down which karts will change: change the Wheel
+prefab's colour; change the Kart's body colour; override one wheel's size on one Fast
+Kart in the scene, then apply it as an override in the Fast Kart variant.
+
+## Chapter 3 — Crates, Counters and Spots
+
+**Goal:** the bar, as a prefab made of other prefabs: a **Juice Stand** with a crate, a
+juicer, a counter with its price tag, and a mat for the cash, laid out from the sea down
+to the boardwalk; a variant for each of the four bars; and two smaller prefabs, the
+**Build Spot** (a dashed square with a price) and the **Table**. Then the experiment the
+exam asks for: change a prefab, a variant and an instance, and predict what changes where.
+
+### Idea — a bar is a prefab of prefabs
+
+C# 4 showed a Juice Stand prefab holding a Price Tag and a Counter. Here it is
+for real, bigger: every model you drop into it is a prefab already (a model file is a
+prefab you can't edit), so the Juice Stand **nests** a crate, a cabinet, three jars, a
+counter. Change the crate's import settings and every bar's crate changes.
+
+The four bars are the same shape with different fruit, different prices and different
+machines. A **Prefab Variant** for each: the Orange, Apple, Smoothie and Coconut stands.
+Each variant keeps everything from the base, and **overrides** only what's its own. Today
+that's which jar sits on the machine: the juicer's, the blender's, the coconut cutter's.
+Chapter 4 adds each bar's data.
+
+Two more things are new:
+
+- **World Space canvases.** A price tag over the counter, a ring over the machine, a mat
+  on the sand: UI, but standing in the world, not on the screen. A Canvas in **World
+  Space** is a flat object like any other, sized in pixels and scaled down: at a scale of
+  0.01, 100 pixels make a metre.
+- **Billboard.** A sign stays readable only if it faces the camera. A tiny script turns it
+  to the camera's rotation when it wakes. The camera never turns, so once is enough.
+
+**The layout**, as the Juice Stand's children see it (its origin is the counter; north,
++z, is the sea):
+
+```
+z  7.25  the crate        ┐
+   6.0   its mat          │  the chef stands on a mat to use what's behind it
+   4.2   the juicer       │
+   2.95  its mat          │
+   1.2   the till mat     │  stand here to serve
+   0     the counter, its price tag; the cash mat to its right
+  −3.5   the front of the queue, then five more places, 0.85 apart
+ −12.6   where its customers leave the boardwalk
+```
+
+### Do it — the mats, the ring and the sign
+
+1. **The Billboard script**, in `Scripts/Bar`:
+
+```csharp:Billboard.cs
+using UnityEngine;
+
+// Turns a World Space Canvas (a price, a bubble, a ring) to face the camera,
+// so its words read straight. The camera never turns, so once is enough.
+public class Billboard : MonoBehaviour
+{
+    void OnEnable()
+    {
+        if (Camera.main != null)
+        {
+            transform.rotation = Camera.main.transform.rotation;
+        }
+    }
+}
+```
+
+2. Make an empty GameObject, `Juice Stand`, at (−5.4, 0, 0): the Orange Bar's place.
+   Everything below goes inside it.
+3. **A mat.** An empty child, `Crate`, at (0, 0, 6). Inside it, **UI → Canvas**, called
+   `Mat`: **Render Mode** `World Space`, **Pos** (0, 0.03, 0), **Width** and **Height**
+   `140`, **Rotation** (90, 0, 0), **Scale** (0.01, 0.01, 0.01): a 1.4 m square lying on
+   the sand. Remove its **Graphic Raycaster** (nobody clicks a mat), and delete the
+   **EventSystem** Unity added, if it made a second one. Inside `Mat`, a **UI → Image**,
+   `Picture`, stretched to fill it (the anchor preset with **Alt** held, the bottom-right
+   one): **Source Image** `Art/Ground/Mat`, **Color** white with **A** 204.
+4. **The crate.** Drag `Art/Bar/crate` into `Crate`: **Position** (0, 0, 1.25), **Scale**
+   (0.6, 0.6, 0.6), behind its mat. Add a **Box Collider** to it, and click **Edit
+   Collider** if it doesn't fit the crate: the chef bumps into it. And an empty child of
+   `Crate`, `Fruit`, at (0, 0.48, 1.25): the top of the crate, where the oranges will pile.
+5. **The juicer.** An empty child of `Juice Stand`, `Juicer`, at (0, 0, 2.95), with a
+   `Mat` like the crate's (duplicate the crate's and drag it in). In `Juicer`, an empty
+   `Model` at (0, 0, 1.25), and inside it:
+   - `Art/Bar/kitchencounter_straight_B`, called `Cabinet`: **Rotation Y** 180 (its
+     doors face you), **Scale** (0.6, 1, 0.5), and a **Box Collider**.
+   - `Art/Bar/jar_A_large`, `jar_B_large` and `jar_C_large`, called `Jug A`, `Jug B` and
+     `Jug C`: each at (0.28, 1, 0.1), **Scale** 1.3, on top of the cabinet. Untick `Jug
+     B` and `Jug C`: the base juicer has one jug.
+   - Two empties: `Hopper` at (0.28, 2, 0.1), where fruit goes in, and `Tray` at
+     (−0.28, 1, −0.15), where the cups will stand.
+6. **The ring**, over the juicer: in `Juicer`, a World Space canvas `Ring`, **Pos**
+   (−0.75, 2.1, 1.25), 90 × 90, **Scale** 0.01, **Rotation** (55, 0, 0) (the camera's
+   tilt, so it reads in the Scene view), with **Billboard**, and four children stretched
+   over it:
+   - `Back`: an Image, `Art/Ground/Disc`, white with **A** 230.
+   - `Track`: an Image, `Art/Ground/Ring`, colour `#E6DCCB`.
+   - `Fill`: an Image, `Art/Ground/Ring`, colour `#F08A12`, **Image Type** `Filled`, **Fill
+     Method** `Radial 360`, **Fill Origin** `Top`, **Clockwise**, **Fill Amount** `0.4`
+     for now, to see it.
+   - `Fruit`: **UI → Text - TextMeshPro**, inset 16 on every side, text `0`, font
+     `LilitaOne-Regular SDF`, size 38, colour `#7A4A1E` (brown), centred.
+7. **The counter.** An empty child of `Juice Stand`, `Counter`, at (0, 0, 1.2): the till.
+   Inside it:
+   - `Till Mat`: a mat like the others, colour `#FFC83D` (yellow): where you stand to
+     serve.
+   - `Art/Bar/kitchencounter_straight_A`: **Position** (0, 0, −1.2), **Rotation Y** 180,
+     **Scale** (1, 1, 0.5): a 2 m counter, 1 m deep. A **Box Collider**.
+   - An empty `Cups` at (0, 1, −1.2): the counter's top.
+   - `Price Tag`: a World Space canvas at (0, 1.75, −1.75), 330 × 64, **Scale** 0.01,
+     **Rotation** (55, 0, 0), with **Billboard**. Inside, `Back`, an Image with `Panel
+     Light` (**Image Type** `Sliced`), stretched; and `Text`, a TextMeshPro inset 12 and
+     6, `Orange Bar  $5`, Lilita One, size 32, brown, centred, **Wrapping** `Disabled`.
+   - Empties for the customers (Chapter 6 uses them): `Entry` at (0, 0, −12.6), `Aside` at
+     (1.8, 0, −3.5), and `Queue`, with six children, `Spot 1` to `Spot 6`, at z −3.5,
+     −4.35, −5.2, −6.05, −6.9 and −7.75 (x and y 0).
+   - `Cash Pile`, an empty at (1.5, 0, −1.2), with a 1.2 m mat, colour `#7EE081` (green),
+     and an empty `Notes` at (0, 0.04, 0): the counter's right-hand side.
+
+### Do it — the prefab and its variants
+
+8. Drag `Juice Stand` into `Prefabs`: a prefab. Its models stay blue in the Hierarchy:
+   prefabs inside your prefab.
+9. In `Prefabs`, right-click `Juice Stand` → **Create → Prefab Variant**, four times:
+    `Juice Stand Orange`, `Juice Stand Apple`, `Juice Stand Smoothie`, `Juice Stand
+    Coconut`. Open each and set its juicer's jugs:
+
+| Variant | Jug A | Jug B | Jug C |
+| --- | --- | --- | --- |
+| Orange, Apple | ticked | | |
+| Smoothie | | ticked | |
+| Coconut | | | ticked |
+
+In a variant, each override is bold in the Inspector, with a blue line beside it.
+
+10. Delete the `Juice Stand` from the scene. Drag in the four variants, called `Orange Bar`,
+    `Apple Bar`, `Smoothie Bar` and `Coconut Bar`, at x −5.4, −1.8, 1.8 and 5.4 (y and z
+    0), under an empty `Bars`. Four bars along the sea. Change the three later tags' text
+    to `Apple Bar  $10`, `Smoothie Bar  $18` and `Coconut Bar  $32` (Chapter 6 makes them
+    write themselves).
+
+### Do it — the build spot and the table
+
+11. **The Build Spot.** An empty `Build Spot`, with a flat World Space canvas `Sign` at
+    (0, 0.03, 0), 170 × 170, **Rotation** (90, 0, 0), **Scale** 0.01. Inside it:
+    - `Paid`, stretched with 8 pixels in from each side: `Art/Ground/Mat`, colour
+      `#FFC73D` with **A** 191, **Image Type** `Filled`, **Fill Method** `Vertical`,
+      **Fill Origin** `Bottom`, **Fill Amount** 0. It will rise as you pay.
+    - `Square`, stretched: `Art/Ground/Spot`, the dashed edge.
+    - `Picture`, 62 × 62, anchored top centre, 14 down: any emoji for now.
+    - `Price`, a TextMeshPro anchored bottom centre, 160 × 44, 46 up: `$30`, size 38,
+      white, **Material Preset** `LilitaOne-Regular SDF Shadow`.
+    - `Name`, under it: 160 × 34, 14 up, `Table`, size 24, the same white and shadow.
+
+    Drag it into `Prefabs`.
+
+12. **The Table.** An empty `Table`. Inside: `Art/Bar/table_round_A_small` at (0, 0, 0)
+    with a **Box Collider** (then make its **Size** X and Z 0.7 of what it was: the table
+    is round, its corners are open); two `Art/Bar/chair_stool`, at (−1.1, 0, 0) and
+    (1.1, 0, 0); and five empties: `Seat 1` at (−1.1, 0, 0) with **Rotation Y** 90 (facing
+    the table), `Seat 2` at (1.1, 0, 0) with **Rotation Y** −90, `Cup Place 1` at
+    (−0.35, 1, −0.1), `Cup Place 2` at (0.35, 1, −0.1), and `Tips` at (0, 1, 0.35). Drag it
+    into `Prefabs`, and delete both from the scene: build spots will put tables on the
+    beach.
+
+### Test it — the experiment
+
+The exam asks you to predict what a change does to a prefab, its variants and its
+instances. Predict each, then look:
+
+1. Open the base `Juice Stand` prefab, and make the till mat green. What happens to the
+   four bars in the scene?
+2. Open `Juice Stand Apple`, and make its price tag's text red. What happens to the
+   Smoothie Bar? To the Apple Bar in the scene?
+3. In the scene, move the Orange Bar's crate a little to the left. Does the prefab change?
+   The other bars? Right-click the moved crate's **Position** → **Apply to Prefab 'Juice
+   Stand Orange'**: what now?
+4. Undo all three (**Ctrl+Z**, or right-click → **Revert**).
+
+The rule: a change goes **down** (base → variants → instances), never up, until you
+**Apply** it, and an override (bold) always beats what comes from above.
+
+- Press **Play**: four bars along the sea, rings and tags facing you whatever you do with
+  the Scene view.
+
+### Commit
+
+*Add the Juice Stand, its four variants, the Build Spot and the Table.*
+
+### Challenge
+
+Make a fifth variant, `Juice Stand Lemon`, with a jug of your choice and a yellow till
+mat. Then look at `Juice Stand Lemon.prefab` in GitHub Desktop: how much of the bar is in
+the file? (Only the overrides: a variant stores what's different.)
+
+# Part 2 — The Juice Bar
+
+## C# 5 — ScriptableObjects
+
+**Goal:** you can write your own ScriptableObject classes, make and fill in their assets,
+share one asset between many objects, keep play-time changes out of them, and choose
+between a ScriptableObject, a prefab, a plain class and a file for a piece of data
+(Associate: Programming — choose GameObject properties, scripts and components for a
+task).
+
+### Idea — data as an asset
+
+Level 3's *Kinds of Classes* taught you to recognise a ScriptableObject: a class built on
+`ScriptableObject`, whose objects are **assets** in the Project, like a material or a
+sound. Now you write your own.
+
+A ScriptableObject holds **data that many things share**: the stats of one kind of kart,
+the rules of a card, the price of an upgrade. In an asset, instead of in fields on every
+object, it has **one place to change it** (ten karts read one asset: change its top speed
+once, and all ten change), **one copy in memory**, and **one Inspector** where a designer
+can tune it without opening a scene or a script.
+
+### Idea — writing one
+
+```csharp
+using UnityEngine;
+
+// What one kind of kart can do. Every kart of this kind reads the same asset.
+[CreateAssetMenu(fileName = "New Kart Stats", menuName = "Karts/Kart Stats")]
+public class KartStats : ScriptableObject
+{
+    [SerializeField] string displayName = "Kart";
+    [SerializeField] float topSpeed = 20f;
+    [SerializeField] float acceleration = 8f;
+    [SerializeField, Range(0f, 1f)] float grip = 0.8f;
+
+    public string DisplayName { get { return displayName; } }
+    public float TopSpeed { get { return topSpeed; } }
+    public float Acceleration { get { return acceleration; } }
+    public float Grip { get { return grip; } }
+}
+```
+
+- `: ScriptableObject` instead of `: MonoBehaviour`, and the file is named after the
+  class, `KartStats.cs`, as a MonoBehaviour's is.
+- `[CreateAssetMenu]` adds it to the **Create** menu: `menuName` is where it appears, and
+  `fileName` is the name a new asset starts with.
+- The fields are `[SerializeField]`, so the Inspector edits them; the properties only have
+  a `get`, so any script can read the stats, and none can change them by accident.
+
+### Idea — making assets, and using them
+
+**Assets → Create → Karts → Kart Stats** (or **Create** in the Project window's
+right-click menu) makes a `New Kart Stats` asset. Rename it `Speedy Stats`, fill it in in
+the Inspector, and make a `Heavy Stats` beside it.
+
+A MonoBehaviour uses one through a `[SerializeField]` field: drag an asset into it.
+
+```csharp
+using UnityEngine;
+
+public class Kart : MonoBehaviour
+{
+    [SerializeField] KartStats stats;
+
+    float speed;    // this kart's own speed, right now: it belongs here, not in the asset
+
+    void Update()
+    {
+        speed = Mathf.MoveTowards(speed, stats.TopSpeed, stats.Acceleration * Time.deltaTime);
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+    }
+}
+```
+
+Give five karts `Speedy Stats` and three `Heavy Stats`: there are still only two sets of
+numbers. Raise **Top Speed** on `Speedy Stats` while playing, and all five speed up. When
+you stop, the asset keeps the new value: quick for tuning, and also the trap below.
+
+### Idea — methods and inheritance
+
+A ScriptableObject can have methods and take part in inheritance (C# 8). A
+tycoon's upgrades all differ, but each has a name and a cost, and does something to a stand:
+
+```csharp
+using UnityEngine;
+
+public class JuiceStand : MonoBehaviour
+{
+    [SerializeField] float pricePerCup = 2f;
+
+    public void MultiplyPrice(float factor)
+    {
+        pricePerCup *= factor;
+    }
+}
+```
+
+```csharp
+using UnityEngine;
+
+// What every upgrade has. It's abstract: each kind says what it does.
+public abstract class Upgrade : ScriptableObject
+{
+    [SerializeField] string id;         // never changes: a save file stores it
+    [SerializeField] string displayName;
+    [SerializeField] int cost = 50;
+
+    public string Id { get { return id; } }
+    public string DisplayName { get { return displayName; } }
+    public int Cost { get { return cost; } }
+
+    public abstract void ApplyTo(JuiceStand stand);
+}
+```
+
+```csharp
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "New Price Upgrade", menuName = "Juice/Price Upgrade")]
+public class PriceUpgrade : Upgrade
+{
+    [SerializeField] float factor = 1.5f;
+
+    public override void ApplyTo(JuiceStand stand)
+    {
+        stand.MultiplyPrice(factor);
+    }
+}
+```
+
+Only kinds you can make get `[CreateAssetMenu]`: there's no abstract `Upgrade` asset. A
+field `Upgrade[] upgrades` accepts every kind, and `upgrade.ApplyTo(stand)` runs each one's
+own version. And what changes is the **stand**, a scene object: the asset never does.
+
+### Idea — the Play-mode trap
+
+Change a scene object while playing, and it goes back when you stop. Change an asset, and
+the change **stays after Play stops**. Here's the mistake, on purpose: sales in an asset.
+
+```csharp
+using UnityEngine;
+
+// Wrong on purpose: cupsSold changes while playing, so it doesn't belong in an asset.
+[CreateAssetMenu(fileName = "New Stand Data", menuName = "Juice/Stand Data")]
+public class StandData : ScriptableObject
+{
+    [SerializeField] int cupsSold;
+
+    public int CupsSold { get { return cupsSold; } }
+
+    public void SellCup()
+    {
+        cupsSold++;
+    }
+}
+```
+
+```csharp
+[SerializeField] StandData data;
+
+void Start()
+{
+    data.SellCup();
+    data.SellCup();
+    Debug.Log($"Cups sold: {data.CupsSold}");
+}
+```
+
+```
+Cups sold: 2
+```
+
+That's the first Play. Stop, and press Play again:
+
+```
+Cups sold: 4
+```
+
+Select the asset while stopped: **Cups Sold** says 4. Edit and save anything on it, and
+the 4 goes into its file, a change in Git you never meant to make. A build is worse: it
+starts from whatever the asset held when you built it, and forgets every sale when it
+quits. The game behaves one way in the Editor and another in the build.
+
+The rule: **an asset holds data that doesn't change while playing.** Whatever changes
+belongs on the object it describes: the cups sold on the `JuiceStand`, a kart's speed on
+the `Kart`. When a value needs a starting point from the asset, copy it in `Awake`
+(`stock = data.StartingStock;`) and change the copy.
+
+### Idea — which one, for which data?
+
+| Use a… | When the data… | For example |
+| --- | --- | --- |
+| **ScriptableObject** | is shared by many things, set by a designer, and doesn't change while playing | kart stats, card rules, an upgrade's price |
+| **prefab** | is a thing in the scene: GameObjects, components, looks | the kart itself, a juice stand, a card's view |
+| **plain C# class** | belongs to one object, or is made in code while playing | a lap time, a race result, one row of a high-score table |
+| **JSON file** (or PlayerPrefs) | changes while playing and must still be there after quitting | the money, the unlocked upgrades, the best times (C# 14) |
+
+Three questions decide it. Does it change while playing? Then not a ScriptableObject.
+Must it outlive quitting? Then a file. Does it need a place in the scene? Then a prefab.
+
+### Idea — a library of everything
+
+A game often needs **all** of its items in one place: for a shop, or to turn the ids in a
+save file back into assets. Keep them in one more asset, a library:
+
+```csharp
+using System.Collections.Generic;
+using UnityEngine;
+
+// Every upgrade in the game. A save file keeps upgrade ids; the library turns
+// an id back into its upgrade.
+[CreateAssetMenu(fileName = "Upgrade Library", menuName = "Juice/Upgrade Library")]
+public class UpgradeLibrary : ScriptableObject
+{
+    [SerializeField] Upgrade[] upgrades;
+
+    Dictionary<string, Upgrade> upgradesById;   // built the first time it's needed
+
+    public IReadOnlyList<Upgrade> Upgrades { get { return upgrades; } }
+
+    public bool TryGetUpgrade(string id, out Upgrade upgrade)
+    {
+        if (upgradesById == null)
+        {
+            upgradesById = new Dictionary<string, Upgrade>();
+            foreach (Upgrade each in upgrades)
+            {
+                upgradesById.Add(each.Id, each);
+            }
+        }
+        return upgradesById.TryGetValue(id, out upgrade);
+    }
+
+    // A change in the Inspector rebuilds the lookup the next time it's used.
+    void OnValidate()
+    {
+        upgradesById = null;
+    }
+}
+```
+
+A `Dictionary` finds a value by its key at once, where a loop would check every upgrade in
+turn; `TryGetValue` returns `false` for an id it doesn't know, instead of failing; and
+`IReadOnlyList` lets a shop read the list but not change it: C# 6 has more.
+
+### Do it
+
+1. Make `KartStats`, `Kart`, two assets, and five karts (cubes will do) sharing them.
+   Change **Top Speed** while playing, then stop: did it stay? Try a kart's **Transform**.
+2. Make `JuiceStand`, `Upgrade` and `PriceUpgrade`, and two price upgrades with different
+   factors. Look for **Upgrade** in the **Create** menu: why isn't it there?
+3. Make `StandData` and the test above, and press Play three times. Then fix it: move
+   `cupsSold` and `SellCup` to `JuiceStand`, and play three times again.
+4. For five pieces of data in your own game, choose a ScriptableObject, a prefab, a plain
+   class or a file, and give the reason in one line each.
+
+### Challenge
+
+Add a `SpeedUpgrade` (a stand makes cups faster) without changing `Upgrade`. Then write a
+`Shop` that logs every upgrade in an `UpgradeLibrary` with its cost, and applies one chosen
+by id, with a `Debug.LogWarning` for an id the library doesn't know.
+
 ## C# 6 — Choosing Collections and Types
 
 **Goal:** you can choose an array, a `List`, a `Dictionary`, a `Queue` or a `Stack` for a
@@ -2708,214 +2675,1788 @@ A juice stand has a `Queue<string>` of customers, each wanting one fruit, and a
 out leaves, and is counted in a second dictionary of missed sales. At the end, log the
 stock left and the missed sales in alphabetical order. Then say why you chose each type.
 
-## Chapter 5 — Squeeze and Sell
+## Chapter 4 — Fruit in Your Hands
 
-**Goal:** the five businesses on the beach, as sprites; tap a business's picture in the
-list and its bar fills over its cycle; when it's full the business sells, and the money
-at the top goes up, in `long`s, written short: `$1.25K`.
+**Goal:** the first thing you do in the game. Oranges appear in the Orange Bar's crate, one
+every 1.2 seconds, up to twelve. Stand on the crate's mat, and they hop into your hands,
+one at a time, stacking up in front of your chest, until your hands hold four. You run
+with your arms out, as someone carrying a stack does.
 
-### Idea — a cycle
+### Idea — what a thing is, and the thing itself
 
-Each business works in **cycles**. A tap starts one; the bar fills over the business's
-cycle time (1 second for the Lemonade Cup, 24 for the Juice Factory); when it's full, the
-business **sells**: every one you own earns its share at once. Then it waits for the
-next tap. (A manager, in Chapter 7, will tap for you.)
+An orange in your hands and an orange in the crate are two GameObjects, but they're the
+same **kind** of thing: same name, same model, same height in a pile. C# 5
+put that split in two words: the **data** (an asset, one per kind) and the **instance**
+(a GameObject, as many as there are oranges).
 
-`JuiceStand` is that business, on the beach. It holds what changes while playing, the
-things `StandInfo` mustn't:
-
-| On `JuiceStand` | What it is |
-| --- | --- |
-| `Owned` | how many of this business you own; you start with one Lemonade Cup |
-| `IsRunning` | a cycle is running |
-| `Progress` | how far through it, 0 to 1: the bar |
-| `EarningsPerCycle` | what the cycle sells for: `info.EarningsPerCycle × Owned` |
-
-### Idea — who needs to know about a sale?
-
-When a cycle ends, the money goes up, and the money at the top of the screen changes. In
-later chapters a "+$" number will rise from the business, a coin will clink, and Sam's
-achievements will count the sale. If `JuiceStand` called each of them, it would need a
-reference to each, and every new one would mean changing it.
-
-Instead it raises an **event**, `CupSold`, and doesn't care who listens
-(C# 5). The `Wallet` listens, and adds the money; the `Wallet` raises its own
-event, `MoneyChanged`; the money text listens to that.
-
-```
-JuiceStand ──CupSold(amount)──► Wallet ──MoneyChanged(money)──► MoneyText
-   (sells)                     (adds it)                        (shows it)
-```
-
-Nobody asks every frame whether something changed. The money text changes exactly when
-the money does.
-
-### Idea — money as a long
-
-The shared C# 6 chapter says to count coins in an `int`. In a card game,
-yes. An idle game's money grows a thousand times over in its first hour, and an `int`
-stops at 2,147,483,647: about 2.1 billion. The balance sheet's simulation passes that 50
-minutes in. Try it in your `Practice` script:
-
-```csharp
-int coins = int.MaxValue;
-coins += 1;
-Debug.Log(coins);
-long money = int.MaxValue;
-money += 1;
-Debug.Log(money);
-```
-
-```
--2147483648
-2147483648
-```
-
-An `int` that goes past its biggest **wraps round** to its most negative, with no error:
-the player who just earned their two billionth dollar is suddenly in debt. A `long` uses
-8 bytes instead of 4, and goes to 9,223,372,036,854,775,807: 9.2 **quintillion**.
-
-| Type | Biggest it holds exactly | For |
+| What | Is | How many |
 | --- | --- | --- |
-| `int` | 2,147,483,647 | counts: how many you own, taps, levels |
-| `long` | 9,223,372,036,854,775,807 | money in an idle game |
-| `float` | 16,777,216 (then it skips whole numbers) | multipliers, seconds, the bar's progress |
-| `double` | 9,007,199,254,740,992 | working out a price (`Math.Pow`), then rounded to a `long` |
+| `ItemInfo` | a ScriptableObject: an item's id, name, kind, prefab, height, picture | one per kind: 10 |
+| `Item` | a MonoBehaviour on the prefab: "I am one of these", and how to hop | one per orange on the beach |
+| `BarInfo` | a ScriptableObject: a bar's fruit, cup, price, and how fast it makes things | one per bar: 4 |
 
-Why not a `float` for money, as many idle games use? A `float` past 16,777,216 can't hold
-every whole number: add $1 to $20,000,000 and nothing happens. The money must be exact,
-so it's a `long`, everywhere: the wallet, the prices, the earnings.
+The numbers come from the designer's balance sheet, `BALANCE.md` in your Student Files.
+Read its first two tables now. When the designer changes a price, you change one asset,
+and no code.
 
-### Do it — the business
+### Idea — a pile is a Stack
 
-1. In `Scripts/Business`, `JuiceStand`:
+Oranges in a crate, cups on a tray, notes on a counter, the stack in your hands: all
+**piles**, and a pile works one way. The last thing put on top is the first taken off. You
+never pull an orange from the bottom of a stack in your arms. C# 6 named
+that collection: a **`Stack<T>`**. `Push` puts one on, `Pop` takes the top one off,
+`Peek` looks at it. One `ItemPile` script does every pile in the game:
 
-```csharp
-using System;
+- **Where** each item sits: in rows and layers, worked out from its index. A crate's pile
+  is 3 × 3 to a layer; your hands are 1 × 1, a tower.
+- **What** it holds: one kind at a time. Oranges, or orange juice, never both: `CanAdd`
+  says no to a second kind.
+- **How** an item gets there: it **hops**, from wherever it was to its place, in a quarter
+  of a second, along an arc. An orange that teleported into your hands would be hard to
+  follow; one that hops tells you what happened.
+
+And your **hands** are just a pile with a script beside it, `Carrier`, that stations will
+trade with. Chapter 10's runners get the same hands.
+
+### Idea — where items come from
+
+`Instantiate` makes an orange; `Destroy` gets rid of one. A busy beach makes and destroys
+hundreds an hour, and Chapter 17 will show what that costs. So that Chapter 17 can fix it
+in one place, nothing calls `Instantiate` or `Destroy` for an item but one object: the
+**Item Pool**. Today it does just that: `Get` instantiates, `Release` destroys. Chapter 17
+makes it keep them.
+
+### Do it — the items' data
+
+1. In `Scripts`, two folders: `Items` and `Bar`. In `Items`, a script `ItemKind`:
+
+```csharp:ItemKind.cs
+// What an item is, for the hands that carry it and the stations that take it.
+public enum ItemKind
+{
+    Fruit,
+    Cup,
+    EmptyCup,
+    Cash
+}
+```
+
+<!-- check: together -->
+
+2. And `ItemInfo`:
+
+```csharp:ItemInfo.cs
 using UnityEngine;
 
-// One business on the beach: how many you own, and its cycle. Squeeze starts a
-// cycle; when the bar fills, it sells what every one you own earns, and waits
-// for the next squeeze.
-public class JuiceStand : MonoBehaviour
+// One kind of item: an orange, a cup of orange juice, an empty cup, a note.
+// Data from the designer's sheet, the same while playing; an orange in the
+// world is an Item, made from the prefab.
+[CreateAssetMenu(fileName = "New Item", menuName = "Juice/Item Info")]
+public class ItemInfo : ScriptableObject
 {
-    [SerializeField] StandInfo info;
-    [SerializeField] int ownedAtStart;          // 1 for the Lemonade Cup: you start with one
+    [SerializeField] string id;
+    [SerializeField] string displayName;
+    [SerializeField] ItemKind kind;
+    [SerializeField] Item prefab;
+    [SerializeField] float height = 0.3f;   // how much higher the next one sits in a pile
+    [SerializeField] Sprite icon;           // for the order bubbles
 
-    public StandInfo Info { get { return info; } }
-    public int Owned { get; private set; }
-    public bool IsRunning { get; private set; }
-    public float Progress { get; private set; }     // 0 to 1, through the cycle
+    public string Id { get { return id; } }
+    public string DisplayName { get { return displayName; } }
+    public ItemKind Kind { get { return kind; } }
+    public Item Prefab { get { return prefab; } }
+    public float Height { get { return height; } }
+    public Sprite Icon { get { return icon; } }
+}
+```
 
-    // What one cycle sells for: every one you own earns the same.
-    public long EarningsPerCycle
+   It needs `Item`, which doesn't exist yet: the next step adds it. Unity shows an error
+   until then.
+
+3. `Item`, in `Items`. It hops with a **coroutine**: every frame, a little further along a
+   straight line, plus an arc. `4h · t(1 − t)` is 0 at both ends and `h` in the middle: a
+   hop `h` high.
+
+```csharp
+using System.Collections;
+using UnityEngine;
+
+// One orange, cup or note in the world. It hops from pile to pile: HopTo makes
+// it a child of where it's going and jumps it there, in a quarter of a second.
+// Value is a note's dollars; the other items leave it at 0.
+public class Item : MonoBehaviour
+{
+    public const float HopSeconds = 0.25f;
+    const float HopHeight = 0.9f;
+
+    [SerializeField] ItemInfo info;
+
+    Coroutine hopping;
+
+    public ItemInfo Info { get { return info; } }
+    public int Value { get; set; }
+
+    public void HopTo(Transform parent, Vector3 localPosition)
     {
-        get { return info.EarningsPerCycle * Owned; }
+        transform.SetParent(parent, true);
+        if (hopping != null)
+        {
+            StopCoroutine(hopping);
+        }
+        hopping = StartCoroutine(Hop(localPosition));
     }
 
-    public event Action<long> CupSold;      // what the cycle sold for
-    public event Action Squeezed;           // a tap started a cycle
-
-    void Awake()
+    // Along a straight line, plus an arc; and it turns upright as it goes.
+    IEnumerator Hop(Vector3 target)
     {
-        Owned = ownedAtStart;
-    }
-
-    void Update()
-    {
-        if (!IsRunning)
+        Vector3 start = transform.localPosition;
+        Quaternion startTurn = transform.localRotation;
+        float t = 0f;
+        while (t < 1f)
         {
-            return;
+            t = Mathf.Min(t + Time.deltaTime / HopSeconds, 1f);
+            Vector3 position = Vector3.Lerp(start, target, t);
+            position.y += 4f * HopHeight * t * (1f - t);
+            transform.localPosition = position;
+            transform.localRotation = Quaternion.Slerp(startTurn, Quaternion.identity, t);
+            yield return null;
         }
-        Progress += Time.deltaTime / info.CycleSeconds;
-        if (Progress >= 1f)
-        {
-            Progress = 0f;
-            IsRunning = false;
-            CupSold?.Invoke(EarningsPerCycle);
-        }
-    }
-
-    // A tap, on the beach or on the row. Nothing happens while a cycle runs.
-    public void Squeeze()
-    {
-        if (Owned == 0 || IsRunning)
-        {
-            return;
-        }
-        IsRunning = true;
-        Squeezed?.Invoke();
+        hopping = null;
     }
 }
 ```
 
-2. Read it against the style guide. `CupSold` and `Squeezed` are events, named for what
-   happened, in the past tense. `CupSold` carries the amount, an `Action<long>`;
-   `Squeezed` carries nothing. `?.Invoke` raises an event safely when nobody listens yet.
-   The properties have a `private set`: only the stand changes its own numbers.
-3. `Progress += Time.deltaTime / info.CycleSeconds` moves the bar 1/60 of a second's worth
-   each frame: after `CycleSeconds` seconds it reaches 1, whatever the frame rate.
+<!-- check: end -->
 
-### Do it — the businesses on the beach
+4. Read it:
+   - `SetParent(parent, true)`: the item becomes a child of its new pile, and **keeps its
+     place in the world** (the `true`) for now. Then it hops in the parent's own space
+     (`localPosition`), to its place in the pile. When your hands move, the oranges in
+     them move with you: they're your children.
+   - Hopping again before the last hop has landed (an orange taken from a pile it was
+     still hopping onto) stops the old coroutine first, so two hops never fight.
+   - `Value` is an **auto-property**: a field and its property in one line. Only notes use
+     it (Chapter 6).
+5. In `Bar`, `BarInfo`:
 
-4. **Create Empty**, `Businesses`, at (0, 0, 0). In it, **Create Empty**, `Stand Sprite`,
-   at (0, 4.05, 0). Drag `cup_with_straw_3d` onto it: a child with a **Sprite Renderer**.
-   Rename the child `Picture`: **Scale** (0.9, 0.9, 1), 1.8 units across, and **Order in
-   Layer** `10`, in front of the beach.
-5. Add `JuiceStand` to `Stand Sprite`. Drag `Stand Sprite` into `Assets/Prefabs`. Every
-   business on the beach will be one of these.
-6. Rename the one in the scene `Lemonade Cup`, and put it at (−3.8, 4.05, 0). Its
-   `JuiceStand`: **Info** the `Lemonade Cup` asset, **Owned At Start** `1`.
-7. Four more **Stand Sprite** instances in `Businesses`, 1.9 apart along the grass:
+```csharp:BarInfo.cs
+using UnityEngine;
 
-| Name | Position | Its `Picture`'s sprite | Info |
+// One bar's numbers from the designer's balance sheet: its fruit and its cup,
+// what a cup sells for, and how fast the crate and the machine are.
+[CreateAssetMenu(fileName = "New Bar", menuName = "Juice/Bar Info")]
+public class BarInfo : ScriptableObject
+{
+    [SerializeField] string id;             // never changes: a save file stores it
+    [SerializeField] string displayName;
+    [SerializeField] ItemInfo fruit;
+    [SerializeField] ItemInfo cup;
+    [SerializeField] int price = 5;         // dollars a cup
+    [SerializeField] float crateSeconds = 1.5f;
+    [SerializeField] float machineSeconds = 2f;
+
+    public string Id { get { return id; } }
+    public string DisplayName { get { return displayName; } }
+    public ItemInfo Fruit { get { return fruit; } }
+    public ItemInfo Cup { get { return cup; } }
+    public int Price { get { return price; } }
+    public float CrateSeconds { get { return crateSeconds; } }
+    public float MachineSeconds { get { return machineSeconds; } }
+}
+```
+
+6. In `Data/Items`, **Create → Juice → Item Info**, ten times, from the balance sheet's
+   first table: `Orange`, `Apple`, `Banana`, `Coconut`, `Orange Juice`, `Apple Juice`,
+   `Banana Smoothie`, `Coconut Water`, `Empty Cup` and `Note`. Fill in each one's **Id**,
+   **Display Name**, **Kind** and **Height**, and drag its picture from `Art/Icons` into
+   **Icon** (`Art/Icons/Orange` for the orange, and so on). **Prefab** waits for the next
+   steps.
+7. In `Data/Bars`, **Create → Juice → Bar Info**, four times, from the second table:
+   `Orange Bar` (**Id** `orange-bar`, **Fruit** `Orange`, **Cup** `Orange Juice`, **Price**
+   `5`, **Crate Seconds** `1.2`, **Machine Seconds** `1.6`), `Apple Bar`, `Smoothie Bar`
+   and `Coconut Bar`.
+
+### Do it — the items' prefabs
+
+8. **The materials** the cups and notes need. In `Art/Materials`, seven more URP Lit
+   materials, **Smoothness** `0.15`:
+
+| Material | Base Map colour |
+| --- | --- |
+| `Orange Juice` | `#FF9A1F` |
+| `Apple Juice` | `#E8C547` |
+| `Banana Smoothie` | `#FFE48A` |
+| `Coconut Water` | `#F2EEDF` |
+| `Empty Cup` | `#D9D4CB` |
+| `Note` | `#3FA34D` |
+| `Note Band` | `#E7F5E3` |
+
+9. **The orange.** An empty GameObject, `Orange`, at (0, 0, 0), with **Item**: its
+   **Info** is `Data/Items/Orange`. Drag `Art/Food/Orange` into it, a child. The model's
+   middle is its origin, so it sits half in the ground: set its **Position Y** to `0.14`,
+   and its bottom touches the item's origin. A pile stacks items by their origins, so
+   every item's bottom must be there. Drag `Orange` into `Prefabs/Items`, and delete it
+   from the scene.
+10. The other fruit the same way, each with its own **Info**:
+
+| Prefab | Model | Model's Position |
+| --- | --- | --- |
+| `Apple` | `Art/Food/Apple` | (0, 0.15, 0) |
+| `Banana` | `Art/Food/Banana` | (−0.03, 0.12, 0.01) |
+| `Coconut` | `Art/Food/Coconut` | (0, 0.15, 0) |
+
+11. **A cup.** An empty `Orange Juice`, with **Item** (**Info** `Orange Juice`), and
+    `Art/Food/Soda` inside it at (0, 0, 0): its origin is already its bottom. Its
+    **Mesh Renderer** has several **Materials**: find the one called `Red` (the soda's
+    colour), and drag `Art/Materials/Orange Juice` onto it. A cup of orange juice. Into
+    `Prefabs/Items`. Then `Apple Juice`, `Banana Smoothie`, `Coconut Water` and `Empty
+    Cup` the same way, each with its own material in place of `Red`.
+12. **A note.** An empty `Note`, with **Item** (**Info** `Note`), and two cubes inside it,
+    with their **Box Colliders** removed: `Paper` at (0, 0.035, 0), **Scale** (0.46, 0.07,
+    0.26), material `Note`; and `Band` at the same place, **Scale** (0.1, 0.072, 0.262),
+    `Note Band`. A green bundle with a paper band round it. Into `Prefabs/Items`.
+13. Back to the data: drag each prefab into its **Item Info**'s **Prefab**. The info knows
+    its prefab, and the prefab knows its info: an orange can tell you what it is, and the
+    crate can make a new one from the info alone.
+
+### Do it — piles, hands and the pool
+
+14. In `Items`, `ItemPile`:
+
+```csharp:ItemPile.cs
+using System.Collections.Generic;
+using UnityEngine;
+
+// A pile of items in rows and layers: a crate's oranges, a juicer's cups, a
+// counter's cups, a pile of notes, your hands. It's a Stack: the last item put
+// on is the first taken off, as with any real pile. A pile holds one kind of
+// item at a time: oranges, or orange juice, never both.
+public class ItemPile : MonoBehaviour
+{
+    [SerializeField] int capacity = 12;
+    [SerializeField] int columns = 1;
+    [SerializeField] int rows = 1;
+    [SerializeField] float spacing = 0.35f;
+
+    readonly Stack<Item> items = new Stack<Item>();
+
+    public int Count { get { return items.Count; } }
+    public bool IsEmpty { get { return items.Count == 0; } }
+    public bool IsFull { get { return items.Count >= capacity; } }
+
+    // The tray upgrade makes your hands hold more.
+    public int Capacity
+    {
+        get { return capacity; }
+        set { capacity = value; }
+    }
+
+    // What's on top: what the pile holds, or null when it's empty.
+    public ItemInfo TopInfo
+    {
+        get { return items.Count > 0 ? items.Peek().Info : null; }
+    }
+
+    public bool CanAdd(ItemInfo info)
+    {
+        return !IsFull && (IsEmpty || TopInfo == info);
+    }
+
+    // The item hops from wherever it is to its place on top.
+    public void Add(Item item)
+    {
+        Vector3 place = PlaceFor(items.Count, item.Info.Height);
+        items.Push(item);
+        item.HopTo(transform, place);
+    }
+
+    public Item Take()
+    {
+        return items.Pop();
+    }
+
+    // The top item, left where it is: a full cash pile adds to its top note.
+    public Item Peek()
+    {
+        return items.Peek();
+    }
+
+    // Where the item at this index sits: across, back, then up a layer.
+    Vector3 PlaceFor(int index, float height)
+    {
+        int perLayer = columns * rows;
+        int layer = index / perLayer;
+        int inLayer = index % perLayer;
+        int column = inLayer % columns;
+        int row = inLayer / columns;
+        float x = (column - (columns - 1) / 2f) * spacing;
+        float z = (row - (rows - 1) / 2f) * spacing;
+        return new Vector3(x, layer * height, z);
+    }
+}
+```
+
+15. Read `PlaceFor`. Number the places 0, 1, 2…: a layer holds `columns × rows` of them.
+    `index / perLayer` (whole-number division) is the layer, `index % perLayer` (the
+    remainder) the place in it, then its column and row. `(column − (columns − 1) / 2f)`
+    centres the columns on the pile: with 3 columns, −1, 0 and 1. Each layer is
+    `height` higher: an orange's 0.3, a note's 0.07.
+16. `ItemPool`, in `Items`, for now:
+
+```csharp
+using UnityEngine;
+
+// Where items come from and where they go. For now, Get makes a new one and
+// Release destroys it; Chapter 17 makes it a real pool, and nothing that uses
+// it changes.
+public class ItemPool : MonoBehaviour
+{
+    public Item Get(ItemInfo info, Vector3 position)
+    {
+        return Instantiate(info.Prefab, position, Quaternion.identity);
+    }
+
+    public void Release(Item item)
+    {
+        Destroy(item.gameObject);
+    }
+
+    // After its hop has landed: an orange hopping into a juicer goes when it's in.
+    public void Release(Item item, float delay)
+    {
+        Destroy(item.gameObject, delay);
+    }
+}
+```
+
+17. In `Scripts/Chef`, `Carrier`:
+
+```csharp:Carrier.cs
+using UnityEngine;
+
+// Hands: a pile in front of the chest. The chef has them, and so does each
+// runner. A station trades with a Carrier and doesn't ask whose hands they
+// are; only the cash and the build spots, which are for the chef alone,
+// check IsChef. A helper shuts its hands while it walks, so it trades only
+// where it was sent, not at every mat it crosses on the way.
+public class Carrier : MonoBehaviour
+{
+    [SerializeField] ItemPile hands;
+    [SerializeField] bool isChef;
+
+    public ItemPile Hands { get { return hands; } }
+    public bool IsChef { get { return isChef; } }
+    public bool IsCarrying { get { return !hands.IsEmpty; } }
+    public bool HandsOpen { get; set; } = true;
+
+    public bool CanTake(ItemInfo info)
+    {
+        return hands.CanAdd(info);
+    }
+}
+```
+
+   `HandsOpen` stays true for the chef: Chapter 10's helpers shut theirs while they walk.
+
+18. Open the `Chef` prefab. Add an empty child, `Hands`, at (0, 1, 0.45): in front of his
+    chest. Give it an **Item Pile**: **Capacity** `4`, **Columns** `1`, **Rows** `1`,
+    **Spacing** `0`. Add a **Carrier** to `Chef`: **Hands** is `Hands`, tick **Is Chef**.
+19. An empty GameObject in the scene, `Item Pool`, with **Item Pool**.
+
+### Do it — the crate
+
+20. In `Bar`, `JuiceStand`, small for now: a bar knows its numbers.
+
+```csharp
+using UnityEngine;
+
+// One bar: the Orange Bar, the Apple Bar. It knows its BarInfo; it will grow a
+// price, a speed and its stations.
+public class JuiceStand : MonoBehaviour
+{
+    [SerializeField] BarInfo info;
+
+    public BarInfo Info { get { return info; } }
+}
+```
+
+21. And `FruitCrate`. It makes a fruit every few seconds, and while a Carrier stands in its
+    trigger, it gives them one every 0.15 s:
+
+```csharp
+using UnityEngine;
+
+// A crate that fills by itself: Produce adds a fruit every few seconds until
+// it's full. Stand by it, with empty hands or hands of the same fruit, and
+// the fruit hops onto your pile, one at a time.
+[RequireComponent(typeof(Collider))]
+public class FruitCrate : MonoBehaviour
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile fruit;
+    [SerializeField] ItemPool pool;
+    [SerializeField] int startWith = 6;
+    [SerializeField] float tradeSeconds = 0.15f;
+
+    Carrier visitor;        // whoever stands on the mat, or null
+    float nextFruit;
+    float nextTrade;
+
+    void Start()
+    {
+        for (int i = 0; i < startWith; i++)
+        {
+            Produce();
+        }
+        nextFruit = Time.time + stand.Info.CrateSeconds;
+    }
+
+    void Update()
+    {
+        if (Time.time >= nextFruit)
+        {
+            nextFruit = Time.time + stand.Info.CrateSeconds;
+            if (!fruit.IsFull)
+            {
+                Produce();
+            }
+        }
+        if (visitor != null && Time.time >= nextTrade)
+        {
+            nextTrade = Time.time + tradeSeconds;
+            Trade(visitor);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier))
+        {
+            visitor = carrier;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier) && carrier == visitor)
+        {
+            visitor = null;
+        }
+    }
+
+    void Produce()
+    {
+        fruit.Add(pool.Get(stand.Info.Fruit, fruit.transform.position));
+    }
+
+    void Trade(Carrier carrier)
+    {
+        if (!fruit.IsEmpty && carrier.CanTake(stand.Info.Fruit))
+        {
+            carrier.Hands.Add(fruit.Take());
+        }
+    }
+}
+```
+
+22. Read it:
+    - Two timers, both `Time.time` compared with the time of the next thing. No
+      coroutines, no `InvokeRepeating`: you can see both in one `Update`.
+    - `TryGetComponent(out Carrier carrier)`: "does what walked in have a Carrier?" Sand
+      and customers don't; the chef does. `out` hands back the component when it's there.
+    - The trade is the whole game in three lines: there's fruit, the hands can take this
+      fruit (empty, or the same fruit, and not full), so the top fruit hops from the
+      crate's pile to the hands' pile. `Take` pops it off one stack; `Add` pushes it onto
+      the other and makes it hop.
+23. Open the `Juice Stand` prefab. Add **Juice Stand** to its root. On `Crate`, add a
+    **Box Collider**: tick **Is Trigger**, **Center** (0, 1, 0), **Size** (1.4, 2, 1.4),
+    the mat's size, up to the chef's head. Add **Fruit Crate**: **Stand** is the root,
+    **Fruit** is `Crate/Fruit`. On `Crate/Fruit`, an **Item Pile**: **Capacity** `12`,
+    **Columns** `3`, **Rows** `3`, **Spacing** `0.34`. **Pool** stays empty: a prefab
+    asset can't point at an object in a scene.
+24. Open each variant and set its **Juice Stand**'s **Info**: `Juice Stand Orange` gets
+    `Orange Bar`, and so on. An override each.
+25. In the scene, select each of the four bars' `Crate`, and drag `Item Pool` into its
+    **Pool**: an override on the instance, bold, as C# 4 showed. The prefab
+    can't know the scene; its instances in the scene can.
+
+### Do it — arms out
+
+26. Open the `Person` controller. Two more **Parameters**: `Pace`, a **Float**, and
+    `Carrying`, a **Bool**. Drag `Walk_Carry` (from `Chef_Male`) in, and rename the state
+    `Carry`. In its Inspector, tick **Multiplier**'s **Parameter**, and choose `Pace`: the
+    clip plays at speed `Pace`. At 1 it walks with arms out; at 0 it holds still, arms
+    still out.
+27. Transitions, each with no **Has Exit Time** and a **Transition Duration** of `0.15`:
+    `Idle` → `Carry` and `Walk` → `Carry` on `Carrying` **true**; `Carry` → `Idle` on
+    `Carrying` **false**.
+28. Open the `Chef` override controller: the list now has `Walk_Carry` too. Choose
+    `Run_Carry` beside it.
+29. The final `Chef` script: it tells the Animator two more things.
+
+```csharp:Chef.cs
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// You: the juice maker. The Move action (WASD, the arrows, a gamepad's stick,
+// and the thumb stick on the screen, which pretends to be a gamepad's) sets
+// the Rigidbody's velocity. The chef turns to face the way it walks, and tells
+// its Animator how fast it goes and whether its hands are full.
+[RequireComponent(typeof(Rigidbody))]
+public class Chef : MonoBehaviour
+{
+    static readonly int SpeedId = Animator.StringToHash("Speed");
+    static readonly int PaceId = Animator.StringToHash("Pace");
+    static readonly int CarryingId = Animator.StringToHash("Carrying");
+
+    [SerializeField] InputActionReference move;
+    [SerializeField] Animator animator;
+    [SerializeField] Carrier carrier;
+    [SerializeField] float speed = 4.5f;                // metres a second
+    [SerializeField] float turnDegreesPerSecond = 720f;
+
+    Rigidbody body;
+    Vector3 velocity;
+
+    // The flip-flops make you faster.
+    public float Speed
+    {
+        get { return speed; }
+        set { speed = value; }
+    }
+
+    void Awake()
+    {
+        body = GetComponent<Rigidbody>();
+    }
+
+    // An action reads nothing until it's switched on. Controls switches whole
+    // maps on and off for the panels; the chef makes sure its own action is on.
+    void OnEnable()
+    {
+        move.action.Enable();
+    }
+
+    // Read the input every frame; move the body in FixedUpdate, with the physics.
+    void Update()
+    {
+        Vector2 input = Vector2.ClampMagnitude(move.action.ReadValue<Vector2>(), 1f);
+        // The camera looks north: up on the stick walks into the screen, along z.
+        velocity = new Vector3(input.x, 0f, input.y) * speed;
+        float moving = velocity.magnitude;
+        animator.SetFloat(SpeedId, moving);
+        animator.SetFloat(PaceId, moving > 0.1f ? 1f : 0f);
+        animator.SetBool(CarryingId, carrier.IsCarrying);
+    }
+
+    // The Rigidbody's rotation is frozen, so bumping into a counter can't spin
+    // the chef; he turns only here, towards the way he's walking.
+    void FixedUpdate()
+    {
+        body.linearVelocity = new Vector3(velocity.x, body.linearVelocity.y, velocity.z);
+        if (velocity.sqrMagnitude > 0.01f)
+        {
+            Quaternion facing = Quaternion.LookRotation(velocity);
+            body.MoveRotation(Quaternion.RotateTowards(body.rotation, facing, turnDegreesPerSecond * Time.fixedDeltaTime));
+        }
+    }
+}
+```
+
+30. On the `Chef` prefab, drag `Chef`'s own **Carrier** into its **Carrier**.
+
+### Test it
+
+- **Play**. Six oranges are piled in the Orange Bar's crate, and one more comes every 1.2
+  seconds, up to twelve: three by three, then a layer above.
+- Walk onto the crate's mat. The oranges hop, one every 0.15 s, from the top of the crate
+  to your chest, and stack up: four, then no more. Your arms go out, and you run with them
+  out. Stand still: you hold the stack, not swinging your arms.
+- Walk to the Apple Bar's crate with your oranges: nothing hops. `CanAdd` says no to a
+  second kind of fruit. (Nothing takes fruit from you yet: the next chapter's juicer
+  will.)
+- Pause (**Ctrl+Shift+P**) and look in the Hierarchy: the oranges in your hands are
+  children of `Chef/Hands`, and the ones in the crate of `Crate/Fruit`. Hopping changed
+  their parent.
+- Select `Data/Bars/Orange Bar`, and change **Crate Seconds** to `0.2` while playing:
+  the crate fills almost at once. Data, changed with no code. (A ScriptableObject changed
+  in Play mode **stays** changed: set it back to `1.2`.)
+
+### Commit
+
+*Add the items, the piles, the chef's hands and the crates.*
+
+### Challenge
+
+Give the chef a **Drop** action (the **Q** key): it takes the top item off his hands,
+lets it fall where he stands (`pool.Release`), and does nothing when his hands are empty.
+Where does the Item Pool come from in the chef's script? Is a field you drag it into the
+only way?
+
+## Chapter 5 — The Juicer
+
+**Goal:** juice. Carry oranges to the juicer and they drop into it. A ring above it fills,
+and every 1.6 seconds a cup of orange juice hops onto its tray. Pick the cups up, carry
+them to the till, and they go onto the counter, ready to sell.
+
+### Idea — a machine is a timer
+
+A juicer holds a number, not oranges: the oranges that go in hop into the top and are
+gone (put back in the pool once they've landed). While that number is above 0 and the
+tray isn't full, `progress` counts from 0 to 1 over the bar's **Machine Seconds**. At 1:
+one fruit fewer, one cup more, and back to 0.
+
+```
+fruit 3, progress 0.00 ──1.6 s──▶ fruit 2, a cup on the tray, progress 0.00 ──▶ …
+```
+
+The **ring** shows `progress`: an Image whose **Image Type** is **Filled**, with **Fill
+Amount** from 0 to 1, drawn as a slice of a circle (**Radial 360**). In its middle, the
+fruit still waiting.
+
+How fast is the machine? `BarInfo` says 1.6 s, but Chapter 9's upgrades will make it
+faster, so the juicer doesn't read `BarInfo` itself: it asks the bar, `stand.SecondsPerCup`.
+Today the bar answers with its info's number. Later it'll answer with something else, and
+the juicer won't change.
+
+### Do it — the bar's speed, and the ring
+
+1. Add one property to `JuiceStand`:
+
+<!-- check: add to JuiceStand -->
+```csharp
+public class JuiceStand : MonoBehaviour
+{
+    // … as before …
+
+    // How long the machine takes for a cup. Upgrades will make it faster.
+    public float SecondsPerCup { get { return info.MachineSeconds; } }
+}
+```
+
+2. In `Bar`, `ProgressRing`:
+
+```csharp:ProgressRing.cs
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// The ring above a machine: how far the next cup is, and how much fruit waits.
+public class ProgressRing : MonoBehaviour
+{
+    [SerializeField] Image fill;
+    [SerializeField] TMP_Text fruitText;
+
+    int shownFruit = -1;
+
+    public void Show(float done, int fruit)
+    {
+        fill.fillAmount = done;
+        if (fruit != shownFruit)     // a new string only when the number changes
+        {
+            shownFruit = fruit;
+            fruitText.text = fruit.ToString();
+        }
+    }
+}
+```
+
+   `Show` is called every frame. A number's `ToString()` makes a new string, and a new
+   string is memory the garbage collector has to clear up later; so it makes one only when
+   the number changes. Chapter 20 measures why that matters.
+
+3. Open the `Juice Stand` prefab. On `Juicer/Ring`, add **Progress Ring**: **Fill** is
+   `Fill`, **Fruit Text** is `Fruit`. Set `Fill`'s **Fill Amount** back to `0`.
+
+### Do it — the juicer
+
+4. In `Bar`, `Juicer`:
+
+```csharp
+using UnityEngine;
+
+// A juicer, a blender or a coconut cutter: the same script with other numbers.
+// Stand by it with fruit and it takes them. While it has fruit, it makes a cup
+// every few seconds onto its tray. Stand by it with empty hands, or with the
+// same cups, to pick the cups up.
+[RequireComponent(typeof(Collider))]
+public class Juicer : MonoBehaviour
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile cups;         // the tray
+    [SerializeField] Transform hopper;      // where the fruit goes in
+    [SerializeField] ItemPool pool;
+    [SerializeField] ProgressRing ring;
+    [SerializeField] int fruitCapacity = 6;
+    [SerializeField] float tradeSeconds = 0.15f;
+
+    Carrier visitor;        // whoever stands on the mat, or null
+    float nextTrade;
+    int fruit;
+    float progress;         // 0 to 1: how far the next cup is
+
+    void Update()
+    {
+        if (fruit > 0 && !cups.IsFull)
+        {
+            progress += Time.deltaTime / stand.SecondsPerCup;
+            if (progress >= 1f)
+            {
+                progress = 0f;
+                fruit--;
+                cups.Add(pool.Get(stand.Info.Cup, hopper.position));
+            }
+        }
+        ring.Show(progress, fruit);
+        if (visitor != null && Time.time >= nextTrade)
+        {
+            nextTrade = Time.time + tradeSeconds;
+            Trade(visitor);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier))
+        {
+            visitor = carrier;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier) && carrier == visitor)
+        {
+            visitor = null;
+        }
+    }
+
+    void Trade(Carrier carrier)
+    {
+        ItemPile hands = carrier.Hands;
+        if (hands.TopInfo == stand.Info.Fruit && fruit < fruitCapacity)
+        {
+            Item item = hands.Take();
+            item.HopTo(hopper, Vector3.zero);
+            pool.Release(item, Item.HopSeconds);     // it goes in, then it's juice
+            fruit++;
+        }
+        else if (!cups.IsEmpty && carrier.CanTake(stand.Info.Cup))
+        {
+            hands.Add(cups.Take());
+        }
+    }
+}
+```
+
+5. Read `Trade`. One method, two trades, in order: fruit in your hands goes **in** first;
+   once your hands are empty (or hold this bar's cups), cups come **out**. Stand on the
+   mat with four oranges, and they go in one by one; then the cups the machine has made
+   come to you. An orange goes in by hopping to the hopper's own origin
+   (`Vector3.zero`), and `pool.Release(item, Item.HopSeconds)` waits a quarter of a second
+   (the hop) before it goes. `Item.HopSeconds` is a `const`: one number, used by the item
+   and by everyone who needs to wait for it.
+6. In the `Juice Stand` prefab, on `Juicer`: a **Box Collider**, **Is Trigger**, **Center**
+   (0, 1, 0), **Size** (1.4, 2, 1.4). **Juicer**: **Stand** the root, **Cups**
+   `Juicer/Model/Tray`, **Hopper** `Juicer/Model/Hopper`, **Ring** `Juicer/Ring`. On
+   `Tray`, an **Item Pile**: **Capacity** `8`, **Columns** `2`, **Rows** `2`, **Spacing**
+   `0.28`.
+7. **A second juicer**, for later: duplicate the finished `Juicer`, call it `Juicer 2`,
+   **Position** (1.6, 0, 2.95), and untick it. A duplicate's references to its own
+   children follow the copy: its **Juicer** points at its own `Tray`, `Hopper` and `Ring`.
+   In the Smoothie and Coconut variants, set its jugs as you set the first juicer's. The
+   Orange Bar will get it from a build spot (Chapter 7).
+
+### Do it — the counter takes cups
+
+8. In `Bar`, `Counter`, for now:
+
+```csharp
+using UnityEngine;
+
+// The counter. The till mat behind it is its trigger: stand on it, and your
+// cups go onto the counter, one at a time.
+[RequireComponent(typeof(Collider))]
+public class Counter : MonoBehaviour
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile cups;
+    [SerializeField] float tradeSeconds = 0.15f;
+
+    Carrier visitor;        // whoever stands on the till mat, or null
+    float nextTrade;
+
+    void Update()
+    {
+        if (visitor != null && Time.time >= nextTrade)
+        {
+            nextTrade = Time.time + tradeSeconds;
+            Trade(visitor);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier))
+        {
+            visitor = carrier;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier) && carrier == visitor)
+        {
+            visitor = null;
+        }
+    }
+
+    void Trade(Carrier carrier)
+    {
+        if (carrier.Hands.TopInfo == stand.Info.Cup && !cups.IsFull)
+        {
+            cups.Add(carrier.Hands.Take());
+        }
+    }
+}
+```
+
+9. In the prefab, on `Counter`: a trigger **Box Collider** like the juicer's, and
+   **Counter**: **Stand** the root, **Cups** `Counter/Cups`. On `Cups`, an **Item Pile**:
+   **Capacity** `12`, **Columns** `4`, **Rows** `2`, **Spacing** `0.3`.
+10. In the scene, the juicers need the **Item Pool**, like the crates. Type `t:Juicer` in
+    the Hierarchy's search box: all eight juicers (four bars, two each, the unticked ones
+    too). Select them all, and drag `Item Pool` into **Pool** once. Clear the search.
+
+### Test it
+
+- **Play**. Pick up four oranges, and walk onto the Orange Bar's juicer mat: they hop up
+  into the machine, one by one, and the ring says 4. The orange arc goes round the ring;
+  a cup of orange juice hops onto the tray; the ring says 3.
+- Stay on the mat with empty hands: each new cup hops into your hands. Go to the till
+  mat (yellow, behind the counter): your cups hop onto the counter, 4 to a row, 2 rows.
+- Leave four oranges in the machine, and go for more: it keeps working while you're
+  away, up to 8 cups on its tray, and stops when the tray is full. That's the loop of
+  the game: crate, machine, counter, again.
+- Go to the Apple Bar's juicer with oranges: nothing. Its `Trade` asks for apples.
+
+### Commit
+
+*Add the juicer, its ring, and the counter.*
+
+### Challenge
+
+`FruitCrate`, `Juicer` and `Counter` each have the same fields (`visitor`, `nextTrade`,
+`tradeSeconds`), the same `OnTriggerEnter` and `OnTriggerExit`, and the same timer in
+`Update`: three copies, about twenty lines each. Mark them in all three files. Then
+think: if a runner and the chef stand on the same mat, what happens to `visitor`? Write
+down your answer: Chapter 7 fixes both, once.
+
+## C# 7 — UI in Depth
+
+**Goal:** you can build a screen that fits every shape, from a wide phone to a tablet, with
+the Canvas Scaler, anchors, pivots, layout groups and a scrolling list, and keep it up to
+date without wasted work (Associate: UI — lay out UI with anchors, pivots and groups;
+display data in UI elements).
+
+### Idea — the Canvas's three render modes
+
+| **Render Mode** | Drawn | Use it for |
+| --- | --- | --- |
+| **Screen Space - Overlay** | on top of everything, after the cameras have drawn | most menus and HUDs |
+| **Screen Space - Camera** | by a camera, on a flat sheet **Plane Distance** in front of it | UI that effects must draw in front of |
+| **World Space** | as an object in the world, with its own position, rotation and scale | a health bar over a kart, a price sign on a stand |
+
+Nothing can be in front of an Overlay Canvas: sparks from a played card, or coins
+bursting out of a juice stand, vanish behind the UI. In **Screen Space - Camera**, with
+**Render Camera** set to the Main Camera, the Canvas sorts with everything that camera
+draws, by **Sorting Layer** and **Order in Layer** like a sprite: give the effect a higher
+**Order in Layer** (in its **Renderer** module) and it draws in front. With no camera, the
+Inspector says "A Screen Space Canvas with no specified camera acts like an Overlay Canvas."
+
+### Idea — the Canvas Scaler
+
+On the Canvas, the **Canvas Scaler** decides how big the UI is on each screen:
+
+| Setting | Set it to | Means |
+| --- | --- | --- |
+| **UI Scale Mode** | **Scale With Screen Size** | the UI grows and shrinks with the screen |
+| **Reference Resolution** | 1920 × 1080 | the space you design in |
+| **Screen Match Mode** | **Match Width Or Height** | what to keep when the screen isn't 16:9… |
+| **Match** | 0.5 | …0 keeps the width, 1 the height, 0.5 meets halfway |
+
+A screen of another shape can't keep both 1920 and 1080. Here is the space, in UI units,
+that your Canvas really has on three shapes:
+
+| Screen | Match 0 | Match 0.5 | Match 1 |
 | --- | --- | --- | --- |
-| `Beach Stand` | (−1.9, 4.05, 0) | `umbrella_on_ground_3d` | Beach Stand |
-| `Smoothie Bar` | (0, 4.05, 0) | `tropical_drink_3d` | Smoothie Bar |
-| `Juice Shop` | (1.9, 4.05, 0) | `convenience_store_3d` | Juice Shop |
-| `Juice Factory` | (3.8, 4.05, 0) | `factory_3d` | Juice Factory |
+| 16:9 monitor | 1920 × 1080 | 1920 × 1080 | 1920 × 1080 |
+| 20:9 phone | 1920 × 864 | 2147 × 966 | 2400 × 1080 |
+| 4:3 tablet | 1920 × 1440 | 1663 × 1247 | 1440 × 1080 |
 
-   Their **Owned At Start** stays 0: you don't own them yet. Chapter 6 hides the ones you
-   don't own.
+At 0.5 the phone is **wider and a little shorter** than your design: what's anchored to
+the sides moves outwards, and a column that filled 1080 loses 114 units. The tablet is
+**narrower and taller**: side panels move inwards, and a row of buttons 1800 wide no
+longer fits. Keep what must always show inside about 1660 × 960 in the middle, and anchor the
+rest to the edges.
 
-### Do it — the wallet
+> **Note:** phones also have notches and rounded corners. uGUI 2.6's **Safe Area**
+> component (**Add Component → UI (Canvas) → Safe Area**) shrinks a panel to the part of
+> the screen that's safe to use.
 
-8. In `Scripts/Business`, `Wallet`:
+### Idea — anchors: a point or a stretch
+
+A Rect Transform's **anchors** are two points, **Min** and **Max**, given as fractions of
+the parent: (0, 0) is its bottom-left corner, (1, 1) its top-right.
+
+| Anchors | The element | The Rect Transform shows |
+| --- | --- | --- |
+| together: a **point** (Min = Max) | keeps its distance from that point, and its size | **Pos X**, **Pos Y**, **Width**, **Height** |
+| apart across: a **stretch** | stretches with the parent's width | **Left** and **Right**, instead of Pos X and Width |
+| apart up and down | stretches with the parent's height | **Top** and **Bottom**, instead of Pos Y and Height |
+
+Left, Right, Top and Bottom are **offsets**, from each edge to its anchor: a top bar
+stretched across, with Left and Right at 20, is 20 units from both sides on any screen.
+In code they're `offsetMin` and `offsetMax`; a point's `anchoredPosition` and `sizeDelta`.
+
+The **anchor presets** (the square at the top left of the Rect Transform) set common
+anchors in one click. Hold **Shift** to set the pivot too, and **Alt** (**Option** on a
+Mac) to move the element there as well.
+
+### Idea — pivots: where it grows from
+
+The **pivot** is the point an element rotates and scales around, from (0, 0), its
+bottom-left corner, to (1, 1). A row of buttons along the bottom of a menu, each growing
+when the pointer is over it, shows why it matters: with the pivot in the middle,
+(0.5, 0.5), a button grows downwards too, off the bottom of the screen. With the pivot on
+its bottom edge, (0.5, 0), the bottom stays put and the button grows upwards.
+
+```csharp
+using UnityEngine;
+
+// Pointer Enter and Pointer Exit in an Event Trigger call these. The button grows
+// from its pivot: put the pivot at (0.5, 0) and it grows upwards, away from the
+// screen's edge.
+public class HoverGrow : MonoBehaviour
+{
+    const float HoverScale = 1.2f;
+
+    public void Grow()
+    {
+        transform.localScale = Vector3.one * HoverScale;
+    }
+
+    public void Shrink()
+    {
+        transform.localScale = Vector3.one;
+    }
+}
+```
+
+A layout group ignores its children's scale (unless **Use Child Scale** is ticked), so a
+growing button doesn't push its neighbours. C# 9 shows a way to do it with no
+Event Trigger.
+
+### Idea — layout groups
+
+Put a layout group on a parent, and it places the children for you, in their order in the
+Hierarchy: a **Horizontal Layout Group** in a row, a **Vertical Layout Group** in a
+column, a **Grid Layout Group** in rows and columns of equal cells.
+
+| Setting | Does |
+| --- | --- |
+| **Padding** | space inside the parent's edges: Left, Right, Top, Bottom |
+| **Spacing** | the gap between children; negative, and they overlap |
+| **Child Alignment** | where the children sit when they don't fill the parent, such as **Lower Center** |
+| **Control Child Size** | the group sets the children's width or height, from their Layout Elements |
+| **Child Force Expand** | spare space is shared out between the children |
+| **Cell Size**, **Constraint** (Grid only) | every cell's size; **Fixed Column Count** keeps, say, 5 per row |
+
+A row of buttons is a Horizontal Layout Group, a shop's list of upgrades a Vertical one,
+a deck builder's collection of cards a Grid. The group owns its children's positions: their Rect Transform
+fields go grey and say they're driven by it, so don't set them from code either.
+
+Two more components fine-tune a layout:
+
+- A **Layout Element**, on a child, tells the group about it: **Ignore Layout** leaves it
+  out altogether (a glow behind the chosen button), and **Min**, **Preferred** and
+  **Flexible** **Width** and **Height** say what size it wants when the group controls it.
+- A **Content Size Fitter**, on the parent, resizes the parent to fit what's inside:
+  **Vertical Fit: Preferred Size** makes a list exactly as tall as its rows.
+
+### Idea — a list that scrolls
+
+**GameObject → UI (Canvas) → Scroll View** makes a ready-made list:
+
+| Object | Has | Does |
+| --- | --- | --- |
+| `Scroll View` | **Scroll Rect** | moves the content when you drag or scroll |
+| `Viewport` | **Mask** and an Image | the window: content outside it is hidden |
+| `Content` | (you add the layout) | the long list that moves |
+
+For a vertical list, untick the Scroll Rect's **Horizontal**, and give `Content` a
+**Vertical Layout Group** and a **Content Size Fitter** (**Vertical Fit: Preferred
+Size**). Each row you add makes `Content` taller, and the scroll range follows. On the
+`Viewport`, you can swap the Mask and its Image for a **Rect Mask 2D**: it clips to a
+rectangle without an Image, and costs less.
+
+### Idea — nested Canvases
+
+Unity rebuilds a Canvas's drawing whenever anything in it changes, so a timer that changes
+every frame rebuilds the whole screen around it every frame. Give the part that changes
+often its own **Canvas** component (a **nested Canvas**): its changes rebuild only it. If
+it has buttons, give it a **Graphic Raycaster** too. Split by how often things change: a
+Canvas for every element costs more, not less.
+
+### Idea — showing data only when it changes
+
+Setting `text` in `Update` makes a new string and rebuilds the Canvas sixty times a second,
+even when the number is the same. Set it when the value changes instead:
+
+```csharp
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// A juice stand's stock, as a number and a bar. The stand calls Show when its
+// stock changes; nothing here runs every frame.
+public class StockDisplay : MonoBehaviour
+{
+    [SerializeField] TMP_Text stockText;
+    [SerializeField] Image stockBar;        // Image Type: Filled
+
+    public void Show(int stock, int capacity)
+    {
+        stockText.text = $"{stock} / {capacity}";
+        stockBar.fillAmount = (float)stock / capacity;
+    }
+}
+```
+
+When you must check every frame, compare with what's on screen first. A race clock
+changes its text once a second, not sixty times:
+
+```csharp
+[SerializeField] TMP_Text clockText;
+
+float raceTime;
+int shownSeconds = -1;
+
+void Update()
+{
+    raceTime += Time.deltaTime;
+    int seconds = Mathf.FloorToInt(raceTime);
+    if (seconds != shownSeconds)
+    {
+        shownSeconds = seconds;
+        clockText.text = $"{seconds / 60}:{seconds % 60:00}";
+    }
+}
+```
+
+Layout settings can change from code too. A row of item icons that overlaps them once it
+holds more than five, so it never grows wider:
+
+```csharp
+const int MaxIconsSideBySide = 5;
+const float NormalSpacing = 10f;
+const float OverlapSpacing = -30f;
+
+[SerializeField] HorizontalLayoutGroup itemRow;
+
+void ArrangeItems(int itemCount)
+{
+    itemRow.spacing = itemCount > MaxIconsSideBySide ? OverlapSpacing : NormalSpacing;
+}
+```
+
+### Idea — Image types
+
+| **Image Type** | Does | Use it for |
+| --- | --- | --- |
+| **Simple** | stretches the whole picture (tick **Preserve Aspect** to stop squashing) | icons, portraits |
+| **Sliced** | a **9-slice**: corners keep their size, edges stretch one way, the middle both | panels, buttons and frames of any size, from one small sprite |
+| **Tiled** | repeats the picture | patterns |
+| **Filled** | shows part of it: **Fill Method**, **Fill Origin**, **Fill Amount** | bars, and round cooldowns with **Radial 360** |
+
+A 9-slice needs the sprite's **border**: click **Open Sprite Editor** in the sprite's
+Inspector, and drag the green lines in from each edge (or type **L**, **T**, **R**, **B**).
+Without one, the Image's Inspector warns: "This Image doesn't have a border."
+
+### Idea — test every shape
+
+- **The Game view's aspect menu** (it starts as **Free Aspect**): try **16:9 Aspect** and
+  **4:3 Aspect**, and add your own with **+**, such as an aspect ratio of 20 × 9.
+- **The Device Simulator**: switch the Game view's **Game** menu to **Simulator** (or
+  **Window → General → Device Simulator**), pick a phone and a tablet, and rotate them.
+  It shows the notch and the safe area too.
+
+On each: is anything cut off, overlapping, or too small to read or press?
+
+### Do it
+
+1. Set a Canvas's Canvas Scaler as above. Anchor a button to each corner, a bar
+   stretched across the top, and a panel in the middle. Check 16:9, 4:3 and 20:9.
+2. Make a row of five Images under a Horizontal Layout Group. Try **Spacing** −40,
+   **Child Alignment** **Lower Center**, and **Child Force Expand** on and off.
+3. Add `HoverGrow` to one Image, with an **Event Trigger** calling `Grow` and `Shrink`.
+   Try its pivot at (0.5, 0.5), then at (0.5, 0).
+4. Make a Scroll View with twenty rows in a Vertical Layout Group and a Content Size
+   Fitter. Swap the Viewport's Mask for a Rect Mask 2D.
+5. Make a panel from a small sprite with **Image Type: Sliced**, and give the sprite a
+   border. Stretch the panel: the corners should stay sharp.
+
+### Challenge
+
+Build a shop screen: a title bar stretched across the top, a money counter anchored top
+right, and a scrolling grid of items (a Grid Layout Group with **Fixed Column Count**)
+that has three columns on a tablet and four on a phone. Set the count from code when the
+screen starts, from the Canvas's width in UI units: its Rect Transform's `rect.width`.
+
+## Chapter 6 — Customers and Cash
+
+**Goal:** people. They stroll along the boardwalk, turn up the beach to the Orange Bar, and
+queue. The one at the front shows a bubble: the cup it wants, and how many. Stand at the
+till with cups on the counter, and they're served, a cup at a time; each cup sold leaves
+a note on the cash mat. Walk over the notes, and the money at the top of the screen goes
+up.
+
+### Idea — a visit is a state machine
+
+A customer does one thing at a time, and what it does next depends on what it's doing now.
+That's a **state machine**: an `enum` of states, a field holding the current one, and a
+`switch` that decides what happens when something finishes.
+
+| State | What it does | What ends it | Next |
+| --- | --- | --- | --- |
+| `Arriving` | walks along the boardwalk, then up to its bar | it gets there | `Queueing` |
+| `Queueing` | walks to its place in the queue, and waits | it reaches the front | `Ordering` |
+| `Ordering` | faces the till, shows its bubble | it has every cup it wants | `Leaving` |
+| `Leaving` | steps aside, walks down to the boardwalk and away | it gets to the end | back in the spawner's pool |
+
+Walking is its own job, in its own script: a **Walker** walks a list of points, one after
+another, and raises an event, `Arrived`, at the last one. The customer listens, and its
+`switch` decides what's next. Chapter 10's helpers and Chapter 11's kart walk with the
+same script.
+
+### Idea — a queue is a Queue
+
+Customers queue the way a `Queue<T>` works (C# 6): `Enqueue` joins at the
+back, `Dequeue` leaves from the front, `Peek` looks at the front without removing anyone.
+First come, first served, and nobody pushes in. The counter keeps the queue, and six
+empty GameObjects (Chapter 3's `Queue/Spot 1`… `Spot 6`) mark where each place is. When
+the front one is served, everyone moves up a spot.
+
+A queue can't be read by index (`queue[2]` doesn't compile): it's only a front and a back.
+To visit everyone in it, `foreach` goes from front to back.
+
+### Idea — the money
+
+Selling is a chain of **events** (C# 2), each script knowing only the next:
+
+```
+Counter: the front customer has every cup ──▶ stand.Sell(cups)
+JuiceStand.Sell ──▶ CupSold(price), once per cup
+    CashPile listens ──▶ a note on the mat, worth the price
+the chef walks over the mat ──▶ wallet.Add(note's value)
+Wallet ──▶ MoneyChanged(money)
+    MoneyText listens ──▶ "$35" at the top
+```
+
+The counter doesn't know there's a cash pile; the wallet doesn't know there's a screen.
+Chapter 17 adds floating numbers and a coin sound by listening to the same events, and
+changes none of these scripts.
+
+The money is an `int`, as C# 2's coins were. And the screen shows it short:
+`999`, then `1.25K`, `12.5K`, `125K`, `1.25M`: always three figures, as idle games do.
+
+### Do it — walking
+
+1. In `Scripts`, a folder `People`. In it, `Walker`:
+
+```csharp:Walker.cs
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+// Walks a path: a Queue of points, taken one at a time, at a steady speed,
+// turning to face the way it goes. It tells its Animator how fast, and raises
+// Arrived at the end of the path. Customers, helpers and the kart use it.
+public class Walker : MonoBehaviour
+{
+    static readonly int SpeedId = Animator.StringToHash("Speed");
+    static readonly int PaceId = Animator.StringToHash("Pace");
+
+    [SerializeField] float speed = 2.4f;               // metres a second
+    [SerializeField] float turnDegreesPerSecond = 540f;
+    [SerializeField] Animator animator;                 // none on the kart
+
+    readonly Queue<Vector3> path = new Queue<Vector3>();
+
+    public bool IsWalking { get { return path.Count > 0; } }
+    public float Speed { get { return speed; } }
+
+    public event Action Arrived;
+
+    public void WalkTo(params Vector3[] points)
+    {
+        path.Clear();
+        foreach (Vector3 point in points)
+        {
+            path.Enqueue(point);
+        }
+    }
+
+    public void FaceTowards(Vector3 point)
+    {
+        Vector3 direction = point - transform.position;
+        direction.y = 0f;
+        if (direction.sqrMagnitude > 0.001f)
+        {
+            transform.rotation = Quaternion.LookRotation(direction);
+        }
+    }
+
+    void Update()
+    {
+        if (path.Count == 0)
+        {
+            Animate(0f);
+            return;
+        }
+        Vector3 target = path.Peek();
+        target.y = transform.position.y;
+        Vector3 direction = target - transform.position;
+        float step = speed * Time.deltaTime;
+        if (direction.magnitude <= step)
+        {
+            transform.position = target;
+            path.Dequeue();
+            if (path.Count == 0)
+            {
+                Animate(0f);
+                Arrived?.Invoke();
+            }
+            return;
+        }
+        transform.position += direction.normalized * step;
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(direction),
+            turnDegreesPerSecond * Time.deltaTime);
+        Animate(speed);
+    }
+
+    void Animate(float moving)
+    {
+        if (animator != null)
+        {
+            animator.SetFloat(SpeedId, moving);
+            animator.SetFloat(PaceId, moving > 0.1f ? 1f : 0f);
+        }
+    }
+}
+```
+
+2. Read it:
+   - `WalkTo(params Vector3[] points)`: `params` lets you call it with any number of
+     points, `WalkTo(a)` or `WalkTo(a, b, c)`, and they arrive as one array. It clears
+     the old path first: a new order replaces the last.
+   - `Update` walks towards the first point in the queue, `speed` metres a second. When
+     the step would overshoot it, it lands on it exactly and takes the next. No Rigidbody,
+     no physics: customers walk through each other, and nobody minds.
+   - `Arrived` is raised once, at the end of the whole path.
+
+### Do it — the customer
+
+3. `CustomerState`, in `People`:
+
+```csharp
+// Where a customer is in its visit.
+public enum CustomerState
+{
+    Arriving,       // along the boardwalk to its bar
+    Queueing,       // in the queue, behind someone
+    Ordering,       // at the front: the bubble shows what it wants
+    Leaving
+}
+```
+
+4. `OrderBubble`:
+
+```csharp:OrderBubble.cs
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// The bubble over a customer's head: the cup it wants, and how many more.
+public class OrderBubble : MonoBehaviour
+{
+    [SerializeField] Image icon;
+    [SerializeField] TMP_Text count;
+
+    public void Show(Sprite cup, int stillWanted)
+    {
+        gameObject.SetActive(true);
+        icon.sprite = cup;
+        count.text = stillWanted.ToString();
+    }
+
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+    }
+}
+```
+
+5. The next three scripts need each other: `Customer` calls the counter, the counter
+   calls the customer and the bar. Unity shows errors until all three are saved.
+
+<!-- check: together -->
+
+`Customer`, in `People`:
 
 ```csharp
 using System;
 using UnityEngine;
 
-// The money. It listens to every business, adds what they sell, and tells
-// anyone who shows the money, or whose button depends on it, that it changed.
-// A long, not an int: an int stops at 2,147,483,647, and a juice empire passes
-// that in its first hour.
-public class Wallet : MonoBehaviour
+// One customer's visit, as a state machine: in from the boardwalk, into a
+// queue, an order at the front, then home. The counter moves it up the queue
+// and serves it. When it has gone, Left tells the spawner it can come back as
+// someone else.
+public class Customer : MonoBehaviour
 {
-    [SerializeField] JuiceStand[] stands;
+    static readonly int CarryingId = Animator.StringToHash("Carrying");
 
-    public long Money { get; private set; }
-    public long LifetimeEarned { get; private set; }    // never goes down: Juice Stars come from it
+    [SerializeField] Walker walker;
+    [SerializeField] ItemPile hands;
+    [SerializeField] OrderBubble bubble;
+    [SerializeField] Animator animator;
 
-    public event Action<long> MoneyChanged;
+    CustomerState state;
+    Counter counter;
+    ItemPool pool;
+    Vector3 exit;
+    Vector3 spot;           // its place in the queue
+    bool isFront;
+    int wanted;
+
+    public CustomerState State { get { return state; } }
+    public bool IsReady { get { return state == CustomerState.Ordering; } }
+    public bool HasEverything { get { return hands.Count >= wanted; } }
+    public int CupsWanted { get { return wanted; } }
+
+    public event Action<Customer> Left;
 
     void OnEnable()
     {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold += Add;
-        }
+        walker.Arrived += OnArrived;
     }
 
     void OnDisable()
     {
-        foreach (JuiceStand stand in stands)
+        walker.Arrived -= OnArrived;
+    }
+
+    // The spawner sends it in at one end of the boardwalk, to leave by the other.
+    public void Visit(Counter chosen, ItemPool items, Vector3 entrance, Vector3 leaveBy)
+    {
+        counter = chosen;
+        pool = items;
+        exit = leaveBy;
+        wanted = UnityEngine.Random.Range(1, 4);
+        transform.position = entrance;
+        bubble.Hide();
+        animator.SetBool(CarryingId, false);
+        state = CustomerState.Arriving;
+        walker.WalkTo(new Vector3(counter.Entry.x, 0f, entrance.z), counter.Entry);
+        counter.Join(this);
+    }
+
+    // The counter says where its place is, and whether it's at the front.
+    public void GoToSpot(Vector3 place, bool atFront)
+    {
+        spot = place;
+        isFront = atFront;
+        if (state == CustomerState.Queueing)
         {
-            stand.CupSold -= Add;
+            walker.WalkTo(spot);     // moving up
         }
     }
 
-    public void Add(long amount)
+    public void Receive(Item cup)
+    {
+        hands.Add(cup);
+        animator.SetBool(CarryingId, true);
+        bubble.Show(counter.Stand.Info.Cup.Icon, wanted - hands.Count);
+    }
+
+    // Paid and served: home, by the boardwalk.
+    public void Served()
+    {
+        bubble.Hide();
+        state = CustomerState.Leaving;
+        Vector3 aside = counter.Aside;
+        walker.WalkTo(aside, new Vector3(aside.x, 0f, exit.z), exit);
+    }
+
+    void OnArrived()
+    {
+        switch (state)
+        {
+            case CustomerState.Arriving:
+                state = CustomerState.Queueing;
+                walker.WalkTo(spot);
+                break;
+            case CustomerState.Queueing:
+                if (isFront)
+                {
+                    state = CustomerState.Ordering;
+                    walker.FaceTowards(counter.Till);
+                    bubble.Show(counter.Stand.Info.Cup.Icon, wanted);
+                }
+                break;
+            case CustomerState.Leaving:
+                Left?.Invoke(this);
+                break;
+        }
+    }
+
+    void Update()
+    {
+        if (state == CustomerState.Ordering && !isFront)
+        {
+            state = CustomerState.Queueing;     // can't happen, but never wait at the front by mistake
+        }
+        else if (state == CustomerState.Queueing && isFront && !walker.IsWalking)
+        {
+            OnArrived();                        // moved up to the front while standing still
+        }
+    }
+
+    // Gone home: anything still in its hands goes back to the pool.
+    public void EmptyHands()
+    {
+        while (!hands.IsEmpty)
+        {
+            pool.Release(hands.Take());
+        }
+    }
+}
+```
+
+`Counter`, again: now it keeps the queue, and serves while you stand at the till.
+
+```csharp
+using System.Collections.Generic;
+using UnityEngine;
+
+// The counter, its till and its queue. The till mat behind the counter is its
+// trigger: stand on it and your cups go onto the counter. While you stand at
+// the till, the customer at the front of the queue is served, one cup at a
+// time. Customers wait in a Queue: first come, first served.
+[RequireComponent(typeof(Collider))]
+public class Counter : MonoBehaviour
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile cups;
+    [SerializeField] Transform entry;           // where this bar's customers leave the boardwalk
+    [SerializeField] Transform aside;           // where they step out of the queue, served
+    [SerializeField] Transform[] queueSpots;    // the front first
+    [SerializeField] float serveSeconds = 0.35f;
+    [SerializeField] float tradeSeconds = 0.15f;
+
+    readonly Queue<Customer> queue = new Queue<Customer>();
+    Carrier visitor;        // whoever stands on the till mat, or null
+    float nextTrade;
+    float nextServe;
+
+    public JuiceStand Stand { get { return stand; } }
+    public int CupCount { get { return cups.Count; } }
+    public int QueueLength { get { return queue.Count; } }
+    public bool IsFull { get { return queue.Count >= queueSpots.Length; } }
+    public bool IsServing { get { return visitor != null; } }
+    public Vector3 Entry { get { return entry.position; } }
+    public Vector3 Aside { get { return aside.position; } }
+    public Vector3 Till { get { return transform.position; } }
+    public Vector3 Front { get { return queueSpots[0].position; } }
+
+    // A customer joins at the back.
+    public void Join(Customer customer)
+    {
+        queue.Enqueue(customer);
+        customer.GoToSpot(queueSpots[queue.Count - 1].position, queue.Count == 1);
+    }
+
+    void Update()
+    {
+        if (visitor != null && Time.time >= nextTrade)
+        {
+            nextTrade = Time.time + tradeSeconds;
+            Trade(visitor);
+        }
+        if (queue.Count == 0 || !IsServing || cups.IsEmpty || Time.time < nextServe)
+        {
+            return;
+        }
+        Customer front = queue.Peek();
+        if (!front.IsReady)
+        {
+            return;     // still walking up
+        }
+        nextServe = Time.time + serveSeconds;
+        front.Receive(cups.Take());
+        if (front.HasEverything)
+        {
+            queue.Dequeue();
+            stand.Sell(front.CupsWanted);
+            front.Served();
+            MoveUp();
+        }
+    }
+
+    // Everyone steps up a place. A Queue can't be read by index; foreach
+    // visits it front to back.
+    void MoveUp()
+    {
+        int place = 0;
+        foreach (Customer customer in queue)
+        {
+            customer.GoToSpot(queueSpots[place].position, place == 0);
+            place++;
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier))
+        {
+            visitor = carrier;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier) && carrier == visitor)
+        {
+            visitor = null;
+        }
+    }
+
+    void Trade(Carrier carrier)
+    {
+        if (carrier.Hands.TopInfo == stand.Info.Cup && !cups.IsFull)
+        {
+            cups.Add(carrier.Hands.Take());
+        }
+    }
+}
+```
+
+And `JuiceStand`, again: a price, its counter, and the events of a sale.
+
+```csharp
+using System;
+using UnityEngine;
+
+// One bar: the Orange Bar, the Apple Bar. It knows its BarInfo, its price and
+// its speed, and its counter. The counter calls Sell, and CupSold tells the
+// cash pile.
+public class JuiceStand : MonoBehaviour
+{
+    [SerializeField] BarInfo info;
+    [SerializeField] Counter counter;
+
+    public BarInfo Info { get { return info; } }
+    public Counter Counter { get { return counter; } }
+    public bool IsOpen { get { return counter.gameObject.activeInHierarchy; } }
+
+    // A cup's price now. Upgrades will change it.
+    public int Price { get { return info.Price; } }
+
+    // How long the machine takes for a cup. Upgrades will make it faster.
+    public float SecondsPerCup { get { return info.MachineSeconds; } }
+
+    public event Action<int> CupSold;           // the money for one cup
+    public event Action<int> CustomerServed;    // the money for the whole order
+
+    public void Sell(int cups)
+    {
+        int price = Price;
+        for (int i = 0; i < cups; i++)
+        {
+            CupSold?.Invoke(price);
+        }
+        CustomerServed?.Invoke(cups * price);
+    }
+}
+```
+
+<!-- check: end -->
+
+6. Read them together:
+   - `Visit` sets the customer up for a whole new visit: `Random.Range(1, 4)` is 1, 2 or
+     3 cups (an `int` range leaves out its top). `UnityEngine.Random`, because `using
+     System;` brings in a `System.Random` too, and C# won't guess which you mean.
+   - `Join` puts the customer at the back, and tells it where that is: `queue.Count − 1`,
+     the spot after everyone already in the queue. Only the first is at the front.
+   - The counter serves only when **everything** is true: someone's in the queue, someone
+     stands at the till, there's a cup, it's been 0.35 s, and the front customer has
+     finished walking up. The early `return`s say each "not yet" in a line.
+   - `HasEverything`: the customer pays for the whole order at once. `Sell` raises
+     `CupSold` once per cup (a note each), and `CustomerServed` once with the total.
+     Nothing listens to `CustomerServed` yet: Chapter 12's trophies and Chapter 17's
+     numbers will.
+   - `IsOpen` is the counter's own `activeInHierarchy`: a bar is open when its counter is
+     built. A spawner won't send anyone to a bar with no counter.
+
+### Do it — the customer prefab
+
+7. An empty GameObject, `Customer`, at (0, 0, 0). Add **Walker** (**Speed** `2.4`) and
+   **Customer**.
+8. A child `Hands` at (0, 1, 0.42), with an **Item Pile**: **Capacity** `3`, **Columns**
+   and **Rows** `1`, **Spacing** `0`.
+9. **The bubble.** A child World Space canvas, `Bubble`, at (0, 2.35, 0), 110 × 86,
+   **Scale** 0.01, **Rotation** (55, 0, 0), with **Billboard**, over the customer's head.
+   Inside:
+   - `Back`: an Image stretched over it, `Art/Ground/Bubble`, white.
+   - `Cup`: an Image anchored middle-left, **Pos** (8, 8), 54 × 54, any picture for now.
+   - `Count`: a TextMeshPro anchored middle-right, **Pos** (−10, 8), 46 × 56, `2`, Lilita
+     One, size 44, brown, centred.
+
+   Add **Order Bubble** to `Bubble`: **Icon** `Cup`, **Count** `Count`. Untick `Bubble`:
+   it shows itself when there's something to say.
+
+10. On `Customer`: **Walker**'s **Animator** stays empty, and so does **Customer**'s:
+    there's no body yet. **Hands** `Hands`, **Bubble** `Bubble`. Drag it into
+    `Prefabs/People`, and delete it from the scene.
+11. **The looks.** Right-click `Prefabs/People/Customer` → **Create → Prefab Variant**,
+    `Customer Casual Male`. Open it, and drag `Art/Characters/Casual_Male` onto its root:
+    rename the child `Model`, set its Animator's **Controller** to `Person`, untick **Apply
+    Root Motion**, **Culling Mode** `Cull Update Transforms`. Drag `Model` into **Walker**'s
+    and **Customer**'s **Animator**. A customer with a body.
+12. Seven more variants the same way: `Customer Casual Female`, `Customer Casual2 Male`,
+    `Customer Casual2 Female`, `Customer Casual3 Male`, `Customer Casual3 Female`,
+    `Customer Suit Male` and `Customer OldClassy Female`, each with its model.
+
+    Eight people, one prefab: change the bubble once, in `Customer`, and all eight change.
+
+### Do it — the bar serves
+
+13. Open the `Juice Stand` prefab. On the root's **Juice Stand**, drag `Counter` into
+    **Counter**. On `Counter`'s **Counter**: **Entry** `Counter/Entry`, **Aside**
+    `Counter/Aside`, and **Queue Spots**: set its size to `6` and drag `Spot 1` to `Spot 6`
+    in, in order. (Or lock the Inspector with its padlock, select all six in the
+    Hierarchy, and drag them onto the field's name.)
+14. In the scene, untick the Apple, Smoothie and Coconut Bars' `Crate`, `Juicer` and
+    `Counter`. They're not built yet (Chapter 7's build spots will build them), so they
+    aren't open, and nobody queues at them.
+15. `CustomerSpawner`, in `People`:
+
+```csharp
+using System.Collections.Generic;
+using UnityEngine;
+
+// Sends a customer to an open bar every few seconds, to the one with the
+// shortest queue: the more bars are open, the more often. Customers come from
+// a pool of a fixed size, so when all of them are on the beach, nobody else
+// comes until one leaves.
+public class CustomerSpawner : MonoBehaviour
+{
+    [SerializeField] Customer[] looks;
+    [SerializeField] int poolSize = 16;
+    [SerializeField] float secondsPerBar = 3f;
+    [SerializeField] JuiceStand[] stands;
+    [SerializeField] ItemPool items;
+    [SerializeField] Transform westEnd;     // the boardwalk's two ends
+    [SerializeField] Transform eastEnd;
+
+    readonly Stack<Customer> sleeping = new Stack<Customer>();
+    float nextCustomer = 1f;
+
+    void Awake()
+    {
+        for (int i = 0; i < poolSize; i++)
+        {
+            Customer customer = Instantiate(looks[i % looks.Length], transform);
+            customer.gameObject.SetActive(false);
+            customer.Left += OnLeft;
+            sleeping.Push(customer);
+        }
+    }
+
+    void Update()
+    {
+        if (Time.time < nextCustomer)
+        {
+            return;
+        }
+        int open = 0;
+        Counter shortest = null;
+        foreach (JuiceStand stand in stands)
+        {
+            if (!stand.IsOpen)
+            {
+                continue;
+            }
+            open++;
+            if (!stand.Counter.IsFull && (shortest == null || stand.Counter.QueueLength < shortest.QueueLength))
+            {
+                shortest = stand.Counter;
+            }
+        }
+        nextCustomer = Time.time + secondsPerBar / Mathf.Max(1, open);
+        if (shortest == null || sleeping.Count == 0)
+        {
+            return;
+        }
+        bool fromWest = Random.value < 0.5f;
+        Customer customer = sleeping.Pop();
+        customer.gameObject.SetActive(true);
+        customer.Visit(shortest, items,
+            fromWest ? westEnd.position : eastEnd.position,
+            fromWest ? eastEnd.position : westEnd.position);
+    }
+
+    void OnLeft(Customer customer)
+    {
+        customer.EmptyHands();
+        customer.gameObject.SetActive(false);
+        sleeping.Push(customer);
+    }
+}
+```
+
+16. Read it. Sixteen customers are made **once**, in `Awake`, switched off, and kept in a
+    `Stack`. Sending one is `Pop` and switch it on; one that has left is switched off and
+    pushed back. Nobody is instantiated or destroyed while you play: the spawner is a
+    **pool** of people. (C# 6 chose a Stack for it: which sleeping
+    customer comes next doesn't matter, and a Stack's `Push` and `Pop` are the cheapest
+    there are.) `looks[i % looks.Length]` takes the eight looks in turn: two of each.
+17. An empty GameObject, `Customers`, with **Customer Spawner**: **Looks** the eight
+    variants, **Stands** the four bars (from the scene), **Items** `Item Pool`. Two empty
+    children: `West End` at (−13, 0, −11.4) and `East End` at (13, 0, −11.4), the ends of
+    the boardwalk, off the screen. Drag them into **West End** and **East End**.
+
+### Do it — the cash
+
+18. In `Scripts`, a folder `Business`. In it, `Wallet`:
+
+```csharp:Wallet.cs
+using System;
+using UnityEngine;
+
+// The money. The cash piles, the tables' tips, the kart and the trophies add
+// to it; the build spots and the shops spend it. MoneyChanged tells whatever
+// shows the money, or whose button depends on it. An int, as the shared
+// chapters count coins: this game's money stays in the thousands and the
+// millions, far from 2,147,483,647.
+public class Wallet : MonoBehaviour
+{
+    public int Money { get; private set; }
+    public int LifetimeEarned { get; private set; }     // never goes down, for the trophies
+
+    public event Action<int> MoneyChanged;
+
+    public void Add(int amount)
     {
         Money += amount;
         LifetimeEarned += amount;
@@ -2923,7 +4464,7 @@ public class Wallet : MonoBehaviour
     }
 
     // True, and the money spent, only if there was enough.
-    public bool TrySpend(long amount)
+    public bool TrySpend(int amount)
     {
         if (amount > Money)
         {
@@ -2933,25 +4474,23 @@ public class Wallet : MonoBehaviour
         MoneyChanged?.Invoke(Money);
         return true;
     }
+
+    // Loading a save.
+    public void Restore(int money, int lifetimeEarned)
+    {
+        Money = money;
+        LifetimeEarned = lifetimeEarned;
+        MoneyChanged?.Invoke(Money);
+    }
 }
 ```
 
-9. `stand.CupSold += Add` subscribes the method `Add` itself: it takes a `long` and returns
-   nothing, the shape of an `Action<long>`. `OnEnable` subscribes and `OnDisable`
-   unsubscribes, always both, as Sam's guide says: a destroyed wallet must not stay on a
-   stand's list.
-10. Two numbers, not one. `Money` goes up and down; `LifetimeEarned` only goes up, and
-    remembers everything you ever earned. The Juice Stars (Chapter 13) come from it.
-    `TrySpend` is for Chapter 6: it spends only if there's enough, and says whether it did.
-11. **Create Empty**, `Wallet`, with the `Wallet` script. Drag the five businesses into its
-    **Stands**: select `Wallet`, lock the Inspector (the padlock), select the five in the
-    Hierarchy and drag them all at once onto **Stands**. Unlock it.
+19. `TrySpend` is the only way to spend: it checks and spends in one call, and says
+    whether it could. A build spot can't take money you don't have, because no code can.
+    `Restore` is for loading a save (Chapter 14).
+20. `NumberFormat`, in `Business`:
 
-### Do it — big numbers, short
-
-12. In `Scripts/Business`, `NumberFormat`:
-
-```csharp
+```csharp:NumberFormat.cs
 using System;
 using System.Globalization;
 
@@ -2989,6 +4528,21 @@ public static class NumberFormat
         return rounded.ToString(Format(Decimals(rounded)), CultureInfo.InvariantCulture) + Suffixes[suffix];
     }
 
+    // How long you were away: "45 s", "12 min", "3 h 05 min".
+    public static string Duration(double seconds)
+    {
+        if (seconds < 60)
+        {
+            return $"{(int)seconds} s";
+        }
+        int minutes = (int)(seconds / 60);
+        if (minutes < 60)
+        {
+            return $"{minutes} min";
+        }
+        return $"{minutes / 60} h {minutes % 60:00} min";
+    }
+
     // Three figures in all: two decimals under 10, one under 100, none above.
     static int Decimals(double shown)
     {
@@ -3018,24 +4572,167 @@ public static class NumberFormat
 }
 ```
 
-13. Walk through 1,250: it's 1,000 or more, so it's divided by 1,000 once: 1.25, with the
-    suffix `K`. Under 10, two decimals: `1.25K`. And 999,999: divided once, 999.999; no
-    decimals above 100, so it rounds to 1000, which is too many figures, so it's divided
-    again: `1.00M`. Without that last step it would say `1000K`.
-14. `CultureInfo.InvariantCulture`: a computer set to French or German writes a decimal
-    comma, `1,25K`. The invariant culture writes a point everywhere. It's a `static class`,
-    like Level 3's `Mathf`: nothing to make, just `NumberFormat.Money(1250)`.
+21. Read `Money`: it divides by 1000 until the number is under 1000, counting the
+    suffixes as it goes, then rounds to three figures. `CultureInfo.InvariantCulture`:
+    on a computer set to French or Arabic, `1.25` would print as `1,25`; the invariant
+    culture prints it the same everywhere. A `static class` can't be made with `new`; it's
+    only a home for methods (C# 11 later says more). `Duration` is for Chapter
+    15's "you were away for…".
+22. `CashPile`, in `Bar`:
+
+```csharp
+using UnityEngine;
+
+// Where a bar's money waits for you: a pile of notes, one for each cup sold.
+// Only the chef collects it: walk over it and each note hops to you, into the
+// Wallet. When the pile is full, the money goes on the top note.
+[RequireComponent(typeof(Collider))]
+public class CashPile : MonoBehaviour
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile notes;
+    [SerializeField] ItemInfo note;
+    [SerializeField] ItemPool pool;
+    [SerializeField] Wallet wallet;
+    [SerializeField] float tradeSeconds = 0.04f;
+
+    Carrier visitor;        // whoever stands on the mat, or null
+    float nextTrade;
+
+    void OnEnable()
+    {
+        stand.CupSold += AddNote;
+    }
+
+    void OnDisable()
+    {
+        stand.CupSold -= AddNote;
+    }
+
+    void AddNote(int dollars)
+    {
+        if (notes.IsFull)
+        {
+            notes.Peek().Value += dollars;
+            return;
+        }
+        Item item = pool.Get(note, stand.Counter.transform.position + Vector3.up);
+        item.Value = dollars;
+        notes.Add(item);
+    }
+
+    void Update()
+    {
+        if (visitor != null && Time.time >= nextTrade)
+        {
+            nextTrade = Time.time + tradeSeconds;
+            Trade(visitor);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier))
+        {
+            visitor = carrier;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.TryGetComponent(out Carrier carrier) && carrier == visitor)
+        {
+            visitor = null;
+        }
+    }
+
+    void Trade(Carrier carrier)
+    {
+        if (!carrier.IsChef || notes.IsEmpty)
+        {
+            return;
+        }
+        Item item = notes.Take();
+        wallet.Add(item.Value);
+        item.HopTo(carrier.transform, Vector3.up * 1.2f);
+        pool.Release(item, Item.HopSeconds);
+    }
+}
+```
+
+23. Read it. A note is an `Item` like an orange, and its `Value` is its dollars. Thirty
+    notes fill the mat; after that each sale adds to the top note instead (`Peek`), so no
+    money is lost and the pile stops growing. Collecting is fast, a note every 0.04 s, and
+    for the chef alone: `IsChef`. The note hops to his chest and goes back to the pool;
+    the money goes to the wallet.
+24. An empty GameObject in the scene, `Wallet`, with **Wallet**.
+25. In the `Juice Stand` prefab, on `Counter/Cash Pile`: a trigger **Box Collider**,
+    **Center** (0, 1, 0), **Size** (1.2, 2, 1.2), the green mat's size. **Cash Pile**:
+    **Stand** the root, **Notes** `Cash Pile/Notes`, **Note** `Data/Items/Note`. On
+    `Notes`, an **Item Pile**: **Capacity** `30`, **Columns** `2`, **Rows** `2`, **Spacing**
+    `0.3`. In the scene, select the four bars' `Cash Pile`s (search `t:CashPile`), and drag
+    in `Item Pool` and `Wallet`.
 
 ### Do it — the money on the screen
 
-15. In `Scripts/UI`, `MoneyText`:
+26. In `Scripts`, a folder `Flow`. In it, `SafeArea`:
+
+```csharp:SafeArea.cs
+using UnityEngine;
+
+// Keeps this rectangle inside the screen's safe area: clear of a phone's notch
+// and rounded corners. Everything the player must read or tap goes inside it;
+// the background can stay full-screen behind. It checks again when the safe
+// area changes, as when a phone turns.
+[RequireComponent(typeof(RectTransform))]
+public class SafeArea : MonoBehaviour
+{
+    RectTransform rect;
+    Rect applied;
+
+    void Awake()
+    {
+        rect = GetComponent<RectTransform>();
+        Apply();
+    }
+
+    void Update()
+    {
+        if (Screen.safeArea != applied)
+        {
+            Apply();
+        }
+    }
+
+    // The safe area is in pixels; anchors are 0 to 1 across the screen.
+    void Apply()
+    {
+        applied = Screen.safeArea;
+        Vector2 min = applied.position;
+        Vector2 max = applied.position + applied.size;
+        min.x /= Screen.width;
+        min.y /= Screen.height;
+        max.x /= Screen.width;
+        max.y /= Screen.height;
+        rect.anchorMin = min;
+        rect.anchorMax = max;
+        rect.offsetMin = Vector2.zero;
+        rect.offsetMax = Vector2.zero;
+    }
+}
+```
+
+27. C# 7 explained it: a phone's notch and rounded corners eat into the screen.
+    Under the Canvas, an empty `Safe Area`, stretched over it (Alt and the bottom-right
+    anchor preset), with **Safe Area**. Drag `Stick` into it. Everything you read or tap
+    goes inside `Safe Area` from now on.
+28. In `Scripts`, a folder `UI`. In it, `MoneyText`:
 
 ```csharp
 using TMPro;
 using UnityEngine;
 
-// The money at the top. It changes only when the money does: the Wallet says
-// so, and this listens.
+// The money at the top, shown again whenever it changes.
 public class MoneyText : MonoBehaviour
 {
     [SerializeField] Wallet wallet;
@@ -3043,12 +4740,12 @@ public class MoneyText : MonoBehaviour
 
     void OnEnable()
     {
-        wallet.MoneyChanged += OnMoneyChanged;
+        wallet.MoneyChanged += Show;
     }
 
     void OnDisable()
     {
-        wallet.MoneyChanged -= OnMoneyChanged;
+        wallet.MoneyChanged -= Show;
     }
 
     void Start()
@@ -3056,774 +4753,85 @@ public class MoneyText : MonoBehaviour
         Show(wallet.Money);
     }
 
-    void OnMoneyChanged(long money)
-    {
-        Show(money);
-    }
-
-    void Show(long money)
+    void Show(int money)
     {
         text.text = "$" + NumberFormat.Money(money);
     }
 }
 ```
 
-16. Add it to `Money`, in the top bar: **Wallet** the `Wallet`, **Text** `Money Text`.
-    `Start` shows the money once, before any sale; after that only the event changes it.
+29. **The top bar.** In `Safe Area`, an empty `Top Bar`: anchored across the top (the
+    top-stretch preset, with Shift held so its pivot moves to the top too), **Height**
+    `160`. Inside it, `Money`: an Image, `Panel Light` (**Image Type** `Sliced`), anchored
+    middle-left with its pivot there too (Shift and Alt), **Pos X** `14`, 420 × 130. In
+    `Money`:
+    - `Coin`: an Image, `Art/Emoji/coin_3d`, **Preserve Aspect**, anchored middle-left,
+      **Pos X** `16`, 92 × 92.
+    - `Money Text`: a TextMeshPro, anchored middle-left, **Pos X** `118`, 290 × 90, `$0`,
+      Lilita One, size 64, brown, aligned left and middle.
 
-### Do it — tap to squeeze, in the list
+    Add **Money Text** to `Money`: **Wallet** the scene's `Wallet`, **Text** `Money
+    Text`.
 
-17. `StandRow` now gets a real business, not just its numbers. In `Scripts/UI`, change
-    `StandRow`:
+### Do it — the price tag
 
-<!-- check: together -->
+30. `PriceTag`, in `Bar`, for now:
+
 ```csharp
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
-// One row of the list: a business's picture (tap it to squeeze), its name, how
-// many you own, the cycle's bar, and what a cycle earns. StandList makes the
-// rows in code and calls Setup, so the row only listens once it knows its
-// business.
-public class StandRow : MonoBehaviour
+// The sign on a counter: the bar's name and a cup's price.
+public class PriceTag : MonoBehaviour
 {
-    [SerializeField] Image picture;
-    [SerializeField] Button pictureButton;
-    [SerializeField] TMP_Text nameText;
-    [SerializeField] TMP_Text ownedText;
-    [SerializeField] Image barFill;             // a Filled image: fillAmount is the cycle's progress
-    [SerializeField] TMP_Text earningsText;
-    [SerializeField] TMP_Text priceText;
+    [SerializeField] JuiceStand stand;
+    [SerializeField] TMP_Text text;
 
-    JuiceStand stand;
-
-    public void Setup(JuiceStand forStand)
-    {
-        stand = forStand;
-        picture.sprite = stand.Info.Picture;
-        nameText.text = stand.Info.DisplayName;
-        Listen();
-        Refresh();
-    }
-
-    // Instantiate runs OnEnable before Setup, when the row has no business yet.
     void OnEnable()
     {
-        if (stand != null)
-        {
-            Listen();
-            Refresh();
-        }
-    }
-
-    void OnDisable()
-    {
-        if (stand == null)
-        {
-            return;
-        }
-        pictureButton.onClick.RemoveListener(stand.Squeeze);
-    }
-
-    // The bar moves every frame; a fill amount makes no garbage.
-    void Update()
-    {
-        if (stand != null)
-        {
-            barFill.fillAmount = stand.Progress;
-        }
-    }
-
-    void Listen()
-    {
-        pictureButton.onClick.AddListener(stand.Squeeze);
-    }
-
-    void Refresh()
-    {
-        ownedText.text = stand.Owned == 0 ? "not open yet" : $"owns {stand.Owned}";
-        earningsText.text = "$" + NumberFormat.Money(stand.Owned > 0 ? stand.EarningsPerCycle : stand.Info.EarningsPerCycle);
-        priceText.text = "$" + NumberFormat.Money(stand.Info.BaseCost);
-    }
-}
-```
-
-18. Change `StandList` too: until you do, Unity can't compile it, since `row.Show` is
-    gone. `StandList` now takes the businesses in the scene:
-
-```csharp
-using UnityEngine;
-
-// The scrolling list under the beach: one Stand Row for each business, made
-// in code from the businesses in the scene. The List's Vertical Layout Group
-// puts them one under another.
-public class StandList : MonoBehaviour
-{
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] StandRow rowPrefab;
-    [SerializeField] Transform content;
-
-    void Start()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            StandRow row = Instantiate(rowPrefab, content);
-            row.name = stand.Info.DisplayName + " Row";
-            row.Setup(stand);
-        }
-    }
-}
-```
-<!-- check: end -->
-
-19. **The order of a new row's life.** `Instantiate` makes the row and runs its `Awake` and
-    `OnEnable` at once, before `Instantiate` even returns: then `Setup` runs. So in
-    `OnEnable` the row has no business yet (`stand` is `null`), and it waits; `Setup`
-    starts the listening. If the row is ever switched off and on again, `OnEnable` starts
-    it again. Remember this: it comes back in every list the game makes.
-20. Open the **Stand Row** prefab. The `StandRow` fields have changed: drag in **Picture
-    Button** (the `Picture Button` child itself: its **Button**) and **Bar Fill**
-    (`Progress Bar/Fill`).
-21. Select `Stand List`: its **Stands** field is now a list of `JuiceStand`s, and empty.
-    Drag the five businesses in, in order.
-
-### Test it
-
-- **Play.** The list shows `owns 1` for the Lemonade Cup and *not open yet* for the
-  others. Tap the cup's picture in its row: its bar fills in a second, and the money says
-  `$1`. Tap again: `$2`. Tap twice quickly: the second tap does nothing while the cycle
-  runs.
-- Tap the Beach Stand's picture: nothing. You own none.
-- Stop. Set the Beach Stand's **Owned At Start** to 10, and Play. Tap it: the bar takes 3
-  seconds, then `$600`: ten of them, $60 each. Put it back to 0.
-- In your `Practice` script, log a few: `NumberFormat.Money(1250)`, `(12500)`,
-  `(999999)`, `(3243267274)` and `(long.MaxValue)`. You should see `1.25K`, `12.5K`,
-  `1.00M`, `3.24B` and `9.22Qi`.
-
-### Commit
-
-*Squeeze and sell: the cycle, the wallet and the money.*
-
-### Challenge
-
-Show the Wallet's `LifetimeEarned` too: a small text under the money that says `earned
-$12.5K so far`. Which event tells you when to change it? (No new event is needed.) Take it
-out again afterwards: Chapter 8 puts the income per second there.
-
-## Chapter 6 — Buy More
-
-**Goal:** a **Buy** button on every row, for ×1, ×10, ×100 or as many as you can afford,
-green when you can and grey when you can't; prices that grow with every one you own,
-exactly as the balance sheet says; earnings that double at each milestone; and the
-businesses you own standing on the beach, where a tap squeezes them too.
-
-### Idea — every one costs more
-
-The balance sheet's rule: each business costs its **cost growth** times more than the one
-before. The Lemonade Cup's growth is 1.07, so:
-
-| You own | The next one costs | Worked out |
-| --- | --- | --- |
-| 0 | $4 | 4 × 1.07⁰ = 4 |
-| 1 | $5 | 4 × 1.07¹ = 4.28, rounded **up** |
-| 10 | $8 | 4 × 1.07¹⁰ = 7.87 |
-| 25 | $22 | 4 × 1.07²⁵ = 21.71 |
-| 100 | $3,471 | 4 × 1.07¹⁰⁰ = 3,470.9 |
-
-In C#: `Math.Pow(growth, owned)` raises a number to a power. It works in `double`s,
-which can hold the huge powers (1.07⁵⁰⁰ has 15 figures); `Math.Ceiling` rounds up to a
-whole dollar, and the result becomes a `long`. Ten at once is ten prices added up, one
-after another. **Max** counts how many the money buys: add the next price, then the
-next, until one is more than what's left.
-
-The three are **pure maths**: numbers in, a number out, nothing in the scene. They go in
-a `static class`, `CostMath`, like `NumberFormat`.
-
-### Idea — a button that knows
-
-A Buy button you can't afford should look it, grey, and do nothing. The row can't ask
-"can I afford it?" once and forget: the money changes with every sale. It **listens** to
-the wallet's `MoneyChanged` and checks again each time. That's the Challenge of
-C# 5, built for real.
-
-Three things can change a row's price and button:
-
-| What changed | Who says so | The row |
-| --- | --- | --- |
-| the money | `Wallet.MoneyChanged` | re-checks the price |
-| how many you own | `JuiceStand.Changed` | redraws everything |
-| ×1, ×10, ×100 or Max | `BuyAmountBar.Changed` | redraws everything |
-
-### Idea — milestones
-
-Owning **25, 50, 100, 200, 300 and 400** of one business doubles its earnings at each:
-at 400 it earns 64 times as much for each one. It's what makes "just ten more" tempting.
-`EarningsPerCycle` becomes the business's own earnings × how many you own × the
-milestones' multiplier, a `float`. Watch the types here: a `long` times a `float` is
-worked out **as a `float`**, which can't hold every whole number above 16,777,216
-(Chapter 5's table). Turning the multiplier into a `double` first, `(double)`, makes C#
-work the whole sum out in `double`s, exact to 9 quadrillion; the result is rounded down
-to a `long`.
-
-### Do it — the maths
-
-1. In `Scripts/Business`, `CostMath`:
-
-```csharp:CostMath.cs
-using System;
-
-// What businesses cost. Each one costs costGrowth times more than the last, so
-// the price of the next is baseCost × costGrowth to the power of how many you
-// own, rounded up to a whole coin. Worked out in a double, which can hold the
-// huge powers, then turned into a long.
-public static class CostMath
-{
-    const int MaxAtOnce = 10000;    // Max never loops for ever
-
-    public static long NextCost(StandInfo info, int owned)
-    {
-        double cost = Math.Ceiling(info.BaseCost * Math.Pow(info.CostGrowth, owned));
-        if (cost >= long.MaxValue)
-        {
-            return long.MaxValue;
-        }
-        return (long)cost;
-    }
-
-    // The next count of them, one price after another.
-    public static long CostOf(StandInfo info, int owned, int count)
-    {
-        long total = 0;
-        for (int i = 0; i < count; i++)
-        {
-            long cost = NextCost(info, owned + i);
-            if (cost > long.MaxValue - total)
-            {
-                return long.MaxValue;   // more than anyone can ever have
-            }
-            total += cost;
-        }
-        return total;
-    }
-
-    // How many you can buy now with this money.
-    public static int Affordable(StandInfo info, int owned, long money)
-    {
-        int count = 0;
-        long spent = 0;
-        while (count < MaxAtOnce)
-        {
-            long cost = NextCost(info, owned + count);
-            if (cost > money - spent)
-            {
-                break;
-            }
-            spent += cost;
-            count++;
-        }
-        return count;
-    }
-}
-```
-
-2. Two guards against the ends of a `long`. A price so far out it's bigger than any `long`
-   (1.07 to the power of 700 is) becomes `long.MaxValue`, which no wallet ever holds.
-   And `cost > long.MaxValue - total` asks "would adding it go past the biggest `long`?"
-   **before** adding, since after would be too late: it would have wrapped round, as
-   Chapter 5's `int` did.
-
-### Do it — ×1, ×10, ×100, Max
-
-3. In `Scripts/UI`, `BuyAmountBar`. The `enum` is small and belongs to this class, so it
-   shares its file, as the style guide allows:
-
-```csharp:BuyAmountBar.cs
-using System;
-using UnityEngine;
-using UnityEngine.UI;
-
-// How many a Buy button buys.
-public enum BuyAmount
-{
-    One,
-    Ten,
-    Hundred,
-    Max
-}
-
-// The ×1, ×10, ×100 and Max buttons above the list. The chosen one is green.
-// Each button's On Click () calls Select with its number, 0 to 3; Tab calls Next.
-public class BuyAmountBar : MonoBehaviour
-{
-    [SerializeField] Image[] buttons;           // in the enum's order
-    [SerializeField] Sprite chosenSprite;
-    [SerializeField] Sprite otherSprite;
-
-    public BuyAmount Current { get; private set; }
-
-    public event Action Changed;
-
-    void Start()
-    {
         Show();
-    }
-
-    public void Select(int index)
-    {
-        Current = (BuyAmount)index;
-        Show();
-        Changed?.Invoke();
-    }
-
-    public void Next()
-    {
-        Select(((int)Current + 1) % buttons.Length);
-    }
-
-    // How many to buy of this business: Max is as many as the money buys, at least one.
-    public int CountFor(JuiceStand stand, long money)
-    {
-        switch (Current)
-        {
-            case BuyAmount.Ten: return 10;
-            case BuyAmount.Hundred: return 100;
-            case BuyAmount.Max: return Math.Max(1, CostMath.Affordable(stand.Info, stand.Owned, money));
-            default: return 1;
-        }
     }
 
     void Show()
     {
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].sprite = i == (int)Current ? chosenSprite : otherSprite;
-        }
+        text.text = $"{stand.Info.DisplayName}  ${NumberFormat.Money(stand.Price)}";
     }
 }
 ```
 
-4. Add it to `Buy Bar`. **Buttons**: the four buttons' **Image**s, `×1` to `Max` (drag the
-   buttons themselves in). **Chosen Sprite** `Button Green`, **Other Sprite** `Button
-   Blue`.
-5. Wire each button's **On Click ()**: **+**, drag `Buy Bar` in, **BuyAmountBar →
-   Select (int)**, and type its number in the box: 0 for ×1, 1 for ×10, 2 for ×100, 3 for
-   Max. A UnityEvent can pass one fixed value like this, typed in the Inspector.
-6. `(BuyAmount)index` turns a number into the `enum` value at that place: 2 is `Hundred`.
-   `Next` goes round, with `%`: after Max (3), `(3 + 1) % 4` is 0, ×1 again. Chapter 14's
-   Tab key calls it. **Max** buys at least one: with too little money the button shows one
-   at its price, grey.
-
-### Do it — buying, and milestones
-
-7. `JuiceStand` learns to buy, and to count milestones. Change it:
-
-```csharp
-using System;
-using UnityEngine;
-
-// One business on the beach: how many you own, and its cycle. Squeeze starts a
-// cycle; when the bar fills, it sells, and waits for the next squeeze. It earns
-// more for every one you own, and twice as much at each milestone.
-public class JuiceStand : MonoBehaviour
-{
-    static readonly int[] Milestones = { 25, 50, 100, 200, 300, 400 };
-
-    [SerializeField] StandInfo info;
-    [SerializeField] int ownedAtStart;          // 1 for the Lemonade Cup: you start with one
-
-    public StandInfo Info { get { return info; } }
-    public int Owned { get; private set; }
-    public bool IsRunning { get; private set; }
-    public float Progress { get; private set; }     // 0 to 1, through the cycle
-
-    // What one cycle sells for: every one you own, and the milestones. Worked
-    // out in a double: a long times a float is worked out as a float, which
-    // can't hold every whole number above 16,777,216.
-    public long EarningsPerCycle
-    {
-        get { return (long)(info.EarningsPerCycle * Owned * (double)MilestoneMultiplier); }
-    }
-
-    // The next milestone to reach, or 0 when every one is reached.
-    public int NextMilestone
-    {
-        get
-        {
-            foreach (int milestone in Milestones)
-            {
-                if (Owned < milestone)
-                {
-                    return milestone;
-                }
-            }
-            return 0;
-        }
-    }
-
-    float MilestoneMultiplier
-    {
-        get
-        {
-            float multiplier = 1f;
-            foreach (int milestone in Milestones)
-            {
-                if (Owned >= milestone)
-                {
-                    multiplier *= 2f;
-                }
-            }
-            return multiplier;
-        }
-    }
-
-    public event Action<long> CupSold;      // what the cycle sold for
-    public event Action Squeezed;           // a tap started a cycle
-    public event Action<int> Bought;        // how many were bought
-    public event Action Changed;            // how many you own; more from Chapter 7
-
-    void Awake()
-    {
-        Owned = ownedAtStart;
-    }
-
-    void Update()
-    {
-        if (!IsRunning)
-        {
-            return;
-        }
-        Progress += Time.deltaTime / info.CycleSeconds;
-        if (Progress >= 1f)
-        {
-            Progress = 0f;
-            IsRunning = false;
-            CupSold?.Invoke(EarningsPerCycle);
-        }
-    }
-
-    // A tap, on the beach or on the row. Nothing happens while a cycle runs.
-    public void Squeeze()
-    {
-        if (Owned == 0 || IsRunning)
-        {
-            return;
-        }
-        IsRunning = true;
-        Squeezed?.Invoke();
-    }
-
-    public void Buy(int count)
-    {
-        Owned += count;
-        Bought?.Invoke(count);
-        Changed?.Invoke();
-    }
-}
-```
-
-8. `Milestones` is `static readonly`: one array for every stand, made once, never
-   replaced. (`const` can't hold an array.) `Buy` doesn't spend any money: the row does
-   that first, with `TrySpend`, and calls `Buy` only if it worked. The stand doesn't need
-   to know there's a wallet at all.
-
-### Do it — the Buy button
-
-9. The row learns to buy. Change `StandRow`, and `StandList` with it (they only compile
-   together, since `Setup` takes two more things):
-
-<!-- check: together -->
-```csharp
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// One row of the list: a business's picture (tap it to squeeze), its name, how
-// many you own and the next milestone, the cycle's bar, what a cycle earns,
-// and the Buy button, green when you can afford it. StandList makes the rows in
-// code and calls Setup, so the row only listens once it knows its business.
-public class StandRow : MonoBehaviour
-{
-    [SerializeField] Image picture;
-    [SerializeField] Button pictureButton;
-    [SerializeField] TMP_Text nameText;
-    [SerializeField] TMP_Text ownedText;
-    [SerializeField] Image barFill;             // a Filled image: fillAmount is the cycle's progress
-    [SerializeField] TMP_Text earningsText;
-    [SerializeField] Button buyButton;
-    [SerializeField] Image buyButtonImage;
-    [SerializeField] TMP_Text buyText;
-    [SerializeField] TMP_Text priceText;
-    [SerializeField] Sprite canBuySprite;
-    [SerializeField] Sprite cannotBuySprite;
-
-    JuiceStand stand;
-    Wallet wallet;
-    BuyAmountBar amounts;
-
-    public void Setup(JuiceStand forStand, Wallet forWallet, BuyAmountBar forAmounts)
-    {
-        stand = forStand;
-        wallet = forWallet;
-        amounts = forAmounts;
-        picture.sprite = stand.Info.Picture;
-        nameText.text = stand.Info.DisplayName;
-        Listen();
-        Refresh();
-    }
-
-    // Instantiate runs OnEnable before Setup, when the row has no business yet.
-    void OnEnable()
-    {
-        if (stand != null)
-        {
-            Listen();
-            Refresh();
-        }
-    }
-
-    void OnDisable()
-    {
-        if (stand == null)
-        {
-            return;
-        }
-        stand.Changed -= Refresh;
-        wallet.MoneyChanged -= OnMoneyChanged;
-        amounts.Changed -= Refresh;
-        pictureButton.onClick.RemoveListener(stand.Squeeze);
-        buyButton.onClick.RemoveListener(Buy);
-    }
-
-    // The bar moves every frame; a fill amount makes no garbage.
-    void Update()
-    {
-        if (stand != null)
-        {
-            barFill.fillAmount = stand.Progress;
-        }
-    }
-
-    void Listen()
-    {
-        stand.Changed += Refresh;
-        wallet.MoneyChanged += OnMoneyChanged;
-        amounts.Changed += Refresh;
-        pictureButton.onClick.AddListener(stand.Squeeze);
-        buyButton.onClick.AddListener(Buy);
-    }
-
-    void Buy()
-    {
-        int count = amounts.CountFor(stand, wallet.Money);
-        if (wallet.TrySpend(CostMath.CostOf(stand.Info, stand.Owned, count)))
-        {
-            stand.Buy(count);
-        }
-    }
-
-    // The money changes with every sale: only the price and the button can
-    // change with it, so only they're redrawn.
-    void OnMoneyChanged(long money)
-    {
-        ShowPrice();
-    }
-
-    void Refresh()
-    {
-        int next = stand.NextMilestone;
-        if (stand.Owned == 0)
-        {
-            ownedText.text = "not open yet";
-        }
-        else if (next > 0)
-        {
-            ownedText.text = $"owns {stand.Owned} · next ×2 at {next}";
-        }
-        else
-        {
-            ownedText.text = $"owns {stand.Owned}";
-        }
-        earningsText.text = "$" + NumberFormat.Money(stand.Owned > 0 ? stand.EarningsPerCycle : stand.Info.EarningsPerCycle);
-        ShowPrice();
-    }
-
-    void ShowPrice()
-    {
-        int count = stand.Owned == 0 ? 1 : amounts.CountFor(stand, wallet.Money);
-        long price = CostMath.CostOf(stand.Info, stand.Owned, count);
-        bool canBuy = price <= wallet.Money;
-        buyText.text = stand.Owned == 0 ? "Open" : $"Buy ×{count}";
-        priceText.text = "$" + NumberFormat.Money(price);
-        buyButton.interactable = canBuy;
-        buyButtonImage.sprite = canBuy ? canBuySprite : cannotBuySprite;
-    }
-}
-```
-
-```csharp
-using UnityEngine;
-
-// The scrolling list under the beach: one Stand Row for each business, made
-// in code from the businesses in the scene. The List's Vertical Layout Group
-// puts them one under another.
-public class StandList : MonoBehaviour
-{
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] StandRow rowPrefab;
-    [SerializeField] Transform content;
-    [SerializeField] Wallet wallet;
-    [SerializeField] BuyAmountBar amounts;
-
-    void Start()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            StandRow row = Instantiate(rowPrefab, content);
-            row.name = stand.Info.DisplayName + " Row";
-            row.Setup(stand, wallet, amounts);
-        }
-    }
-}
-```
-<!-- check: end -->
-
-10. Read `Buy` slowly: it asks the bar how many, asks `CostMath` what they cost, asks the
-    wallet to spend that, and only if the wallet says yes tells the stand. Each piece does
-    one job, and the row is where they meet.
-11. A business you don't own yet says **Open** instead of **Buy ×1**, and always shows
-    the price of one: you open it once, then buy more.
-12. Open the **Stand Row** prefab and fill the new fields: **Buy Button** (`Buy Button`),
-    **Buy Button Image** (`Buy Button` again: its Image), **Buy Text** (`Buy
-    Button/Label`), **Can Buy Sprite** `Button Green`, **Cannot Buy Sprite** `Button
-    Grey`.
-13. Select `Stand List`: drag in the **Wallet** and the **Amounts** (`Buy Bar`).
-14. A test helper, for you and not the player. Add it at the end of `Wallet`:
-
-```csharp
-    // … as before …
-
-    [ContextMenu("Test: Add $1M")]
-    void AddMillionForTesting()
-    {
-        Add(1000000);
-    }
-}
-```
-
-15. While playing, select `Wallet`, open its script's **⋮** menu in the Inspector, and
-    choose **Test: Add $1M**. `[ContextMenu]` puts a method there; it runs only in the
-    Editor. Chapter 21 takes it out before the release.
-
-### Do it — the businesses on the beach
-
-16. In `Scripts/Juice`, `StandSprite`:
-
-```csharp
-using System.Collections;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-// A business on the beach, as a sprite: it appears when you own one, squeezes
-// when you tap it, and squashes when it sells. The camera's Physics 2D
-// Raycaster finds its collider for the tap.
-public class StandSprite : MonoBehaviour, IPointerClickHandler
-{
-    [SerializeField] JuiceStand stand;
-    [SerializeField] SpriteRenderer picture;
-    [SerializeField] Collider2D tapArea;
-    [SerializeField] float squash = 0.15f;
-    [SerializeField] float squashTime = 0.25f;
-
-    Vector3 restingScale;
-
-    void Awake()
-    {
-        restingScale = picture.transform.localScale;
-    }
-
-    void OnEnable()
-    {
-        stand.Changed += Refresh;
-        stand.CupSold += OnCupSold;
-    }
-
-    void OnDisable()
-    {
-        stand.Changed -= Refresh;
-        stand.CupSold -= OnCupSold;
-    }
-
-    void Start()
-    {
-        Refresh();
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        stand.Squeeze();
-    }
-
-    void Refresh()
-    {
-        bool isOpen = stand.Owned > 0;
-        picture.enabled = isOpen;
-        tapArea.enabled = isOpen;
-    }
-
-    void OnCupSold(long amount)
-    {
-        StopAllCoroutines();
-        StartCoroutine(Squash());
-    }
-
-    // Wider and shorter, then back again: a sale you can see.
-    IEnumerator Squash()
-    {
-        for (float t = 0f; t < squashTime; t += Time.deltaTime)
-        {
-            float amount = Mathf.Sin(t / squashTime * Mathf.PI) * squash;
-            picture.transform.localScale = restingScale + new Vector3(amount, -amount, 0f);
-            yield return null;
-        }
-        picture.transform.localScale = restingScale;
-    }
-}
-```
-
-17. Open the **Stand Sprite** prefab. **Add Component → Box Collider 2D**, **Size** (2, 2):
-    the area a finger can tap. Add `StandSprite`: **Stand** is the root's own `JuiceStand`
-    (drag the root in), **Picture** the `Picture` child, **Tap Area** the Box Collider
-    2D. The five on the beach get it all, each still pointing at its own `JuiceStand`.
-18. Select the **Main Camera** and **Add Component → Physics 2D Raycaster**. The
-    EventSystem now asks it, as well as the canvas, what's under a tap: it casts into the
-    world, finds a 2D collider, and calls `OnPointerClick` on its scripts. That's
-    `IPointerClickHandler`, the same interface a UI button uses, here on a sprite.
+31. In the `Juice Stand` prefab, on `Counter/Price Tag`: **Price Tag**, **Stand** the root,
+    **Text** `Price Tag/Text`. In the scene, each bar's tag now writes itself from its
+    `BarInfo`: `Apple Bar  $10`. The `$` before `{` is a plain dollar sign; the `$` before
+    the string's first `"` makes it an interpolated string.
 
 ### Test it
 
-- **Play.** Only the Lemonade Cup stands on the beach. Tap it there: its bar fills in the
-  list, then it squashes as it sells.
-- Squeeze a few times: at $5 the Buy button turns green (**Buy ×1**, **$5**). Buy: `owns
-  2 · next ×2 at 25`, and the next costs $5. Look up the balance sheet's second table: the
-  prices must match it.
-- **Test: Add $1M.** The Beach Stand says **Open $60**: open it, and it appears on the
-  beach. Choose **×10**: every row shows the price of ten. **Max**: each shows how many
-  your money buys. Buy the Lemonade Cup up to 25: its earnings jump from $24 to $50.
-- With little money, a grey button does nothing when clicked.
-- Open all five. Spend everything with **Max** on the Juice Factory, then watch the Buy
-  buttons turn green one by one as the sales come in.
+- **Play**, and wait. After a second, someone walks along the boardwalk and turns up to
+  the Orange Bar; then another every 3 seconds, into a queue behind the first, 0.85 m
+  apart. The front one turns to the till and shows a bubble: an orange juice, and a
+  number.
+- Make juice, and put cups on the counter. Stay on the till mat: the front customer takes
+  cups, one every 0.35 s, the bubble counting down. With all of them, it steps aside and
+  walks off, carrying its cups, and everyone moves up a place.
+- A note hops onto the green mat for each cup: $5 each. Walk over it: the notes hop to
+  you, and the money at the top counts up. Leave the till for a while: six people queue,
+  and the seventh doesn't come (`IsFull`).
+- Select one of the `Customers`' children while it walks, and watch its **Customer**
+  component in the Inspector: it has no visible state. Switch the Inspector to **Debug**
+  (the **⋮** menu, top right): now private fields show, and `state` changes as it goes.
+  Switch back to **Normal**.
 
 ### Commit
 
-*Buy more: prices that grow, ×1 to Max, milestones, and the businesses on the beach.*
+*Add customers, the queue, the cash and the money at the top.*
 
 ### Challenge
 
-Add a **×25** amount between ×10 and ×100: a fifth button, a fifth `BuyAmount`. What else
-has to change so **Next** goes round all five? (Look at what `Next` divides by.)
+Make `secondsPerBar` `0.5` on the spawner and play: what happens to the queue? Now the
+customers come faster than you can serve. Where would a designer put that number, if it
+were to change with each beach?
 
-## C# 7 — Inheritance
+## C# 8 — Inheritance
 
 **Goal:** you can build a family of classes that share their code, with `protected`,
 `virtual`, `override`, `abstract` and `base.`; ask an object which kind it is with `is`
@@ -4061,7 +5069,7 @@ It fits when one thing **is a** kind of the other, **and** they share code:
 | `TurboKart` and `Kart` | a turbo kart is a kart | driving, top speed | inheritance |
 | `Bat` and `Enemy` | a bat is an enemy | health, damage | inheritance |
 | `Gem` and `Pickup` | a gem is a pickup | being collected | inheritance |
-| a player, a crate and a familiar that can all be hurt | none is a kind of another | almost none | an interface (C# 8) |
+| a player, a crate and a familiar that can all be hurt | none is a kind of another | almost none | an interface (C# 9) |
 
 A class has only **one** base class, and a component's is already `MonoBehaviour`. Every
 subclass is tied to its base: change `Enemy`, and every enemy changes, which is the point
@@ -4083,257 +5091,1384 @@ void Produce()` every `interval` seconds, and two juice stands built on it. Give
 sign that spins in its own `Update`, without stopping the juice. Should an `Upgrade`
 that makes a stand faster be a subclass of `Generator`? Explain your answer.
 
-## Chapter 7 — Upgrades and Managers
+## Chapter 7 — Stations and Build Spots
 
-**Goal:** nineteen upgrades from the balance sheet, of three kinds: **fruit recipes**
-that make a business earn three times as much, **equipment** that makes it squeeze twice
-as fast, and **managers** that squeeze for you. A shop to buy them in, written by last
-summer's intern; and a toast that slides down to say *Manager hired!*
+**Goal:** two things. First, the same twenty lines that `FruitCrate`, `Juicer`, `Counter`
+and `CashPile` each have, written once, in a base class all four inherit: a **Station**.
+Second, the beach grows. Dashed squares appear in the sand, each with a price; stand on one
+and your money pours into it, a little at a time; when it's paid, a table or a second
+juicer pops up, and the next squares appear.
 
-### Idea — three kinds, one base
+### Idea — a family of stations
 
-Every upgrade has an id, a name, a line saying what it does, a picture, a price, and the
-business it's for (or none, for all five). Then each kind does something different to a
-business:
+Every place you stand to trade works the same way, and only the trade is different:
 
-| Kind | Does | `ApplyTo(stand)` calls |
-| --- | --- | --- |
-| `PriceUpgrade` (a fruit recipe) | the business earns ×3 | `stand.MultiplyPrice(3)` |
-| `SpeedUpgrade` (equipment) | it squeezes twice as fast | `stand.MultiplySpeed(2)` |
-| `ManagerUpgrade` | it squeezes by itself | `stand.Automate()` |
+| Same for all | Different for each |
+| --- | --- |
+| a trigger collider; a list of who stands in it | what's traded: fruit to you, fruit in and cups out, cups to the counter, notes to you |
+| a timer: one trade every `tradeSeconds` | how often: 0.15 s, or 0.04 s for cash |
+| who arrives and who leaves | what a station does about it (most do nothing) |
 
-They **are** the same kind of thing, with one difference each: that's inheritance
-(C# 7). The **abstract** class `Upgrade` says everything they share once,
-and declares `ApplyTo` with no body: every kind must **override** it. The shop, the save
-file and the library deal only in `Upgrade`s. None of them knows there are three kinds,
-and a fourth kind would need no change to any of them.
+C# 8 put that shape in code: an **abstract** base class with the same part,
+and an **abstract** method, `Trade`, that each kind must write. `Station` keeps a `List`
+of every Carrier inside, not one `visitor`: a runner and the chef can stand on the same mat
+(the Chapter 5 challenge's answer: with one `visitor`, the second one in replaced the first,
+and the first one out set it to `null` while the second still stood there).
 
-C# 7 ended with a question: *should an upgrade be a subclass of the
-business it upgrades?* No. Inheritance says "is a": a Smoothie Bar **is a** business; a
-fruit recipe **is not** a business. It **changes** one. So the business stays a
-`JuiceStand`, the upgrade is an asset, and `ApplyTo` is how one changes the other.
+`Station` has its own `Update` (the timer), and so do the crate and the juicer (making
+fruit, making cups). So `Station.Update` is `protected virtual`, and theirs is `protected
+override`, calling `base.Update()` first. A station that adds nothing to `Update` (the
+counter's till, a cash pile) doesn't write one at all.
 
-The upgrades are ScriptableObjects, like `StandInfo`: the designer's numbers, the same for
-everyone, never changing while playing. What an upgrade **does** changes the stand, in the
-scene: the asset itself never changes. That's why `ApplyTo` takes the stand.
+### Idea — the build list
 
-### Idea — a manager is an upgrade too
+An idle game is a list: what to build next, and what it costs. The designer's balance sheet
+has it, in its third table. Each **build spot** knows its price, the object it builds (a
+switched-off table, a switched-off juicer), and the spots that come **after** it:
 
-A manager is bought in a shop, once, like any upgrade. So it's an `Upgrade`, and the
-Managers tab is the same kind of shop, showing the other kind. When the game needs to
-tell them apart (a toast for a manager, nothing for a recipe), C# asks with **`is`**:
-`upgrade is ManagerUpgrade` is `true` for a manager. Use it sparingly: if you find
-yourself asking "is it this kind, is it that kind" everywhere, the difference belongs in
-an overridden method.
+```
+Table 1 ($30) ──▶ Table 2 ($50)
+             └──▶ The Orange Bar's second juicer ($80) ──▶ the Apple crate ──▶ …
+```
 
-### Do it — what upgrades do to a business
+Paying is a trade, so a build spot is a Station too: while the chef stands on it, every
+0.035 s it takes a little money (about a thirtieth of the price) and a note hops from him
+into the spot. When it's paid: what it builds is switched on, the spot is switched off,
+and each spot after it is **offered**, switched on. A `BuildList` knows them all and which
+come first; Chapter 14 makes it save which are built.
 
-1. Each kind calls one method on the business. Give `JuiceStand` all three, and a manager
-   that keeps the cycles going:
+### Do it — the station
 
-```csharp
-using System;
+1. In `Bar`, `Station`:
+
+```csharp:Station.cs
+using System.Collections.Generic;
 using UnityEngine;
 
-// One business on the beach: how many you own, what the upgrades did to it,
-// and its cycle. Squeeze starts a cycle; when the bar fills it sells, and a
-// business with a manager starts the next cycle by itself. It earns more for
-// every one you own, and twice as much at each milestone.
-public class JuiceStand : MonoBehaviour
+// A place you stand to trade: a crate, a juicer, a counter, a cash pile, a
+// table, the bin, a build spot. Its collider is a trigger. While a Carrier
+// (the chef, or a runner) stands in it, Trade is called every tradeSeconds,
+// so things change hands one at a time. What's traded is each kind's own
+// business: Station is abstract, and each kind says what with override Trade.
+[RequireComponent(typeof(Collider))]
+public abstract class Station : MonoBehaviour
 {
-    static readonly int[] Milestones = { 25, 50, 100, 200, 300, 400 };
+    [SerializeField] float tradeSeconds = 0.15f;
 
-    [SerializeField] StandInfo info;
-    [SerializeField] int ownedAtStart;          // 1 for the Lemonade Cup: you start with one
+    readonly List<Carrier> inside = new List<Carrier>();
+    float nextTrade;
 
-    float priceMultiplier = 1f;
-    float speedMultiplier = 1f;
-
-    public StandInfo Info { get { return info; } }
-    public int Owned { get; private set; }
-    public bool IsAutomated { get; private set; }
-    public bool IsRunning { get; private set; }
-    public float Progress { get; private set; }     // 0 to 1, through the cycle
-    public float CycleSeconds { get { return info.CycleSeconds / speedMultiplier; } }
-
-    // What one cycle sells for now: every one you own, the upgrades and the
-    // milestones. Worked out in a double: a long times a float is worked out as
-    // a float, which can't hold every whole number above 16,777,216.
-    public long EarningsPerCycle
+    void OnTriggerEnter(Collider other)
     {
-        get { return (long)(info.EarningsPerCycle * Owned * (double)priceMultiplier * MilestoneMultiplier); }
-    }
-
-    // The next milestone to reach, or 0 when every one is reached.
-    public int NextMilestone
-    {
-        get
+        if (other.TryGetComponent(out Carrier carrier) && !inside.Contains(carrier))
         {
-            foreach (int milestone in Milestones)
-            {
-                if (Owned < milestone)
-                {
-                    return milestone;
-                }
-            }
-            return 0;
+            inside.Add(carrier);
+            OnArrived(carrier);
         }
     }
 
-    float MilestoneMultiplier
+    void OnTriggerExit(Collider other)
     {
-        get
+        if (other.TryGetComponent(out Carrier carrier) && inside.Remove(carrier))
         {
-            float multiplier = 1f;
-            foreach (int milestone in Milestones)
-            {
-                if (Owned >= milestone)
-                {
-                    multiplier *= 2f;
-                }
-            }
-            return multiplier;
+            OnLeft(carrier);
         }
     }
 
-    public event Action<long> CupSold;      // what the cycle sold for
-    public event Action Squeezed;           // a tap started a cycle
-    public event Action<int> Bought;        // how many were bought
-    public event Action Changed;            // owned, multipliers or manager
-
-    void Awake()
+    // A station switched off (built over, or reset) forgets who stood in it.
+    protected virtual void OnDisable()
     {
-        Owned = ownedAtStart;
+        inside.Clear();
     }
 
-    void Update()
+    protected virtual void Update()
     {
-        if (!IsRunning)
+        if (inside.Count == 0 || Time.time < nextTrade)
         {
             return;
         }
-        Progress += Time.deltaTime / CycleSeconds;
-        // A fast, managed business can finish more than one cycle in a frame.
-        while (Progress >= 1f)
+        nextTrade = Time.time + tradeSeconds;
+        for (int i = inside.Count - 1; i >= 0; i--)
         {
-            Progress -= 1f;
-            CupSold?.Invoke(EarningsPerCycle);
-            if (!IsAutomated)
+            if (!inside[i].isActiveAndEnabled)
             {
-                Progress = 0f;
-                IsRunning = false;
-                return;
+                inside.RemoveAt(i);     // a runner sent home while it stood here
+            }
+            else if (inside[i].HandsOpen)
+            {
+                Trade(inside[i]);
             }
         }
     }
 
-    // A tap, on the beach or on the row. Nothing happens while a cycle runs.
-    public void Squeeze()
+    protected bool IsAnyoneInside
     {
-        if (Owned == 0 || IsRunning)
-        {
-            return;
-        }
-        IsRunning = true;
-        Squeezed?.Invoke();
+        get { return inside.Count > 0; }
     }
 
-    public void Buy(int count)
+    protected abstract void Trade(Carrier carrier);
+
+    protected virtual void OnArrived(Carrier carrier)
     {
-        Owned += count;
-        if (IsAutomated)
-        {
-            IsRunning = true;   // a manager hired before you owned one starts now
-        }
-        Bought?.Invoke(count);
-        Changed?.Invoke();
     }
 
-    public void MultiplyPrice(float factor)
+    protected virtual void OnLeft(Carrier carrier)
     {
-        priceMultiplier *= factor;
-        Changed?.Invoke();
-    }
-
-    public void MultiplySpeed(float factor)
-    {
-        speedMultiplier *= factor;
-        Changed?.Invoke();
-    }
-
-    // A manager squeezes for you, from now on.
-    public void Automate()
-    {
-        IsAutomated = true;
-        if (Owned > 0)
-        {
-            IsRunning = true;
-        }
-        Changed?.Invoke();
     }
 }
 ```
 
-2. Look at `Update`'s new loop. A managed business never stops: when its bar fills, it
-   keeps what's left over (`Progress -= 1f`) and goes straight on. With every speed
-   upgrade a Lemonade Cup's cycle can drop below a frame; then one frame can finish two
-   cycles, and the `while` sells both. A business without a manager sells once and stops,
-   as before.
-3. `MultiplyPrice` and `MultiplySpeed` are the shared C# 4 chapter's
-   names: the juice stand there is this one. Each **multiplies** what's there, so two
-   ×3 recipes make ×9, in whatever order they're bought.
+2. Read it:
+   - `abstract class`: you can't add a `Station` to a GameObject, only a kind of station.
+     `[RequireComponent(typeof(Collider))]` is inherited too: every station needs its
+     trigger.
+   - `OnTriggerEnter` and `OnTriggerExit` are **private**: Unity calls them on the
+     object's own class, and no station needs to change them. What a station may want to
+     know is `OnArrived` and `OnLeft`, `protected virtual` with empty bodies: override
+     them only if you need them. (A table will.)
+   - `Update` loops **backwards** over the list, because it may remove from it: a runner
+     switched off while standing on a mat never gets an `OnTriggerExit`, so the station
+     drops it itself. Going backwards, removing item `i` doesn't move the ones still to
+     visit. A carrier with its hands shut (`HandsOpen`, Chapter 10) stays on the list, and
+     isn't traded with.
+   - `protected virtual void OnDisable`: a station switched off forgets who was inside.
+     `CashPile` has an `OnDisable` of its own, so it overrides this one and calls `base.`.
+3. Now each station, inheriting `Station`, without its copy of the trigger code. Unity
+   shows errors until all four are saved: `Counter` is used by `Customer`, and everyone
+   uses `JuiceStand`.
 
-### Do it — the upgrades
+<!-- check: together -->
 
-4. In `Scripts/Upgrades`, `Upgrade`:
+`FruitCrate`:
+
+```csharp:FruitCrate.cs
+using System;
+using UnityEngine;
+
+// A crate that fills by itself: Produce adds a fruit every few seconds until
+// it's full. Stand by it, with empty hands or hands of the same fruit, and
+// the fruit hops onto your pile, one at a time. Not before its bar is open:
+// fruit with no juicer to go to would be stuck in your hands.
+public class FruitCrate : Station
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile fruit;
+    [SerializeField] ItemPool pool;
+    [SerializeField] int startWith = 6;
+
+    float nextFruit;
+
+    public event Action Picked;
+
+    void Start()
+    {
+        for (int i = 0; i < startWith; i++)
+        {
+            Produce();
+        }
+        nextFruit = Time.time + stand.Info.CrateSeconds;
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        if (Time.time >= nextFruit)
+        {
+            nextFruit = Time.time + stand.Info.CrateSeconds;
+            if (!fruit.IsFull)
+            {
+                Produce();
+            }
+        }
+    }
+
+    void Produce()
+    {
+        fruit.Add(pool.Get(stand.Info.Fruit, fruit.transform.position));
+    }
+
+    protected override void Trade(Carrier carrier)
+    {
+        if (stand.IsOpen && !fruit.IsEmpty && carrier.CanTake(stand.Info.Fruit))
+        {
+            carrier.Hands.Add(fruit.Take());
+            Picked?.Invoke();
+        }
+    }
+}
+```
+
+`Juicer`:
+
+```csharp:Juicer.cs
+using System;
+using UnityEngine;
+
+// A juicer, a blender or a coconut cutter: the same script with other numbers.
+// Stand by it with fruit and it takes them. While it has fruit, it makes a cup
+// every few seconds onto its tray. Stand by it with empty hands, or with the
+// same cups, to pick the cups up.
+public class Juicer : Station
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile cups;         // the tray
+    [SerializeField] Transform hopper;      // where the fruit goes in
+    [SerializeField] ItemPool pool;
+    [SerializeField] ProgressRing ring;
+    [SerializeField] int fruitCapacity = 6;
+
+    int fruit;
+    float progress;     // 0 to 1: how far the next cup is
+
+    public int Fruit { get { return fruit; } }
+    public int FruitRoom { get { return fruitCapacity - fruit; } }
+    public int CupCount { get { return cups.Count; } }
+
+    public event Action CupMade;
+
+    protected override void Update()
+    {
+        base.Update();
+        if (fruit > 0 && !cups.IsFull)
+        {
+            progress += Time.deltaTime / stand.SecondsPerCup;
+            if (progress >= 1f)
+            {
+                progress = 0f;
+                fruit--;
+                cups.Add(pool.Get(stand.Info.Cup, hopper.position));
+                CupMade?.Invoke();
+            }
+        }
+        ring.Show(progress, fruit);
+    }
+
+    protected override void Trade(Carrier carrier)
+    {
+        ItemPile hands = carrier.Hands;
+        // A runner with fruit in its hands can't take cups, and with a full tray
+        // this machine can't make room for fruit: its fruit goes in anyway, or
+        // each would wait for the other for ever.
+        bool hasRoom = fruit < fruitCapacity || (!carrier.IsChef && cups.IsFull);
+        if (hands.TopInfo == stand.Info.Fruit && hasRoom)
+        {
+            Item item = hands.Take();
+            item.HopTo(hopper, Vector3.zero);
+            pool.Release(item, Item.HopSeconds);     // it goes in, then it's juice
+            fruit++;
+        }
+        else if (!cups.IsEmpty && carrier.CanTake(stand.Info.Cup))
+        {
+            hands.Add(cups.Take());
+        }
+    }
+}
+```
+
+`Counter`:
+
+```csharp:Counter.cs
+using System.Collections.Generic;
+using UnityEngine;
+
+// The counter, its till and its queue. The till mat behind the counter is this
+// station's trigger: stand on it and your cups go onto the counter. While
+// anyone stands at the till, the chef or a cashier, the customer at the front
+// of the queue is served, one cup at a time. Customers wait in a Queue: first
+// come, first served.
+public class Counter : Station
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile cups;
+    [SerializeField] Transform entry;           // where this bar's customers leave the boardwalk
+    [SerializeField] Transform aside;           // where they step out of the queue, served
+    [SerializeField] Transform[] queueSpots;    // the front first
+    [SerializeField] float serveSeconds = 0.35f;
+
+    readonly Queue<Customer> queue = new Queue<Customer>();
+    bool cashierAtTill;
+    float nextServe;
+
+    public JuiceStand Stand { get { return stand; } }
+    public int CupCount { get { return cups.Count; } }
+    public int QueueLength { get { return queue.Count; } }
+    public bool IsFull { get { return queue.Count >= queueSpots.Length; } }
+    public bool IsServing { get { return IsAnyoneInside || cashierAtTill; } }
+    public Vector3 Entry { get { return entry.position; } }
+    public Vector3 Aside { get { return aside.position; } }
+    public Vector3 Till { get { return transform.position; } }
+    public Vector3 Front { get { return queueSpots[0].position; } }
+
+    // A customer joins at the back.
+    public void Join(Customer customer)
+    {
+        queue.Enqueue(customer);
+        customer.GoToSpot(queueSpots[queue.Count - 1].position, queue.Count == 1);
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+        if (queue.Count == 0 || !IsServing || cups.IsEmpty || Time.time < nextServe)
+        {
+            return;
+        }
+        Customer front = queue.Peek();
+        if (!front.IsReady)
+        {
+            return;     // still walking up
+        }
+        nextServe = Time.time + serveSeconds;
+        front.Receive(cups.Take());
+        if (front.HasEverything)
+        {
+            queue.Dequeue();
+            stand.Sell(front.CupsWanted);
+            front.Served();
+            MoveUp();
+        }
+    }
+
+    // Everyone steps up a place. A Queue can't be read by index; foreach
+    // visits it front to back.
+    void MoveUp()
+    {
+        int place = 0;
+        foreach (Customer customer in queue)
+        {
+            customer.GoToSpot(queueSpots[place].position, place == 0);
+            place++;
+        }
+    }
+
+    protected override void Trade(Carrier carrier)
+    {
+        if (carrier.Hands.TopInfo == stand.Info.Cup && !cups.IsFull)
+        {
+            cups.Add(carrier.Hands.Take());
+        }
+    }
+
+    // A cashier at the till serves as the chef does.
+    public void SetCashier(bool isAtTill)
+    {
+        cashierAtTill = isAtTill;
+    }
+}
+```
+
+`CashPile`:
+
+```csharp:CashPile.cs
+using UnityEngine;
+
+// Where a bar's money waits for you: a pile of notes, one for each cup sold.
+// Only the chef collects it: walk over it and each note hops to you, into the
+// Wallet. When the pile is full, the money goes on the top note.
+public class CashPile : Station
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] ItemPile notes;
+    [SerializeField] ItemInfo note;
+    [SerializeField] ItemPool pool;
+    [SerializeField] Wallet wallet;
+
+    // Waiting here: a save counts it as yours.
+    public int Total { get; private set; }
+
+    void OnEnable()
+    {
+        stand.CupSold += AddNote;
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+        stand.CupSold -= AddNote;
+    }
+
+    void AddNote(int dollars)
+    {
+        Total += dollars;
+        if (notes.IsFull)
+        {
+            notes.Peek().Value += dollars;
+            return;
+        }
+        Item item = pool.Get(note, stand.Counter.transform.position + Vector3.up);
+        item.Value = dollars;
+        notes.Add(item);
+    }
+
+    protected override void Trade(Carrier carrier)
+    {
+        if (!carrier.IsChef || notes.IsEmpty)
+        {
+            return;
+        }
+        Item item = notes.Take();
+        Total -= item.Value;
+        wallet.Add(item.Value);
+        item.HopTo(carrier.transform, Vector3.up * 1.2f);
+        pool.Release(item, Item.HopSeconds);
+    }
+}
+```
+
+<!-- check: end -->
+
+4. Compare each with the one before. The fields `visitor`, `nextTrade` and
+   `tradeSeconds`, both trigger methods and the timer are gone from all four: about eighty
+   lines. `Trade` is now `protected override`. And each has a little more, for later:
+   - `FruitCrate` gives fruit only once its bar `IsOpen`: an Apple crate built before the
+     Apple counter would fill your hands with apples no machine takes yet. And it raises
+     `Picked` for each fruit (Chapter 12's trophies count them).
+   - `Juicer` raises `CupMade` (Chapter 17's squeeze sound), and tells a runner how much
+     fruit it has, how much more it can take and how many cups (`Fruit`, `FruitRoom`,
+     `CupCount`, Chapter 10). `hasRoom` lets a runner's fruit in over the limit when the
+     tray is full: Chapter 10 says why.
+   - `Counter` serves while **anyone** is inside (`IsAnyoneInside`), or while a cashier
+     stands at its till (`SetCashier`, Chapter 10).
+   - `CashPile` keeps the `Total` waiting on its mat (a save counts it as yours, Chapter
+     14), and its `OnDisable` calls `base.OnDisable()` first.
+5. Press **Play**: everything works as before. Nothing you can see changed. That's a
+   **refactor**: the same game, better code. Commit it on its own now: *Make the crate, juicer,
+   counter and cash pile Stations.* A commit that only refactors is easy to review, and
+   easy to undo.
+
+### Do it — the build spot
+
+6. `BuildSpot`, in `Bar`:
+
+```csharp
+using System;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// A dashed square in the sand with a price. Stand on it and your money pours
+// in, a little at a time. When it's paid, what it builds appears, and so do
+// the spots that come after it. Leave halfway, and what you paid stays.
+public class BuildSpot : Station
+{
+    [SerializeField] string id;                 // never changes: a save file stores it
+    [SerializeField] string displayName;
+    [SerializeField] int price = 30;
+    [SerializeField] GameObject builds;
+    [SerializeField] BuildSpot[] next;
+    [SerializeField] Wallet wallet;
+    [SerializeField] ItemPool pool;
+    [SerializeField] ItemInfo note;
+    [SerializeField] TMP_Text priceText;
+    [SerializeField] Image paidFill;
+
+    int paid;
+    float priceFactor = 1f;     // a later beach's spots cost more
+
+    public string Id { get { return id; } }
+    public string DisplayName { get { return displayName; } }
+    public int Price { get { return Mathf.RoundToInt(price * priceFactor); } }
+    public int Paid { get { return paid; } }
+    public bool IsBuilt { get; private set; }
+
+    public event Action<BuildSpot> Built;
+
+    protected override void Trade(Carrier carrier)
+    {
+        if (!carrier.IsChef || IsBuilt)
+        {
+            return;
+        }
+        // About thirty steps from empty to paid, however big the price.
+        int pay = Mathf.Min(Mathf.Max(1, Price / 30), Price - paid, wallet.Money);
+        if (pay <= 0 || !wallet.TrySpend(pay))
+        {
+            return;
+        }
+        paid += pay;
+        Item money = pool.Get(note, carrier.transform.position + Vector3.up * 1.2f);
+        money.HopTo(transform, Vector3.zero);
+        pool.Release(money, Item.HopSeconds);
+        Show();
+        if (paid >= Price)
+        {
+            Build();
+            Built?.Invoke(this);
+        }
+    }
+
+    // What it builds appears, and the spots after it are offered.
+    public void Build()
+    {
+        IsBuilt = true;
+        paid = Price;
+        builds.SetActive(true);
+        gameObject.SetActive(false);
+        foreach (BuildSpot spot in next)
+        {
+            spot.Offer();
+        }
+    }
+
+    public void Offer()
+    {
+        if (!IsBuilt)
+        {
+            gameObject.SetActive(true);
+            Show();
+        }
+    }
+
+    void Show()
+    {
+        priceText.text = "$" + NumberFormat.Money(Price - paid);
+        paidFill.fillAmount = paid / (float)Price;
+    }
+}
+```
+
+7. Read `Trade`'s sum. `Mathf.Min` of three numbers: a thirtieth of the price (but at
+   least $1), what's still to pay, and what you have. On a $30 spot, $1 a step; on a
+   $5,000 spot, $166. With $0 it's 0, and nothing happens. `paid / (float)Price`: an `int`
+   divided by an `int` is a whole number (12 / 30 is 0), so one of them becomes a `float`
+   first, and 12 / 30 is 0.4, the fill.
+8. `IsBuilt { get; private set; }`: everyone can read it; only the spot can change it.
+   `priceFactor` stays 1 until Chapter 16's later beaches.
+9. `BuildList`, in `Bar`, for now:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+// Every build spot on the beach, in the designer's order, and the ones offered
+// at the start.
+public class BuildList : MonoBehaviour
+{
+    [SerializeField] BuildSpot[] spots;
+    [SerializeField] BuildSpot[] first;
+
+    public IReadOnlyList<BuildSpot> Spots { get { return spots; } }
+
+    public event Action<BuildSpot> SpotBuilt;
+
+    void OnEnable()
+    {
+        foreach (BuildSpot spot in spots)
+        {
+            spot.Built += OnBuilt;
+        }
+    }
+
+    void OnDisable()
+    {
+        foreach (BuildSpot spot in spots)
+        {
+            spot.Built -= OnBuilt;
+        }
+    }
+
+    void OnBuilt(BuildSpot spot)
+    {
+        SpotBuilt?.Invoke(spot);
+    }
+
+    void Start()
+    {
+        foreach (BuildSpot spot in first)
+        {
+            spot.Offer();
+        }
+    }
+}
+```
+
+10. Read it. It listens to every spot's `Built`, and passes each on as one event,
+    `SpotBuilt`: whoever wants to know when anything is built (a sound, a toast) listens
+    to the list, not to twenty spots. `IReadOnlyList`: others can read the spots, not
+    change the array.
+11. Open the `Build Spot` prefab. On its root: a trigger **Box Collider**, **Center** (0, 1,
+    0), **Size** (1.6, 2, 1.6). **Build Spot**: **Trade Seconds** `0.035`, **Note**
+    `Data/Items/Note`, **Price Text** `Sign/Price`, **Paid Fill** `Sign/Paid`.
+
+### Do it — the first spots
+
+12. **The tables to build.** An empty `Tables`. Drag two `Table` prefabs into it: `Table 1`
+    at (−3.6, 0, −6.8) and `Table 2` at (−3.6, 0, −8.8). Then an empty at the top of the
+    Hierarchy, `Table 1 and Bin`, and drag `Table 1` into it: Chapter 8 puts the bin in it
+    too, and one spot builds both. Untick `Table 1 and Bin` and `Table 2`.
+13. An empty `Build Spots`, and three `Build Spot` prefabs in it:
+
+| GameObject | Id | Display Name | Price | Position | Builds | Picture |
+| --- | --- | --- | --- | --- | --- | --- |
+| `Spot Table 1` | `table-1` | `Table` | `30` | (−3.6, 0, −6.8) | `Table 1 and Bin` | `Art/Emoji/umbrella_on_ground_3d` |
+| `Spot Table 2` | `table-2` | `Table` | `50` | (−3.6, 0, −8.8) | `Table 2` | the same |
+| `Spot Orange Juicer 2` | `orange-juicer-2` | `Juicer` | `80` | (−3.8, 0, 2.95) | `Orange Bar/Juicer 2` | `Art/Icons/Orange Juice` |
+
+On each, set `Sign/Name`'s text to its **Display Name**, and drag its picture into
+`Sign/Picture`. Drag in `Wallet` and `Item Pool`. The juicer's spot stands where its
+mat will be: you pay standing where you'll work, and the machine appears beside you.
+
+14. **Next**: `Spot Table 1`'s **Next** is `Spot Table 2` and `Spot Orange Juicer 2`. The
+    others' **Next** stay empty, for now.
+15. Untick all three spots. On `Build Spots`, add **Build List**: **Spots** all three,
+    **First** `Spot Table 1`.
+
+### Test it
+
+- **Play**. On the sand south of the bar, a dashed square: a picture, `$30`, `Table`.
+  Earn $30 (six cups), and stand on it: notes hop from you into the square, $1 at a time,
+  the price counts down and the yellow fill rises. Walk off at $14: it stays at $14 to go.
+  Come back and finish.
+- At $0, a table and two stools appear, the square goes, and two more appear: Table 2
+  ($50) and the second juicer ($80) by the first.
+- Build the juicer. It appears, with its ring. Carry oranges to it: two machines, twice
+  the juice. The Orange Bar sells as fast as you can carry.
+- Stand on a spot with no money: nothing happens, no error. `TrySpend` and `pay <= 0`
+  both refuse.
+
+### Commit
+
+*Add build spots and the build list.*
+
+### Challenge
+
+Add a fourth spot to the list: a palm tree (any of `Art/Nature`'s) for $40, offered after
+Table 2. What did you change in the scene, and what in code? (Nothing in code: the list
+is data.) Then take it out again.
+
+## Chapter 8 — Tables and the Bin
+
+**Goal:** a served customer looks for a free seat. It walks to a table, sits, drinks for
+six seconds, and leaves: an empty cup on the table and a tip beside it. The tip is yours;
+the cup is a job. Clear it into the bin, or that seat stays taken. Then the whole build
+list, up to the Coconut Bar.
+
+### Idea — two more states, and a seat that isn't free
+
+The visit grows from four states to seven:
+
+```
+Arriving ─▶ Queueing ─▶ Ordering ─┬─▶ ToTable ─▶ Sitting ─(6 s)─▶ StandingUp ─(1 s)─▶ Leaving
+                                  └─▶ Leaving (no free seat)
+```
+
+A **seat is free** when nobody sits on it **and** no empty cup is in front of it. So the
+tables fill up with cups if you don't clear them, and then the customers go straight
+home: the bar still sells, but the tips stop. The `Table` keeps two arrays, side by side:
+who sits on each seat, and the cup left in front of each. **Seating** knows every table,
+and finds a free seat at one that's built.
+
+`TryFindSeat` and `TryTakeSeat` follow C#'s **Try** pattern, like `Dictionary.TryGetValue`
+and `TryGetComponent`: return a `bool` (found one?), and hand back what was found through
+`out` parameters. No exceptions, no `null` checks after.
+
+### Do it — tables
+
+1. `Table`, in `Bar`:
+
+```csharp:Table.cs
+using UnityEngine;
+
+// A table for two. A customer sits, drinks, and leaves an empty cup and a tip.
+// A seat with an empty cup in front of it isn't free: carry the cups to the
+// bin. The chef takes the tips; a runner can't.
+public class Table : Station
+{
+    [SerializeField] Transform[] seats;         // where each customer sits, facing the table
+    [SerializeField] Transform[] cupPlaces;     // where each one's empty cup is left
+    [SerializeField] ItemPile tips;
+    [SerializeField] ItemInfo emptyCup;
+    [SerializeField] ItemInfo note;
+    [SerializeField] ItemPool pool;
+    [SerializeField] Wallet wallet;
+
+    Customer[] sitting;
+    Item[] leftCups;
+
+    void Awake()
+    {
+        sitting = new Customer[seats.Length];
+        leftCups = new Item[seats.Length];
+    }
+
+    // A free seat: nobody on it, and no empty cup in front of it.
+    public bool TryTakeSeat(Customer customer, out int seat)
+    {
+        for (int i = 0; i < seats.Length; i++)
+        {
+            if (sitting[i] == null && leftCups[i] == null)
+            {
+                sitting[i] = customer;
+                seat = i;
+                return true;
+            }
+        }
+        seat = -1;
+        return false;
+    }
+
+    public Vector3 SeatPosition(int seat)
+    {
+        return seats[seat].position;
+    }
+
+    // In front of the seat, where a customer stops before sitting down.
+    public Vector3 ApproachPosition(int seat)
+    {
+        return seats[seat].position - seats[seat].forward * 0.8f;
+    }
+
+    public void Vacate(int seat, int tip)
+    {
+        sitting[seat] = null;
+        Item cup = pool.Get(emptyCup, cupPlaces[seat].position);
+        cup.transform.SetParent(cupPlaces[seat], true);
+        leftCups[seat] = cup;
+        Item money = pool.Get(note, cupPlaces[seat].position);
+        money.Value = tip;
+        tips.Add(money);
+    }
+
+    protected override void Trade(Carrier carrier)
+    {
+        if (carrier.IsChef && !tips.IsEmpty)
+        {
+            Item money = tips.Take();
+            wallet.Add(money.Value);
+            money.HopTo(carrier.transform, Vector3.up * 1.2f);
+            pool.Release(money, Item.HopSeconds);
+            return;
+        }
+        for (int i = 0; i < leftCups.Length; i++)
+        {
+            if (leftCups[i] != null && carrier.CanTake(emptyCup))
+            {
+                carrier.Hands.Add(leftCups[i]);
+                leftCups[i] = null;
+                return;
+            }
+        }
+    }
+}
+```
+
+2. Read it:
+   - The arrays are made in `Awake`, the size of `seats`: a table for four would only
+     need four seats in the Inspector.
+   - `ApproachPosition`: 0.8 m in front of the seat (`forward` is the way a seat faces,
+     towards the table, so minus `forward` is away from it). A customer walks there, then
+     onto the seat, so it doesn't cut through the table.
+   - `Vacate` leaves the cup **outside any pile**: a child of the cup's place, not hopped
+     anywhere. The tip goes on `tips`, a pile.
+   - `Trade`: the chef gets the tips first, all of them, one per trade; then anyone may
+     take the empty cups, if their hands can take an empty cup (empty, or holding empty
+     cups already). `return` after each: one thing per trade.
+3. `Seating`, in `Bar`:
+
+```csharp:Seating.cs
+using UnityEngine;
+
+// Every table on the beach. A served customer asks it for a free seat; the
+// tables not built yet are switched off, and don't offer any.
+public class Seating : MonoBehaviour
+{
+    [SerializeField] Table[] tables;
+
+    public bool TryFindSeat(Customer customer, out Table table, out int seat)
+    {
+        foreach (Table each in tables)
+        {
+            if (each.isActiveAndEnabled && each.TryTakeSeat(customer, out seat))
+            {
+                table = each;
+                return true;
+            }
+        }
+        table = null;
+        seat = -1;
+        return false;
+    }
+}
+```
+
+   `isActiveAndEnabled` is false for a table not built yet: it's switched off. Seating
+   knows all six tables from the start, and offers only the built ones.
+
+4. Open the `Table` prefab. On its root: a trigger **Box Collider**, **Center** (0, 1, 0),
+   **Size** (3.4, 2, 2.8), bigger than the table and its stools, so you can reach it from
+   any side. **Table**: **Trade Seconds** `0.12`, **Seats** `Seat 1` and `Seat 2`, **Cup
+   Places** `Cup Place 1` and `Cup Place 2`, **Tips** `Tips`, **Empty Cup** and **Note**
+   from `Data/Items`. On `Tips`: an **Item Pile**, **Capacity** `6`, **Columns** and
+   **Rows** `1`, **Spacing** `0`.
+5. Four more `Table` prefabs in `Tables`: `Table 3` at (0, 0, −6.8), `Table 4` at (0, 0,
+   −8.8), `Table 5` at (3.6, 0, −6.8), `Table 6` at (3.6, 0, −8.8), all unticked. Select
+   all six (`t:Table` in the Hierarchy), and drag in `Item Pool` and `Wallet`.
+6. On `Tables`, add **Seating**: **Tables** `Table 1` to `Table 6`, in order.
+
+### Do it — the bin
+
+7. `Bin`, in `Bar`:
+
+```csharp:Bin.cs
+using System;
+using UnityEngine;
+
+// Takes whatever you carry, one at a time: empty cups from the tables, and
+// anything you'd rather not hold. Each hops in and goes back to the pool.
+public class Bin : Station
+{
+    [SerializeField] Transform opening;
+    [SerializeField] ItemPool pool;
+
+    public event Action CupBinned;
+
+    protected override void Trade(Carrier carrier)
+    {
+        ItemInfo top = carrier.Hands.TopInfo;
+        if (top == null)
+        {
+            return;
+        }
+        Item item = carrier.Hands.Take();
+        item.HopTo(opening, Vector3.zero);
+        pool.Release(item, Item.HopSeconds);
+        if (top.Kind == ItemKind.EmptyCup)
+        {
+            CupBinned?.Invoke();
+        }
+    }
+}
+```
+
+   It takes **anything** you carry: empty cups, and the orange you picked up by mistake.
+   Only an empty cup raises `CupBinned`, for Chapter 12's *Tidy Bar*.
+
+8. **The bin.** A material in `Art/Materials`, `Bin`, colour `#3F7F5F`. An empty GameObject
+   `Bin`, with a trigger **Box Collider** (**Center** (0, 1, 0), **Size** (1.6, 2, 1.6))
+   and **Bin** (**Trade Seconds** `0.1`). Inside it:
+   - `Body`: a **3D Object → Cylinder** at (0, 0.45, 0), **Scale** (0.75, 0.45, 0.75),
+     material `Bin`. Keep its collider: the chef bumps into the bin.
+   - `Opening`: an empty at (0, 0.85, 0), its top. Drag it into **Opening**.
+   - `Mat`: a flat mat like the others, at (0, 0.03, −0.9), 1.2 m, white with **A** 204:
+     the side you walk up to.
+
+   Drag it into `Prefabs` as `Bin`. In the scene, put it in `Table 1 and Bin` at (−7.4, 0,
+   −6.4), and drag in `Item Pool`. The first table comes with its bin.
+
+### Do it — the customer sits
+
+9. The final `CustomerState`:
+
+```csharp:CustomerState.cs
+// Where a customer is in its visit.
+public enum CustomerState
+{
+    Arriving,       // along the boardwalk to its bar
+    Queueing,       // in the queue, behind someone
+    Ordering,       // at the front: the bubble shows what it wants
+    ToTable,
+    Sitting,
+    StandingUp,
+    Leaving
+}
+```
+
+10. And the final `Customer` and `CustomerSpawner`, which passes it the seating: both at
+    once, since `Visit` takes one more thing.
+
+<!-- check: together -->
+
+```csharp:Customer.cs
+using System;
+using UnityEngine;
+
+// One customer's visit, as a state machine: in from the boardwalk, into a
+// queue, an order at the front, then a seat at a table, or straight home. The
+// counter moves it up the queue and serves it; the tables seat it. When it has
+// gone, Left tells the spawner it can come back as someone else.
+public class Customer : MonoBehaviour
+{
+    static readonly int SittingId = Animator.StringToHash("Sitting");
+    static readonly int CarryingId = Animator.StringToHash("Carrying");
+
+    [SerializeField] Walker walker;
+    [SerializeField] ItemPile hands;
+    [SerializeField] OrderBubble bubble;
+    [SerializeField] Animator animator;
+    [SerializeField] float drinkSeconds = 6f;
+    [SerializeField] float standUpSeconds = 1f;
+
+    CustomerState state;
+    Counter counter;
+    Seating seating;
+    ItemPool pool;
+    Vector3 exit;
+    Vector3 spot;           // its place in the queue
+    bool isFront;
+    int wanted;
+    Table table;
+    int seat;
+    float stateEnds;
+
+    public CustomerState State { get { return state; } }
+    public bool IsReady { get { return state == CustomerState.Ordering; } }
+    public bool HasEverything { get { return hands.Count >= wanted; } }
+    public int CupsWanted { get { return wanted; } }
+
+    public event Action<Customer> Left;
+
+    void OnEnable()
+    {
+        walker.Arrived += OnArrived;
+    }
+
+    void OnDisable()
+    {
+        walker.Arrived -= OnArrived;
+    }
+
+    // The spawner sends it in at one end of the boardwalk, to leave by the other.
+    public void Visit(Counter chosen, Seating tables, ItemPool items, Vector3 entrance, Vector3 leaveBy)
+    {
+        counter = chosen;
+        seating = tables;
+        pool = items;
+        exit = leaveBy;
+        wanted = UnityEngine.Random.Range(1, 4);
+        transform.position = entrance;
+        bubble.Hide();
+        animator.SetBool(SittingId, false);
+        animator.SetBool(CarryingId, false);
+        state = CustomerState.Arriving;
+        walker.WalkTo(new Vector3(counter.Entry.x, 0f, entrance.z), counter.Entry);
+        counter.Join(this);
+    }
+
+    // The counter says where its place is, and whether it's at the front.
+    public void GoToSpot(Vector3 place, bool atFront)
+    {
+        spot = place;
+        isFront = atFront;
+        if (state == CustomerState.Queueing)
+        {
+            walker.WalkTo(spot);     // moving up
+        }
+    }
+
+    public void Receive(Item cup)
+    {
+        hands.Add(cup);
+        animator.SetBool(CarryingId, true);
+        bubble.Show(counter.Stand.Info.Cup.Icon, wanted - hands.Count);
+    }
+
+    // Paid and served: a seat, if there's one free, or home.
+    public void Served()
+    {
+        bubble.Hide();
+        if (seating.TryFindSeat(this, out table, out seat))
+        {
+            state = CustomerState.ToTable;
+            walker.WalkTo(counter.Aside, table.ApproachPosition(seat), table.SeatPosition(seat));
+        }
+        else
+        {
+            state = CustomerState.Leaving;
+            Vector3 aside = counter.Aside;
+            walker.WalkTo(aside, new Vector3(aside.x, 0f, exit.z), exit);
+        }
+    }
+
+    void OnArrived()
+    {
+        switch (state)
+        {
+            case CustomerState.Arriving:
+                state = CustomerState.Queueing;
+                walker.WalkTo(spot);
+                break;
+            case CustomerState.Queueing:
+                if (isFront)
+                {
+                    state = CustomerState.Ordering;
+                    walker.FaceTowards(counter.Till);
+                    bubble.Show(counter.Stand.Info.Cup.Icon, wanted);
+                }
+                break;
+            case CustomerState.ToTable:
+                state = CustomerState.Sitting;
+                walker.FaceTowards(table.transform.position);
+                animator.SetBool(SittingId, true);
+                stateEnds = Time.time + drinkSeconds;
+                break;
+            case CustomerState.Leaving:
+                Left?.Invoke(this);
+                break;
+        }
+    }
+
+    void Update()
+    {
+        if (state == CustomerState.Ordering && !isFront)
+        {
+            state = CustomerState.Queueing;     // can't happen, but never wait at the front by mistake
+        }
+        else if (state == CustomerState.Queueing && isFront && !walker.IsWalking)
+        {
+            OnArrived();                        // moved up to the front while standing still
+        }
+        else if (state == CustomerState.Sitting && Time.time >= stateEnds)
+        {
+            // Finished: the empty cup and a tip stay on the table.
+            while (!hands.IsEmpty)
+            {
+                pool.Release(hands.Take());
+            }
+            table.Vacate(seat, Mathf.Max(1, counter.Stand.Price / 2));
+            animator.SetBool(CarryingId, false);
+            animator.SetBool(SittingId, false);
+            state = CustomerState.StandingUp;
+            stateEnds = Time.time + standUpSeconds;
+        }
+        else if (state == CustomerState.StandingUp && Time.time >= stateEnds)
+        {
+            state = CustomerState.Leaving;
+            Vector3 approach = table.ApproachPosition(seat);
+            walker.WalkTo(approach, new Vector3(approach.x, 0f, exit.z), exit);
+        }
+    }
+
+    // Gone home: anything still in its hands goes back to the pool.
+    public void EmptyHands()
+    {
+        while (!hands.IsEmpty)
+        {
+            pool.Release(hands.Take());
+        }
+    }
+}
+```
+
+```csharp:CustomerSpawner.cs
+using System.Collections.Generic;
+using UnityEngine;
+
+// Sends a customer to an open bar every few seconds, to the one with the
+// shortest queue: the more bars are open, the more often. Customers come from
+// a pool of a fixed size, so when all of them are on the beach, nobody else
+// comes until one leaves.
+public class CustomerSpawner : MonoBehaviour
+{
+    [SerializeField] Customer[] looks;
+    [SerializeField] int poolSize = 16;
+    [SerializeField] float secondsPerBar = 3f;
+    [SerializeField] JuiceStand[] stands;
+    [SerializeField] Seating seating;
+    [SerializeField] ItemPool items;
+    [SerializeField] Transform westEnd;     // the boardwalk's two ends
+    [SerializeField] Transform eastEnd;
+
+    readonly Stack<Customer> sleeping = new Stack<Customer>();
+    float nextCustomer = 1f;
+
+    void Awake()
+    {
+        for (int i = 0; i < poolSize; i++)
+        {
+            Customer customer = Instantiate(looks[i % looks.Length], transform);
+            customer.gameObject.SetActive(false);
+            customer.Left += OnLeft;
+            sleeping.Push(customer);
+        }
+    }
+
+    void Update()
+    {
+        if (Time.time < nextCustomer)
+        {
+            return;
+        }
+        int open = 0;
+        Counter shortest = null;
+        foreach (JuiceStand stand in stands)
+        {
+            if (!stand.IsOpen)
+            {
+                continue;
+            }
+            open++;
+            if (!stand.Counter.IsFull && (shortest == null || stand.Counter.QueueLength < shortest.QueueLength))
+            {
+                shortest = stand.Counter;
+            }
+        }
+        nextCustomer = Time.time + secondsPerBar / Mathf.Max(1, open);
+        if (shortest == null || sleeping.Count == 0)
+        {
+            return;
+        }
+        bool fromWest = Random.value < 0.5f;
+        Customer customer = sleeping.Pop();
+        customer.gameObject.SetActive(true);
+        customer.Visit(shortest, seating, items,
+            fromWest ? westEnd.position : eastEnd.position,
+            fromWest ? eastEnd.position : westEnd.position);
+    }
+
+    void OnLeft(Customer customer)
+    {
+        customer.EmptyHands();
+        customer.gameObject.SetActive(false);
+        sleeping.Push(customer);
+    }
+}
+```
+
+<!-- check: end -->
+
+11. Read what's new in `Customer`:
+    - `Served`: `seating.TryFindSeat(this, out table, out seat)` fills two **fields**
+      through `out`, not new variables. Then one `WalkTo` with three points: aside, in
+      front of the seat, onto the seat.
+    - `OnArrived`'s new case: at the seat, it faces the table, sits (`Sitting` true), and
+      sets a time to finish, six seconds away.
+    - `Update`'s two new branches are **timed** states: nothing arrives to end them, so
+      `Update` checks the time. Finished drinking: the cups it carried go back to the
+      pool, the table gets an empty cup and a tip (half a cup's price, never under $1),
+      and it stands up. A second later it walks away, by the same point in front of its
+      seat.
+12. On `Customers`, drag `Tables` into the new **Seating**.
+
+### Do it — sitting down
+
+13. Open `Person`. A **Bool** parameter, `Sitting`. Drag in `SitDown` and `StandUp` from
+    `Chef_Male`, as states `Sit` and `Stand Up`.
+14. Transitions, each **Transition Duration** `0.15`:
+    - **Any State** → `Sit`, no exit time, on `Sitting` **true**. Any State: from whatever
+      it's doing.
+    - `Sit` → `Stand Up`, no exit time, on `Sitting` **false**.
+    - `Stand Up` → `Idle`, **with** exit time, and no condition: when the clip ends, it
+      idles.
+
+    In `Sit`'s transition from Any State, untick **Can Transition To Self**: otherwise,
+    while `Sitting` is true, it would start sitting down again every frame.
+
+### Do it — the rest of the build list
+
+15. Thirteen more spots in `Build Spots`, from the balance sheet, each **Builds** a part
+    you unticked in Chapter 6, or a table, at the position of what it builds (a part's
+    spot is on its mat):
+
+| GameObject | Id | Name | Price | Position | Builds | Picture |
+| --- | --- | --- | --- | --- | --- | --- |
+| `Spot Apple Crate` | `apple-crate` | `Apple Crate` | 120 | (−1.8, 0, 6) | `Apple Bar/Crate` | `Icons/Apple` |
+| `Spot Apple Juicer` | `apple-machine` | `Juicer` | 150 | (−1.8, 0, 2.95) | `Apple Bar/Juicer` | `Icons/Apple Juice` |
+| `Spot Apple Bar` | `apple-counter` | `Apple Bar` | 180 | (−1.8, 0, 1.2) | `Apple Bar/Counter` | `Emoji/cup_with_straw_3d` |
+| `Spot Table 3` | `table-3` | `Table` | 250 | (0, 0, −6.8) | `Table 3` | `Emoji/umbrella_on_ground_3d` |
+| `Spot Table 4` | `table-4` | `Table` | 250 | (0, 0, −8.8) | `Table 4` | the same |
+| `Spot Banana Crate` | `smoothie-crate` | `Banana Crate` | 500 | (1.8, 0, 6) | `Smoothie Bar/Crate` | `Icons/Banana` |
+| `Spot Blender` | `smoothie-machine` | `Blender` | 650 | (1.8, 0, 2.95) | `Smoothie Bar/Juicer` | `Icons/Banana Smoothie` |
+| `Spot Smoothie Bar` | `smoothie-counter` | `Smoothie Bar` | 800 | (1.8, 0, 1.2) | `Smoothie Bar/Counter` | `Emoji/cup_with_straw_3d` |
+| `Spot Table 5` | `table-5` | `Table` | 700 | (3.6, 0, −6.8) | `Table 5` | `Emoji/umbrella_on_ground_3d` |
+| `Spot Table 6` | `table-6` | `Table` | 700 | (3.6, 0, −8.8) | `Table 6` | the same |
+| `Spot Coconut Crate` | `coconut-crate` | `Coconut Crate` | 1200 | (5.4, 0, 6) | `Coconut Bar/Crate` | `Icons/Coconut` |
+| `Spot Cutter` | `coconut-machine` | `Cutter` | 1500 | (5.4, 0, 2.95) | `Coconut Bar/Juicer` | `Icons/Coconut Water` |
+| `Spot Coconut Bar` | `coconut-counter` | `Coconut Bar` | 1800 | (5.4, 0, 1.2) | `Coconut Bar/Counter` | `Emoji/cup_with_straw_3d` |
+
+Each one's sign, **Wallet** and **Pool** as before; all unticked.
+
+16. **Next**, in a chain: `Spot Orange Juicer 2` → `Spot Apple Crate` → `Spot Apple Juicer`
+    → `Spot Apple Bar` → `Spot Table 3` → `Spot Table 4` → `Spot Banana Crate` → `Spot
+    Blender` → `Spot Smoothie Bar` → `Spot Table 5` → `Spot Table 6` → `Spot Coconut
+    Crate` → `Spot Cutter` → `Spot Coconut Bar`. The balance sheet has the Office and the
+    Staff Hut after the Apple Bar: Chapters 9 and 10 put them in.
+17. On `Build Spots`, add the thirteen to **Spots**, after the first three, in the order of
+    the table.
+
+### Test it
+
+- **Play**, and build Table 1: the table and the bin. Serve someone: it walks to the table,
+  sits on a stool facing it, and drinks. Six seconds later it stands up and goes,
+  leaving an empty cup and a note. Walk into the table's square: the note hops to you,
+  then the cup.
+- Carry the cup to the bin's mat: it hops in. Pick up an orange and give it to the bin:
+  it takes that too.
+- Leave two empty cups on Table 1, with Table 2 not built: the next customers go
+  straight home. Clear one: the next customer sits there.
+- Build on: the Apple crate, the juicer beside it, the counter. With the counter, the
+  Apple Bar is open, and customers start queueing there too, now every 1.5 s between the
+  two bars. Apples hop into the Apple crate only once the counter's built.
+- Pause with someone sitting, and select its `Model`: in the Animator window, it's in
+  `Sit`, holding the clip's last frame.
+
+### Commit
+
+*Add tables, the bin, and the rest of the build list.*
+
+### Challenge
+
+Make a customer who finds no seat show a sad face for a second before leaving: a second
+bubble, an emoji, shown in `Served`'s `else`. Which state is it in while it shows? Does
+it need a new one?
+
+## Chapter 9 — Upgrades and the Intern's Shop
+
+**Goal:** the Office. Build it on the beach, and step on its blue mat: a panel opens. At the
+top, your own two upgrades, with levels: a **Bigger Tray** (your hands hold more) and
+**Faster Flip-flops**. Under them, the bars' upgrades: better recipes (each cup sells for
+×1.5) and faster machines. Buy one, and the bar's price tag changes, or its ring turns
+faster. While the panel is open the stick doesn't walk you away, and **Escape** closes it.
+
+### Idea — two kinds of upgrade, one base
+
+Every upgrade has a name, a picture, a price and a bar it's for. What it **does** depends on
+its kind:
+
+| Kind | Does to its bar |
+| --- | --- |
+| `PriceUpgrade` | `MultiplyPrice(1.5)`: every cup sells for more |
+| `SpeedUpgrade` | `MultiplySpeed(1.5)`: the machine is faster |
+| `HireUpgrade` (Chapter 10) | `Hire(...)`: a helper starts work |
+
+So `Upgrade` is an **abstract ScriptableObject**, with `abstract void ApplyTo(JuiceStand
+stand)`, and each kind is a subclass with its own `[CreateAssetMenu]`. The shop sells
+`Upgrade`s and calls `ApplyTo`: it never asks which kind. That's C# 8's
+rule: when what to do depends on the kind, the method belongs in the kinds.
+
+The bar keeps **factors**, not prices: `priceFactor` starts at 1, and each recipe
+multiplies it by 1.5. Its `Price` is the BarInfo's price times its factors, worked out
+each time it's asked. The `BarInfo` asset never changes: an asset changed in Play mode
+would stay changed.
+
+**`Upgrades`** (one in the scene) knows which have been bought (a `List` of their ids, for
+Chapter 14's save), and buys: the money, then `ApplyTo` on the bar it's for. Only the
+upgrades of a bar you've built are for sale. And an **`UpgradeLibrary`** asset holds every
+upgrade in the game, so a saved id can be turned back into its upgrade.
+
+### Idea — a panel, and the action maps
+
+The panels (the Office now; the Staff Hut, Trophies and Settings later) open over the beach,
+one at a time: a **PanelSwitcher** opens one and closes the others. A mat opens its
+panel when the chef steps on it, with `Station`'s `OnArrived`: a station that trades
+nothing.
+
+While a panel is open, the stick and the keys should shop, not walk. C# 3 had the
+answer: **action maps**, switched on and off as a whole. The **Chef** map (Move, Menu) is
+on while you play; the **Panel** map (Close) while a panel is open. A **Controls** script
+listens to the switcher and swaps them.
+
+### Do it — upgrades
+
+1. In `Scripts`, a folder `Upgrades`. In it, `Upgrade`:
 
 ```csharp:Upgrade.cs
 using UnityEngine;
 
 // What every upgrade has: an id for the save file, a name, a line saying what
-// it does, a picture, a price, and the business it's for (none: all of them).
-// It's abstract: each kind says what it does to a business, in ApplyTo. The
-// asset never changes while playing; the business it's applied to does.
+// it does, a picture, a price, and the bar it's for. It's abstract: each kind
+// says what it does to a bar, in ApplyTo. The asset never changes while
+// playing; the bar it's applied to does.
 public abstract class Upgrade : ScriptableObject
 {
     [SerializeField] string id;         // never changes: a save file stores it
     [SerializeField] string displayName;
     [SerializeField] string description;
     [SerializeField] Sprite picture;
-    [SerializeField] long cost = 50;    // a long: the last upgrades cost billions
-    [SerializeField] StandInfo target;  // empty: every business
+    [SerializeField] int cost = 50;
+    [SerializeField] BarInfo target;
 
     public string Id { get { return id; } }
     public string DisplayName { get { return displayName; } }
     public string Description { get { return description; } }
     public Sprite Picture { get { return picture; } }
-    public long Cost { get { return cost; } }
-    public StandInfo Target { get { return target; } }
+    public int Cost { get { return cost; } }
+    public BarInfo Target { get { return target; } }
 
     public bool AppliesTo(JuiceStand stand)
     {
-        return target == null || stand.Info == target;
+        return stand.Info == target;
     }
 
     public abstract void ApplyTo(JuiceStand stand);
 }
 ```
 
-5. It's the shared chapter's `Upgrade`, grown: the cost is a `long` (the shared one's `int
-   cost` would stop at $2.1 billion, and *Golden Juice* costs $1 billion already), and it
-   has a **target**, the `StandInfo` of the business it's for. `AppliesTo` says yes to that
-   business, or to every business when the target is empty. There's no
-   `[CreateAssetMenu]`: nobody can make a plain `Upgrade`, only one of its kinds.
-6. In `Scripts/Upgrades`, the three kinds:
+2. `JuiceStand`, again: factors, the methods that multiply them, and an event for the
+   price tag. `beachFactor` stays 1 until Chapter 16's later beaches.
+
+```csharp
+using System;
+using UnityEngine;
+
+// One bar: the Orange Bar, the Apple Bar. It knows its BarInfo, its price and
+// its speed (upgrades multiply them), and its counter. The counter calls Sell,
+// and CupSold tells the cash pile.
+public class JuiceStand : MonoBehaviour
+{
+    [SerializeField] BarInfo info;
+    [SerializeField] Counter counter;
+
+    float priceFactor = 1f;
+    float speedFactor = 1f;
+    float beachFactor = 1f;
+
+    public BarInfo Info { get { return info; } }
+    public Counter Counter { get { return counter; } }
+    public bool IsOpen { get { return counter.gameObject.activeInHierarchy; } }
+
+    // A cup's price now: the bar's own, its upgrades, and the beach.
+    public int Price
+    {
+        get { return Mathf.RoundToInt(info.Price * priceFactor * beachFactor); }
+    }
+
+    public float SecondsPerCup { get { return info.MachineSeconds / speedFactor; } }
+
+    public event Action<int> CupSold;           // the money for one cup
+    public event Action<int> CustomerServed;    // the money for the whole order
+    public event Action Changed;                // the price changed
+
+    public void MultiplyPrice(float factor)
+    {
+        priceFactor *= factor;
+        Changed?.Invoke();
+    }
+
+    public void MultiplySpeed(float factor)
+    {
+        speedFactor *= factor;
+    }
+
+    // A later beach pays more for every cup.
+    public void SetBeachFactor(float factor)
+    {
+        beachFactor = factor;
+        Changed?.Invoke();
+    }
+
+    public void Sell(int cups)
+    {
+        int price = Price;
+        for (int i = 0; i < cups; i++)
+        {
+            CupSold?.Invoke(price);
+        }
+        CustomerServed?.Invoke(cups * price);
+    }
+}
+```
+
+3. The two kinds, in `Upgrades`. `PriceUpgrade`:
 
 ```csharp:PriceUpgrade.cs
 using UnityEngine;
 
-// A fruit recipe: the business sells each cup for more.
+// A better recipe: the bar sells each cup for more.
 [CreateAssetMenu(fileName = "New Price Upgrade", menuName = "Juice/Price Upgrade")]
 public class PriceUpgrade : Upgrade
 {
-    [SerializeField] float factor = 3f;
+    [SerializeField] float factor = 1.5f;
 
     public override void ApplyTo(JuiceStand stand)
     {
@@ -4342,14 +6477,16 @@ public class PriceUpgrade : Upgrade
 }
 ```
 
+   And `SpeedUpgrade`:
+
 ```csharp:SpeedUpgrade.cs
 using UnityEngine;
 
-// Better equipment: the business squeezes faster.
+// Better equipment: the bar's machines make cups faster.
 [CreateAssetMenu(fileName = "New Speed Upgrade", menuName = "Juice/Speed Upgrade")]
 public class SpeedUpgrade : Upgrade
 {
-    [SerializeField] float factor = 2f;
+    [SerializeField] float factor = 1.5f;
 
     public override void ApplyTo(JuiceStand stand)
     {
@@ -4358,65 +6495,7 @@ public class SpeedUpgrade : Upgrade
 }
 ```
 
-```csharp:ManagerUpgrade.cs
-using UnityEngine;
-
-// A manager: the business squeezes by itself, and earns while you're away.
-[CreateAssetMenu(fileName = "New Manager", menuName = "Juice/Manager")]
-public class ManagerUpgrade : Upgrade
-{
-    public override void ApplyTo(JuiceStand stand)
-    {
-        stand.Automate();
-    }
-}
-```
-
-7. Each is a few lines: everything else comes from `Upgrade`. `SpeedUpgrade` is the shared
-   chapter's Challenge, done.
-
-### Do it — nineteen assets
-
-8. In `Assets/Data`, a folder `Upgrades`. Make the upgrades from the balance sheet, with
-   **Assets → Create → Juice → Price Upgrade**, **Speed Upgrade** or **Manager**. Each
-   asset is named after its upgrade. Leave **Target** empty for "every business", and
-   **Factor** as it is (3 for a price upgrade, 2 for a speed upgrade):
-
-| Asset | Kind | Id | Description | Picture | Cost | Target |
-| --- | --- | --- | --- | --- | --- | --- |
-| `Fresh Lemons` | Price | `fresh-lemons` | Lemonade Cup earns ×3. | `lemon_3d` | 25000 | Lemonade Cup |
-| `Orange Blend` | Price | `orange-blend` | Beach Stand earns ×3. | `tangerine_3d` | 50000 | Beach Stand |
-| `Electric Juicer` | Speed | `electric-juicer` | Beach Stand squeezes twice as fast. | `high_voltage_3d` | 75000 | Beach Stand |
-| `Strawberry Swirl` | Price | `strawberry-swirl` | Smoothie Bar earns ×3. | `strawberry_3d` | 250000 | Smoothie Bar |
-| `Ice Machine` | Speed | `ice-machine` | Smoothie Bar squeezes twice as fast. | `ice_3d` | 400000 | Smoothie Bar |
-| `Watermelon Wave` | Price | `watermelon-wave` | Juice Shop earns ×3. | `watermelon_3d` | 1000000 | Juice Shop |
-| `Fast Tills` | Speed | `fast-tills` | Juice Shop squeezes twice as fast. | `bell_3d` | 2000000 | Juice Shop |
-| `Pineapple Punch` | Price | `pineapple-punch` | Juice Factory earns ×3. | `pineapple_3d` | 5000000 | Juice Factory |
-| `Conveyor Belt` | Speed | `conveyor-belt` | Juice Factory squeezes twice as fast. | `gear_3d` | 10000000 | Juice Factory |
-| `Tropical Mix` | Price | `tropical-mix` | Every business earns ×3. | `mango_3d` | 25000000 | (empty) |
-| `Coconut Cream` | Price | `coconut-cream` | Lemonade Cup earns ×3. | `coconut_3d` | 100000000 | Lemonade Cup |
-| `Kiwi Kick` | Price | `kiwi-kick` | Beach Stand earns ×3. | `kiwi_fruit_3d` | 250000000 | Beach Stand |
-| `Rocket Blender` | Speed | `rocket-blender` | Every business squeezes twice as fast. | `rocket_3d` | 500000000 | (empty) |
-| `Golden Juice` | Price | `golden-juice` | Every business earns ×3. | `sparkles_3d` | 1000000000 | (empty) |
-
-   Each **Display Name** is the asset's name.
-
-9. And the five managers, **Manager**, all with `office_worker_3d_default`:
-
-| Asset | Id | Display Name | Description | Cost | Target |
-| --- | --- | --- | --- | --- | --- |
-| `Manager Lemonade Cup` | `manager-lemonade-cup` | Manager: Lemonade Cup | Lemonade Cup squeezes by itself, and earns while you're away. | 1000 | Lemonade Cup |
-| `Manager Beach Stand` | `manager-beach-stand` | Manager: Beach Stand | Beach Stand squeezes by itself, and earns while you're away. | 15000 | Beach Stand |
-| `Manager Smoothie Bar` | `manager-smoothie-bar` | Manager: Smoothie Bar | Smoothie Bar squeezes by itself, and earns while you're away. | 100000 | Smoothie Bar |
-| `Manager Juice Shop` | `manager-juice-shop` | Manager: Juice Shop | Juice Shop squeezes by itself, and earns while you're away. | 500000 | Juice Shop |
-| `Manager Juice Factory` | `manager-juice-factory` | Manager: Juice Factory | Juice Factory squeezes by itself, and earns while you're away. | 1200000 | Juice Factory |
-
-10. Open **Assets → Create**: there's **Juice → Price Upgrade**, **Speed Upgrade** and
-    **Manager**, and no plain **Upgrade**. The abstract class can't be made; its kinds can.
-
-### Do it — the library, and buying
-
-11. In `Scripts/Upgrades`, `UpgradeLibrary`, the shared chapter's:
+4. `UpgradeLibrary`:
 
 ```csharp:UpgradeLibrary.cs
 using System.Collections.Generic;
@@ -4454,19 +6533,22 @@ public class UpgradeLibrary : ScriptableObject
 }
 ```
 
-12. In `Assets/Data`, **Assets → Create → Juice → Upgrade Library**, `Upgrade Library`.
-    Select every asset in `Data/Upgrades` and drag them all into its **Upgrades**: the
-    field is `Upgrade[]`, so it takes all three kinds. `TryGetUpgrade` is for the save
-    file, in Chapter 11: it finds an upgrade by its id, through a `Dictionary`.
-13. Something must remember what's bought, and buy. In `Scripts/Upgrades`, `Upgrades`:
+   A **Dictionary** turns an id into its upgrade in one step, however many upgrades there
+   are (C# 6). It's built the first time someone asks, not before. And
+   `OnEnable` throws it away: in the Editor a ScriptableObject stays loaded between one
+   Play and the next, with its private fields, so a dictionary from the last Play could
+   still be there.
 
-```csharp
+5. `Upgrades`:
+
+```csharp:Upgrades.cs
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 // Which upgrades are bought, and buying one: the money is spent, the upgrade
-// is applied to every business it's for, and its id is kept for the save.
+// is applied to its bar, and its id is kept for the save. Only the upgrades
+// of a bar you've built are for sale.
 public class Upgrades : MonoBehaviour
 {
     [SerializeField] UpgradeLibrary library;
@@ -4485,15 +6567,47 @@ public class Upgrades : MonoBehaviour
         return boughtIds.Contains(upgrade.Id);
     }
 
+    public bool IsForSale(Upgrade upgrade)
+    {
+        if (IsBought(upgrade))
+        {
+            return false;
+        }
+        foreach (JuiceStand stand in stands)
+        {
+            if (upgrade.AppliesTo(stand) && stand.IsOpen)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public bool TryBuy(Upgrade upgrade)
     {
-        if (IsBought(upgrade) || !wallet.TrySpend(upgrade.Cost))
+        if (!IsForSale(upgrade) || !wallet.TrySpend(upgrade.Cost))
         {
             return false;
         }
         Apply(upgrade);
         Bought?.Invoke(upgrade);
         return true;
+    }
+
+    // Loading a save: every upgrade bought before, applied again, for nothing.
+    public void Restore(IEnumerable<string> ids)
+    {
+        foreach (string id in ids)
+        {
+            if (!library.TryGetUpgrade(id, out Upgrade upgrade))
+            {
+                Debug.LogWarning($"The save has an upgrade this game doesn't know: {id}", this);
+            }
+            else if (!IsBought(upgrade))
+            {
+                Apply(upgrade);
+            }
+        }
     }
 
     void Apply(Upgrade upgrade)
@@ -4510,17 +6624,396 @@ public class Upgrades : MonoBehaviour
 }
 ```
 
-14. `upgrade.ApplyTo(stand)` is the line inheritance is for. `upgrade` is declared as an
-    `Upgrade`; when the game runs, it's a `PriceUpgrade`, a `SpeedUpgrade` or a
-    `ManagerUpgrade`, and C# calls that kind's `ApplyTo`. `Upgrades` never asks which.
-15. **Create Empty**, `Upgrades`, with the `Upgrades` script: **Library** the `Upgrade
-    Library`, **Stands** the five businesses, **Wallet** the `Wallet`.
+6. Read `TryBuy`: for sale (not bought, and its bar open), then the money (`TrySpend`
+   refuses if there isn't enough, and spends if there is), then `Apply`. `Restore` is for
+   loading a save (Chapter 14): an id the library doesn't know is a warning, not a crash.
+7. **The price tag** follows the price now. The final `PriceTag`:
+
+```csharp:PriceTag.cs
+using TMPro;
+using UnityEngine;
+
+// The sign on a counter: the bar's name and a cup's price, shown again
+// whenever the price changes.
+public class PriceTag : MonoBehaviour
+{
+    [SerializeField] JuiceStand stand;
+    [SerializeField] TMP_Text text;
+
+    void OnEnable()
+    {
+        stand.Changed += Show;
+        Show();
+    }
+
+    void OnDisable()
+    {
+        stand.Changed -= Show;
+    }
+
+    void Show()
+    {
+        text.text = $"{stand.Info.DisplayName}  ${NumberFormat.Money(stand.Price)}";
+    }
+}
+```
+
+8. **Sixteen upgrades.** In `Data/Upgrades`, from the balance sheet's Office table: for each
+   bar, **Create → Juice → Price Upgrade** twice and **Create → Juice → Speed Upgrade**
+   twice. Name each asset after its bar and itself (`Orange Bar - Sweet Oranges`), and fill
+   it in:
+
+| Field | Recipe 1 | Recipe 2 | Machine 1 | Machine 2 |
+| --- | --- | --- | --- | --- |
+| **Id** | `orange-bar-price-1` | `orange-bar-price-2` | `orange-bar-speed-1` | `orange-bar-speed-2` |
+| **Description** | `Orange Bar: every cup sells for ×1.5.` | `… ×1.5 again.` | `Orange Bar: cups made ×1.5 as fast.` | `… as fast again.` |
+| **Picture** | the fruit's icon | the cup's icon | `Emoji/high_voltage_3d` | `Emoji/rocket_3d` |
+| **Factor** | `1.5` | `1.5` | `1.5` | `1.5` |
+
+   **Display Name** and **Cost** from the sheet, **Target** the bar's `BarInfo`. (Select
+   two assets at once to set what they share, like **Factor**.)
+
+9. In `Data`, **Create → Juice → Upgrade Library**, `Upgrade Library`: drag all sixteen
+   into **Upgrades**.
+10. An empty GameObject, `Upgrades`, with **Upgrades**: **Library** the library, **Stands**
+    the four bars, **Wallet** the `Wallet`.
+
+### Do it — your own levels
+
+11. `ChefLevels`, in `Chef`:
+
+```csharp:ChefLevels.cs
+using System;
+using UnityEngine;
+
+// Your own two upgrades, bought in the Office: a bigger tray, so your hands
+// hold more, and faster flip-flops. Each has levels, with the designer's
+// numbers and prices; the price at index n is what level n + 1 costs.
+public class ChefLevels : MonoBehaviour
+{
+    [SerializeField] Chef chef;
+    [SerializeField] Carrier carrier;
+    [SerializeField] Wallet wallet;
+    [SerializeField] int[] trayCapacity = { 4, 6, 8, 10, 12 };
+    [SerializeField] int[] trayPrice = { 80, 300, 1000, 3000 };
+    [SerializeField] float[] walkSpeed = { 4.5f, 5f, 5.5f, 6f };
+    [SerializeField] int[] flipFlopPrice = { 120, 600, 2000 };
+
+    public int TrayLevel { get; private set; }
+    public int FlipFlopLevel { get; private set; }
+    public int TrayCapacity { get { return trayCapacity[TrayLevel]; } }
+    public bool TrayIsMax { get { return TrayLevel >= trayPrice.Length; } }
+    public bool FlipFlopsAreMax { get { return FlipFlopLevel >= flipFlopPrice.Length; } }
+    public int NextTrayPrice { get { return TrayIsMax ? 0 : trayPrice[TrayLevel]; } }
+    public int NextFlipFlopPrice { get { return FlipFlopsAreMax ? 0 : flipFlopPrice[FlipFlopLevel]; } }
+
+    public event Action Changed;
+
+    void Start()
+    {
+        Apply();
+    }
+
+    public bool TryBuyTray()
+    {
+        if (TrayIsMax || !wallet.TrySpend(NextTrayPrice))
+        {
+            return false;
+        }
+        TrayLevel++;
+        Apply();
+        return true;
+    }
+
+    public bool TryBuyFlipFlops()
+    {
+        if (FlipFlopsAreMax || !wallet.TrySpend(NextFlipFlopPrice))
+        {
+            return false;
+        }
+        FlipFlopLevel++;
+        Apply();
+        return true;
+    }
+
+    // Loading a save, or a new beach (both 0).
+    public void Restore(int trayLevel, int flipFlopLevel)
+    {
+        TrayLevel = Mathf.Clamp(trayLevel, 0, trayPrice.Length);
+        FlipFlopLevel = Mathf.Clamp(flipFlopLevel, 0, flipFlopPrice.Length);
+        Apply();
+    }
+
+    void Apply()
+    {
+        carrier.Hands.Capacity = trayCapacity[TrayLevel];
+        chef.Speed = walkSpeed[FlipFlopLevel];
+        Changed?.Invoke();
+    }
+}
+```
+
+12. Read the arrays. Level 0 is where you start: four in your hands. `trayPrice[0]` is what
+    level **1** costs, $80, so there's one price fewer than levels, and `TrayIsMax` is
+    "the level is past the last price". The numbers are the designer's, in the Inspector:
+    the tray's (4, 6, 8, 10, 12) and the flip-flops' (4.5, 5, 5.5, 6 m/s). `Apply` sets
+    the hands' `Capacity` and the chef's `Speed`: the properties Chapters 2 and 4 left for
+    this.
+13. Add **Chef Levels** to the `Chef` **in the scene** (it needs the scene's `Wallet`):
+    **Chef** and **Carrier** are its own, **Wallet** the `Wallet`.
+
+### Do it — buttons and rows
+
+14. **The Candy Button.** In `Safe Area`, **UI → Image**, `Candy Button`, 290 × 114:
+    **Source Image** `Button Blue`, **Image Type** `Sliced`. **Add Component → Button**: in
+    its colours, **Pressed** `#D1D1D1`, **Disabled** white. A child **Text - TextMeshPro**,
+    `Label`, stretched with **Left** 14, **Top** 10, **Right** 14, **Bottom** 12: `Button`,
+    Lilita One, size 44, white, centred, **Material Preset** the Shadow one, **Raycast
+    Target** off. Drag it into `Prefabs/UI`, and delete it.
+15. Three **variants** of it: `Candy Button Green`, `Candy Button Grey` and `Candy Button
+    Red`, each with its own **Source Image** (`Button Green`, `Button Grey`, `Button Red`).
+    One override each: change the base's font, and all four change.
+16. **The Icon Button**, 122 × 126: an Image, `Square Blue`, **Preserve Aspect**; a
+    **Button**; and a child Image `Icon`, stretched with **Left** 22, **Top** 20, **Right**
+    22, **Bottom** 24, `Emoji/star_3d`, **Preserve Aspect**. Into `Prefabs/UI`.
+17. **The Upgrade Row**, the row the intern's shop makes, one per upgrade. An Image, `Upgrade
+    Row`, 1000 × 150, `Panel Light`, **Sliced**, **Raycast Target** off; a **Layout
+    Element** with **Preferred Height** `150` and **Flexible Width** `1` (a list will lay
+    it out). Inside, with these exact names (the shop finds them by name):
+
+| Child | What | Anchor (pivot the same) | Pos | Size | Set |
+| --- | --- | --- | --- | --- | --- |
+| `Picture` | Image | middle-left | (20, 0) | 104 × 104 | any emoji, **Preserve Aspect** |
+| `Name` | TextMeshPro | top-left | (140, −12) | 560 × 50 | `Sweet Oranges`, size 40, brown `#7A4A1E` |
+| `Description` | TextMeshPro | top-left | (140, −62) | 560 × 76 | size 27, light brown `#B07A3E` |
+| `Buy Button` | `Candy Button Green` | middle-right | (−12, 0) | 260 × 114 | its `Label`: `$150` |
+
+Into `Prefabs/UI`.
+
+18. In `Scripts/UI`, `LevelRow`:
+
+```csharp:LevelRow.cs
+using System;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// A row for something with levels, in the Office: your tray, your flip-flops,
+// the Juice Kart. Its name, its level, and the next level's price on a button.
+public class LevelRow : MonoBehaviour
+{
+    [SerializeField] TMP_Text nameText;
+    [SerializeField] TMP_Text levelText;
+    [SerializeField] Button buyButton;
+    [SerializeField] Image buyButtonImage;
+    [SerializeField] TMP_Text priceText;
+    [SerializeField] Sprite canBuySprite;
+    [SerializeField] Sprite cannotBuySprite;
+
+    public event Action BuyPressed;
+
+    void OnEnable()
+    {
+        buyButton.onClick.AddListener(OnBuyPressed);
+    }
+
+    void OnDisable()
+    {
+        buyButton.onClick.RemoveListener(OnBuyPressed);
+    }
+
+    // A price of 0 means the last level: nothing more to buy. Below 0: not yet
+    // (the kart before it's built).
+    public void Show(string title, string level, int price, int money)
+    {
+        nameText.text = title;
+        levelText.text = level;
+        bool canBuy = price > 0 && price <= money;
+        priceText.text = price < 0 ? "-" : price == 0 ? "Max" : "$" + NumberFormat.Money(price);
+        buyButton.interactable = canBuy;
+        buyButtonImage.sprite = canBuy ? canBuySprite : cannotBuySprite;
+    }
+
+    void OnBuyPressed()
+    {
+        BuyPressed?.Invoke();
+    }
+}
+```
+
+A row doesn't know what it sells: it shows what it's told, and raises `BuyPressed`.
+The panel above it decides what to buy. A price below 0 shows `-` (not yet), 0 shows
+`Max`.
+
+19. **The Level Row**: like the Upgrade Row, 130 high, **Preferred Height** `130`, with
+    `Name` (top-left, (30, −12), 560 × 50, `Bigger Tray`, size 40, brown), `Level`
+    (top-left, (30, −66), 560 × 50, `Holds 4`, size 30, light brown) and a `Buy Button`
+    (`Candy Button Green`, middle-right, (−12, 0), 260 × 108). Add **Level Row**: the
+    texts, the button, its Image as **Buy Button Image**, its `Label` as **Price Text**,
+    **Can Buy Sprite** `Button Green`, **Cannot Buy Sprite** `Button Grey`. Into
+    `Prefabs/UI`.
+
+### Do it — the panel
+
+20. In `Scripts/Flow`, `PanelSwitcher`:
+
+```csharp:PanelSwitcher.cs
+using System;
+using UnityEngine;
+
+// The panels over the Beach (the Office's upgrades, the Staff Hut, Trophies,
+// Settings): one open at a time. A button calls Toggle with its panel, set in
+// its On Click () list; a mat calls Open; a panel's close button calls CloseAll.
+public class PanelSwitcher : MonoBehaviour
+{
+    [SerializeField] GameObject[] panels;
+
+    public bool IsAnyOpen { get; private set; }
+
+    public event Action<bool> OpenChanged;  // true when a panel opens, false when the last closes
+
+    void Start()
+    {
+        CloseAll();
+    }
+
+    // Opens this panel and closes the others; a second press closes it.
+    public void Toggle(GameObject panel)
+    {
+        bool wasOpen = panel.activeSelf;
+        foreach (GameObject each in panels)
+        {
+            each.SetActive(false);
+        }
+        panel.SetActive(!wasOpen);
+        SetOpen(!wasOpen);
+    }
+
+    // Opens this panel, closing any other: the Office and Staff Hut mats.
+    public void Open(GameObject panel)
+    {
+        foreach (GameObject each in panels)
+        {
+            each.SetActive(each == panel);
+        }
+        SetOpen(true);
+    }
+
+    public void CloseAll()
+    {
+        foreach (GameObject each in panels)
+        {
+            each.SetActive(false);
+        }
+        SetOpen(false);
+    }
+
+    void SetOpen(bool isOpen)
+    {
+        if (isOpen == IsAnyOpen)
+        {
+            return;
+        }
+        IsAnyOpen = isOpen;
+        OpenChanged?.Invoke(isOpen);
+    }
+}
+```
+
+21. **The Panel.** In `Safe Area`, an empty `Panels`, stretched, with **Left** 0, **Top**
+    170, **Right** 0, **Bottom** 40: between the top bar and the stick. Add **Panel
+    Switcher**. Inside it, an empty `Panel`, stretched with no gaps:
+
+| Child | What | Anchor | Set |
+| --- | --- | --- | --- |
+| `Frame` | Image | stretched: **Left** 12, **Top** 60, **Right** 12, **Bottom** 12 | `Panel`, **Sliced**, **Raycast Target** on: a tap on the panel mustn't reach the game behind |
+| `Ribbon` | Image | top-centre with its pivot, **Pos** (0, 0), 660 × 128 | `Ribbon`, **Sliced** |
+| `Ribbon/Title` | TextMeshPro | stretched: **Left** 90, **Top** 10, **Right** 90, **Bottom** 34 | `Panel`, size 50, white, centred, the Shadow preset |
+| `Close Button` | the **Icon Button** | top-right with its pivot, **Pos** (0, −36), 104 × 108 | **Source Image** `Icon Close`; untick its `Icon` |
+| `Content` | empty | stretched: **Left** 52, **Top** 160, **Right** 52, **Bottom** 48 | where each panel puts its own things |
+
+Drag `Panel` into `Prefabs/UI`, and delete it.
+
+22. **The Office panel**: a variant of `Panel`, `Upgrades Panel`. Open it: its root is
+    called `Office`, and so is its title. In `Content`:
+    - `Levels`: an empty, top-stretch with its pivot at the top, **Height** `430`, with a
+      **Vertical Layout Group** (**Spacing** 12, **Control Child Size** both ticked, **Child
+      Force Expand** neither). Two **Level Row**s in it: `Tray Row`, `Flip-flop Row`.
+      (Chapter 11 adds a third.)
+    - A scrolling list under it: **UI → Scroll View**, stretched with **Top** `440`,
+      without its scrollbars (delete them; untick **Horizontal**) or its Image. Its
+      `Viewport`: a **Rect Mask 2D** instead of its Mask, and an Image with **A** 0
+      (invisible, but it catches the drag). Its `Content`, renamed `List`: a **Vertical
+      Layout Group** (**Spacing** 12, **Control Child Size** both, **Child Force Expand**
+      only **Width**) and a **Content Size Fitter** (**Vertical Fit** `Preferred Size`):
+      the list grows with its rows, and the view scrolls it.
+    - `All Bought`: a TextMeshPro, centred, **Pos Y** −200, 800 × 200, `Nothing to buy:
+      build another bar.`, size 44, brown, centred. Untick it (Chapter 21 uses it).
+23. In `Scripts/UI`, `OfficeLevels`, for now with your two rows:
+
+```csharp
+using UnityEngine;
+
+// The top of the Office: rows with levels, above the upgrades. Your tray and
+// your flip-flops.
+public class OfficeLevels : MonoBehaviour
+{
+    [SerializeField] ChefLevels chef;
+    [SerializeField] Wallet wallet;
+    [SerializeField] LevelRow trayRow;
+    [SerializeField] LevelRow flipFlopRow;
+
+    void OnEnable()
+    {
+        wallet.MoneyChanged += OnMoneyChanged;
+        trayRow.BuyPressed += BuyTray;
+        flipFlopRow.BuyPressed += BuyFlipFlops;
+        Show();
+    }
+
+    void OnDisable()
+    {
+        wallet.MoneyChanged -= OnMoneyChanged;
+        trayRow.BuyPressed -= BuyTray;
+        flipFlopRow.BuyPressed -= BuyFlipFlops;
+    }
+
+    void OnMoneyChanged(int money)
+    {
+        Show();
+    }
+
+    void BuyTray()
+    {
+        chef.TryBuyTray();
+        Show();
+    }
+
+    void BuyFlipFlops()
+    {
+        chef.TryBuyFlipFlops();
+        Show();
+    }
+
+    void Show()
+    {
+        int money = wallet.Money;
+        trayRow.Show("Bigger Tray", $"Holds {chef.TrayCapacity}", chef.NextTrayPrice, money);
+        flipFlopRow.Show("Faster Flip-flops", $"Level {chef.FlipFlopLevel + 1}", chef.NextFlipFlopPrice, money);
+    }
+}
+```
+
+24. Drag `Upgrades Panel` into `Panels`, and add **Office Levels** to it **in the scene**:
+    **Chef** the scene's `Chef`, **Wallet**, **Tray Row**, **Flip-flop Row**. On its `Close
+    Button`'s **On Click ()**, **+**, drag in `Panels`, and choose **PanelSwitcher →
+    CloseAll**. On `Panels`' **Panel Switcher**, **Panels**: the Office.
 
 ### Do it — the intern's shop
 
-16. Sam forwards a file: *"Last summer's intern wrote the shop. It works, and we need it
+25. Sam forwards a file: *"Last summer's intern wrote the shop. It works, and we need it
     now: use it as it is. Before release we'll clean it up (that's yours too, in Chapter
-    19). Read it first, and keep a list of what you'd change."* Your trainer shares
+    21). Read it first, and keep a list of what you'd change."* Your trainer shares
     `UpgradeShop.cs`. Put it in `Scripts/UI`, and read it:
 
 ```csharp
@@ -4571,7 +7064,7 @@ public class UpgradeShop : MonoBehaviour
     }
 
     // format the money
-    string Fmt(long m)
+    string Fmt(int m)
     {
         if (m >= 1000)
             return (m / 1000f).ToString("0.0") + "K";
@@ -4580,178 +7073,614 @@ public class UpgradeShop : MonoBehaviour
 }
 ```
 
-17. Start your list against `STYLE_GUIDE.md`. You should find at least these: `public`
+26. Start your list against `STYLE_GUIDE.md`. You should find at least these: `public`
     fields; names like `u`, `w` and `n`; comments that say what, not why; `if` and `else`
-    without braces; parts found by their names with `transform.Find`, and
-    `GetComponent`, **every frame**; text rebuilt from strings **every frame**, even when
-    nothing changed; and `Fmt`. What does `Fmt` show for $1,000,000? Work it out, then
-    keep the list: Chapter 18 measures what it costs, and Chapter 19 fixes it.
-18. One good thing to notice: `int n = i;` before the lambda. Each button's lambda keeps
-    its own copy of `n`. Without it, every lambda would share the loop's `i`, and every
-    button would buy the upgrade after the last one.
-19. The shop needs no changes to use. Select the `Upgrades Panel` **in the scene** (not
-    the prefab: the shop needs the scene's `Upgrades` and `Wallet`). **Add Component →
-    Upgrade Shop**. **List**: drag in the 14 upgrades that aren't managers. **U** the
-    `Upgrades`, **W** the `Wallet`, **Row** the **Upgrade Row** prefab, **Content** the
-    panel's `List` (in `Content/Scroll View/Viewport`).
-20. The same on the `Managers Panel` in the scene, with the five managers in its **List**.
+    without braces; parts found by their names with `transform.Find`, and `GetComponent`,
+    **every frame**; text rebuilt from strings **every frame**, even when nothing changed;
+    the rows of a bar not built yet shown, with a button that does nothing; and `Fmt`.
+    What does `Fmt` show for $1,000,000? Work it out, then keep the list: Chapter 20
+    measures what it costs, and Chapter 21 fixes it.
+27. One good thing to notice: `int n = i;` before the lambda. Each button's lambda keeps its
+    own copy of `n`. Without it, every lambda would share the loop's `i`, and every button
+    would buy the upgrade after the last one.
+28. The shop needs no changes to use. Select the Office panel **in the scene** (the shop
+    needs the scene's `Upgrades` and `Wallet`), and **Add Component → Upgrade Shop**.
+    **List**: the sixteen upgrades. **U** the `Upgrades`, **W** the `Wallet`, **Row** the
+    **Upgrade Row** prefab, **Content** the panel's `List` (in `Content/Scroll
+    View/Viewport`).
 
-### Do it — the manager's badge
+### Do it — the mat
 
-21. A row shows when its business has a manager: the badge you put in the Stand Row in
-    Chapter 3. `StandRow`'s last change:
+29. In `Bar`, `ShopMat`:
 
-```csharp:StandRow.cs
-using TMPro;
+```csharp:ShopMat.cs
 using UnityEngine;
-using UnityEngine.UI;
 
-// One row of the list: a business's picture (tap it to squeeze), its name, how
-// many you own and the next milestone, the cycle's bar, what a cycle earns,
-// and the Buy button, green when you can afford it. StandList makes the rows in
-// code and calls Setup, so the row only listens once it knows its business.
-public class StandRow : MonoBehaviour
+// A mat that opens a panel while the chef stands on it: the Office's upgrades,
+// the Staff Hut's helpers. It trades nothing; it only notices who arrives.
+public class ShopMat : Station
 {
-    [SerializeField] Image picture;
-    [SerializeField] Button pictureButton;
-    [SerializeField] TMP_Text nameText;
-    [SerializeField] TMP_Text ownedText;
-    [SerializeField] Image barFill;             // a Filled image: fillAmount is the cycle's progress
-    [SerializeField] TMP_Text earningsText;
-    [SerializeField] Button buyButton;
-    [SerializeField] Image buyButtonImage;
-    [SerializeField] TMP_Text buyText;
-    [SerializeField] TMP_Text priceText;
-    [SerializeField] GameObject managerBadge;
-    [SerializeField] Sprite canBuySprite;
-    [SerializeField] Sprite cannotBuySprite;
+    [SerializeField] GameObject panel;
+    [SerializeField] PanelSwitcher panels;
 
-    JuiceStand stand;
-    Wallet wallet;
-    BuyAmountBar amounts;
-
-    public void Setup(JuiceStand forStand, Wallet forWallet, BuyAmountBar forAmounts)
+    protected override void OnArrived(Carrier carrier)
     {
-        stand = forStand;
-        wallet = forWallet;
-        amounts = forAmounts;
-        picture.sprite = stand.Info.Picture;
-        nameText.text = stand.Info.DisplayName;
-        Listen();
-        Refresh();
-    }
-
-    // Instantiate runs OnEnable before Setup, when the row has no business yet.
-    void OnEnable()
-    {
-        if (stand != null)
+        if (carrier.IsChef)
         {
-            Listen();
-            Refresh();
+            panels.Open(panel);
         }
     }
 
-    void OnDisable()
+    protected override void Trade(Carrier carrier)
     {
-        if (stand == null)
-        {
-            return;
-        }
-        stand.Changed -= Refresh;
-        wallet.MoneyChanged -= OnMoneyChanged;
-        amounts.Changed -= Refresh;
-        pictureButton.onClick.RemoveListener(stand.Squeeze);
-        buyButton.onClick.RemoveListener(Buy);
-    }
-
-    // The bar moves every frame; a fill amount makes no garbage.
-    void Update()
-    {
-        if (stand != null)
-        {
-            barFill.fillAmount = stand.Progress;
-        }
-    }
-
-    void Listen()
-    {
-        stand.Changed += Refresh;
-        wallet.MoneyChanged += OnMoneyChanged;
-        amounts.Changed += Refresh;
-        pictureButton.onClick.AddListener(stand.Squeeze);
-        buyButton.onClick.AddListener(Buy);
-    }
-
-    void Buy()
-    {
-        int count = amounts.CountFor(stand, wallet.Money);
-        if (wallet.TrySpend(CostMath.CostOf(stand.Info, stand.Owned, count)))
-        {
-            stand.Buy(count);
-        }
-    }
-
-    // The money changes with every sale: only the price and the button can
-    // change with it, so only they're redrawn.
-    void OnMoneyChanged(long money)
-    {
-        ShowPrice();
-    }
-
-    void Refresh()
-    {
-        int next = stand.NextMilestone;
-        if (stand.Owned == 0)
-        {
-            ownedText.text = "not open yet";
-        }
-        else if (next > 0)
-        {
-            ownedText.text = $"owns {stand.Owned} · next ×2 at {next}";
-        }
-        else
-        {
-            ownedText.text = $"owns {stand.Owned}";
-        }
-        earningsText.text = "$" + NumberFormat.Money(stand.Owned > 0 ? stand.EarningsPerCycle : stand.Info.EarningsPerCycle);
-        managerBadge.SetActive(stand.IsAutomated);
-        ShowPrice();
-    }
-
-    void ShowPrice()
-    {
-        int count = stand.Owned == 0 ? 1 : amounts.CountFor(stand, wallet.Money);
-        long price = CostMath.CostOf(stand.Info, stand.Owned, count);
-        bool canBuy = price <= wallet.Money;
-        buyText.text = stand.Owned == 0 ? "Open" : $"Buy ×{count}";
-        priceText.text = "$" + NumberFormat.Money(price);
-        buyButton.interactable = canBuy;
-        buyButtonImage.sprite = canBuy ? canBuySprite : cannotBuySprite;
     }
 }
 ```
 
-22. Open the **Stand Row** prefab: **Manager Badge** is the `Manager` image. `Refresh`
-    runs on `Changed`, which `Automate` raises: the badge appears the moment the manager is
-    hired.
+`Trade` must be written, since it's abstract; a mat trades nothing, so its body is
+empty. What it does is in `OnArrived`, the hook `Station` left for this.
 
-### Do it — Manager hired!
+30. **The Shop Mat prefab.** An empty `Shop Mat`, with a trigger **Box Collider** (**Center**
+    (0, 1, 0), **Size** (1.6, 2, 1.6)) and **Shop Mat**. Inside: a 1.6 m flat mat, colour
+    `#19B6E8` (blue); and `Sign`, a World Space canvas with **Billboard** at (0, 2.3, 1.2),
+    220 × 70, holding `Back` (`Ribbon`, **Sliced**, stretched) and `Text` (stretched with
+    **Left** 30, **Top** 6, **Right** 30, **Bottom** 12, `Office`, size 36, white, the
+    Shadow preset). Into `Prefabs`.
+31. **The Office**, a variant: `Office`. In it, `Art/Bar/kitchentable_A` at (0, 0, 1.5),
+    **Scale** (0.7, 0.9, 0.5), with a **Box Collider**, and `Art/Bar/chair_A` behind it at
+    (0, 0, 2.2), **Rotation Y** 180. A desk on the sand.
+32. Put an `Office` in the scene at (7.4, 0, −6.4): **Panel** the Office panel, **Panels**
+    `Panels`. Untick it.
+33. **Its spot**: `Spot Office` in `Build Spots`, **Id** `office`, `Office`, **Price**
+    `200`, at (7.4, 0, −6.4), **Builds** `Office`, picture `Emoji/chart_increasing_3d`.
+    The balance sheet has it after the Apple Bar: `Spot Apple Bar`'s **Next** is now `Spot
+    Office` and `Spot Table 3`. Add it to the **Build List**'s **Spots**.
 
-23. A strip that slides down from the top, says something, and slides back up: a
-    **toast**. In `Safe Area`, at the very bottom of its children (drawn over everything),
-    **Create Empty**, `Toast`: anchor **top–stretch** with Shift, **Height** 200. In it:
+### Do it — the action maps
 
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Strip` | an Image | top–center with Shift | (0, 260) | 980 × 150 | `Panel Light`, Sliced |
-| `Strip/Picture` | an Image | middle–left with Shift | (24, 0) | 104 × 104 | `trophy_3d`, Preserve Aspect, no raycast |
-| `Strip/Title` | a text | top–left with Shift | (148, −16) | 800 × 54 | `Trophy`, size 42, brown |
-| `Strip/Line` | a text | top–left with Shift | (148, −72) | 800 × 64 | empty, size 30, light brown |
+34. In `Scripts`, a folder `Input`. In it, `Controls`, for now:
 
-24. At Y 260 the strip is above the screen's top edge, out of sight. Messages wait their
-    turn in a `Queue` (C# 6): first in, first out, so two managers hired at
-    once show one after the other. In `Scripts/Trophies`, `ToastMessage`, one waiting
-    message:
+```csharp
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// The two action maps. While a panel is open the Chef map is off and the
+// Panel map is on: the stick can't walk you off the Office mat while you
+// shop, and Escape closes the panel.
+public class Controls : MonoBehaviour
+{
+    [SerializeField] InputActionAsset actions;
+    [SerializeField] PanelSwitcher panels;
+
+    InputActionMap chefMap;
+    InputActionMap panelMap;
+    InputAction close;
+
+    void Awake()
+    {
+        chefMap = actions.FindActionMap("Chef", true);
+        panelMap = actions.FindActionMap("Panel", true);
+        close = panelMap.FindAction("Close", true);
+    }
+
+    void OnEnable()
+    {
+        close.performed += OnClose;
+        panels.OpenChanged += OnPanelOpenChanged;
+        OnPanelOpenChanged(panels.IsAnyOpen);
+    }
+
+    void OnDisable()
+    {
+        close.performed -= OnClose;
+        panels.OpenChanged -= OnPanelOpenChanged;
+        chefMap.Disable();
+        panelMap.Disable();
+    }
+
+    void OnPanelOpenChanged(bool isOpen)
+    {
+        if (isOpen)
+        {
+            chefMap.Disable();
+            panelMap.Enable();
+        }
+        else
+        {
+            panelMap.Disable();
+            chefMap.Enable();
+        }
+    }
+
+    void OnClose(InputAction.CallbackContext context)
+    {
+        panels.CloseAll();
+    }
+}
+```
+
+35. Read it. `FindActionMap("Chef", true)`: the `true` throws an error at once if there's
+    no such map, instead of handing back `null` for a mistake to show up later. `performed`
+    is the event a Button action raises when it's pressed. `OnEnable` asks the switcher
+    straight away, so the maps are right from the first frame, not from the first panel.
+36. An empty GameObject, `Controls`, with **Controls**: **Actions** `Juice Tycoon Controls`,
+    **Panels** `Panels`.
+
+### Test it
+
+- **Play**, and build up to the Apple Bar: the Office's spot appears by the east edge.
+  Build it: a desk and a blue mat with a sign. Step on the mat: the Office opens. You
+  can't walk; the stick does nothing.
+- The Office: **Bigger Tray, Holds 4, $80**. With $80, the button is green; buy it: Holds
+  6, and the next is $300. Close the panel (**Escape**, or the cross), and pick up
+  oranges: six now.
+- In the list: the Orange and Apple Bars' upgrades, and the other bars' too, with buttons
+  that work if you have the money but do nothing (their bars aren't open). That's on your
+  list. Buy **Sweet Oranges**: its row goes, and the Orange Bar's tag says `$8` (5 × 1.5 =
+  7.5, rounded). **Faster Juicer**: the ring turns half as fast again.
+- Close the panel and step back on the mat: it opens again. Stand still on it after
+  closing: it doesn't, until you step off and on. `OnArrived` is called when you arrive.
+
+### Commit
+
+*Add upgrades, the Office, the chef's levels, and the action maps.*
+
+### Challenge
+
+Add a third kind of upgrade, `CrateUpgrade`, that makes a bar's crate fill twice as fast.
+Which classes change? (One new class, and `JuiceStand` and `FruitCrate` learn a factor.
+The shop doesn't change at all.)
+
+## Chapter 10 — Helpers
+
+**Goal:** staff. Build the **Staff Hut**, step on its green mat, and hire, for each bar, a
+**runner** and a **cashier**. The runner walks the bar's loop for ever: fruit from the
+crate to the emptiest machine, cups from the machine to the counter. The cashier stands
+at the till, and the bar serves without you. And a strip slides down from the top of the
+screen to say so: *Orange Bar Runner hired!*
+
+### Idea — hands like yours
+
+The stations trade with a **Carrier**, and never ask whose hands it has. So a runner is a
+Carrier, a Walker, and a little script that decides **where to stand, and for how long**:
+
+| Job | Walks to | Moves on when |
+| --- | --- | --- |
+| `ToCrate` → `AtCrate` | the crate's mat | its hands are full, or hold all the machine has room for, or 3 s have passed and it holds something |
+| `ToMachine` → `AtMachine` | the emptiest built machine | its fruit's in and it holds cups (full, or after 3 s); or it's empty-handed after 3 s |
+| `ToCounter` → `AtCounter` | the till | its hands are empty, or 3 s have passed |
+
+It picks nothing up itself: the crate's `Trade` fills its hands while it stands there,
+exactly as it fills yours. A cashier is simpler: it walks to the till, tells the counter
+(`SetCashier(true)`), and stays.
+
+It fetches only what fits, too. A crate fills faster than most machines use fruit, so a
+runner that always filled its hands would soon arrive with fruit and nowhere to put it.
+With the machine full, it skips the crate and goes straight there for cups
+(`StartNextTrip`).
+
+A station doesn't ask whose hands they are, and that has a price: a helper walks straight
+to where it's going, across anyone's mat. So a helper **shuts its hands** while it walks
+(`HandsOpen`), and opens them when it arrives. It trades only where it was sent.
+
+Two physics details make it work:
+
+- A trigger only notices something with a **Rigidbody**. The chef has one; a helper gets
+  one too, **Is Kinematic**: physics doesn't move it (its Walker does), but triggers see
+  it.
+- A helper mustn't shove the chef, or block him at the till. Each is on its own **layer**,
+  and in the **Layer Collision Matrix**, `Chef` and `Helpers` don't collide.
+
+Hiring is an upgrade: `HireUpgrade : Upgrade`, whose `ApplyTo` calls `stand.Hire(kind)`.
+The shop, the save and the library treat it like any other.
+
+### Idea — a toast, and a queue of messages
+
+Two things can happen at once (a table built and a runner hired in the same second), and
+each deserves its moment on the screen. So messages wait in a `Queue`: a **ToastQueue**
+listens to the events (`Upgrades.Bought`, `BuildList.SpotBuilt`), makes a **ToastMessage**
+for each, and shows the next when the toast is free. The **Toast** itself only knows how
+to slide down, wait, and slide back up, and raises `Hidden` when it's done.
+
+### Do it — the helper
+
+1. In `People`, `HelperKind`:
+
+```csharp:HelperKind.cs
+// What a helper does: carries for a bar, or serves at its till.
+public enum HelperKind
+{
+    Runner,
+    Cashier
+}
+```
+
+2. The next three need each other: the helper asks its bar for the crate and the
+   emptiest machine, the bar hires helpers, and a hire upgrade asks the bar to hire.
+   Unity shows errors until all three are saved.
+
+<!-- check: together -->
+
+`Helper`, in `People`:
+
+```csharp:Helper.cs
+using UnityEngine;
+
+// A helper hired at the Staff Hut. A cashier walks to its bar's till and stays
+// there: the counter serves without you. A runner walks the bar's loop for
+// ever: fruit from the crate to the machine, cups from the machine to the
+// counter. It has a Carrier, as you do, so the stations trade with it just as
+// they do with you; the runner only decides where to stand, and how long. Its
+// hands are shut while it walks: another bar's mat on the way mustn't fill them.
+public class Helper : MonoBehaviour
+{
+    enum Job { ToCrate, AtCrate, ToMachine, AtMachine, ToCounter, AtCounter }
+
+    static readonly int CarryingId = Animator.StringToHash("Carrying");
+
+    [SerializeField] HelperKind kind;
+    [SerializeField] Walker walker;
+    [SerializeField] Carrier carrier;
+    [SerializeField] Animator animator;
+    [SerializeField] float patienceSeconds = 3f;    // the longest it waits at one place
+
+    JuiceStand stand;
+    Job job;
+    Juicer machine;
+    float waitUntil;
+
+    public HelperKind Kind { get { return kind; } }
+    public bool IsWorking { get { return gameObject.activeSelf; } }
+
+    void OnEnable()
+    {
+        walker.Arrived += OnArrived;
+    }
+
+    void OnDisable()
+    {
+        walker.Arrived -= OnArrived;
+    }
+
+    public void StartWork(JuiceStand bar, Vector3 door)
+    {
+        stand = bar;
+        carrier.HandsOpen = false;
+        transform.position = door;
+        gameObject.SetActive(true);
+        if (kind == HelperKind.Cashier)
+        {
+            walker.WalkTo(stand.Counter.Till);
+        }
+        else
+        {
+            GoTo(Job.ToCrate);
+        }
+    }
+
+    void OnArrived()
+    {
+        carrier.HandsOpen = true;
+        if (kind == HelperKind.Cashier)
+        {
+            stand.Counter.SetCashier(true);
+            walker.FaceTowards(stand.Counter.Front);
+            return;
+        }
+        waitUntil = Time.time + patienceSeconds;
+        if (job == Job.ToCrate)
+        {
+            job = Job.AtCrate;
+        }
+        else if (job == Job.ToMachine)
+        {
+            job = Job.AtMachine;
+        }
+        else if (job == Job.ToCounter)
+        {
+            job = Job.AtCounter;
+        }
+    }
+
+    void Update()
+    {
+        animator.SetBool(CarryingId, carrier.IsCarrying);
+        if (kind == HelperKind.Cashier)
+        {
+            return;
+        }
+        ItemPile hands = carrier.Hands;
+        bool waited = Time.time >= waitUntil;
+        switch (job)
+        {
+            case Job.AtCrate:
+                // No more fruit than the machine has room for.
+                if (hands.IsFull || hands.Count >= stand.EmptiestJuicer().FruitRoom || (waited && !hands.IsEmpty))
+                {
+                    GoTo(Job.ToMachine);
+                }
+                break;
+            case Job.AtMachine:
+                // The fruit goes in first; then the cups come out onto the empty hands.
+                bool holdsCups = hands.TopInfo == stand.Info.Cup;
+                if (holdsCups && (hands.IsFull || waited))
+                {
+                    GoTo(Job.ToCounter);
+                }
+                else if (hands.IsEmpty && waited)
+                {
+                    StartNextTrip();
+                }
+                break;
+            case Job.AtCounter:
+                if (hands.IsEmpty || waited)
+                {
+                    StartNextTrip();
+                }
+                break;
+        }
+    }
+
+    // Fruit, if a machine has room for some; if not, its cups.
+    void StartNextTrip()
+    {
+        GoTo(stand.EmptiestJuicer().FruitRoom > 0 ? Job.ToCrate : Job.ToMachine);
+    }
+
+    void GoTo(Job next)
+    {
+        job = next;
+        carrier.HandsOpen = false;
+        if (next == Job.ToCrate)
+        {
+            walker.WalkTo(stand.CratePosition);
+        }
+        else if (next == Job.ToMachine)
+        {
+            machine = stand.EmptiestJuicer();
+            walker.WalkTo(machine.transform.position);
+        }
+        else if (next == Job.ToCounter)
+        {
+            walker.WalkTo(stand.Counter.Till);
+        }
+    }
+}
+```
+
+Add these to `JuiceStand`: the fields with its other fields, the rest at the end.
+
+<!-- check: add to JuiceStand -->
+```csharp
+public class JuiceStand : MonoBehaviour
+{
+    // … as before …
+
+    [SerializeField] FruitCrate crate;
+    [SerializeField] Juicer[] juicers;
+    [SerializeField] Helper runner;
+    [SerializeField] Helper cashier;
+    [SerializeField] Transform staffDoor;   // the Staff Hut's: where a new helper appears
+
+    public bool HasRunner { get { return runner.IsWorking; } }
+    public bool HasCashier { get { return cashier.IsWorking; } }
+    public Vector3 CratePosition { get { return crate.transform.position; } }
+
+    // The machine for the runner: the built one with the least fruit in it.
+    public Juicer EmptiestJuicer()
+    {
+        Juicer best = null;
+        foreach (Juicer juicer in juicers)
+        {
+            if (juicer.isActiveAndEnabled && (best == null || juicer.Fruit < best.Fruit))
+            {
+                best = juicer;
+            }
+        }
+        return best;
+    }
+
+    // Hired at the Staff Hut: the helper walks over from its door.
+    public void Hire(HelperKind kind)
+    {
+        Helper helper = kind == HelperKind.Runner ? runner : cashier;
+        if (!helper.IsWorking)
+        {
+            helper.StartWork(this, staffDoor.position);
+        }
+    }
+}
+```
+
+And `HireUpgrade`, in `Upgrades`:
+
+```csharp:HireUpgrade.cs
+using UnityEngine;
+
+// A helper for one bar, hired at the Staff Hut: a runner who carries, or a
+// cashier who serves. An upgrade like the others: the shop sells it the same
+// way, and doesn't need to know what kind it is.
+[CreateAssetMenu(fileName = "New Hire", menuName = "Juice/Hire Upgrade")]
+public class HireUpgrade : Upgrade
+{
+    [SerializeField] HelperKind kind;
+
+    public HelperKind Kind { get { return kind; } }
+
+    public override void ApplyTo(JuiceStand stand)
+    {
+        stand.Hire(kind);
+    }
+}
+```
+
+<!-- check: end -->
+
+3. Read `Helper`:
+   - `enum Job` is declared **inside** the class: nobody else needs it. A private type,
+     like a private field.
+   - `OnArrived` only says "I'm there now" (`ToCrate` becomes `AtCrate`) and starts the
+     patience clock. `Update` decides when to go: a state machine whose states are ended by
+     what's in its hands, or by time.
+   - `stand.EmptiestJuicer()`: with two juicers, the runner feeds the one with less fruit.
+     The juicer's `Fruit` property, from Chapter 7, was for this.
+   - `IsWorking` is `gameObject.activeSelf`: a helper not hired is a switched-off
+     GameObject, already in the bar, waiting.
+   - `HandsOpen`: `GoTo` and `StartWork` shut the hands, and `OnArrived` opens them. The
+     stations still notice the helper walking through; `Station.Update`, from Chapter 7,
+     just doesn't trade with it.
+   - `hands.Count >= stand.EmptiestJuicer().FruitRoom` at the crate: enough for the machine
+     is enough. With the chef's fruit in it already, `FruitRoom` is 0: the runner leaves
+     with empty hands, for the cups.
+> **Watch out: shut hands.** Without them, the runner looks fine for a while. While this
+> game was being made, the Orange Bar's runner stood on his mat and never moved again. On
+> his way from the Staff Hut he'd crossed a corner of the Apple Bar's juicer mat, and a cup
+> of apple juice had hopped into his hands. The Orange Bar's juicer doesn't want it, it
+> isn't his bar's cup to carry, and nothing in `Update` says what to do with anything else.
+> No error, nothing in the Console: only a man standing still. When a helper stops, look
+> at what it's holding.
+
+> **Watch out: a deadlock.** The next one stood at the Apple Bar with four apples: the ring
+> said 6, and the tray was full. He couldn't take cups with fruit in his hands. The machine
+> couldn't make a cup, and so make room for fruit, with its tray full. Each was waiting for
+> the other, for ever: that's a **deadlock**. Fetching only what fits stops it happening
+> by itself. But the chef can fill the machine while the runner's on his way, so one rule
+> breaks the wait whatever happens: with the tray full, a runner's fruit goes in anyway
+> (`hasRoom`, in `Juicer.Trade`). The ring can say 7 or more for a moment. When two things
+> wait on each other, one of them has to be allowed to give way.
+
+4. **Layers.** **Edit → Project Settings → Physics**, at the bottom: the **Layer Collision
+   Matrix**. Untick the box where the `Chef` row meets the `Helpers` column.
+5. **The Helper prefab.** An empty `Helper`, on the `Helpers` layer. A **Rigidbody**: tick
+   **Is Kinematic**. A **Capsule Collider**: **Center** (0, 0.9, 0), **Radius** `0.3`,
+   **Height** `1.8`. A **Walker** (**Speed** `3`). A child `Hands` at (0, 1, 0.45) with an
+   **Item Pile** (**Capacity** `4`, 1 × 1, **Spacing** `0`). A **Carrier** (**Hands**
+   `Hands`, **Is Chef** unticked). A **Helper** (**Walker**, **Carrier**). Into
+   `Prefabs/People`.
+6. Two variants of it, as with the customers: `Runner`, with `Art/Characters/Worker_Male`
+   as its `Model` (and **Kind** `Runner`), and `Cashier`, with `Worker_Female` (**Kind**
+   `Cashier`). Each model: the `Person` controller, no root motion, its whole hierarchy on
+   the `Helpers` layer (Unity asks: **Yes, change children**), and dragged into **Helper**'s
+   and **Walker**'s **Animator**.
+7. Open the `Juice Stand` prefab. Drag a `Runner` and a `Cashier` into its root, and untick
+   both: every bar has its two helpers, waiting. On the root's **Juice Stand**: **Crate**
+   `Crate`, **Juicers** `Juicer` and `Juicer 2`, **Runner**, **Cashier**.
+
+### Do it — the Staff Hut
+
+8. Eight hire upgrades in `Data/Upgrades`: **Create → Juice → Hire Upgrade**, two per bar,
+   from the balance sheet's Staff Hut table:
+
+| Field | Runner | Cashier |
+| --- | --- | --- |
+| Asset | `Orange Bar - Orange Bar Runner` | `Orange Bar - Orange Bar Cashier` |
+| **Id** | `orange-bar-runner` | `orange-bar-cashier` |
+| **Display Name** | `Orange Bar Runner` | `Orange Bar Cashier` |
+| **Description** | `Carries fruit to the machine and cups to the counter.` | `Serves at the till, so the bar sells without you.` |
+| **Picture** | `Emoji/office_worker_3d_default` | `Emoji/cook_3d_default` |
+| **Kind** | `Runner` | `Cashier` |
+
+   **Cost** from the sheet, **Target** the bar. Add all eight to the `Upgrade Library`.
+
+9. **The Staff Hut panel**: a variant of `Panel`, `Staff Panel`, its root and title `Staff
+   Hut`. In its `Content`, a scrolling list made as in the Office (filling `Content`, no
+   `Levels`), and an unticked `All Bought` text: `Everyone's hired: build another bar to
+   hire more.` Drag it into `Panels`, add it to the switcher's **Panels**, wire its
+   `Close Button` to **CloseAll**, and add an **Upgrade Shop** to it in the scene: the
+   eight hires, `Upgrades`, `Wallet`, the **Upgrade Row**, its `List`. The intern's shop
+   sells helpers as it sells recipes: it only knows `Upgrade`.
+10. **The Staff Hut**: a variant of `Shop Mat`, `Staff Hut`. Its sign says `Staff Hut`, its
+    mat is `#5CC85C` (green). In it: `Art/Bar/menu` at (0, 0, 1.4), **Scale** 1.6, with a
+    **Box Collider**, and two `Art/Bar/chair_stool`s at (−0.6, 0, 1.6) and (0.6, 0, 1.6).
+    In the scene, at (7.4, 0, −9.2), unticked: **Panel** the Staff panel, **Panels**
+    `Panels`.
+11. An empty `Staff Door` at (7.4, 0, −10.2), beside it: new helpers appear there. Select the
+    four bars and drag it into **Staff Door**.
+12. **Its spot**: `Spot Staff Hut`, **Id** `staff-hut`, `Staff Hut`, **Price** `350`, at
+    (7.4, 0, −9.2), **Builds** `Staff Hut`, picture `Emoji/office_worker_3d_default`. Now
+    the list is the balance sheet's: `Spot Apple Bar`'s **Next** is `Spot Office` and `Spot
+    Staff Hut`, and `Spot Staff Hut`'s **Next** is `Spot Table 3`. Add it to the **Build
+    List**.
+
+### Do it — the toast
+
+13. In `Scripts`, a folder `Trophies` (Chapter 12 fills it). In it, `Toast`, for now with a
+    coroutine:
+
+```csharp
+using System;
+using System.Collections;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// A strip that slides down from the top of the screen with a picture and two
+// lines, stays a moment, and slides back up: "Runner hired!", "Table built!".
+// One message at a time: ToastQueue waits until IsShowing is false.
+public class Toast : MonoBehaviour
+{
+    [SerializeField] RectTransform strip;
+    [SerializeField] Image picture;
+    [SerializeField] TMP_Text title;
+    [SerializeField] TMP_Text line;
+    [SerializeField] float shownY = -40f;       // below the top edge
+    [SerializeField] float hiddenY = 260f;      // above it, out of sight
+    [SerializeField] float slideTime = 0.35f;
+    [SerializeField] float stayTime = 2.2f;
+
+    public bool IsShowing { get; private set; }
+
+    public event Action Hidden;
+
+    void Awake()
+    {
+        SetY(hiddenY);
+        strip.gameObject.SetActive(false);
+    }
+
+    public void Show(Sprite icon, string heading, string text)
+    {
+        picture.sprite = icon;
+        title.text = heading;
+        line.text = text;
+        IsShowing = true;
+        strip.gameObject.SetActive(true);
+        StartCoroutine(Showing());
+    }
+
+    // Down, wait, back up.
+    IEnumerator Showing()
+    {
+        yield return Slide(hiddenY, shownY);
+        yield return new WaitForSeconds(stayTime);
+        yield return Slide(shownY, hiddenY);
+        strip.gameObject.SetActive(false);
+        IsShowing = false;
+        Hidden?.Invoke();
+    }
+
+    IEnumerator Slide(float from, float to)
+    {
+        for (float t = 0f; t < slideTime; t += Time.deltaTime)
+        {
+            SetY(Mathf.Lerp(from, to, t / slideTime));
+            yield return null;
+        }
+        SetY(to);
+    }
+
+    void SetY(float y)
+    {
+        strip.anchoredPosition = new Vector2(strip.anchoredPosition.x, y);
+    }
+}
+```
+
+14. `yield return Slide(...)` inside a coroutine runs another coroutine and waits for it to
+    finish: `Showing` reads as the three things it does. Chapter 18 does all three in one
+    line with DOTween.
+15. `ToastMessage`, in `Trophies`: a plain C# class, not a component. It's never on a
+    GameObject; it's made with `new`, waits in the queue, and is forgotten.
 
 ```csharp:ToastMessage.cs
 using UnityEngine;
@@ -4774,90 +7703,22 @@ public class ToastMessage
 }
 ```
 
-25. A plain C# class: no `MonoBehaviour`, made with `new`, held in a list. (`IsTrophy` is
-    for Chapter 9.) In `Scripts/Trophies`, `Toast`, which slides the strip:
+Its properties have `private set`: a message can't be changed once made, only read.
+`IsTrophy` is for Chapter 12.
 
-```csharp
-using System;
-using System.Collections;
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// A strip that slides down from the top of the screen with a picture and two
-// lines, stays a moment, and slides back up: "Manager hired!", or a trophy
-// won. One message at a time: ToastQueue waits until IsShowing is false.
-public class Toast : MonoBehaviour
-{
-    [SerializeField] RectTransform strip;
-    [SerializeField] Image picture;
-    [SerializeField] TMP_Text title;
-    [SerializeField] TMP_Text line;
-    [SerializeField] float shownY = -40f;       // below the top edge
-    [SerializeField] float hiddenY = 260f;      // above it, out of sight
-    [SerializeField] float slideTime = 0.35f;
-    [SerializeField] float stayTime = 2.2f;
-
-    public bool IsShowing { get; private set; }
-
-    public event Action Hidden;
-
-    void Awake()
-    {
-        strip.anchoredPosition = new Vector2(strip.anchoredPosition.x, hiddenY);
-        strip.gameObject.SetActive(false);
-    }
-
-    public void Show(Sprite icon, string heading, string text)
-    {
-        picture.sprite = icon;
-        title.text = heading;
-        line.text = text;
-        IsShowing = true;
-        strip.gameObject.SetActive(true);
-        StartCoroutine(SlideDownAndUp());
-    }
-
-    // Down, wait, back up.
-    IEnumerator SlideDownAndUp()
-    {
-        yield return Slide(hiddenY, shownY);
-        yield return new WaitForSeconds(stayTime);
-        yield return Slide(shownY, hiddenY);
-        strip.gameObject.SetActive(false);
-        IsShowing = false;
-        Hidden?.Invoke();
-    }
-
-    IEnumerator Slide(float fromY, float toY)
-    {
-        for (float t = 0f; t < slideTime; t += Time.deltaTime)
-        {
-            float y = Mathf.Lerp(fromY, toY, Mathf.SmoothStep(0f, 1f, t / slideTime));
-            strip.anchoredPosition = new Vector2(strip.anchoredPosition.x, y);
-            yield return null;
-        }
-        strip.anchoredPosition = new Vector2(strip.anchoredPosition.x, toY);
-    }
-}
-```
-
-26. A coroutine can `yield return` another coroutine's `IEnumerator`: Unity runs it, and
-    carries on when it's finished. So `SlideDownAndUp` reads like the story it tells.
-    Chapter 16 does the same in one line with DOTween.
-27. Add `Toast` to `Toast`: **Strip**, **Picture**, **Title** and **Line** from its children.
-    Drag `Toast` into `Prefabs/UI`.
-28. In `Scripts/Trophies`, `ToastQueue`:
+16. `ToastQueue`, for now with the upgrades and the build list:
 
 ```csharp
 using System.Collections.Generic;
 using UnityEngine;
 
-// Messages for the toast wait here, first come first shown: "Manager hired!",
-// for now. The toast shows them one at a time.
+// Messages for the toast wait here, first come first shown: "Runner hired!",
+// "Table built!". The toast shows them one at a time.
 public class ToastQueue : MonoBehaviour
 {
     [SerializeField] Upgrades upgrades;
+    [SerializeField] BuildList buildList;
+    [SerializeField] Sprite builtPicture;
     [SerializeField] Toast toast;
 
     readonly Queue<ToastMessage> waiting = new Queue<ToastMessage>();
@@ -4865,23 +7726,31 @@ public class ToastQueue : MonoBehaviour
     void OnEnable()
     {
         upgrades.Bought += OnUpgradeBought;
+        buildList.SpotBuilt += OnSpotBuilt;
         toast.Hidden += ShowNext;
     }
 
     void OnDisable()
     {
         upgrades.Bought -= OnUpgradeBought;
+        buildList.SpotBuilt -= OnSpotBuilt;
         toast.Hidden -= ShowNext;
     }
 
-    // Every upgrade bought comes here; only a manager gets a toast.
+    // Every upgrade bought comes here; only a helper gets a toast.
     void OnUpgradeBought(Upgrade upgrade)
     {
-        if (upgrade is ManagerUpgrade)
+        if (upgrade is HireUpgrade)
         {
-            waiting.Enqueue(new ToastMessage(upgrade.Picture, "Manager hired!", $"{upgrade.Target.DisplayName} squeezes by itself now.", false));
+            waiting.Enqueue(new ToastMessage(upgrade.Picture, upgrade.DisplayName + " hired!", upgrade.Description, false));
             ShowNext();
         }
+    }
+
+    void OnSpotBuilt(BuildSpot spot)
+    {
+        waiting.Enqueue(new ToastMessage(builtPicture, spot.DisplayName + " built!", "", false));
+        ShowNext();
     }
 
     void ShowNext()
@@ -4896,40 +7765,50 @@ public class ToastQueue : MonoBehaviour
 }
 ```
 
-29. `ShowNext` runs twice: when a message arrives, and when the toast is hidden
-    (`toast.Hidden`). If the toast is busy, the message waits; when it's free, the oldest
-    message goes. Notice it listens to `Upgrades.Bought`: the intern's shop calls
-    `TryBuy`, which raises it, so the toast works without any change to the intern's code.
-30. **Create Empty**, `Trophies` (Chapter 9 adds the trophies here). Add `ToastQueue`:
-    **Upgrades** the `Upgrades`, **Toast** the `Toast` in the scene.
+17. `upgrade is HireUpgrade`: C# 8's `is` asks an object its kind. A recipe
+    bought gets no toast (its row going is enough); a helper does. `ShowNext` is called
+    both when a message arrives and when the toast hides: if the toast is busy, the new
+    message waits, and `Hidden` brings it out.
+18. **The Toast.** In `Safe Area`, last (so it's drawn on top), an empty `Toast`,
+    top-stretch with its pivot at the top, **Height** `200`, with **Toast**. Inside it,
+    `Strip`: an Image, `Panel Light`, **Sliced**, top-centre with its pivot, **Pos Y**
+    `260` (out of sight), 980 × 150. In `Strip`: `Picture` (middle-left, **Pos X** 24,
+    104 × 104), `Title` (a TextMeshPro, top-left, (148, −16), 800 × 54, size 42, brown) and
+    `Line` (top-left, (148, −72), 800 × 64, size 30, light brown). Drag them into
+    **Toast**'s fields.
+19. An empty `Trophies` GameObject (Chapter 12 adds more to it), with **Toast Queue**:
+    **Upgrades**, **Build List** (`Build Spots`), **Built Picture**
+    `Emoji/party_popper_3d`, **Toast** `Toast`.
 
 ### Test it
 
-- **Play**, and **Test: Add $1M** (Chapter 6's helper). Open **Managers**: five rows from
-  the intern's shop. Hire the Lemonade Cup's manager: *Manager hired!* slides down, the
-  row disappears from the shop, the badge appears on the Lemonade Cup's row, and its bar
-  runs on its own, sale after sale.
-- Hire two managers quickly: the second toast waits for the first.
-- **Upgrades**: buy *Fresh Lemons*: the Lemonade Cup's earnings triple. Open the Beach
-  Stand, then buy *Electric Juicer*: its bar fills in 1.5 seconds instead of 3.
-- Look at the shop's prices. *Watermelon Wave* says `$1000.0K`, and *Golden Juice*
-  `$1000000.0K`. Add it to your list. Then look at a button you can't afford: is it grey?
-- Look at the Hierarchy while the Managers panel is open: the shop's rows are `Upgrade
-  Row(Clone)`, with no names of their own.
+- **Play**, and build the Staff Hut: *Staff Hut built!* slides down, waits, and slides up.
+  Step on the green mat: the Staff Hut lists the Orange and Apple Bars' runners and
+  cashiers (and the others', which do nothing yet: the intern again).
+- Hire the **Orange Bar Runner**: *Orange Bar Runner hired!* A worker appears by the hut,
+  walks to the crate, waits while oranges hop onto it, walks to the juicer with less
+  fruit in it, and then takes the cups to the counter. Walk through him: you can.
+- Give the Apple Bar a runner and a cashier, and leave them for five minutes: the ring
+  keeps turning, and he never stands still for long. Its machine is slower than its crate,
+  so sometimes he skips the crate and goes straight for the cups.
+- Watch him leave the till for the crate: he walks across the juicer's mat, past its cups,
+  and takes none. The same on the Apple Bar's mats, on his way from the hut.
+- Hire the **Orange Bar Cashier**: she walks to the till and turns to face the queue. Go
+  and do something else: the Orange Bar serves, and its notes pile up, without you.
+- Buy two things fast: the toasts come one after the other, not on top of each other.
 
 ### Commit
 
-*Add upgrades and managers, with the intern's shop and a toast.*
+*Add the runners, the cashiers, the Staff Hut and the toast.*
 
 ### Challenge
 
-A fourth kind of upgrade, `GrandOpening`: it gives a business ten more for free
-(`stand.Buy(10)`). Make the class and one asset, *Grand Opening: Beach Stand*, and put it
-in the shop's list. What did you have to change in `Upgrade`, `Upgrades` or the shop?
-(The answer is what inheritance is for.) Take the asset out of the library and the list
-afterwards: it isn't on the balance sheet.
+A runner with a full tray waits at a full counter for three seconds, then goes back to
+the crate with its cups still in its hands, and puts nothing in the crate. Watch it
+happen. What should it do instead? Change `Helper` so that it waits at the counter for as
+long as its hands aren't empty, and see what goes wrong when the bar has no customers.
 
-## C# 8 — Interfaces
+## C# 9 — Interfaces
 
 **Goal:** you can declare an interface, implement several in a class, talk to unrelated
 objects through one (with `GetComponent` too), use Unity's UI interfaces for clicks and
@@ -4955,7 +7834,7 @@ public interface IDamageable
 
 - Its name starts with `I` and names a capability: `IDamageable`, `IUpgradable`.
 - Members have no body, only a `;`, and no access word: they're all `public`.
-- No fields, and no `new` (CS0144), as with an abstract class (C# 7).
+- No fields, and no `new` (CS0144), as with an abstract class (C# 8).
 
 ### Idea — implementing one interface, or several
 
@@ -5189,455 +8068,370 @@ a coin and a juice stand that sells a cup. When the player presses **E**, raycas
 find an `IInteractable` with `GetComponentInParent`, and call it. Then add a locked chest:
 should it share a base class with the chest, an interface, or both? Why?
 
-## Chapter 8 — Money per Second
+## Chapter 11 — The Juice Kart
 
-**Goal:** under the money, what you earn by yourself each second, `+1.25K / s`; and the
-**delivery van**, which opens with your first Juice Factory, drives along the road, earns
-at the end of every trip, and levels up with **Bigger Van**. The income text adds up the
-van's earnings with the businesses' without knowing it's a van.
+**Goal:** the last thing on the build list before the Pier: a **Juice Kart**, driven round
+the road below the boardwalk by a helper, a giant cup on its back. Each lap sells by
+itself, straight into your wallet; the Office levels it up. And a question the next
+chapters need answered: **what on this beach earns money by itself?**
 
 ### Idea — two things that earn, and nothing else in common
 
-A business with a manager earns by itself. So will the delivery van. What do they share?
-Very little: a business has cycles, a row in the list, upgrades and a manager; the van
-drives a road, delivers, and levels up. Neither **is** the other, and no base class fits
-both.
+A bar with a runner and a cashier earns by itself. So does the kart. Chapter 15 will add
+up what they all earned while you were away, and it shouldn't need to know which is
+which. But a `JuiceStand` and a `JuiceKart` share nothing: no fields, no methods, no base
+class worth having. One is a crate, machines, a counter and helpers; the other is a kart on
+a road.
 
-But both **can do** one thing: earn money by themselves, so much a second. That's an
-**interface** (C# 8): a contract that unrelated classes sign.
+C# 9 had the tool: an **interface**, a contract with no code. Anything that
+signs it promises three things:
 
-```csharp
-public interface IIncomeSource
-{
-    string SourceName { get; }
-    long IncomePerSecond { get; }
-    bool EarnsWhileAway { get; }
-}
-```
-
-Everything that needs "what earns by itself" asks for `IIncomeSource`s: the money per
-second now; the earnings while you're away (Chapter 12); the bonus balloon's reward, a
-minute of income (Chapter 15). None of them will know what's behind the interface.
-
-| | `JuiceStand` | `DeliveryVan` |
+| Member | A bar | The kart |
 | --- | --- | --- |
-| **is a** | `MonoBehaviour` | `MonoBehaviour` |
-| **can** | `IIncomeSource` | `IIncomeSource` |
-| `SourceName` | its business's name | "Delivery Van" |
-| `IncomePerSecond` | a cycle's earnings ÷ the cycle's seconds, with a manager; else 0 | a trip's earnings ÷ the trip's seconds, once bought |
-| `EarnsWhileAway` | it has a manager | it's been bought |
+| `SourceName` | its BarInfo's name | `"Juice Kart"` |
+| `IncomePerSecond` | its machines' cups a second × a cup's price, when it has both helpers | a lap's money ÷ a lap's seconds, once it's built |
+| `EarnsWhileAway` | built, with a runner and a cashier | built |
 
-### Idea — an interface in the Inspector
+`JuiceStand : MonoBehaviour, IIncomeSource` and `JuiceKart : MonoBehaviour, IIncomeSource`:
+one base class each (MonoBehaviour), and as many interfaces as they like. Then a
+`List<IIncomeSource>` holds both, and a `foreach` over it asks each for its income
+without asking what it is.
 
-Unity can't show a field of an interface type in the Inspector: `[SerializeField]
-IIncomeSource[] sources` stays invisible. The fix is one small class, `IncomeSources`: it
-takes the businesses and the van **as what they are** (`JuiceStand[]`, `DeliveryVan`), and
-puts them in a `List<IIncomeSource>` **as what they can do**. Every other script asks it.
+Unity's Inspector can't show a field of an interface type: there's no way to drag "any
+IIncomeSource" into it. So **IncomeSources** has fields for what they are (the bars, the
+kart), and in `Awake` puts them into one list as what they can do.
 
-### Do it — a business is an income source
+### Do it — the contract
 
-1. In `Scripts/Income`, `IIncomeSource`:
+1. In `Scripts`, a folder `Income`. In it, `IIncomeSource`:
 
 ```csharp:IIncomeSource.cs
-// Anything that earns money by itself: a business with a manager, the delivery
-// van. The money per second, the earnings while you're away and the balloon's
-// reward add up every IIncomeSource, without knowing which kind each one is.
+// Anything that earns money by itself: a bar with a runner and a cashier, the
+// Juice Kart. The money while you're away adds up every IIncomeSource, without
+// knowing which kind each one is.
 public interface IIncomeSource
 {
     string SourceName { get; }
-    long IncomePerSecond { get; }   // 0 while it doesn't earn by itself
+    float IncomePerSecond { get; }      // 0 while it doesn't earn by itself
     bool EarnsWhileAway { get; }
 }
 ```
 
-2. `JuiceStand` signs it: add `, IIncomeSource` after `MonoBehaviour`, and the three
-   members. Until all three are there, Unity says the class doesn't implement the
-   interface (error CS0535): the contract is checked when it compiles.
+   No `public` on the members: everything in an interface is public. No bodies: the
+   classes write them.
+
+2. `JuiceStand`, again, signing it. The fields and properties you added in Chapter 10 are
+   back at the top, where fields belong, and the contract's three members are at the
+   bottom.
 
 ```csharp
 using System;
 using UnityEngine;
 
-// One business on the beach: how many you own, what the upgrades did to it,
-// and its cycle. Squeeze starts a cycle; when the bar fills it sells, and a
-// business with a manager starts the next cycle by itself. It earns more for
-// every one you own, and twice as much at each milestone.
+// One bar: the Orange Bar, the Apple Bar. It knows its BarInfo, its price and
+// its speed (upgrades multiply them), its stations and its two helpers. The
+// counter calls Sell, and CupSold tells the cash pile. A bar with a runner and
+// a cashier earns by itself, even while you're away: it's an IIncomeSource.
 public class JuiceStand : MonoBehaviour, IIncomeSource
 {
-    static readonly int[] Milestones = { 25, 50, 100, 200, 300, 400 };
+    [SerializeField] BarInfo info;
+    [SerializeField] FruitCrate crate;
+    [SerializeField] Juicer[] juicers;
+    [SerializeField] Counter counter;
+    [SerializeField] Helper runner;
+    [SerializeField] Helper cashier;
+    [SerializeField] Transform staffDoor;   // the Staff Hut's: where a new helper appears
 
-    [SerializeField] StandInfo info;
-    [SerializeField] int ownedAtStart;          // 1 for the Lemonade Cup: you start with one
+    float priceFactor = 1f;
+    float speedFactor = 1f;
+    float beachFactor = 1f;
 
-    float priceMultiplier = 1f;
-    float speedMultiplier = 1f;
+    public BarInfo Info { get { return info; } }
+    public Counter Counter { get { return counter; } }
+    public bool IsOpen { get { return counter.gameObject.activeInHierarchy; } }
+    public bool HasRunner { get { return runner.IsWorking; } }
+    public bool HasCashier { get { return cashier.IsWorking; } }
+    public Vector3 CratePosition { get { return crate.transform.position; } }
 
-    public StandInfo Info { get { return info; } }
-    public int Owned { get; private set; }
-    public bool IsAutomated { get; private set; }
-    public bool IsRunning { get; private set; }
-    public float Progress { get; private set; }     // 0 to 1, through the cycle
-    public float CycleSeconds { get { return info.CycleSeconds / speedMultiplier; } }
-    public string SourceName { get { return info.DisplayName; } }
-    public bool EarnsWhileAway { get { return IsAutomated && Owned > 0; } }
-
-    // What one cycle sells for now: every one you own, the upgrades and the
-    // milestones. Worked out in a double: a long times a float is worked out as
-    // a float, which can't hold every whole number above 16,777,216.
-    public long EarningsPerCycle
+    // A cup's price now: the bar's own, its upgrades, and the beach.
+    public int Price
     {
-        get { return (long)(info.EarningsPerCycle * Owned * (double)priceMultiplier * MilestoneMultiplier); }
+        get { return Mathf.RoundToInt(info.Price * priceFactor * beachFactor); }
     }
 
-    public long IncomePerSecond
-    {
-        get
-        {
-            if (!EarnsWhileAway)
-            {
-                return 0;
-            }
-            return (long)(EarningsPerCycle / (double)CycleSeconds);
-        }
-    }
+    public float SecondsPerCup { get { return info.MachineSeconds / speedFactor; } }
 
-    // The next milestone to reach, or 0 when every one is reached.
-    public int NextMilestone
-    {
-        get
-        {
-            foreach (int milestone in Milestones)
-            {
-                if (Owned < milestone)
-                {
-                    return milestone;
-                }
-            }
-            return 0;
-        }
-    }
-
-    float MilestoneMultiplier
-    {
-        get
-        {
-            float multiplier = 1f;
-            foreach (int milestone in Milestones)
-            {
-                if (Owned >= milestone)
-                {
-                    multiplier *= 2f;
-                }
-            }
-            return multiplier;
-        }
-    }
-
-    public event Action<long> CupSold;      // what the cycle sold for
-    public event Action Squeezed;           // a tap started a cycle
-    public event Action<int> Bought;        // how many were bought
-    public event Action Changed;            // owned, multipliers or manager
-
-    void Awake()
-    {
-        Owned = ownedAtStart;
-    }
-
-    void Update()
-    {
-        if (!IsRunning)
-        {
-            return;
-        }
-        Progress += Time.deltaTime / CycleSeconds;
-        // A fast, managed business can finish more than one cycle in a frame.
-        while (Progress >= 1f)
-        {
-            Progress -= 1f;
-            CupSold?.Invoke(EarningsPerCycle);
-            if (!IsAutomated)
-            {
-                Progress = 0f;
-                IsRunning = false;
-                return;
-            }
-        }
-    }
-
-    // A tap, on the beach or on the row. Nothing happens while a cycle runs.
-    public void Squeeze()
-    {
-        if (Owned == 0 || IsRunning)
-        {
-            return;
-        }
-        IsRunning = true;
-        Squeezed?.Invoke();
-    }
-
-    public void Buy(int count)
-    {
-        Owned += count;
-        if (IsAutomated)
-        {
-            IsRunning = true;   // a manager hired before you owned one starts now
-        }
-        Bought?.Invoke(count);
-        Changed?.Invoke();
-    }
+    public event Action<int> CupSold;           // the money for one cup
+    public event Action<int> CustomerServed;    // the money for the whole order
+    public event Action Changed;                // the price changed
 
     public void MultiplyPrice(float factor)
     {
-        priceMultiplier *= factor;
+        priceFactor *= factor;
         Changed?.Invoke();
     }
 
     public void MultiplySpeed(float factor)
     {
-        speedMultiplier *= factor;
-        Changed?.Invoke();
+        speedFactor *= factor;
     }
 
-    // A manager squeezes for you, from now on.
-    public void Automate()
+    // A later beach pays more for every cup.
+    public void SetBeachFactor(float factor)
     {
-        IsAutomated = true;
-        if (Owned > 0)
-        {
-            IsRunning = true;
-        }
+        beachFactor = factor;
         Changed?.Invoke();
     }
-}
-```
 
-3. A business without a manager earns nothing **by itself**: its `IncomePerSecond` is 0,
-   even while you tap it. The money per second counts only what comes in while you watch,
-   or while you're away.
+    public void Sell(int cups)
+    {
+        int price = Price;
+        for (int i = 0; i < cups; i++)
+        {
+            CupSold?.Invoke(price);
+        }
+        CustomerServed?.Invoke(cups * price);
+    }
 
-### Do it — the money per second
+    // The machine for the runner: the built one with the least fruit in it.
+    public Juicer EmptiestJuicer()
+    {
+        Juicer best = null;
+        foreach (Juicer juicer in juicers)
+        {
+            if (juicer.isActiveAndEnabled && (best == null || juicer.Fruit < best.Fruit))
+            {
+                best = juicer;
+            }
+        }
+        return best;
+    }
 
-4. In `Scripts/Income`, `IncomeSources`. For now, the businesses are its only sources:
+    // Hired at the Staff Hut: the helper walks over from its door.
+    public void Hire(HelperKind kind)
+    {
+        Helper helper = kind == HelperKind.Runner ? runner : cashier;
+        if (!helper.IsWorking)
+        {
+            helper.StartWork(this, staffDoor.position);
+        }
+    }
 
-```csharp
-using System.Collections.Generic;
-using UnityEngine;
+    // ------------------------------------------------------------ IIncomeSource
 
-// Every IIncomeSource in the scene, in one list. Unity can't show an interface
-// in the Inspector, so the businesses are set as what they are, and put into
-// the list as what they can do.
-public class IncomeSources : MonoBehaviour
-{
-    [SerializeField] JuiceStand[] stands;
+    public string SourceName { get { return info.DisplayName; } }
 
-    readonly List<IIncomeSource> sources = new List<IIncomeSource>();
-
-    public IReadOnlyList<IIncomeSource> All { get { return sources; } }
-
-    // Everything that earns by itself, each second, now.
-    public long PerSecond
+    // Every built machine making cups.
+    public float IncomePerSecond
     {
         get
         {
-            long total = 0;
-            foreach (IIncomeSource source in sources)
+            if (!EarnsWhileAway)
             {
-                total += source.IncomePerSecond;
+                return 0f;
             }
-            return total;
+            int machines = 0;
+            foreach (Juicer juicer in juicers)
+            {
+                if (juicer.isActiveAndEnabled)
+                {
+                    machines++;
+                }
+            }
+            return machines / SecondsPerCup * info.Price * priceFactor * beachFactor;
         }
     }
 
-    void Awake()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            sources.Add(stand);
-        }
-    }
+    public bool EarnsWhileAway { get { return IsOpen && HasRunner && HasCashier; } }
 }
 ```
 
-5. `sources.Add(stand)`: a `JuiceStand` goes into a list of `IIncomeSource`s with no cast,
-   since it **is** one. `All` hands the list out as an `IReadOnlyList`: others can read it
-   and loop over it, not add to it.
-6. **Create Empty**, `Income`, with `IncomeSources`: **Stands** the five businesses.
-7. In `Scripts/UI`, `IncomeText`:
+3. Read `IncomePerSecond`. A machine makes a cup every `SecondsPerCup` seconds, so
+   `1 / SecondsPerCup` cups a second; two machines, twice that. Times what a cup sells
+   for. It's an estimate (the customers, the runner's walking), and a generous one: the
+   player is away, and an idle game is kind.
 
-```csharp
-using TMPro;
+### Do it — the kart
+
+4. In `People`, `WalkPath`:
+
+```csharp:WalkPath.cs
 using UnityEngine;
 
-// Under the money: what everything earns by itself each second. It adds up the
-// IIncomeSources four times a second, not every frame: a number that changes
-// this slowly needn't make a new string 60 times a second.
-public class IncomeText : MonoBehaviour
+// A path: its children are the points, in order. The Juice Kart drives it
+// round and round. It draws itself in the Scene view, so you can see it as
+// you place the points; the game never shows it.
+public class WalkPath : MonoBehaviour
 {
-    const float RefreshSeconds = 0.25f;
+    [SerializeField] Color colour = new Color(1f, 0.6f, 0.1f);
 
-    [SerializeField] IncomeSources income;
-    [SerializeField] TMP_Text text;
-
-    float nextRefreshTime;
-
-    void Update()
+    public Vector3[] Points()
     {
-        if (Time.unscaledTime < nextRefreshTime)
+        Vector3[] points = new Vector3[transform.childCount];
+        for (int i = 0; i < points.Length; i++)
         {
-            return;
+            points[i] = transform.GetChild(i).position;
         }
-        nextRefreshTime = Time.unscaledTime + RefreshSeconds;
-        long perSecond = income.PerSecond;
-        text.text = perSecond > 0 ? $"+{NumberFormat.Money(perSecond)} / s" : "Tap to squeeze!";
+        return points;
+    }
+
+    // Once round, back to the first point.
+    public float Length()
+    {
+        Vector3[] points = Points();
+        float length = 0f;
+        for (int i = 0; i < points.Length; i++)
+        {
+            length += Vector3.Distance(points[i], points[(i + 1) % points.Length]);
+        }
+        return length;
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = colour;
+        Vector3[] points = Points();
+        for (int i = 0; i < points.Length; i++)
+        {
+            Gizmos.DrawSphere(points[i], 0.25f);
+            Gizmos.DrawLine(points[i], points[(i + 1) % points.Length]);
+        }
     }
 }
 ```
 
-8. Why not listen to an event, like the money text? The income per second changes when any
-   business's manager, owned count or upgrade changes, or the van's level: five sources'
-   events, for one small number. Checking four times a second is simpler, and a quarter of
-   a second late is too soon for anyone to notice. What it never does is build a string
-   **every frame**: the intern's shop does that, and Chapter 18 measures what it costs.
-9. Add `IncomeText` to `Money` in the top bar (beside `MoneyText`): **Income** the
-   `Income` object, **Text** `Income Text`.
+   `OnDrawGizmos` draws in the **Scene view** only: an orange sphere at each point and a
+   line between them, back to the first (`(i + 1) % points.Length`: after the last, 0).
+   You see the road as you place its points; the player never does.
 
-### Test it — one kind of source
-
-- **Play.** Under the money: *Tap to squeeze!* You earn nothing by yourself yet.
-- **Test: Add $1M**, hire the Lemonade Cup's manager: `+1 / s`. Buy 24 more cups (25, a
-  milestone): `+50 / s`. Hire the Beach Stand's manager too: the two add up.
-
-### Do it — the delivery van
-
-10. In `Scripts/Income`, `DeliveryVan`, the second kind of income source:
+5. In `Income`, `JuiceKart`, for now:
 
 ```csharp
 using System;
 using UnityEngine;
 
-// The delivery van: it opens with your first Juice Factory, then drives crates
-// along the road and earns at the end of every trip, by itself. Bigger Van
-// levels it up: each level carries more. It's an IIncomeSource like a managed
-// business, though it shares nothing else with one.
-public class DeliveryVan : MonoBehaviour, IIncomeSource
+// The Juice Kart: a helper drives it round the beach road for ever, and each
+// lap sells by itself, straight into the Wallet. Each level sells more. It
+// earns while you're away: it's an IIncomeSource, like a staffed bar, and the
+// two share nothing else.
+public class JuiceKart : MonoBehaviour, IIncomeSource
 {
-    [SerializeField] JuiceStand factory;            // the van opens with the first factory
-    [SerializeField] SpriteRenderer body;
-    [SerializeField] long earningsPerTrip = 50000;  // for each level
-    [SerializeField] float tripSeconds = 10f;
-    [SerializeField] long firstCost = 1000000;
-    [SerializeField] float costGrowth = 1.5f;
-    [SerializeField] float roadStartX = -7f;
-    [SerializeField] float roadEndX = 7f;
+    static readonly int SittingId = Animator.StringToHash("Sitting");
 
-    float tripProgress;
+    [SerializeField] Walker walker;
+    [SerializeField] Animator driver;
+    [SerializeField] WalkPath road;
+    [SerializeField] Wallet wallet;
+    [SerializeField] int[] lapEarnings = { 60, 90, 135, 200, 300 };
+    [SerializeField] int[] levelPrice = { 1500, 4000, 9000, 20000 };
+
+    float beachFactor = 1f;
 
     public int Level { get; private set; }
-    public bool IsOpen { get { return factory.Owned > 0 || Level > 0; } }
-    public string SourceName { get { return "Delivery Van"; } }
-    public bool EarnsWhileAway { get { return Level > 0; } }
-    public long EarningsPerTrip { get { return earningsPerTrip * Level; } }
+    public bool IsBuilt { get { return gameObject.activeInHierarchy; } }
+    public bool IsMax { get { return Level >= levelPrice.Length; } }
+    public int NextLevelPrice { get { return IsMax ? 0 : levelPrice[Level]; } }
+    public int LapEarnings { get { return Mathf.RoundToInt(lapEarnings[Level] * beachFactor); } }
 
-    public long IncomePerSecond
-    {
-        get
-        {
-            if (Level == 0)
-            {
-                return 0;
-            }
-            return (long)(EarningsPerTrip / (double)tripSeconds);
-        }
-    }
-
-    public long NextCost
-    {
-        get { return (long)Math.Ceiling(firstCost * Math.Pow(costGrowth, Level)); }
-    }
-
-    public event Action<long> Delivered;
+    public event Action<int> Lapped;    // the money of one lap
     public event Action Changed;
 
-    void Start()
+    void OnEnable()
     {
-        body.enabled = Level > 0;
+        driver.SetBool(SittingId, true);
+        walker.Arrived += OnLap;
+        walker.WalkTo(road.Points());
     }
 
-    void Update()
+    void OnDisable()
     {
-        if (Level == 0)
-        {
-            return;
-        }
-        tripProgress += Time.deltaTime / tripSeconds;
-        if (tripProgress >= 1f)
-        {
-            tripProgress -= 1f;
-            Delivered?.Invoke(EarningsPerTrip);
-        }
-        Vector3 position = body.transform.localPosition;
-        position.x = Mathf.Lerp(roadStartX, roadEndX, tripProgress);
-        body.transform.localPosition = position;
+        walker.Arrived -= OnLap;
     }
 
-    // Bigger Van: true if the wallet could pay.
-    public bool TryLevelUp(Wallet wallet)
+    void OnLap()
     {
-        if (!IsOpen || !wallet.TrySpend(NextCost))
+        int earned = LapEarnings;
+        wallet.Add(earned);
+        Lapped?.Invoke(earned);
+        walker.WalkTo(road.Points());
+    }
+
+    public bool TryLevelUp()
+    {
+        if (IsMax || !wallet.TrySpend(NextLevelPrice))
         {
             return false;
         }
         Level++;
-        body.enabled = true;
         Changed?.Invoke();
         return true;
     }
+
+    public void Restore(int level, float beachPriceFactor)
+    {
+        Level = Mathf.Clamp(level, 0, levelPrice.Length);
+        beachFactor = beachPriceFactor;
+        Changed?.Invoke();
+    }
+
+    // ------------------------------------------------------------ IIncomeSource
+
+    public string SourceName { get { return "Juice Kart"; } }
+
+    public float IncomePerSecond
+    {
+        get { return IsBuilt ? LapEarnings / (road.Length() / walker.Speed) : 0f; }
+    }
+
+    public bool EarnsWhileAway { get { return IsBuilt; } }
 }
 ```
 
-11. Compare it with `JuiceStand`: a trip, not a cycle; a level, not owned and upgrades; it
-    moves across the screen. Its `IncomePerSecond` is worked out its own way. Both sign
-    the same contract, and that's all they share. Its price grows like a business's, with
-    `Math.Pow`, ×1.5 a level: the balance sheet's van table.
-12. In the world, **Create Empty**, `Delivery Van`, at (0, 2.65, 0), on the road below the
-    businesses. In it, drag `delivery_truck_3d`: rename the child `Body`, **Position**
-    (−7, 0, 0), **Scale** (0.65, 0.65, 1), **Flip X** ticked (the emoji faces left; the
-    van drives right), **Order in Layer** `12`. Add `DeliveryVan` to `Delivery Van`:
-    **Factory** the `Juice Factory`, **Body** the `Body`.
+6. Read it. A lap is the Walker's whole path: `Arrived` at its last point is the end of
+   the lap, so the kart is paid, and sets off again. A lap takes `road.Length() /
+   walker.Speed` seconds: that's how `IncomePerSecond` works out its money a second. Its
+   levels work as the chef's do (Chapter 9). `Restore` is for Chapter 14's save and
+   Chapter 16's beaches.
+7. **The kart prefab.** An empty `Juice Kart`, with a **Walker** (**Speed** `4`, **Turn
+   Degrees Per Second** `240`: a kart turns wider than a person; no **Animator**) and
+   **Juice Kart**. Inside:
+   - `Art/Kart/kart`, **Rotation Y** −90: the model faces +x, and the kart drives along
+     its own +z.
+   - `Art/Characters/Worker_Male`, as `Driver`, at (0, 0.1, −0.25): the `Person`
+     controller, no root motion. Drag it into **Driver**: the kart tells it to sit.
+   - `Art/Food/Soda`, as `Big Cup`, at (0, 0.55, −0.85), **Scale** 1.6: an orange juice
+     the size of a barrel. Swap its `Red` for `Orange Juice`, as for the cups.
 
-### Do it — the van joins in
+   Into `Prefabs`.
 
-13. `IncomeSources` takes the van too. One field and one line:
+8. **The road.** An empty `Kart Road`, with **Walk Path**, and four empty children, in
+   order: `Point 1` (−11, 0, −12.9), `Point 2` (11, 0, −12.9), `Point 3` (11, 0, −14.2),
+   `Point 4` (−11, 0, −14.2). Select `Kart Road`: an orange loop below the boardwalk.
+9. A `Juice Kart` in the scene, at `Point 4`'s place: **Road** `Kart Road`, **Wallet**.
+   Untick it.
+10. **Its spot**: `Spot Juice Kart`, **Id** `juice-kart`, `Juice Kart`, **Price** `2500`,
+    at (−7.4, 0, −9.2), **Builds** the kart, picture `Emoji/delivery_truck_3d`. `Spot
+    Coconut Bar`'s **Next** is `Spot Juice Kart`. Add it to the **Build List**.
+
+### Do it — every source in one list
+
+11. In `Income`, `IncomeSources`:
 
 ```csharp:IncomeSources.cs
 using System.Collections.Generic;
 using UnityEngine;
 
-// Every IIncomeSource in the scene, in one list. Unity can't show an interface
-// in the Inspector, so the businesses and the van are set as what they are,
-// and put into the list as what they can do.
+// Every IIncomeSource on the beach, in one list. Unity can't show an interface
+// in the Inspector, so the bars and the kart are set as what they are, and put
+// into the list as what they can do.
 public class IncomeSources : MonoBehaviour
 {
     [SerializeField] JuiceStand[] stands;
-    [SerializeField] DeliveryVan van;
+    [SerializeField] JuiceKart kart;
 
     readonly List<IIncomeSource> sources = new List<IIncomeSource>();
 
     public IReadOnlyList<IIncomeSource> All { get { return sources; } }
-
-    // Everything that earns by itself, each second, now.
-    public long PerSecond
-    {
-        get
-        {
-            long total = 0;
-            foreach (IIncomeSource source in sources)
-            {
-                total += source.IncomePerSecond;
-            }
-            return total;
-        }
-    }
 
     void Awake()
     {
@@ -5645,229 +8439,124 @@ public class IncomeSources : MonoBehaviour
         {
             sources.Add(stand);
         }
-        sources.Add(van);
+        sources.Add(kart);
     }
 }
 ```
 
-14. Drag the `Delivery Van` into its **Van**. And that's all `IncomeText` needs: it doesn't
-    change. Neither will Chapter 12's away earnings or Chapter 15's balloon. That's the
-    interface paying off: a new kind of income source, and nothing that adds them up
-    changed.
-15. The wallet must hear the van's deliveries. `Wallet` listens to `Delivered` too (keep
-    your Chapter 6 test helper at the end):
+`sources.Add(stand)`: a `JuiceStand` **is** an `IIncomeSource`, so it goes into the
+list as one, with no cast. From the list's side, it's only the three members of the
+contract.
 
-```csharp
-using System;
+12. An empty `Income`, with **Income Sources**: **Stands** the four bars, **Kart** the kart.
+    Chapter 15 reads it.
+
+### Do it — the kart's levels
+
+13. The final `OfficeLevels`, with a third row:
+
+```csharp:OfficeLevels.cs
 using UnityEngine;
 
-// The money. It listens to every business and every other income, adds what
-// they sell, and tells anyone who shows the money, or whose button depends on
-// it, that it changed. A long, not an int: an int stops at 2,147,483,647, and
-// a juice empire passes that in its first hour.
-public class Wallet : MonoBehaviour
+// The top of the Office: three rows with levels, above the upgrades. Your
+// tray, your flip-flops, and the Juice Kart once it's built.
+public class OfficeLevels : MonoBehaviour
 {
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] DeliveryVan van;
-
-    public long Money { get; private set; }
-    public long LifetimeEarned { get; private set; }    // never goes down: Juice Stars come from it
-
-    public event Action<long> MoneyChanged;
-
-    void OnEnable()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold += Add;
-        }
-        van.Delivered += Add;
-    }
-
-    void OnDisable()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold -= Add;
-        }
-        van.Delivered -= Add;
-    }
-
-    public void Add(long amount)
-    {
-        Money += amount;
-        LifetimeEarned += amount;
-        MoneyChanged?.Invoke(Money);
-    }
-
-    // True, and the money spent, only if there was enough.
-    public bool TrySpend(long amount)
-    {
-        if (amount > Money)
-        {
-            return false;
-        }
-        Money -= amount;
-        MoneyChanged?.Invoke(Money);
-        return true;
-    }
-}
-```
-
-16. **Wallet**'s new **Van** field: the `Delivery Van`.
-
-### Do it — the van's row
-
-17. The van gets a row at the end of the list, hidden until it opens. In `Safe Area`,
-    **Create Empty**, `Van Row`, 1000 × 156, with a **Vertical Layout Group**: **Control
-    Child Size** both, **Child Force Expand** only **Width**. In it, an **Image** `Row`,
-    `Panel Light`, **Sliced**, with a **Layout Element** (**Preferred Height** 156,
-    **Flexible Width** 1), and in `Row`:
-
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Picture` | the **Icon Button** prefab | middle–left | (14, 0) | 122 × 126 | **Source Image** `Square Green`, its `Icon` `delivery_truck_3d`, **Interactable** off |
-| `Name` | a text | top–left | (150, −10) | 360 × 52 | `Delivery Van`, size 42, brown |
-| `Level` | a text | top–left | (150, −60) | 400 × 36 | `level 1`, size 27, light brown |
-| `Earnings` | a text | bottom–left | (150, 12) | 520 × 48 | `$50K a trip`, size 34, brown |
-| `Bigger Van Button` | the **Candy Button Green** prefab | middle–right | (−12, 0) | 290 × 124 | two lines, as the Stand Row's: `Bigger Van`, and a `Price` |
-
-18. Why the extra layer? The van row hides by switching `Row` off. The outer `Van Row`'s
-    layout group then has no child to size, so it asks the list for no height at all: the
-    gap closes. Switching off a row that the list sizes directly would leave its 156
-    pixels of nothing.
-19. In `Scripts/UI`, `VanRow`:
-
-```csharp:VanRow.cs
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// The van's row at the end of the list: hidden until your first Juice
-// Factory, then its level, what a trip earns, and Bigger Van.
-public class VanRow : MonoBehaviour
-{
-    [SerializeField] DeliveryVan van;
+    [SerializeField] ChefLevels chef;
+    [SerializeField] JuiceKart kart;
     [SerializeField] Wallet wallet;
-    [SerializeField] GameObject content;            // everything but the row itself
-    [SerializeField] TMP_Text levelText;
-    [SerializeField] TMP_Text earningsText;
-    [SerializeField] Button upgradeButton;
-    [SerializeField] Image upgradeButtonImage;
-    [SerializeField] TMP_Text priceText;
-    [SerializeField] Sprite canBuySprite;
-    [SerializeField] Sprite cannotBuySprite;
+    [SerializeField] LevelRow trayRow;
+    [SerializeField] LevelRow flipFlopRow;
+    [SerializeField] LevelRow kartRow;
 
     void OnEnable()
     {
-        van.Changed += Refresh;
         wallet.MoneyChanged += OnMoneyChanged;
-        upgradeButton.onClick.AddListener(LevelUp);
+        trayRow.BuyPressed += BuyTray;
+        flipFlopRow.BuyPressed += BuyFlipFlops;
+        kartRow.BuyPressed += BuyKart;
+        Show();
     }
 
     void OnDisable()
     {
-        van.Changed -= Refresh;
         wallet.MoneyChanged -= OnMoneyChanged;
-        upgradeButton.onClick.RemoveListener(LevelUp);
+        trayRow.BuyPressed -= BuyTray;
+        flipFlopRow.BuyPressed -= BuyFlipFlops;
+        kartRow.BuyPressed -= BuyKart;
     }
 
-    void Start()
+    void OnMoneyChanged(int money)
     {
-        Refresh();
+        Show();
     }
 
-    void LevelUp()
+    void BuyTray()
     {
-        van.TryLevelUp(wallet);
+        chef.TryBuyTray();
+        Show();
     }
 
-    // Buying the first factory spends money, so the money changing is when the van may open.
-    void OnMoneyChanged(long money)
+    void BuyFlipFlops()
     {
-        Refresh();
+        chef.TryBuyFlipFlops();
+        Show();
     }
 
-    void Refresh()
+    void BuyKart()
     {
-        content.SetActive(van.IsOpen);
-        if (!van.IsOpen)
+        kart.TryLevelUp();
+        Show();
+    }
+
+    void Show()
+    {
+        int money = wallet.Money;
+        trayRow.Show("Bigger Tray", $"Holds {chef.TrayCapacity}", chef.NextTrayPrice, money);
+        flipFlopRow.Show("Faster Flip-flops", $"Level {chef.FlipFlopLevel + 1}", chef.NextFlipFlopPrice, money);
+        if (kart.IsBuilt)
         {
-            return;
+            kartRow.Show("Juice Kart", $"Level {kart.Level + 1}", kart.NextLevelPrice, money);
         }
-        levelText.text = van.Level == 0 ? "not bought yet" : $"level {van.Level}";
-        earningsText.text = van.Level == 0 ? "" : $"${NumberFormat.Money(van.EarningsPerTrip)} a trip";
-        bool canBuy = van.NextCost <= wallet.Money;
-        priceText.text = "$" + NumberFormat.Money(van.NextCost);
-        upgradeButton.interactable = canBuy;
-        upgradeButtonImage.sprite = canBuy ? canBuySprite : cannotBuySprite;
+        else
+        {
+            kartRow.Show("Juice Kart", "Build it on the beach first", -1, money);
+        }
     }
 }
 ```
 
-20. Add it to `Van Row`: **Content** `Row`; the texts, **Upgrade Button** (`Bigger Van
-    Button`, and its Image), **Price Text** (its `Price`), and the two sprites, `Button
-    Green` and `Button Grey`. Drag `Van Row` into `Prefabs/UI`.
-21. Drag the `Van Row` into the Stand List's `List` (in `Scroll View/Viewport`), and set
-    its **Van** and **Wallet** there, in the scene. The five business rows are made when
-    the game starts, so they'd come **after** it. `StandList` moves it to the end, its last
-    change:
+14. In the scene's Office panel, a third **Level Row** in `Levels`, `Kart Row`, and drag it
+    and the kart into **Office Levels**. Before the kart's built, its row is greyed, and
+    says so (a price of −1).
 
-```csharp:StandList.cs
-using UnityEngine;
+### Test it
 
-// The scrolling list under the beach: one Stand Row for each business, made
-// in code from the businesses in the scene, then the van's row at the end. The
-// Content's Vertical Layout Group puts them one under another.
-public class StandList : MonoBehaviour
-{
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] StandRow rowPrefab;
-    [SerializeField] Transform content;
-    [SerializeField] Wallet wallet;
-    [SerializeField] BuyAmountBar amounts;
-    [SerializeField] Transform vanRow;          // already in the Content, moved to the end
-
-    void Start()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            StandRow row = Instantiate(rowPrefab, content);
-            row.name = stand.Info.DisplayName + " Row";
-            row.Setup(stand, wallet, amounts);
-        }
-        vanRow.SetAsLastSibling();
-    }
-}
-```
-
-22. `SetAsLastSibling` moves it to the end of its parent's children; the layout group lays
-    children out in that order. Drag `Van Row` into `Stand List`'s **Van Row**.
-
-### Test it — two kinds of source
-
-- **Play**, **Test: Add $1M** twice. Open the Juice Factory (**Open $104K**): the van's row
-  appears at the end of the list, *not bought yet*. **Bigger Van** for $1.00M: the van drives
-  across the road, and every 10 seconds the money jumps by $50K. The money per second goes
-  up by $5,000: `5.00K` more.
-- **Bigger Van** again: level 2, `$100K a trip`, $10,000 a second, and the next level costs
-  $2.25M.
-- Look at what changed for `IncomeText` to count the van: nothing.
+- The kart is at the end of a 40-minute list. To see it now, add `Spot Juice Kart` to the
+  **Build List**'s **First**, and give it a **Price** of `1`. **Play**: its spot is there
+  from the start. Build it: the kart sets off round the road, the driver sitting in it,
+  the big cup on the back. Each lap, $60 in the wallet.
+- Open the Office: the kart's row says **Level 1, $1.5K**. Earn it (or, for the test, set
+  the first number of the kart's **Level Price** to `10` in the scene), and buy: $90 a
+  lap.
+- Set them back: the spot's **Price** `2500`, not in **First**, the kart's prices from the
+  balance sheet. Did you change the prefab or the instance? Check that nothing is bold
+  that shouldn't be.
 
 ### Commit
 
-*Add money per second and the delivery van, both IIncomeSources.*
+*Add the Juice Kart and the income sources.*
 
 ### Challenge
 
-A third income source: a **lemonade machine** that earns $1 a second from the start,
-forever. Make a small `LemonadeMachine` class that is an `IIncomeSource`, add it to
-`IncomeSources`, and give it money with `Wallet.Add` once a second. Which scripts did
-you have to change? Remove it afterwards.
+Write a small `IncomeLog` that, when you press **L**, logs each source's name and money a
+second, and the total, using `IncomeSources.All`. Hire a runner and a cashier for the
+Orange Bar, build its second juicer, and check the bar's number by hand. Then delete the
+script: the game doesn't need it.
 
 # Part 3 — The Lead's Achievements
 
-## C# 9 — Working in Someone Else's Code
+## C# 10 — Working in Someone Else's Code
 
 **Goal:** you can read a module someone else wrote, find its contract, evaluate it
 against the team's architecture and style guide, and plug it into your game without
@@ -6128,30 +8817,30 @@ slick, scoring each from its speed and its place in the race. Swap it in for
 `RivalStand` without changing `RivalBrain`. Then list what you'd ask Sam to change in
 version 1.1, and why.
 
-## Chapter 9 — Sam's Achievements
+## Chapter 12 — Sam's Achievements
 
 **Goal:** Sam's **achievements** in your game: twelve trophies, from *First Sip* to *New
 Horizons*, won as you play, each one sliding down in the toast with its reward paid, and
-all of them listed in the **Trophies** tab, grey until they're won. You plug in code you
+all of them listed in a **Trophies** panel, grey until they're won. You plug in code you
 didn't write, without changing a line of it.
 
 ### Idea — someone else's code, in four steps
 
 Sam wrote the achievements for the studio: they'll go in other games too, so they don't
-know anything about juice. C# 9 gave the steps; this chapter does each one.
+know anything about juice. C# 10 gave the steps; this chapter does each one.
 
 | Step | Here |
 | --- | --- |
 | **Read the contract** | the README: what the module needs from your game, and what it gives |
 | **Import it, and read the errors** | the package, then three compile errors, each one a line of the contract |
 | **Evaluate it, by reading** | how often it checks, what happens when a number goes down, what it does with a bad id |
-| **Plug it in, and ask for changes in writing** | your stats, your toast, your Trophies tab; never an edit to Sam's files |
+| **Plug it in, and ask for changes in writing** | your stats, your toast, your Trophies panel; never an edit to Sam's files |
 
 ### Idea — a namespace, at last
 
-In Arcane Duel and Pocket Karts, Sam's module brought a class whose name the game
-already had, and Unity said **CS0101**: two classes called the same in one project. Sam
-promised to fix it, and has: everything in this package is inside a **namespace**:
+In Arcane Duel and Pocket Karts, Sam's module brought a class whose name the game already
+had, and Unity said **CS0101**: two classes called the same in one project. Sam promised
+to fix it, and has: everything in this package is inside a **namespace**:
 
 ```
 namespace LanternHill.Achievements
@@ -6162,14 +8851,14 @@ namespace LanternHill.Achievements
 
 A namespace is a surname for classes. Sam's tracker is really
 `LanternHill.Achievements.AchievementTracker`; his test toast is
-`LanternHill.Achievements.Toast`. Your game has a `Toast` too (Chapter 7), in no
+`LanternHill.Achievements.Toast`. Your game has a `Toast` too (Chapter 10), in no
 namespace at all (the **global** namespace). Two different full names, so no clash.
 
-To use Sam's classes by their short names, a file says `using LanternHill.Achievements;`
-at the top, the way it says `using UnityEngine;`. Then, in that file, which `Toast` does
-the word `Toast` mean? C# looks in the file's **own** namespace first (for your scripts,
-the global one) and only then in the namespaces the `using`s bring in. Your `Toast` is
-found first. To mean Sam's, you'd write its full name.
+To use Sam's classes by their short names, a file says `using LanternHill.Achievements;` at
+the top, the way it says `using UnityEngine;`. Then, in that file, which `Toast` does the
+word `Toast` mean? C# looks in the file's **own** namespace first (for your scripts, the
+global one) and only then in the namespaces the `using`s bring in. Your `Toast` is found
+first. To mean Sam's, you'd write its full name.
 
 ### Do it — read the contract
 
@@ -6179,18 +8868,19 @@ found first. To mean Sam's, you'd write its full name.
 | The module needs | Your game has it? |
 | --- | --- |
 | a component that implements `IStatSource`: `long GetStat(Stat stat)` | not yet: `GameStats`, below |
-| stats that only go up, for the player's whole life | the counts will be; the businesses owned go down after a new beach (Chapter 13) |
-| the won ids saved, and given back with `Restore` | Chapter 11 |
+| stats that only go up, for the player's whole life | the counts will be; the helpers at work and the kart's level start again on a new beach (Chapter 16) |
+| the won ids saved, and given back with `Restore` | Chapter 14 |
 | the rewards paid, in coins | the `Wallet` |
 
 | The module gives | You'll use it for |
 | --- | --- |
 | `event Action<Achievement> Unlocked` | the toast, and the reward |
-| `IReadOnlyList<Achievement> All`, `bool IsWon(Achievement)` | the Trophies tab |
-| `WonIds`, `Restore` | the save (Chapter 11) |
+| `IReadOnlyList<Achievement> All`, `bool IsWon(Achievement)` | the Trophies panel |
+| `WonIds`, `Restore` | the save (Chapter 14) |
 
 2. Note the types: `GetStat` returns a `long`; each `Achievement`'s `Reward` is a `long`.
-   The contract is in the types as much as the words.
+   Your money is an `int`. The contract is in the types as much as the words, and that
+   difference will come up.
 
 ### Do it — import it
 
@@ -6200,10 +8890,10 @@ found first. To mean Sam's, you'd write its full name.
 4. The Console is empty. Open `Assets/Achievements/Toast.cs`: `namespace
    LanternHill.Achievements`, around the whole class. Two toasts in one project, and no
    CS0101.
-5. Select `Achievements/First Sip`: an **Achievement** asset: an id, a title, what to do,
-   a picture, the **Stat** it counts (**Cups Sold**), its **Target** (1) and its
-   **Reward** (10). The pictures are Sam's copies of the emoji: Unity knows a picture by
-   its GUID, not its name, so the achievements couldn't use yours.
+5. Select `Achievements/Achievements/First Sip`: an **Achievement** asset: an id, a title,
+   what to do, a picture, the **Stat** it counts (**Cups Sold**), its **Target** (1) and
+   its **Reward** (10). The pictures are Sam's copies of the emoji: Unity knows a picture
+   by its GUID, not its name, so the achievements couldn't use yours.
 
 ### Do it — read Sam's code
 
@@ -6218,16 +8908,17 @@ namespace LanternHill.Achievements
     // gives the number for each, through IStatSource.
     public enum Stat
     {
-        CupsSold,           // every sale, by every business
+        CupsSold,           // every cup sold, at every bar
         MoneyEarned,        // in the player's whole life, never reset
-        BusinessesOwned,    // all the businesses owned now, added up
-        ManagersHired,
+        CustomersServed,
+        FruitPicked,
+        SpotsBuilt,         // in the player's whole life
+        HelpersHired,       // working now
         UpgradesBought,     // in the player's whole life
-        Taps,
-        BalloonsPopped,
+        CupsCleared,        // empty cups into the bin
         BeachesOpened,
         AwayEarned,         // earned while away, in the player's whole life
-        VanLevel
+        KartLevel
     }
 }
 ```
@@ -6374,8 +9065,8 @@ namespace LanternHill.Achievements
 }
 ```
 
-7. A module other people use gets a comment on every public member: Sam's style guide
-   says so, and here's why. You can plug it in from the comments alone. Note what each
+7. A module other people use gets a comment on every public member: Sam's style guide says
+   so, and here's why. You can plug it in from the comments alone. Note what each
    promises: `Unlocked` is raised **once**; `Restore` **doesn't** raise it; an unknown id
    is **ignored**. You'll check those promises against the code in a moment.
 
@@ -6399,46 +9090,58 @@ public class GameStats : MonoBehaviour, IStatSource
 Assets/Scripts/Trophies/GameStats.cs(3,41): error CS0246: The type or namespace name 'IStatSource' could not be found (are you missing a using directive or an assembly reference?)
 ```
 
-10. **CS0246** means C# doesn't know the name. It even guesses why: *are you missing a
-   using directive?* `IStatSource` lives in Sam's namespace. Add `using
-   LanternHill.Achievements;` at the top, and save:
+10. **CS0246** means C# doesn't know the name. It even guesses why: *are you missing a using
+    directive?* `IStatSource` lives in Sam's namespace. Add `using
+    LanternHill.Achievements;` at the top, and save:
 
 ```
 Assets/Scripts/Trophies/GameStats.cs(4,41): error CS0535: 'GameStats' does not implement interface member 'IStatSource.GetStat(Stat)'
 ```
 
-11. **CS0535**: the class signed the contract and doesn't keep it. That error is the README's
-   first line, checked by the compiler. Write the whole class:
+11. **CS0535**: the class signed the contract and doesn't keep it. That error is the
+    README's first line, checked by the compiler. Write the whole class:
 
 ```csharp
 using LanternHill.Achievements;
 using UnityEngine;
 
-// Our half of Sam's contract: the numbers his achievements count. Some are
-// counted here as things happen (cups sold, taps); the others are read from
-// the game when asked (the money earned, the businesses owned). The counts are
-// for the player's whole life: a new beach doesn't reset them.
+// Our half of Sam's contract: the numbers his achievements count. Most are
+// counted here as things happen (cups sold, fruit picked, spots built); the
+// rest are read from the game when asked (the money earned, the helpers at
+// work). The counts are for the player's whole life: a new beach keeps them.
 public class GameStats : MonoBehaviour, IStatSource
 {
     [SerializeField] JuiceStand[] stands;
+    [SerializeField] FruitCrate[] crates;
+    [SerializeField] Bin bin;
+    [SerializeField] BuildList buildList;
     [SerializeField] Wallet wallet;
     [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
+    [SerializeField] JuiceKart kart;
 
     public long CupsSold { get; private set; }
-    public long Taps { get; private set; }
-    public long BalloonsPopped { get; private set; }
+    public long CustomersServed { get; private set; }
+    public long FruitPicked { get; private set; }
+    public long SpotsBuilt { get; private set; }
+    public long UpgradesBought { get; private set; }
+    public long CupsCleared { get; private set; }
     public long BeachesOpened { get; private set; }
     public long AwayEarned { get; private set; }
-    public long UpgradesBought { get; private set; }
+    public long MoneyEarned { get; private set; }   // before this beach's: the Wallet's starts again
 
     void OnEnable()
     {
         foreach (JuiceStand stand in stands)
         {
             stand.CupSold += OnCupSold;
-            stand.Squeezed += OnSqueezed;
+            stand.CustomerServed += OnCustomerServed;
         }
+        foreach (FruitCrate crate in crates)
+        {
+            crate.Picked += OnFruitPicked;
+        }
+        bin.CupBinned += OnCupBinned;
+        buildList.SpotBuilt += OnSpotBuilt;
         upgrades.Bought += OnUpgradeBought;
     }
 
@@ -6447,8 +9150,14 @@ public class GameStats : MonoBehaviour, IStatSource
         foreach (JuiceStand stand in stands)
         {
             stand.CupSold -= OnCupSold;
-            stand.Squeezed -= OnSqueezed;
+            stand.CustomerServed -= OnCustomerServed;
         }
+        foreach (FruitCrate crate in crates)
+        {
+            crate.Picked -= OnFruitPicked;
+        }
+        bin.CupBinned -= OnCupBinned;
+        buildList.SpotBuilt -= OnSpotBuilt;
         upgrades.Bought -= OnUpgradeBought;
     }
 
@@ -6457,15 +9166,16 @@ public class GameStats : MonoBehaviour, IStatSource
         switch (stat)
         {
             case Stat.CupsSold: return CupsSold;
-            case Stat.MoneyEarned: return wallet.LifetimeEarned;
-            case Stat.BusinessesOwned: return BusinessesOwned();
-            case Stat.ManagersHired: return ManagersHired();
+            case Stat.MoneyEarned: return MoneyEarned + wallet.LifetimeEarned;
+            case Stat.CustomersServed: return CustomersServed;
+            case Stat.FruitPicked: return FruitPicked;
+            case Stat.SpotsBuilt: return SpotsBuilt;
+            case Stat.HelpersHired: return HelpersHired();
             case Stat.UpgradesBought: return UpgradesBought;
-            case Stat.Taps: return Taps;
-            case Stat.BalloonsPopped: return BalloonsPopped;
+            case Stat.CupsCleared: return CupsCleared;
             case Stat.BeachesOpened: return BeachesOpened;
             case Stat.AwayEarned: return AwayEarned;
-            case Stat.VanLevel: return van.Level;
+            case Stat.KartLevel: return kart.IsBuilt ? kart.Level + 1 : 0;
             default: return 0;
         }
     }
@@ -6475,27 +9185,23 @@ public class GameStats : MonoBehaviour, IStatSource
         AwayEarned += amount;
     }
 
+    // A new beach: this beach's earnings join the life-long total.
     public void AddBeach()
     {
         BeachesOpened++;
+        MoneyEarned += wallet.LifetimeEarned;
     }
 
-    long BusinessesOwned()
+    long HelpersHired()
     {
         long total = 0;
         foreach (JuiceStand stand in stands)
         {
-            total += stand.Owned;
-        }
-        return total;
-    }
-
-    long ManagersHired()
-    {
-        long total = 0;
-        foreach (JuiceStand stand in stands)
-        {
-            if (stand.IsAutomated)
+            if (stand.HasRunner)
+            {
+                total++;
+            }
+            if (stand.HasCashier)
             {
                 total++;
             }
@@ -6503,15 +9209,29 @@ public class GameStats : MonoBehaviour, IStatSource
         return total;
     }
 
-    // A sale: one cycle of one business, however many of it you own.
-    void OnCupSold(long amount)
+    void OnCupSold(int amount)
     {
         CupsSold++;
     }
 
-    void OnSqueezed()
+    void OnCustomerServed(int amount)
     {
-        Taps++;
+        CustomersServed++;
+    }
+
+    void OnFruitPicked()
+    {
+        FruitPicked++;
+    }
+
+    void OnCupBinned()
+    {
+        CupsCleared++;
+    }
+
+    void OnSpotBuilt(BuildSpot spot)
+    {
+        SpotsBuilt++;
     }
 
     void OnUpgradeBought(Upgrade upgrade)
@@ -6522,81 +9242,86 @@ public class GameStats : MonoBehaviour, IStatSource
 ```
 
 12. Read it against Sam's `Stat` enum: a `case` for every value. Two ways of answering:
-   - **Counted** as things happen, from the events you already have: every sale
-     (`CupSold`), every tap that started a cycle (`Squeezed`), every upgrade bought.
-   - **Read** when asked, from what the game already knows: the money earned in your life
-     (the wallet's `LifetimeEarned`), the businesses owned now, the managers, the van's
-     level.
+    - **Counted** as things happen, from the events you already have: every cup sold
+      (`CupSold`), every customer served, every fruit picked (the crates' `Picked`, from
+      Chapter 7), every empty cup binned, every spot built, every upgrade bought.
+    - **Read** when asked, from what the game already knows: the money earned (the
+      wallet's `LifetimeEarned`), the helpers at work, the kart's level (0 before it's
+      built, so a kart at level 0 counts as 1).
 
-   Three counts can't happen yet: balloons (Chapter 15), beaches (Chapter 13) and money
-   earned while away (Chapter 12). They stay 0 until then; `AddAwayEarnings` and
-   `AddBeach` are ready for those chapters to call.
+    Two counts can't happen yet: money earned while away (Chapter 15) and beaches (Chapter
+    16). They stay 0 until then; `AddAwayEarnings` and `AddBeach` are ready for those
+    chapters to call.
 
 ### Do it — evaluate it, by reading
 
 13. Open `AchievementTracker.cs` and answer these from the code, before you plug it in.
     Write your answers down; the trainer will ask.
     - **How often does it check, and what does that cost?** `Update` returns at once
-      unless half a second has passed (`CheckInterval`), so it checks twice a second.
-      Then one `GetStat` for each achievement not won yet: at most 24 calls a second.
-      Cheap, **as long as `GetStat` is cheap**. Ours loops over five businesses at most.
-      It uses `Time.unscaledTime`: it keeps checking in a paused game.
-    - **What happens if a stat goes down?** After a new beach you own one business
-      again. Won achievements stay won: `IsWon` looks in `wonIds`, which never shrinks.
-      One not yet won simply needs the number to climb again.
+      unless half a second has passed (`CheckInterval`), so it checks twice a second. Then
+      one `GetStat` for each achievement not won yet: at most 24 calls a second. Cheap,
+      **as long as `GetStat` is cheap**. Ours loops over four bars at most. It uses
+      `Time.unscaledTime`: it keeps checking in a paused game.
+    - **What happens if a stat goes down?** After a new beach no helpers are at work. Won
+      achievements stay won: `IsWon` looks in `wonIds`, which never shrinks. One not yet
+      won simply needs the number to climb again.
     - **What if `Restore` gets an id no achievement has?** The inner loop finds no match,
       and the id is dropped without a word. Fine for an achievement Sam removes one day; a
       typo in your save code would vanish just as quietly.
-    - **What if the Stat Source isn't an `IStatSource`?** `Awake` checks with `as`, logs
-      an error naming the object, and switches the tracker off. It fails loudly, at the
+    - **What if the Stat Source isn't an `IStatSource`?** `Awake` checks with `as`, logs an
+      error naming the object, and switches the tracker off. It fails loudly, at the
       start, and in one place: good behaviour for a module.
 
 ### Do it — plug it in
 
-14. Select `Trophies` (Chapter 7's object, with the `ToastQueue`). **Add Component → Game
-    Stats**: **Stands** the five businesses, **Wallet**, **Upgrades**, **Van** the
-    `Delivery Van`.
+14. Select `Trophies` (Chapter 10's object, with the `ToastQueue`). **Add Component → Game
+    Stats**: **Stands** the four bars, **Crates** their four crates, **Bin** the bin (in
+    `Table 1 and Bin`), **Build List**, **Wallet**, **Upgrades**, **Kart**.
 15. **Add Component → Achievement Tracker**. Drag the twelve assets from
     `Achievements/Achievements` into **Achievements**, and `Trophies` itself into **Stat
     Source**: Unity puts the first component it finds there, so check it says `Trophies
     (Game Stats)`; if not, drag the **Game Stats** component's title instead.
 16. Try the module on its own first, with Sam's test toast: drag
     `Assets/Achievements/Toast.cs` onto `Trophies`, and drag `Trophies` into its
-    **Tracker**. **Play**, and squeeze the cup once: the Console says *Achievement won:
-    First Sip*. The module works. Stop, and remove Sam's toast again: it's for his tests.
+    **Tracker**. **Play**, and sell one cup: the Console says *Achievement won: First Sip*.
+    The module works. Stop, and remove Sam's toast again: it's for his tests.
 17. Now your toast. `ToastQueue` shows trophies too, and pays their rewards. Here's a
-    mistake worth making once. Say you write the reward like this:
+    mistake worth making once:
 
 ```csharp
     void OnUnlocked(Achievement achievement)
     {
-        int reward = achievement.Reward;
+        wallet.Add(achievement.Reward);
         // …
     }
 ```
 
 ```
-Assets/Scripts/Trophies/ToastQueue.cs(45,22): error CS0266: Cannot implicitly convert type 'long' to 'int'. An explicit conversion exists (are you missing a cast?)
+Assets/Scripts/Trophies/ToastQueue.cs(58,24): error CS1503: Argument 1: cannot convert from 'long' to 'int'
 ```
 
-18. **CS0266**: the contract says `Reward` is a `long`, and a `long` doesn't fit in an `int`
-    without a cast, which could lose part of it. Don't cast: an idle game's coins are
-    `long`s, and the wallet takes a `long` anyway. Here's the whole `ToastQueue`:
+18. **CS1503**: the contract says `Reward` is a `long`, and `Wallet.Add` takes an `int`. A
+    `long` doesn't fit in an `int` without a **cast**, because it could hold more than
+    an `int` can. `(int)achievement.Reward` is the cast: your promise that the number
+    fits. Here it does (the biggest reward is $5,000, far below 2,147,483,647), and the
+    comment says why, for whoever reads it next. Here's the whole `ToastQueue`, for now:
 
 ```csharp
 using System.Collections.Generic;
 using LanternHill.Achievements;
 using UnityEngine;
 
-// Messages for the toast wait here, first come first shown: "Manager hired!",
-// and every trophy won. The toast shows them one at a time. A trophy's reward
-// is paid the moment it's won. Sam's module has a Toast of its own: with his
-// namespace in a using, "Toast" still means ours, because C# looks in this
-// file's own namespace before the ones a using brings in.
+// Messages for the toast wait here, first come first shown: "Runner hired!",
+// "Table built!", and every trophy won. The toast shows them one at a time. A
+// trophy's reward is paid the moment it's won. Sam's module has a Toast of its
+// own: with his namespace in a using, "Toast" still means ours, because C#
+// looks in this file's own namespace before the ones a using brings in.
 public class ToastQueue : MonoBehaviour
 {
     [SerializeField] AchievementTracker tracker;
     [SerializeField] Upgrades upgrades;
+    [SerializeField] BuildList buildList;
+    [SerializeField] Sprite builtPicture;
     [SerializeField] Toast toast;
     [SerializeField] Wallet wallet;
 
@@ -6606,6 +9331,7 @@ public class ToastQueue : MonoBehaviour
     {
         tracker.Unlocked += OnUnlocked;
         upgrades.Bought += OnUpgradeBought;
+        buildList.SpotBuilt += OnSpotBuilt;
         toast.Hidden += ShowNext;
     }
 
@@ -6613,17 +9339,24 @@ public class ToastQueue : MonoBehaviour
     {
         tracker.Unlocked -= OnUnlocked;
         upgrades.Bought -= OnUpgradeBought;
+        buildList.SpotBuilt -= OnSpotBuilt;
         toast.Hidden -= ShowNext;
     }
 
-    // Every upgrade bought comes here; only a manager gets a toast.
+    // Every upgrade bought comes here; only a helper gets a toast.
     void OnUpgradeBought(Upgrade upgrade)
     {
-        if (upgrade is ManagerUpgrade)
+        if (upgrade is HireUpgrade)
         {
-            waiting.Enqueue(new ToastMessage(upgrade.Picture, "Manager hired!", $"{upgrade.Target.DisplayName} squeezes by itself now.", false));
+            waiting.Enqueue(new ToastMessage(upgrade.Picture, upgrade.DisplayName + " hired!", upgrade.Description, false));
             ShowNext();
         }
+    }
+
+    void OnSpotBuilt(BuildSpot spot)
+    {
+        waiting.Enqueue(new ToastMessage(builtPicture, spot.DisplayName + " built!", "", false));
+        ShowNext();
     }
 
     void OnUnlocked(Achievement achievement)
@@ -6631,7 +9364,7 @@ public class ToastQueue : MonoBehaviour
         string line = achievement.Description;
         if (achievement.Reward > 0)
         {
-            wallet.Add(achievement.Reward);
+            wallet.Add((int)achievement.Reward);     // Sam's rewards are long; our money is int
             line += "  +$" + NumberFormat.Money(achievement.Reward);
         }
         waiting.Enqueue(new ToastMessage(achievement.Picture, "Trophy: " + achievement.Title, line, true));
@@ -6652,11 +9385,13 @@ public class ToastQueue : MonoBehaviour
 
 19. The `using` brings in Sam's `AchievementTracker` and `Achievement`; the field `Toast
     toast` is still **your** toast, since C# looked in your file's own namespace first.
-    Hover over `Toast` in your code editor: it says `class Toast`, with no namespace.
+    Hover over `Toast` in your code editor: it says `class Toast`, with no namespace. And
+    `NumberFormat.Money(achievement.Reward)` needed no cast: `Money` takes a `long`, and
+    an `int` or a `long` fits in one.
 20. On `Trophies`, the `ToastQueue` has two new fields: **Tracker** (`Trophies`) and
     **Wallet**.
 
-### Do it — the Trophies tab
+### Do it — the Trophies panel
 
 21. A row for each trophy: in `Safe Area`, an **Image** `Trophy Row`, 1000 × 136, `Panel
     Light`, **Sliced**, with a **Layout Element** (**Preferred Height** 136, **Flexible
@@ -6664,10 +9399,10 @@ public class ToastQueue : MonoBehaviour
 
 | Child | What | Anchor | Pos | Size | Set |
 | --- | --- | --- | --- | --- | --- |
-| `Picture` | an Image | middle–left | (20, 0) | 100 × 100 | `trophy_3d`, Preserve Aspect, no raycast |
-| `Title` | a text | top–left | (140, −12) | 660 × 50 | `First Sip`, size 40, brown |
-| `Description` | a text | top–left | (140, −62) | 660 × 64 | `Sell your first cup`, size 27, light brown |
-| `Tick` | an Image | middle–right | (−24, 0) | 86 × 90 | `Icon Tick`, Preserve Aspect, no raycast |
+| `Picture` | an Image | middle-left | (20, 0) | 100 × 100 | `trophy_3d`, Preserve Aspect, no raycast |
+| `Title` | a text | top-left | (140, −12) | 660 × 50 | `First Sip`, size 40, brown |
+| `Description` | a text | top-left | (140, −62) | 660 × 64 | `Sell your first cup`, size 27, light brown |
+| `Tick` | an Image | middle-right | (−24, 0) | 86 × 90 | `Icon Tick`, Preserve Aspect, no raycast |
 
 22. In `Scripts/Trophies`, `TrophyRow`:
 
@@ -6750,50 +9485,58 @@ public class TrophiesPanel : MonoBehaviour
 ```
 
 25. The rows are made the first time the panel opens (`OnEnable` with no rows yet); every
-    time it opens after that, each row only checks whether its trophy is won. Open the
-    **Trophies Panel** prefab, add `TrophiesPanel`: **Row Prefab** the **Trophy Row**,
-    **Content** the panel's `List`. In the scene, set the instance's **Tracker** to
-    `Trophies`.
+    time it opens after that, each row only checks whether its trophy is won.
+26. **The panel**: a variant of `Panel`, `Trophies Panel`, its root and title `Trophies`, with
+    a scrolling list filling its `Content`, made as in the Staff Hut. Add `TrophiesPanel`:
+    **Row Prefab** the **Trophy Row**, **Content** the panel's `List`. Drag it into
+    `Panels`, add it to the switcher, wire its close button, and set the instance's
+    **Tracker** to `Trophies`.
+27. **A button for it.** The panel has no mat: it opens from the top bar. In `Top Bar`, an
+    **Icon Button**, `Trophies Button`: middle-right with its pivot, **Pos X** `−150`, 120 ×
+    124, **Source Image** `Icon Trophy`, its `Icon` unticked. **On Click ()**: **+**, drag
+    in `Panels`, **PanelSwitcher → Toggle**, and drag the Trophies panel into the box
+    under it. A button can pass one object to the method it calls: here, which panel.
 
 ### Do it — ask for a change, in writing
 
-26. The Trophies tab would be better with a bar under each trophy: 37 of 50 businesses.
+28. The Trophies panel would be better with a bar under each trophy: 37 of 100 customers.
     The tracker can't tell you that: `GetStat` is yours, but there's no "how far" for one
     achievement. Don't add it to Sam's file. Write to Sam instead, in three parts, as a
     note in your project (`REQUESTS.md`, next to the style guide):
     - **What:** a method `float ProgressOf(Achievement achievement)`, 0 to 1.
-    - **Why:** a progress bar in the Trophies tab.
-    - **How you'd use it:** `bar.fillAmount = tracker.ProgressOf(row.Achievement);` when
-      the panel opens.
+    - **Why:** a progress bar in the Trophies panel.
+    - **How you'd use it:** `bar.fillAmount = tracker.ProgressOf(row.Achievement);` when the
+      panel opens.
 
     Your trainer plays Sam, and answers. A change to a shared module goes through its
     owner, so every game that uses it gets the same version.
 
 ### Test it
 
-- **Play.** Squeeze the cup once: *Trophy: First Sip*, `Sell your first cup +$10`, and the
-  money jumps by $10.
-- **Test: Add $1M**, then hire a manager: *Manager hired!* and, right after it, *Trophy:
-  Hired Help*: the queue showed them one at a time.
-- Buy businesses until you own 50 in all: *Busy Beach*. Open **Trophies**: three rows in
-  colour with a tick, nine grey.
-- Close and open the tab again: the rows aren't made twice (look in the Hierarchy).
-- **Stop, then Play again.** Every trophy is grey again: nothing is saved yet. Chapter 11
+- **Play.** Sell one cup: *Trophy: First Sip*, `Sell your first cup +$10`, and the money
+  jumps by $10.
+- Build the Staff Hut and hire a runner: *Orange Bar Runner hired!* and, right after it,
+  *Trophy: Hired Help*: the queue showed them one at a time.
+- Clear empty cups into the bin; build spots. Open **Trophies**: the ones won in colour
+  with a tick, the rest grey.
+- Close and open the panel again: the rows aren't made twice (look in the Hierarchy).
+- **Stop, then Play again.** Every trophy is grey again: nothing is saved yet. Chapter 14
   saves `WonIds`.
 
 ### Commit
 
-*Plug in Sam's achievements: stats, toasts and the Trophies tab.*
+*Plug in Sam's achievements: stats, toasts and the Trophies panel.*
 
 ### Challenge
 
-A thirteenth trophy, with no code at all: *Juice Baron*, own 200 businesses, a $250,000
-reward, with `crown_3d`. Make the asset in your own `Data` folder (not Sam's), and add it
-to the tracker's list. Why could you do this without touching any code, Sam's or yours?
+A thirteenth trophy, with no code at all: *Kart Champion*, the Juice Kart at level 5, a
+$10,000 reward, with `crown_3d`. Make the asset in your own `Data` folder (not Sam's),
+and add it to the tracker's list. Why could you do this without touching any code, Sam's
+or yours?
 
 # Part 4 — A Whole Game
 
-## C# 10 — Static: Uses and Risks
+## C# 11 — Static: Uses and Risks
 
 **Goal:** you can use `static` where it fits (constants, helpers, a choice carried to
 the next scene), and spot and fix its risks: hidden dependencies, values that outlive a
@@ -6847,7 +9590,7 @@ Debug.Log(TimeText.FromSeconds(59));
 | constants | `const int MaxStands = 8;` | they can't change, so sharing them is safe |
 | helpers that need only their parameters | `Mathf.Clamp`, `TimeText.FromSeconds` | there's nothing to keep, so no object is needed |
 | names used all over the game | `SettingsKeys.MusicVolume` | written once: a typo becomes a compile error |
-| a choice carried to the next scene | `RaceSetup.Track` | loading a scene destroys its objects, but not a static (C# 11) |
+| a choice carried to the next scene | `RaceSetup.Track` | loading a scene destroys its objects, but not a static (C# 12) |
 
 ```csharp
 // Every PlayerPrefs key in the game, in one place.
@@ -6859,7 +9602,7 @@ public static class SettingsKeys
 ```
 
 `PlayerPrefs.GetFloat(SettingsKeys.MusicVolume, 1f)` can't be misspelt the way
-`"MusicVolum"` can: a wrong name doesn't compile (C# 13 covers PlayerPrefs).
+`"MusicVolum"` can: a wrong name doesn't compile (C# 14 covers PlayerPrefs).
 
 ```csharp
 // What the menu chose, for the race scene to read.
@@ -6985,7 +9728,7 @@ public class Coin : MonoBehaviour
 But the event outlives every scene and, with domain reload off, every Play. A counter
 that subscribes and never unsubscribes stays on the list after its scene has gone. The
 next coin calls it: a dead script runs again, quietly, or with the
-`MissingReferenceException` from C# 5 as soon as it reaches its destroyed
+`MissingReferenceException` from C# 2 as soon as it reaches its destroyed
 text's GameObject. Unsubscribe in `OnDisable`, always; the reset stops anything that
 slips through from reaching the next Play.
 
@@ -7003,8 +9746,8 @@ slips through from reaching the next Play.
 | To keep… | Use | Lasts until |
 | --- | --- | --- |
 | a choice for the next scene | a static, such as `RaceSetup.Track` | the game quits |
-| a small setting: the volume, a key binding | PlayerPrefs (C# 13) | it's deleted: it survives quitting |
-| game data: unlocks, a deck, the cash of a juice empire | a JSON file (C# 13) | it's deleted |
+| a small setting: the volume, a key binding | PlayerPrefs (C# 14) | it's deleted: it survives quitting |
+| game data: unlocks, a deck, the cash of a juice empire | a JSON file (C# 14) | it's deleted |
 
 A static is for **this run only**. Quit, and it's gone.
 
@@ -7028,7 +9771,7 @@ and a Race scene that shows them. Then start the Race scene on its own: what doe
 show? Make it fall back to a test track, with `Debug.LogWarning` saying why, and make
 sure a stale track from the last Play can never sneak in.
 
-## C# 11 — Scenes
+## C# 12 — Scenes
 
 **Goal:** you can split a game into several scenes, load one from code or from a button,
 fade between them without freezing, and carry a choice from one scene to the next in the
@@ -7160,7 +9903,7 @@ public class SceneTransition : MonoBehaviour
 it with the scene's name typed in. On a Back button: **+**, drag in the object with
 `SceneTransition`, choose **SceneTransition → FadeTo (string)**, and type `Menu` in the box
 that appears. A designer can rewire every button in the Inspector, and no script knows
-where it leads. C# 5 compares this kind of event, a UnityEvent, with C# events.
+where it leads. C# 2 compares this kind of event, a UnityEvent, with C# events.
 
 ### Idea — passing data between scenes
 
@@ -7171,11 +9914,11 @@ wait somewhere outside any scene. There are four places:
 | --- | --- | --- | --- |
 | a **static class** | until the game quits | a choice in one scene for the next | old values, and a scene played on its own |
 | a **ScriptableObject** asset | until the game quits | the same, through an asset | set every value, every time |
-| **PlayerPrefs** or a file | after quitting, too | settings, best times, the save | C# 13 |
+| **PlayerPrefs** or a file | after quitting, too | settings, best times, the save | C# 14 |
 | **`DontDestroyOnLoad`** | until it's destroyed | an object that must keep running | a new copy each time you come back |
 
 **1. A static class.** It belongs to no scene and no object, so it survives every load
-(C# 10 covers the risks):
+(C# 11 covers the risks):
 
 ```csharp
 using UnityEngine;
@@ -7292,35 +10035,36 @@ Pass the race's time from the Race to the Results scene with `RaceSetup`, and ke
 time ever in PlayerPrefs, so it's still there after you quit. Show both on the Results
 screen, with "New best!" when the time beats the old best.
 
-## Chapter 10 — Title, Beach and Report
+## Chapter 13 — Title, Beach and Report
 
-**Goal:** a whole game in three scenes. A **Title** with the logo, **New Game**,
-**Settings**, **Credits** and **Quit**; the **Beach** you've built; and a **Report**
-scene that shows whatever the scene before it left for it. Each scene fades into the
-next, and a **Title** button on the Beach's Settings panel goes back.
+**Goal:** a whole game in three scenes. A **Title** over a little bar on the sand, with
+**Continue**, **New Game**, **Settings**, **Credits** and **Quit**; the **Beach** you've
+built; and a **Report** scene that shows whatever the scene before it left for it. Each
+scene fades into the next, and a **Title** button in the Beach's Settings panel goes back.
 
 ### Idea — three scenes, one route
 
 ```
  ┌─────────┐ Continue  ┌──────────────────┐  Collect   ┌──────────────────────┐
  │  Title  │ ────────► │      Report      │ ─────────► │        Beach         │
- │         │ (away?)   │ "Welcome back":  │            │ the game: businesses,│
- └─────────┘           │ $ made while away│            │ panels, tabs         │
-      │ New game       │ [Collect] [×2 ▶] │            └──────────┬───────────┘
-      └──────────────► └──────────────────┘ ◄── New Beach ───────┘
-                          "Your new beach": stars won, the bonus
+ │         │ (away?)   │ "Welcome back":  │            │ the game: bars,      │
+ └─────────┘           │ $ made while away│            │ spots, panels        │
+      │ New Game       │ [Collect] [×2 ▶] │            └──────────┬───────────┘
+      └──────────────► └──────────────────┘ ◄── the Pier ─────────┘
+                          "Beach complete!": the next beach
                           Session.Report (static) carries what to show
 ```
 
-**One scene, two uses.** The Report scene says *Welcome back* when you come back after
-a while (Chapter 12), and *Your new beach* after you open one (Chapter 13). It doesn't
-know which: it shows a `Report`, a plain C# class with a title, some lines and an
-amount, made by the scene before. How does a `Report` get from one scene to the next,
-when loading a scene destroys everything in the old one? C# 10 gave the answer
-and its price: a `static` class, `Session`, whose values belong to no scene.
+**One scene, two uses.** The Report scene says *Welcome back* when you come back after a
+while (Chapter 15), and *Beach complete!* when you sail from the Pier to a new beach
+(Chapter 16). It doesn't know which: it shows a `Report`, a plain C# class with a title,
+a big line, some smaller lines and an amount, made by the scene before. How does a
+`Report` get from one scene to the next, when loading a scene destroys everything in the
+old one? C# 11 gave the answer and its price: a `static` class, `Session`, whose
+values belong to no scene.
 
 **The price.** This project reloads only the scene when you press Play, not the domain
-(C# 10): statics keep the last Play's values. `Session` resets itself at the
+(C# 11): statics keep the last Play's values. `Session` resets itself at the
 start of every Play, with `[RuntimeInitializeOnLoadMethod]`, before any scene loads.
 
 **A scene started on its own.** You'll press Play in the Report scene to work on it, with
@@ -7330,10 +10074,9 @@ and says so in the Console: a warning, not an error, since it's what you asked f
 ### Do it — the fader
 
 1. Every scene fades in from dark brown, and out before the next loads. In the Beach
-   scene, **Create Empty**, `Scene Fader`. Add a **Canvas** (**Screen Space - Overlay**,
-   **Sort Order** 100, over every other canvas), a **Graphic Raycaster** and a **Canvas
-   Group**. In it, an **Image** `Curtain`, **stretch–stretch** with no gaps, colour
-   `#2A1A0C`.
+   scene, an empty `Scene Fader`. Add a **Canvas** (**Screen Space - Overlay**, **Sort
+   Order** 100, over every other canvas), a **Graphic Raycaster** and a **Canvas Group**.
+   In it, an **Image** `Curtain`, stretched with no gaps, colour `#2A1A0C`.
 2. In `Scripts/Flow`, `SceneFader`:
 
 ```csharp:SceneFader.cs
@@ -7393,9 +10136,9 @@ public class SceneFader : MonoBehaviour
 ```
 
 3. A **Canvas Group** fades everything under it with one **Alpha**, and **Blocks
-   Raycasts** stops taps reaching the buttons beneath while it fades. Add `SceneFader`
-   to `Scene Fader`, drag its own Canvas Group into **Curtain**, and set the Canvas
-   Group's **Alpha** to 1: every scene starts dark, then fades in. Drag `Scene Fader` into
+   Raycasts** stops taps reaching the buttons beneath while it fades. Add `SceneFader` to
+   `Scene Fader`, drag its own Canvas Group into **Curtain**, and set the Canvas Group's
+   **Alpha** to 1: every scene starts dark, then fades in. Drag `Scene Fader` into
    `Prefabs`.
 
 ### Do it — what one scene hands the next
@@ -7406,7 +10149,7 @@ public class SceneFader : MonoBehaviour
 using System.Collections.Generic;
 
 // What the Report scene shows: "Welcome back" (what you earned while away,
-// and the chance to double it), or "Your new beach" (the stars you won).
+// and the chance to double it), or "Beach complete!" (where you sail next).
 public enum ReportKind
 {
     WelcomeBack,
@@ -7418,20 +10161,26 @@ public class Report
 {
     public ReportKind Kind { get; private set; }
     public string Title { get; private set; }
+    public string Highlight { get; private set; }   // the big line: "+$1,240", or the next beach's name
+    public int Amount { get; private set; }         // Welcome back's money
     public List<string> Lines { get; private set; }
-    public long Amount { get; private set; }    // the money for Welcome back; the stars won for a new beach
 
-    public Report(ReportKind kind, string title, long amount)
+    public Report(ReportKind kind, string title, string highlight, int amount)
     {
         Kind = kind;
         Title = title;
+        Highlight = highlight;
         Amount = amount;
         Lines = new List<string>();
     }
 }
 ```
 
-5. In `Scripts/Flow`, `Session`:
+   Two types in one file: the enum is small and belongs with the class. `Highlight` is the
+   big line, made by the scene that knows what it means: `+$1.24K` for money, `Coral Cove`
+   for a beach.
+
+5. In `Scripts/Flow`, `Session`, for now:
 
 ```csharp
 using UnityEngine;
@@ -7453,66 +10202,99 @@ public static class Session
 }
 ```
 
-6. `[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]`
-   asks Unity to call `ResetForPlay` at the very start of every Play, before the first
-   scene's `Awake`. In a build it runs once, when the game starts: the same.
+6. `[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]` asks
+   Unity to call `ResetForPlay` at the very start of every Play, before the first scene's
+   `Awake`. In a build it runs once, when the game starts: the same.
+
+### Do it — the Settings panel, and a way back
+
+7. **The Settings Panel**: a variant of `Panel`, its root and title `Settings`. In
+   `Content`, a **Candy Button** `Title Button`: bottom-right with its pivot, **Pos Y**
+   `20`, 280 × 110, label `Title`. Chapter 14 fills the rest of the panel.
+8. In the Beach scene, drag it into `Panels`, add it to the switcher, wire its close
+   button, and its `Title Button`'s **On Click ()**: drag in `Scene Fader`, **SceneFader →
+   FadeTo (string)**, and type `Title` in the box.
+9. **A button for it.** In `Top Bar`, an **Icon Button**, `Settings Button`: middle-right
+   with its pivot, **Pos X** `−14`, 120 × 124, **Source Image** `Icon Gear`, its `Icon`
+   unticked. **On Click ()**: `Panels`, **PanelSwitcher → Toggle**, the Settings panel.
 
 ### Do it — the Title scene
 
-7. In `Assets/Scenes`, select `Beach` and duplicate it (**Ctrl+D**): rename the copy
-   `Title`, and open it. Delete everything but the **Main Camera**, the **Global Light
-   2D**, the **Canvas** with its `Safe Area` (delete every child of `Safe Area`), the
-   **EventSystem** and the **Scene Fader**. The camera and the canvas are already set up
-   for a portrait phone.
-8. Drag `Art/Background/Beach` in again: **Position** (0, 0, 0), **Scale** (1.3, 1.3, 1),
-   **Order in Layer** `-10`. The whole beach, filling the screen.
-9. In `Safe Area`, the logo and the buttons. Every anchor here is the centre, except the
-   logo's two, which are **top–center** with Shift:
+10. In `Assets/Scenes`, **File → New Scene**, **Basic (URP)**, and save it as `Title`. It
+    has a camera and a light. Copy into it from the Beach (select them there, **Ctrl+C**,
+    open `Title`, **Ctrl+V**): `Sand`, `Sea`, `Wet Sand`, the `Canvas` with its `Safe
+    Area` (then delete every child of `Safe Area`), the `EventSystem` and the `Scene
+    Fader`. Set the light as the Beach's `Sun`, and the sky and fog as in Chapter 1.
+11. **A little bar on the sand**, under an empty `Scenery`, for the camera to look at:
+
+| Model | Position | Rotation Y | Scale |
+| --- | --- | --- | --- |
+| `Art/Bar/kitchencounter_straight_A` | (0, 0, 2) | 180 | (1, 1, 0.5) |
+| `Art/Bar/kitchencounter_straight_B` | (−1.6, 0, 4.2) | 180 | (0.6, 1, 0.5) |
+| `Art/Bar/jar_A_large` | (−1.32, 1, 4.3) | 0 | 1.3 |
+| `Art/Bar/crate` | (1.8, 0, 4.6) | 20 | 0.6 |
+| four `Art/Food/Soda`, as `Cup` | (−0.6, 1, 2), (−0.2, 1, 2), (0.2, 1, 2), (0.6, 1, 2) | 0 | 1 |
+| `Art/Characters/Chef_Male` | (0.2, 0, 3.1) | 180 | 1 |
+| `Art/Characters/Casual_Female` | (−0.5, 0, 0.7) | 10 | 1 |
+| `Art/Nature/Tree_Palm_1` | (−4.2, 0, 5.5) | 0 | 2.2 |
+| `Art/Nature/Tree_Palm_2` | (4.4, 0, 6.5) | 90 | 2.4 |
+| `Art/Nature/Tree_Palm_3` | (3.6, 0, −1.5) | 30 | 1.8 |
+
+Give the two people the `Person` controller: they stand there, breathing (`Idle`). No
+scripts: it's a picture. The camera: **Position** (0, 6.5, −6.5), **Rotation** (30, 0,
+0), lower and closer than the Beach's.
+
+12. In `Safe Area`, the logo and the buttons. Every anchor is the centre, but the logo's,
+    which is top-centre with its pivot:
 
 | Object | What | Pos | Size | Set |
 | --- | --- | --- | --- | --- |
-| `Logo Picture` | an Image (top–center) | (0, −140) | 380 × 380 | `tropical_drink_3d`, Preserve Aspect, no raycast |
-| `Logo` | a text (top–center) | (0, −530) | 1040 × 200 | `Juice Tycoon`, size 150, `#FFC83D` (gold), centred, the Shadow preset |
-| `Continue Button` | **Candy Button Green** | (0, −40) | 620 × 150 | `Continue`, size 64 |
-| `Continue Detail` | a text | (0, −150) | 800 × 60 | empty, size 42, white, centred, the Shadow preset |
-| `New Game Button` | **Candy Button** | (0, −280) | 620 × 140 | `New Game`, size 56 |
-| `Settings Button` | **Candy Button** | (−160, −440) | 300 × 124 | `Settings` |
-| `Credits Button` | **Candy Button** | (160, −440) | 300 × 124 | `Credits` |
-| `Quit Button` | **Candy Button Red** | (0, −590) | 300 × 124 | `Quit` |
+| `Logo` | a text (top-centre) | (0, −120) | 1040 × 200 | `Juice Tycoon`, size 150, `#FFC83D` (gold), centred, the Shadow preset |
+| `Continue Button` | **Candy Button Green** | (0, −240) | 620 × 150 | `Continue`, size 64 |
+| `Continue Detail` | a text | (0, −350) | 800 × 60 | empty, size 42, white, centred, the Shadow preset |
+| `New Game Button` | **Candy Button** | (0, −470) | 620 × 140 | `New Game`, size 56 |
+| `Settings Button` | **Candy Button** | (−160, −620) | 300 × 124 | `Settings` |
+| `Credits Button` | **Candy Button** | (160, −620) | 300 × 124 | `Credits` |
+| `Quit Button` | **Candy Button Red** | (0, −770) | 300 × 124 | `Quit` |
 
-10. **Continue** has nothing to continue until Chapter 11 saves a game. It should look
-    it: select `Continue Button`, set its Button's **Transition** to **Sprite Swap**, and
-    drag `Button Grey` into **Disabled Sprite**. A button that isn't **Interactable** now
-    shows the grey sprite, with no code. (The rows' Buy buttons swap their sprite in code
-    instead, because they change the picture for other reasons too.)
-11. The Title needs a **Credits** panel. Make a variant of **Panel**, `Credits Panel`:
-    title `Credits`, and in `Content` a text `Text`, **stretch–stretch** with no gaps,
-    size 34, brown, aligned top left, with:
+13. **Continue** has nothing to continue until Chapter 14 saves a game. It should look it:
+    select `Continue Button`, set its Button's **Transition** to **Sprite Swap**, and drag
+    `Button Grey` into **Disabled Sprite**. A button that isn't **Interactable** now shows
+    the grey sprite, with no code. (The rows' Buy buttons swap their sprite in code
+    instead, because the intern's shop and your Level Rows set it themselves.)
+14. **The Credits Panel**: a variant of `Panel`, title `Credits`, and in `Content` a text
+    `Text`, stretched with no gaps, size 30, brown, aligned top left, **Overflow**
+    `Overflow`, with:
 
 ```
 <b>Juice Tycoon</b>, for the Unity Programmer Curriculum, Level 4
 
+People: <b>Ultimate Animated Character Pack</b> by Quaternius (CC0)
+Fruit and cups: <b>Ultimate Food Pack</b> by Quaternius (CC0)
+The bar: <b>Restaurant Bits</b> by Kay Lousberg, KayKit (CC0)
+Palms, rocks and the kart: <b>Nature Props</b> and <b>Racing Kart</b> by Fertile Soil Productions (CC0)
 Pictures: <b>Fluent Emoji</b> by Microsoft (MIT licence)
 Buttons and panels: <b>Free Game GUI</b> by pzUH (CC0)
-Beach: <b>Free Beach game background</b> by bevouliin (CC0)
 Font: <b>Lilita One</b> by Juan Montoreano (SIL Open Font Licence)
 Sounds and music: <b>Ninja Adventure</b> by Pixel-Boy and AAA (CC0)
 ```
 
-12. Chapters 16 and 17 add two lines to the credits, for DOTween and LevelPlay.
-13. In `Safe Area`, **Create Empty**, `Panels`: **stretch–stretch**, **Left** 30, **Top**
-    140, **Right** 30, **Bottom** 140. Drag in a **Settings Panel** and a **Credits Panel**,
-    and add a **Panel Switcher** with the two in its **Panels**. **Settings Button**'s On
-    Click: **Toggle**, with the Settings panel; **Credits Button**'s: **Toggle**, with the
-    Credits panel; each panel's **Close Button**: **CloseAll**. The same script as the
-    Beach's tabs, reused. Untick both panels.
-14. In `Scripts/Flow`, `TitleScreen`:
+The `<b>` tags are TextMeshPro's **rich text**: bold, inside one text. Chapters 18 and
+19 add two lines, for DOTween and LevelPlay.
+
+15. In `Safe Area`, an empty `Panels`: stretched, **Left** 30, **Top** 140, **Right** 30,
+    **Bottom** 140. Drag in a **Settings Panel** and a **Credits Panel**, and add a **Panel
+    Switcher** with the two in its **Panels**. **Settings Button**'s On Click: **Toggle**,
+    with the Settings panel; **Credits Button**'s: **Toggle**, with the Credits panel; each
+    panel's **Close Button**: **CloseAll**. The Beach's script, reused. Untick the
+    Settings panel's `Title Button` (you're already at the Title), and both panels.
+16. In `Scripts/Flow`, `TitleScreen`, for now:
 
 ```csharp
 using UnityEngine;
 using UnityEngine.UI;
 
-// The Title scene's buttons. Continue waits for Chapter 11's save; New Game
+// The Title scene's buttons. Continue waits for Chapter 14's save; New Game
 // goes to the beach.
 public class TitleScreen : MonoBehaviour
 {
@@ -7524,7 +10306,7 @@ public class TitleScreen : MonoBehaviour
     {
         // A web page can't quit itself: there's no Quit on the Web.
         quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);
-        continueButton.interactable = false;    // nothing saved yet: Chapter 11
+        continueButton.interactable = false;    // nothing saved yet: Chapter 14
     }
 
     public void StartNewGame()
@@ -7537,12 +10319,12 @@ public class TitleScreen : MonoBehaviour
         Application.Quit();
     }
 
-    // A test until Chapter 12 makes real reports: while playing, open this
+    // A test until Chapter 15 makes real reports: while playing, open this
     // component's ⋮ menu in the Inspector.
     [ContextMenu("Test: Show a Report")]
     void ShowTestReport()
     {
-        Report report = new Report(ReportKind.WelcomeBack, "Hello from the Title!", 4200);
+        Report report = new Report(ReportKind.WelcomeBack, "Hello from the Title!", "+$4.2K", 4200);
         report.Lines.Add("Made by the Title scene, shown by the Report scene.");
         Session.Report = report;
         fader.FadeTo("Report");
@@ -7550,31 +10332,32 @@ public class TitleScreen : MonoBehaviour
 }
 ```
 
-15. **Create Empty**, `Title Screen`, with `TitleScreen`: **Continue Button**, **Quit
-    Button** and **Fader** (the `Scene Fader`). **New Game Button**'s On Click: **Title
-    Screen → TitleScreen → StartNewGame**; **Quit Button**'s: **Quit**.
-16. `Application.Quit` does nothing in the Editor, and on the Web a page can't close
+17. An empty `Title Screen`, with **Title Screen**: **Continue Button**, **Quit Button** and
+    **Fader** (the `Scene Fader`). **New Game Button**'s On Click: **Title Screen →
+    TitleScreen → StartNewGame**; **Quit Button**'s: **Quit**.
+18. `Application.Quit` does nothing in the Editor, and on the Web a page can't close
     itself, so the Quit button hides there. `Application.platform` says where the game is
     running: `WebGLPlayer` is a browser.
 
 ### Do it — the Report scene
 
-17. Duplicate `Title` as `Report`, open it, and delete everything in `Safe Area` and the
-    `Title Screen`. Keep the beach, the camera, the light, the canvas and the fader.
-18. In `Safe Area`, an **Image** `Window`: centred, **Pos** (0, −40), 960 × 1120, `Panel`,
+19. Save `Title`, then **File → Save As…** `Report`. In `Report`, delete everything in `Safe
+    Area` and the `Title Screen`. Keep the bar on the sand, the camera, the light, the
+    canvas and the fader.
+20. In `Safe Area`, an **Image** `Window`: centred, **Pos** (0, −40), 960 × 1120, `Panel`,
     **Sliced**. In it:
 
 | Child | What | Anchor | Pos | Size | Set |
 | --- | --- | --- | --- | --- | --- |
-| `Ribbon` | an Image | top–center | (0, 60) | 800 × 150 | `Ribbon`, Sliced |
-| `Ribbon/Title` | a text | stretch–stretch: **Left** 100, **Top** 12, **Right** 100, **Bottom** 40 | | | `Welcome back!`, size 56, white, centred, Shadow |
-| `Picture` | an Image | top–center | (0, −140) | 260 × 260 | `money_bag_3d`, Preserve Aspect |
-| `Amount` | a text | top–center | (0, −420) | 880 × 150 | `+$0`, size 120, gold, centred, Shadow |
-| `Lines` | a text | top–center | (0, −590) | 840 × 280 | empty, size 38, brown, centred at the top |
-| `Collect Button` | **Candy Button** | bottom–center | (−210, 70) | 390 × 150 | `Collect` |
+| `Ribbon` | an Image | top-centre | (0, 60) | 800 × 150 | `Ribbon`, Sliced |
+| `Ribbon/Title` | a text | stretched: **Left** 100, **Top** 12, **Right** 100, **Bottom** 40 | | | `Welcome back!`, size 56, white, centred, Shadow |
+| `Picture` | an Image | top-centre | (0, −140) | 260 × 260 | `money_bag_3d`, Preserve Aspect |
+| `Amount` | a text | top-centre | (0, −420) | 880 × 150 | `+$0`, size 110, gold, centred, Shadow |
+| `Lines` | a text | top-centre | (0, −590) | 840 × 280 | empty, size 38, brown, centred at the top |
+| `Collect Button` | **Candy Button** | bottom-centre | (−210, 70) | 390 × 150 | `Collect` |
 
-19. **Collect** sits to the left: Chapter 17 puts **Collect ×2** beside it. In
-    `Scripts/Flow`, `ReportScreen`:
+21. **Collect** sits to the left: Chapter 19 puts **Collect ×2** beside it. In
+    `Scripts/Flow`, `ReportScreen`, for now:
 
 ```csharp
 using TMPro;
@@ -7598,12 +10381,12 @@ public class ReportScreen : MonoBehaviour
         {
             // The scene was started on its own, in the Editor: show a test report.
             Debug.LogWarning("Report started without a Session.Report: showing a test one.", this);
-            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", 12345);
+            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", "+$12.3K", 12345);
             report.Lines.Add("Started on its own, from the Editor.");
         }
         title.text = report.Title;
         lines.text = string.Join("\n", report.Lines);
-        amount.text = "+$" + NumberFormat.Money(report.Amount);
+        amount.text = report.Highlight;
     }
 
     public void Collect()
@@ -7614,41 +10397,34 @@ public class ReportScreen : MonoBehaviour
 }
 ```
 
-20. `string.Join("\n", report.Lines)` puts the lines one under another. **Collect**
-    empties `Session.Report` before leaving: a report is shown once. **Create Empty**,
-    `Report Screen`, with `ReportScreen`; fill its fields, and set **Collect Button**'s On
-    Click to **ReportScreen → Collect**.
-
-### Do it — back to the Title, and the build's scenes
-
-21. Open the **Settings Panel** prefab. In `Content`, a **Candy Button** `Title Button`:
-    anchor **bottom–right** with Shift, **Pos** (0, 20), 280 × 110, label `Title`.
-22. Open the `Beach` scene. Drag the **Scene Fader** prefab in, if it isn't there yet.
-    Select the Settings panel's `Title Button`: On Click, drag the `Scene Fader` in,
-    **SceneFader → FadeTo (string)**, and type `Title` in the box.
-23. In the `Title` scene, select the Settings panel's `Title Button` and untick it: you're
-    already at the Title.
-24. **File → Build Profiles**, **Scene List**: drag in `Title`, `Report` and `Beach`, with
+22. `string.Join("\n", report.Lines)` puts the lines one under another. **Collect** empties
+    `Session.Report` before leaving: a report is shown once. An empty `Report Screen`, with
+    **Report Screen**; fill its fields, and set **Collect Button**'s On Click to
+    **ReportScreen → Collect**.
+23. **File → Build Profiles**, **Scene List**: drag in `Title`, `Report` and `Beach`, with
     `Title` first. The first scene is the one a build starts with; `LoadSceneAsync` can
     only load scenes in this list.
 
 ### Test it
 
-- Open `Title` and **Play**. The screen fades in from brown. **Continue** is grey. **New
-  Game**: a fade, and you're on the beach. The cog, then **Title**: back.
+- Open `Title` and **Play**. The screen fades in from brown: a bar on the sand, the chef
+  behind it. **Continue** is grey. **New Game**: a fade, and you're on the beach. The cog,
+  then **Title**: back.
 - **Settings** and **Credits** on the Title open their panels; the red **×** closes them.
 - On the Title, while playing: select `Title Screen`, open the ⋮ menu of its **Title
   Screen** component, and choose **Test: Show a Report**. The Report scene says *Hello
   from the Title!*: a `Report` made by one scene, shown by the next. **Collect**: the
   beach.
 - Open `Report` and press **Play**: *Welcome back! (test)*, and a yellow warning in the
-  Console. Click the warning: Unity highlights the `Report Screen`, the object given as
-  the warning's second argument.
+  Console. Click the warning: Unity highlights the `Report Screen`, the object given as the
+  warning's second argument.
 - **The stale static.** In `Session`, put `//` in front of the
   `[RuntimeInitializeOnLoadMethod…]` line. Play the Title, **Test: Show a Report**, and
   stop on the Report scene **without** collecting. Now Play the `Report` scene on its own:
   it says *Hello from the Title!* again, a report from a Play that's over. Take the `//`
   away and try again: the test report. That's the line's whole job.
+- Go back to the beach from the Title: everything you built is gone. Nothing is saved:
+  that's the next chapter.
 
 ### Commit
 
@@ -7657,10 +10433,9 @@ public class ReportScreen : MonoBehaviour
 ### Challenge
 
 Give the Report scene a second way out: a small **Title** button in the top corner, for
-players who want the menu. Which existing method can its On Click call, with no new
-code?
+players who want the menu. Which existing method can its On Click call, with no new code?
 
-## C# 12 — Exceptions: try and catch
+## C# 13 — Exceptions: try and catch
 
 **Goal:** you can read an exception in the Console, catch the ones you expect with `try`
 and `catch`, tidy up with `finally`, log what went wrong with `Debug.LogError`, and
@@ -7729,7 +10504,7 @@ itself, such as `exception.Message`.
 
 ### Idea — several catch blocks, most specific first
 
-Exceptions are a family of classes (C# 7): a `FileNotFoundException`
+Exceptions are a family of classes (C# 8): a `FileNotFoundException`
 **is an** `IOException`, and every exception is an `Exception`. C# takes the first
 `catch` that fits, from the top, so the most specific goes first:
 
@@ -7894,7 +10669,7 @@ JSON parse error: Invalid value.
 ```
 
 The game carries on with the defaults, and the message says what happened and why.
-C# 13 builds a whole save system this way.
+C# 14 builds a whole save system this way.
 
 > **Note:** you'll meet `throw` in other people's code:
 > `throw new ArgumentException("A price can't be negative.");` makes an exception and
@@ -7920,7 +10695,7 @@ skipped, with a `Debug.LogWarning` naming its line number, and the rest still lo
 missing file means "no scores yet", with no warning. Which parts need `try`, and which
 only need a check?
 
-## C# 13 — Saving: PlayerPrefs and JSON
+## C# 14 — Saving: PlayerPrefs and JSON
 
 **Goal:** you can keep a player's settings in PlayerPrefs and their progress in a JSON save
 file, read both back safely, and choose the right place for each piece of data
@@ -7933,7 +10708,7 @@ they're still there next time: *between sessions*, as the exam puts it.
 
 | Place | Lasts | Good for | Example |
 | --- | --- | --- | --- |
-| a `static` field (C# 10) | until the game closes | passing data between scenes in one run | the kart picked on the menu |
+| a `static` field (C# 11) | until the game closes | passing data between scenes in one run | the kart picked on the menu |
 | **PlayerPrefs** | until it's deleted | a few small settings, one value each | the music volume, vibration on or off |
 | **a file**, in JSON | until it's deleted | the game's data: progress, lists, anything with a shape | coins, unlocked karts, each stand's level |
 
@@ -8106,7 +10881,7 @@ holds this: braces `{ }` hold `"name": value` pairs, and brackets `[ ]` hold a l
 
 ### Idea — when the file is missing, damaged or old
 
-| Problem | `Load` sees | and does (C# 12) |
+| Problem | `Load` sees | and does (C# 13) |
 | --- | --- | --- |
 | no file: the first run | `File.Exists` is false | starts a new save |
 | a damaged file, edited by hand or cut off half-written | an `ArgumentException` from `FromJson` | logs an error, keeps the bad file, starts a new save |
@@ -8189,17 +10964,19 @@ List<GameObject> UnlockedKarts(SaveData data)
 ### Challenge
 
 An id must never change, but a prefab's name is easy to change: give each kart a
-ScriptableObject (C# 4) with an `id` field, and look karts up by it.
+ScriptableObject (C# 5) with an `id` field, and look karts up by it.
 Add an **Unlock** button that saves the next kart's id, and a vibration toggle in
 PlayerPrefs. Type an unknown id into the file: does the game warn, and carry on?
 
-## Chapter 11 — Save and Load
+## Chapter 14 — Save and Load
 
-**Goal:** the game saved to a JSON file: your money, every business, the upgrades, the
-van, the counts behind the trophies and the trophies won. It saves every 30 seconds, when
-a phone sends it to the background, and when you leave the Beach. **Continue** on the
-Title brings it all back; **New Game** asks before it throws a save away. A missing or
-damaged file never stops the game.
+**Goal:** the game saved to a JSON file: your money (and the notes still on the cash
+mats), everything built and what you've paid towards the next spot, the upgrades and
+helpers, your tray and flip-flops, the kart, the counts behind the trophies and the
+trophies won. It saves every 30 seconds, when a phone sends it to the background, when it
+quits, and when you leave the Beach. **Continue** on the Title brings it all back; **New
+Game** asks before it throws a save away. A missing or damaged file never stops the game.
+And a **Settings** panel where you choose your own keys.
 
 ### Idea — what to save, and what not
 
@@ -8208,20 +10985,21 @@ worked out again from the rest; some doesn't matter.
 
 | Saved | Not saved, because… |
 | --- | --- |
-| the money, and what you've earned in your life | |
-| how many of each business you own, by its **id** | |
-| the **ids** of the upgrades bought | what they did (×3, ×2, a manager) is applied again from the ids |
-| the van's level | its place on the road: a new trip starts |
+| the money, and what you've earned in your life; the notes on the cash mats, as money | |
+| the **ids** of the spots built, and what's paid on the others | what they built: building again from the ids switches it all back on |
+| the **ids** of the upgrades bought | what they did (×1.5, a helper) is applied again from the ids |
+| the tray's, the flip-flops' and the kart's levels | the kart's place on its road: a new lap starts |
 | the counts Sam's trophies need, and the trophies won (their ids) | the toasts already shown |
-| | a cycle half done: a business with a manager starts a new one at once |
+| | the fruit in the crates, the cups, the customers: a bar fills again in seconds, and saving every cup would cost more than it gives |
 
-**Ids, not things.** `JsonUtility` (C# 13) writes a class's public fields as
-text. It can't write a reference to an asset (a `StandInfo`, an `Upgrade`), and it can't
-write a `Dictionary`. So the save keeps **ids**: `"lemonade-cup"`, `"fresh-lemons"`. When
-the game loads, the businesses find their own id, and the `UpgradeLibrary` turns each
-upgrade id back into its upgrade (that's what its `Dictionary` is for). This is also why
-an id must never change once players have saves: `"fresh-lemons"` renamed to
-`"lemon-recipe"` would quietly lose the upgrade for everyone.
+**Ids, not things.** `JsonUtility` (C# 14) writes a class's public fields as
+text. It can't write a reference to an asset (an `Upgrade`) or to an object in the scene
+(a `BuildSpot`), and it can't write a `Dictionary`. So the save keeps **ids**: `"table-1"`,
+`"orange-bar-price-1"`. When the game loads, the build list builds each spot whose id is in
+the save, and the `UpgradeLibrary` turns each upgrade id back into its upgrade (that's
+what its `Dictionary` is for). This is also why an id must never change once players have
+saves: `"orange-bar-price-1"` renamed to `"sweet-oranges"` would quietly lose the upgrade
+for everyone.
 
 **When to save.** A phone game can be closed at any moment, often without quitting: the
 player switches apps, and the phone may stop the game later without warning. So the game
@@ -8232,42 +11010,59 @@ saves:
 | every 30 seconds | `Update`, with a timer |
 | a phone sends the game to the background; a browser tab is hidden | `OnApplicationPause(true)` |
 | the game quits | `OnApplicationQuit` |
-| the Beach scene closes (back to the Title) | `OnDestroy` |
+| you go back to the Title | the Title button calls `Save`, then fades |
+
+Not in `OnDestroy`, though it looks like the obvious place. When a scene closes, Unity
+destroys its objects in no promised order: by the time the game's `OnDestroy` runs, the
+kart or a bar may already be gone, and reading them throws a
+`MissingReferenceException`. (This game did exactly that while it was being made.)
 
 **Never let a file break the game.** A save can be missing (the first run), half written
-(the battery died), or edited by a curious player. C# 12: reading it goes in
+(the battery died), or edited by a curious player. C# 13: reading it goes in
 a `try`; a file that can't be read is logged, kept aside for you to look at, and the game
 starts afresh.
 
 ### Do it — what the file holds
 
-1. In `Scripts/Save`, `SaveData`, the file's shape, with two small classes for its lists:
+1. In `Scripts`, a folder `Save`. In it, `SaveData`, the file's shape, with three small
+   classes for its lists:
 
-```csharp
+```csharp:SaveData.cs
 using System.Collections.Generic;
 
 // Everything juice-tycoon.json keeps. JsonUtility saves public fields only,
-// and can't save a Dictionary: the businesses are a list, and the upgrades and
-// trophies are ids.
+// and can't save a Dictionary or a DateTime: what's built and bought are lists
+// of ids, and the time is a long, DateTime's Ticks. It doesn't keep the fruit
+// in the crates, the cups on the counters or the customers: each bar fills
+// again in seconds, and saving every cup would cost more than it gives.
 [System.Serializable]
 public class SaveData
 {
-    public int version = 1;
-    public long money;
-    public long lifetimeEarned;
-    public List<StandSave> stands = new List<StandSave>();
+    public int version = 2;
+    public int beach;                   // 0 Sunny Bay, 1 Coral Cove, 2 Sunset Shore, 3 Sunny Bay again
+    public int money;
+    public int lifetimeEarned;
+    public float boostSecondsLeft;
+    public List<string> built = new List<string>();
+    public List<SpotPaid> paid = new List<SpotPaid>();
     public List<string> upgrades = new List<string>();
-    public int vanLevel;
+    public int trayLevel;
+    public int flipFlopLevel;
+    public int kartLevel;
     public StatsSave stats = new StatsSave();
     public List<string> trophies = new List<string>();
+    // When it was saved, and what earned by itself then: enough to work out
+    // what you earned while away, before the Beach scene is even loaded.
+    public long savedAtTicks;
+    public List<AwaySource> awaySources = new List<AwaySource>();
 }
 
-// One business: which, and how many you own.
+// A build spot paid for in part.
 [System.Serializable]
-public class StandSave
+public class SpotPaid
 {
     public string id;
-    public int owned;
+    public int paid;
 }
 
 // The counts behind Sam's achievements, for the player's whole life.
@@ -8275,22 +11070,35 @@ public class StandSave
 public class StatsSave
 {
     public long cupsSold;
-    public long taps;
-    public long balloonsPopped;
+    public long customersServed;
+    public long fruitPicked;
+    public long spotsBuilt;
+    public long upgradesBought;
+    public long cupsCleared;
     public long beachesOpened;
     public long awayEarned;
-    public long upgradesBought;
+    public long moneyEarned;
+}
+
+// Something that earns while you're away, and how much each second.
+[System.Serializable]
+public class AwaySource
+{
+    public string name;
+    public float perSecond;
 }
 ```
 
 2. The style guide's one exception: a save-data class has **public fields**, because
-   `JsonUtility` writes public fields. `[System.Serializable]` lets it write the two small
+   `JsonUtility` writes public fields. `[System.Serializable]` lets it write the small
    classes inside. `version` is for one day: if the shape of the file changes, the game
-   can tell an old file from a new one.
+   can tell an old file from a new one. Four fields wait for later chapters: `beach`
+   (16), `savedAtTicks` and `awaySources` (15), `boostSecondsLeft` (19). Until then they
+   stay 0 and empty.
 
 ### Do it — reading and writing, safely
 
-3. In `Scripts/Save`, `SaveSystem`:
+3. In `Save`, `SaveSystem`:
 
 ```csharp:SaveSystem.cs
 using System;
@@ -8395,134 +11203,194 @@ public static class SaveSystem
 
 ### Do it — every part of the game can be restored
 
-5. Loading puts each part of the game back as it was. Each part does its own: the
-   wallet its money, each business how many it owns, the upgrades their ids. Add this at
-   the end of `Wallet`:
+5. Most of the game can already be put back: `Wallet.Restore`, `Upgrades.Restore`,
+   `ChefLevels.Restore`, `JuiceKart.Restore` and Sam's `AchievementTracker.Restore` were
+   written with their classes. Three parts need it now. A build spot, at the end of
+   `BuildSpot`:
 
-<!-- check: add to Wallet -->
+<!-- check: add to BuildSpot -->
 ```csharp
+public class BuildSpot : Station
+{
     // … as before …
 
-    // Loading a save.
-    public void Restore(long money, long lifetimeEarned)
+    // Loading a save: what was paid before, and this beach's prices.
+    public void Restore(int paidBefore, float beachPriceFactor)
     {
-        Money = money;
-        LifetimeEarned = lifetimeEarned;
-        MoneyChanged?.Invoke(Money);
+        priceFactor = beachPriceFactor;
+        paid = Mathf.Clamp(paidBefore, 0, Price);
+        Show();
     }
 }
 ```
 
-6. At the end of `JuiceStand`:
+6. The build list, which builds again whatever the save says is built, in order, and tells
+   the save what's built and what's paid. It no longer offers the first spots in `Start`:
+   `Restore` does, as the Beach loads.
 
-<!-- check: add to JuiceStand -->
 ```csharp
-    // … as before …
+using System;
+using System.Collections.Generic;
+using UnityEngine;
 
-    // Loading a save: how many you owned. The upgrades are applied again afterwards.
-    public void Restore(int owned)
+// Every build spot on the beach, in the designer's order, and the ones offered
+// at the start. A save keeps the ids of the spots built, and what was paid on
+// the others; Restore builds them again, then offers what comes next.
+public class BuildList : MonoBehaviour
+{
+    [SerializeField] BuildSpot[] spots;
+    [SerializeField] BuildSpot[] first;
+
+    public IReadOnlyList<BuildSpot> Spots { get { return spots; } }
+
+    public event Action<BuildSpot> SpotBuilt;
+
+    void OnEnable()
     {
-        Owned = owned;
-        Changed?.Invoke();
-    }
-}
-```
-
-7. At the end of `Upgrades`:
-
-<!-- check: add to Upgrades -->
-```csharp
-    // … as before …
-
-    // Loading a save: every upgrade bought before, applied again, for nothing.
-    public void Restore(IEnumerable<string> ids)
-    {
-        foreach (string id in ids)
+        foreach (BuildSpot spot in spots)
         {
-            if (!library.TryGetUpgrade(id, out Upgrade upgrade))
-            {
-                Debug.LogWarning($"The save has an upgrade this game doesn't know: {id}", this);
-            }
-            else if (!IsBought(upgrade))
-            {
-                Apply(upgrade);
-            }
+            spot.Built += OnBuilt;
         }
     }
-}
-```
 
-8. Here's where Sam's question from Chapter 9 comes back: what if a saved id no longer
-   exists? `Upgrades` doesn't drop it silently: it **warns**, and carries on. `out Upgrade
-   upgrade` declares the variable inside the call: `TryGetUpgrade` fills it, and returns
-   whether it found one. And it applies the upgrade **without paying**: `Apply`, not
-   `TryBuy`.
-9. At the end of `DeliveryVan`:
-
-<!-- check: add to DeliveryVan -->
-```csharp
-    // … as before …
-
-    public void Restore(int level)
+    void OnDisable()
     {
-        Level = level;
-        body.enabled = Level > 0;
-        Changed?.Invoke();
+        foreach (BuildSpot spot in spots)
+        {
+            spot.Built -= OnBuilt;
+        }
+    }
+
+    void OnBuilt(BuildSpot spot)
+    {
+        SpotBuilt?.Invoke(spot);
+    }
+
+    public void Restore(List<string> builtIds, List<SpotPaid> paid, float priceFactor)
+    {
+        foreach (BuildSpot spot in spots)
+        {
+            spot.gameObject.SetActive(false);
+            int paidBefore = 0;
+            foreach (SpotPaid each in paid)
+            {
+                if (each.id == spot.Id)
+                {
+                    paidBefore = each.paid;
+                }
+            }
+            spot.Restore(paidBefore, priceFactor);
+        }
+        // In order: each one built offers the next, and a later one built hides it again.
+        foreach (BuildSpot spot in spots)
+        {
+            if (builtIds.Contains(spot.Id))
+            {
+                spot.Build();
+            }
+        }
+        foreach (BuildSpot spot in first)
+        {
+            spot.Offer();
+        }
+    }
+
+    public List<string> BuiltIds()
+    {
+        List<string> ids = new List<string>();
+        foreach (BuildSpot spot in spots)
+        {
+            if (spot.IsBuilt)
+            {
+                ids.Add(spot.Id);
+            }
+        }
+        return ids;
+    }
+
+    public List<SpotPaid> PaidSoFar()
+    {
+        List<SpotPaid> paid = new List<SpotPaid>();
+        foreach (BuildSpot spot in spots)
+        {
+            if (!spot.IsBuilt && spot.Paid > 0)
+            {
+                SpotPaid each = new SpotPaid();
+                each.id = spot.Id;
+                each.paid = spot.Paid;
+                paid.Add(each);
+            }
+        }
+        return paid;
     }
 }
 ```
 
-10. And `GameStats` turns its counts into a `StatsSave`, and back. At its end:
+7. Read `Restore`'s second loop. `Build` switches on what it builds, hides its own spot,
+   and offers the ones after it. Going through the spots in the list's order, a spot
+   offered by one built earlier is hidden again when its own turn comes, if it was built
+   too. What's left showing is exactly the spots that come next. That only works because
+   **Spots** is in the designer's order: keep it so. `Built` isn't raised: no toasts, and
+   no trophy counts, for spots built long ago.
+8. And Sam's counts. Add these to `GameStats`:
 
 <!-- check: add to GameStats -->
 ```csharp
+public class GameStats : MonoBehaviour, IStatSource
+{
     // … as before …
 
     public void Restore(StatsSave saved)
     {
         CupsSold = saved.cupsSold;
-        Taps = saved.taps;
-        BalloonsPopped = saved.balloonsPopped;
+        CustomersServed = saved.customersServed;
+        FruitPicked = saved.fruitPicked;
+        SpotsBuilt = saved.spotsBuilt;
+        UpgradesBought = saved.upgradesBought;
+        CupsCleared = saved.cupsCleared;
         BeachesOpened = saved.beachesOpened;
         AwayEarned = saved.awayEarned;
-        UpgradesBought = saved.upgradesBought;
+        MoneyEarned = saved.moneyEarned;
     }
 
     public StatsSave ToSave()
     {
         StatsSave saved = new StatsSave();
         saved.cupsSold = CupsSold;
-        saved.taps = Taps;
-        saved.balloonsPopped = BalloonsPopped;
+        saved.customersServed = CustomersServed;
+        saved.fruitPicked = FruitPicked;
+        saved.spotsBuilt = SpotsBuilt;
+        saved.upgradesBought = UpgradesBought;
+        saved.cupsCleared = CupsCleared;
         saved.beachesOpened = BeachesOpened;
         saved.awayEarned = AwayEarned;
-        saved.upgradesBought = UpgradesBought;
+        saved.moneyEarned = MoneyEarned;
         return saved;
     }
 }
 ```
 
-11. Sam's tracker already has its half: `WonIds` to save, `Restore` to give them back.
-    That was in the contract.
-
 ### Do it — the Beach loads, and saves
 
-12. In `Scripts/Flow`, `BeachGame`:
+9. In `Scripts/Flow`, `BeachGame`, for now:
 
 ```csharp
-using System;
 using LanternHill.Achievements;
 using UnityEngine;
 
 // The Beach scene's start and its saving. It loads the save into every part
 // of the game, and saves every 30 seconds, when a phone sends the game to the
-// background, and when the scene closes.
+// background, when the game quits, and when Settings' Title button leaves the
+// scene. Not in OnDestroy: by then the scene is being taken down, and the kart
+// or a bar may already be gone.
 public class BeachGame : MonoBehaviour
 {
     [SerializeField] Wallet wallet;
-    [SerializeField] JuiceStand[] stands;
+    [SerializeField] CashPile[] cashPiles;
+    [SerializeField] BuildList buildList;
     [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
+    [SerializeField] ChefLevels chef;
+    [SerializeField] JuiceKart kart;
     [SerializeField] GameStats stats;
     [SerializeField] AchievementTracker tracker;
     [SerializeField] float autosaveSeconds = 30f;
@@ -8560,12 +11428,6 @@ public class BeachGame : MonoBehaviour
         Save();
     }
 
-    // Leaving the scene: for the Title.
-    void OnDestroy()
-    {
-        Save();
-    }
-
     public void Save()
     {
         // Unity can call OnApplicationPause before Start: a game starting in the
@@ -8575,17 +11437,20 @@ public class BeachGame : MonoBehaviour
             return;
         }
         SaveData data = new SaveData();
-        data.money = wallet.Money;
-        data.lifetimeEarned = wallet.LifetimeEarned;
-        foreach (JuiceStand stand in stands)
+        // The notes still on the cash piles are yours: they're saved as money.
+        int waiting = 0;
+        foreach (CashPile pile in cashPiles)
         {
-            StandSave saved = new StandSave();
-            saved.id = stand.Info.Id;
-            saved.owned = stand.Owned;
-            data.stands.Add(saved);
+            waiting += pile.Total;
         }
+        data.money = wallet.Money + waiting;
+        data.lifetimeEarned = wallet.LifetimeEarned + waiting;
+        data.built = buildList.BuiltIds();
+        data.paid = buildList.PaidSoFar();
         data.upgrades.AddRange(upgrades.BoughtIds);
-        data.vanLevel = van.Level;
+        data.trayLevel = chef.TrayLevel;
+        data.flipFlopLevel = chef.FlipFlopLevel;
+        data.kartLevel = kart.Level;
         data.stats = stats.ToSave();
         data.trophies.AddRange(tracker.WonIds);
         SaveSystem.Save(data);
@@ -8593,2203 +11458,43 @@ public class BeachGame : MonoBehaviour
 
     void Load()
     {
-        if (!SaveSystem.HasSave)
-        {
-            return;     // a new game: everything as the scene starts
-        }
-        SaveData data = SaveSystem.Load();
+        // A new game is a save with nothing in it.
+        SaveData data = SaveSystem.HasSave ? SaveSystem.Load() : new SaveData();
         wallet.Restore(data.money, data.lifetimeEarned);
-        foreach (StandSave saved in data.stands)
-        {
-            foreach (JuiceStand stand in stands)
-            {
-                if (stand.Info.Id == saved.id)
-                {
-                    stand.Restore(saved.owned);
-                }
-            }
-        }
-        // After the stands: the upgrades multiply and automate them again.
+        buildList.Restore(data.built, data.paid, 1f);
         upgrades.Restore(data.upgrades);
-        van.Restore(data.vanLevel);
+        chef.Restore(data.trayLevel, data.flipFlopLevel);
+        kart.Restore(data.kartLevel, 1f);
         stats.Restore(data.stats);
         tracker.Restore(data.trophies);
     }
 }
 ```
 
-13. **Order matters in `Load`.** The businesses get their counts first, **then** the
-    upgrades are applied: *Manager: Juice Shop* applied to a Juice Shop you own none of
-    yet would start nothing. Each saved business is matched by its id, so the order of
-    the list in the file doesn't matter, and a business added in an update simply isn't
-    in old saves: it keeps its starting count.
-14. **Create Empty**, `Beach Game`, with `BeachGame`. Fill its fields: **Wallet**,
-    **Stands** (the five), **Upgrades**, **Van**, **Stats** and **Tracker** (both on
-    `Trophies`).
-
-> **Watch out: `hasLoaded`.** It looks like a line you could do without. While this game
-> was being made, the save kept coming back empty. The cause: Unity called
-> `OnApplicationPause(true)` **before `Start`**, as it does when a game starts in the
-> background (an Editor without focus, a phone that's busy). `Save` ran, wrote the scene's
-> starting state (one Lemonade Cup, $0) over the real save, and *then* `Start` loaded
-> that. Unity calls `OnApplicationPause` whenever the game's pause state changes, and it
-> can come right after `Awake`, before `Start`. Never assume one of Unity's calls comes
-> after another unless the docs promise it.
-
-### Do it — Continue, and New Game
-
-15. On the Title, a question before a save is thrown away. In `Safe Area`, an **Image**
-    `Confirm New Game`, **stretch–stretch** with no gaps, black with **A** 153: it dims
-    everything. In it, an **Image** `Window`, centred, 860 × 520, `Panel`, **Sliced**, and
-    in that:
-
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Question` | a text | stretch–stretch: **Left** 60, **Top** 60, **Right** 60, **Bottom** 200 | | | `Start again? Your saved juice empire will be deleted.`, size 42, brown, centred |
-| `Yes Button` | **Candy Button Red** | bottom–left | (60, 50) | 330 × 120 | `Start Again` |
-| `Cancel Button` | **Candy Button** | bottom–right | (−60, 50) | 330 × 120 | `Cancel` |
-
-16. `TitleScreen` learns about the save. Replace it:
-
-```csharp
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// The Title scene's buttons. Continue goes back to the saved game; New Game
-// asks before it deletes a save.
-public class TitleScreen : MonoBehaviour
-{
-    [SerializeField] Button continueButton;
-    [SerializeField] TMP_Text continueDetail;    // the money in the save
-    [SerializeField] GameObject confirmNewGame;
-    [SerializeField] GameObject quitButton;
-    [SerializeField] SceneFader fader;
-
-    void Start()
-    {
-        confirmNewGame.SetActive(false);
-        // A web page can't quit itself: there's no Quit on the Web.
-        quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);
-        bool hasSave = SaveSystem.HasSave;
-        continueButton.interactable = hasSave;
-        continueDetail.text = "";
-        if (hasSave)
-        {
-            SaveData data = SaveSystem.Load();
-            continueDetail.text = "$" + NumberFormat.Money(data.money);
-        }
-    }
-
-    public void Continue()
-    {
-        fader.FadeTo("Beach");
-    }
-
-    // New Game: straight in with no save; asks first when there is one.
-    public void AskNewGame()
-    {
-        if (SaveSystem.HasSave)
-        {
-            confirmNewGame.SetActive(true);
-        }
-        else
-        {
-            StartNewGame();
-        }
-    }
-
-    public void StartNewGame()
-    {
-        SaveSystem.Delete();
-        fader.FadeTo("Beach");
-    }
-
-    public void CancelNewGame()
-    {
-        confirmNewGame.SetActive(false);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
-}
-```
-
-17. The test report is gone: Chapter 12 makes real ones. Fill the new fields (**Continue
-    Detail**, **Confirm New Game**), and wire the buttons: **Continue Button** →
-    **Continue**; **New Game Button** → **AskNewGame** (no longer **StartNewGame**); **Yes
-    Button** → **StartNewGame**; **Cancel Button** → **CancelNewGame**.
-
-### Test it
-
-- Play the **Title**. **New Game**, then earn some money, buy a few businesses, an
-  upgrade and a manager. Cog, **Title**. **Continue** is green now, with your money under
-  it. **Continue**: everything is as you left it. *Fresh Lemons* still triples the
-  Lemonade Cup (applied again, from its id), and the managers' bars are running. No toast
-  for *First Sip*: it was won before, and `Restore` doesn't raise `Unlocked`.
-- **Where's the file?** In `BeachGame.Start`, add `Debug.Log(Application.persistentDataPath);`
-  for a moment, Play, and copy the folder from the Console (on a Mac it's under
-  `~/Library/Application Support/`, on Windows under `AppData\LocalLow`). Open
-  `juice-tycoon.json` in a text editor: your game, as text. Take the log out again.
-- **Break it.** With the game stopped, delete the file's last `}` and save it. Play the
-  Title: the Console says the file is damaged and kept as `juice-tycoon.bad.json`;
-  **Continue** shows `$0`, and the game starts afresh. Nothing crashed. Delete both files
-  (or use **New Game**) to tidy up.
-- **New Game** with a save: the question. **Cancel**: nothing lost. **Start Again**: a new
-  game, and **Continue** is grey when you come back.
-- Leave the Beach running for 30 seconds, then stop Play from the Editor's toolbar: the
-  file's time (in Finder or Explorer) shows it was saved.
-
-### Commit
-
-*Save and load: the JSON save, Continue, and New Game.*
-
-### Challenge
-
-The save writes the whole file at once; if the computer died halfway through writing,
-the file could be cut in half. A safer way: write to `juice-tycoon.tmp` first, then
-replace the real file with it (`File.Copy(temp, real, true)`), so the real file is either
-the old one or the new one, never half of each. Change `SaveSystem.Save`, and keep the
-`try` / `catch`.
-
-## Chapter 12 — While You Were Away
-
-**Goal:** what makes an idle game idle. Close the game, come back later, and **Welcome
-back!** says how long you were away and what each manager and the van made meanwhile,
-up to 8 hours' worth. **Collect** adds it to your money. A clock set backwards can't fool
-it.
-
-### Idea — time, as a number
-
-To know how long you were away, the save must say **when** it was saved. C#'s
-`DateTime.UtcNow` is the time now; but `JsonUtility` can't save a `DateTime`. It can save
-a `long`, and a `DateTime` is one inside: its **`Ticks`**, the number of 100-nanosecond
-steps since the year 1. Ten million ticks make a second.
-
-```
-saved:   638,999,712,000,000,000 ticks
-now:     639,000,432,000,000,000 ticks
-away:    720,000,000,000 ticks ÷ 10,000,000 = 72,000 seconds = 20 hours
-```
-
-**UTC**, not local time: a phone that changes time zone, or a clock that jumps an hour
-for summer time, would otherwise give or take an hour of income.
-
-The **rules**, from the balance sheet:
-
-| You were away | What counts |
-| --- | --- |
-| less than a minute | nothing: no Welcome back |
-| 1 minute to 8 hours | all of it |
-| more than 8 hours | 8 hours: come back at least once a day |
-| a **negative** time | nothing: the phone's clock was set backwards |
-
-**What earned while you were away?** The Beach scene isn't even loaded when the Title
-works this out. So the save keeps it: when the game saves, it writes down each
-`IIncomeSource` that earns by itself, and how much a second. Coming back, each one's
-share is its per-second × the seconds away. The interface from Chapter 8 again: the save
-asks "what earns by itself?" and never "is it a business or a van?".
-
-### Do it — durations, short
-
-1. `NumberFormat` learns to say how long: `45 s`, `12 min`, `3 h 05 min`. Its last form:
-
-```csharp:NumberFormat.cs
-using System;
-using System.Globalization;
-
-// Big numbers, short: 999, 1.25K, 12.5K, 125K, 1.25M, and so on up to Qi
-// (quintillions), always three figures. The invariant culture keeps the
-// point a point on every computer, whatever its language.
-public static class NumberFormat
-{
-    static readonly string[] Suffixes = { "K", "M", "B", "T", "Qa", "Qi" };
-
-    public static string Money(long value)
-    {
-        if (value < 0)
-        {
-            return "-" + Money(-value);
-        }
-        if (value < 1000)
-        {
-            return value.ToString(CultureInfo.InvariantCulture);
-        }
-        double shown = value;
-        int suffix = -1;
-        while (shown >= 1000 && suffix < Suffixes.Length - 1)
-        {
-            shown /= 1000;
-            suffix++;
-        }
-        // Rounding can add a figure: 9.996K is 10.00K, and 999,999 is 1000K.
-        double rounded = Math.Round(shown, Decimals(shown));
-        if (rounded >= 1000 && suffix < Suffixes.Length - 1)
-        {
-            rounded = Math.Round(rounded / 1000, 2);
-            suffix++;
-        }
-        return rounded.ToString(Format(Decimals(rounded)), CultureInfo.InvariantCulture) + Suffixes[suffix];
-    }
-
-    // How long you were away: "45 s", "12 min", "3 h 05 min".
-    public static string Duration(double seconds)
-    {
-        if (seconds < 60)
-        {
-            return $"{(int)seconds} s";
-        }
-        int minutes = (int)(seconds / 60);
-        if (minutes < 60)
-        {
-            return $"{minutes} min";
-        }
-        return $"{minutes / 60} h {minutes % 60:00} min";
-    }
-
-    // Three figures in all: two decimals under 10, one under 100, none above.
-    static int Decimals(double shown)
-    {
-        if (shown < 10)
-        {
-            return 2;
-        }
-        if (shown < 100)
-        {
-            return 1;
-        }
-        return 0;
-    }
-
-    static string Format(int decimals)
-    {
-        if (decimals == 2)
-        {
-            return "0.00";
-        }
-        if (decimals == 1)
-        {
-            return "0.0";
-        }
-        return "0";
-    }
-}
-```
-
-2. `{minutes % 60:00}`: inside `$"…"`, a colon after a value gives its format. `00`
-   means at least two figures, so 5 minutes past is `05`.
-
-### Do it — the time in the save
-
-3. `SaveData` gets the time it was saved, and what was earning then:
-
-```csharp
-using System.Collections.Generic;
-
-// Everything juice-tycoon.json keeps. JsonUtility saves public fields only,
-// and can't save a Dictionary or a DateTime: the businesses are a list, the
-// upgrades and trophies are ids, and the time is a long, DateTime's Ticks.
-[System.Serializable]
-public class SaveData
-{
-    public int version = 1;
-    public long money;
-    public long lifetimeEarned;
-    public List<StandSave> stands = new List<StandSave>();
-    public List<string> upgrades = new List<string>();
-    public int vanLevel;
-    public StatsSave stats = new StatsSave();
-    public List<string> trophies = new List<string>();
-    // When it was saved, and what earned by itself then: enough to work out
-    // what you earned while away, before the Beach scene is even loaded.
-    public long savedAtTicks;
-    public List<AwaySource> awaySources = new List<AwaySource>();
-}
-
-// One business: which, and how many you own.
-[System.Serializable]
-public class StandSave
-{
-    public string id;
-    public int owned;
-}
-
-// The counts behind Sam's achievements, for the player's whole life.
-[System.Serializable]
-public class StatsSave
-{
-    public long cupsSold;
-    public long taps;
-    public long balloonsPopped;
-    public long beachesOpened;
-    public long awayEarned;
-    public long upgradesBought;
-}
-
-// Something that earns while you're away, and how much each second.
-[System.Serializable]
-public class AwaySource
-{
-    public string name;
-    public long perSecond;
-}
-```
-
-4. An old save, from before this chapter, has no `savedAtTicks`: `JsonUtility` leaves a
-   field it doesn't find at its starting value, 0. The code below treats 0 as "never
-   saved", so old saves still load.
-
-### Do it — working it out
-
-5. In `Scripts/Flow`, `AwayEarnings`:
-
-```csharp:AwayEarnings.cs
-using System;
-
-// What you earned while you were away, worked out from the save: the time it
-// was saved, and what earned by itself each second then. Up to 8 hours count.
-// A clock set backwards makes the time negative: that counts as no time.
-public static class AwayEarnings
-{
-    const double MaxSeconds = 8 * 60 * 60;
-    const double ShortestAway = 60;     // under a minute, there's nothing to welcome you back for
-
-    public static double SecondsAway(SaveData data, DateTime now)
-    {
-        if (data.savedAtTicks == 0)
-        {
-            return 0;   // a new game: never saved
-        }
-        double seconds = (now.Ticks - data.savedAtTicks) / (double)TimeSpan.TicksPerSecond;
-        if (seconds < 0)
-        {
-            return 0;
-        }
-        return Math.Min(seconds, MaxSeconds);
-    }
-
-    // "Welcome back", with each source's part, or null when there's nothing to show.
-    public static Report MakeReport(SaveData data, DateTime now)
-    {
-        double seconds = SecondsAway(data, now);
-        if (seconds < ShortestAway || data.awaySources.Count == 0)
-        {
-            return null;
-        }
-        long total = 0;
-        foreach (AwaySource source in data.awaySources)
-        {
-            total += (long)(source.perSecond * seconds);
-        }
-        Report report = new Report(ReportKind.WelcomeBack, "Welcome back!", total);
-        report.Lines.Add($"You were away {NumberFormat.Duration(seconds)}.");
-        foreach (AwaySource source in data.awaySources)
-        {
-            report.Lines.Add($"{source.name}: +{NumberFormat.Money((long)(source.perSecond * seconds))}");
-        }
-        return report;
-    }
-}
-```
-
-6. Three things to notice. `now` is a **parameter**, not `DateTime.UtcNow` inside: the
-   method works out the same answer for the same inputs, which is what makes it easy to
-   test (the Challenge does). `TimeSpan.TicksPerSecond` names the ten million, as the
-   style guide asks. And `(double)` before dividing: two `long`s would divide as whole
-   numbers, losing every part of a second.
-7. `MakeReport` returns `null` for "nothing to show". The caller must check for it: that's
-   the price of returning `null`, and the Title does, below.
-
-### Do it — saving the time, and collecting
-
-8. `Session` carries one more thing: what Welcome back collected, for the Beach to add.
-   Its last form:
-
-```csharp:Session.cs
-using UnityEngine;
-
-// What one scene leaves for the next, in static properties: they belong to no
-// scene, so they're still there after a scene loads. Static has a price: they
-// also outlive a Play in the Editor, so they're reset at the start of every
-// Play, before any scene loads.
-public static class Session
-{
-    // What the Report scene shows next.
-    public static Report Report { get; set; }
-
-    // What Welcome back collected, for the Beach scene to add to the money once.
-    public static long AwayCollected { get; set; }
-
-    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-    static void ResetForPlay()
-    {
-        Report = null;
-        AwayCollected = 0;
-    }
-}
-```
-
-9. `BeachGame` saves the time and the sources, and adds what was collected, once:
-
-```csharp
-using System;
-using LanternHill.Achievements;
-using UnityEngine;
-
-// The Beach scene's start and its saving. It loads the save into every part
-// of the game, adds what Welcome back collected, and saves every 30 seconds,
-// when a phone sends the game to the background, and when the scene closes.
-public class BeachGame : MonoBehaviour
-{
-    [SerializeField] Wallet wallet;
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
-    [SerializeField] GameStats stats;
-    [SerializeField] AchievementTracker tracker;
-    [SerializeField] IncomeSources income;
-    [SerializeField] float autosaveSeconds = 30f;
-
-    float nextSaveTime;
-    bool hasLoaded;         // saving before the save is loaded would write a new game over it
-
-    void Start()
-    {
-        Load();
-        hasLoaded = true;
-        if (Session.AwayCollected > 0)
-        {
-            wallet.Add(Session.AwayCollected);
-            stats.AddAwayEarnings(Session.AwayCollected);
-            Session.AwayCollected = 0;      // add it once
-            Save();
-        }
-        nextSaveTime = Time.unscaledTime + autosaveSeconds;
-    }
-
-    void Update()
-    {
-        if (Time.unscaledTime >= nextSaveTime)
-        {
-            Save();
-            nextSaveTime = Time.unscaledTime + autosaveSeconds;
-        }
-    }
-
-    // A phone switching to another app; a browser tab hidden.
-    void OnApplicationPause(bool isPaused)
-    {
-        if (isPaused)
-        {
-            Save();
-        }
-    }
-
-    void OnApplicationQuit()
-    {
-        Save();
-    }
-
-    // Leaving the scene: for the Title.
-    void OnDestroy()
-    {
-        Save();
-    }
-
-    public void Save()
-    {
-        // Unity can call OnApplicationPause before Start: a game starting in the
-        // background does. The scene isn't loaded yet; there's nothing to save.
-        if (!hasLoaded)
-        {
-            return;
-        }
-        SaveData data = new SaveData();
-        data.money = wallet.Money;
-        data.lifetimeEarned = wallet.LifetimeEarned;
-        foreach (JuiceStand stand in stands)
-        {
-            StandSave saved = new StandSave();
-            saved.id = stand.Info.Id;
-            saved.owned = stand.Owned;
-            data.stands.Add(saved);
-        }
-        data.upgrades.AddRange(upgrades.BoughtIds);
-        data.vanLevel = van.Level;
-        data.stats = stats.ToSave();
-        data.trophies.AddRange(tracker.WonIds);
-        data.savedAtTicks = DateTime.UtcNow.Ticks;
-        // What earns by itself now.
-        foreach (IIncomeSource source in income.All)
-        {
-            if (source.EarnsWhileAway && source.IncomePerSecond > 0)
-            {
-                AwaySource away = new AwaySource();
-                away.name = source.SourceName;
-                away.perSecond = source.IncomePerSecond;
-                data.awaySources.Add(away);
-            }
-        }
-        SaveSystem.Save(data);
-    }
-
-    void Load()
-    {
-        if (!SaveSystem.HasSave)
-        {
-            return;     // a new game: everything as the scene starts
-        }
-        SaveData data = SaveSystem.Load();
-        wallet.Restore(data.money, data.lifetimeEarned);
-        foreach (StandSave saved in data.stands)
-        {
-            foreach (JuiceStand stand in stands)
-            {
-                if (stand.Info.Id == saved.id)
-                {
-                    stand.Restore(saved.owned);
-                }
-            }
-        }
-        // After the stands: the upgrades multiply and automate them again.
-        upgrades.Restore(data.upgrades);
-        van.Restore(data.vanLevel);
-        stats.Restore(data.stats);
-        tracker.Restore(data.trophies);
-    }
-}
-```
-
-10. Set its new **Income** field. **Add it once**: `Session.AwayCollected` goes back to 0
-    the moment it's added, and the game saves straight away. Without that, a crash right
-    after would bring back the old save and Welcome back would pay twice. The money
-    earned away also goes to `GameStats`, for Sam's *Night Shift* trophy.
-
-### Do it — Welcome back
-
-11. The Title works out the report when you press **Continue**, and goes to the Report
-    scene if there's something to show. `TitleScreen`:
-
-```csharp
-using System;
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// The Title scene's buttons. Continue reads the save: if you were away long
-// enough to earn something, the Report scene welcomes you back first. New Game
-// asks before it deletes a save.
-public class TitleScreen : MonoBehaviour
-{
-    [SerializeField] Button continueButton;
-    [SerializeField] TMP_Text continueDetail;    // the money in the save
-    [SerializeField] GameObject confirmNewGame;
-    [SerializeField] GameObject quitButton;
-    [SerializeField] SceneFader fader;
-
-    void Start()
-    {
-        confirmNewGame.SetActive(false);
-        // A web page can't quit itself: there's no Quit on the Web.
-        quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);
-        bool hasSave = SaveSystem.HasSave;
-        continueButton.interactable = hasSave;
-        continueDetail.text = "";
-        if (hasSave)
-        {
-            SaveData data = SaveSystem.Load();
-            continueDetail.text = "$" + NumberFormat.Money(data.money);
-        }
-    }
-
-    public void Continue()
-    {
-        SaveData data = SaveSystem.Load();
-        Report welcome = AwayEarnings.MakeReport(data, DateTime.UtcNow);
-        if (welcome == null)
-        {
-            fader.FadeTo("Beach");
-            return;
-        }
-        Session.Report = welcome;
-        fader.FadeTo("Report");
-    }
-
-    // New Game: straight in with no save; asks first when there is one.
-    public void AskNewGame()
-    {
-        if (SaveSystem.HasSave)
-        {
-            confirmNewGame.SetActive(true);
-        }
-        else
-        {
-            StartNewGame();
-        }
-    }
-
-    public void StartNewGame()
-    {
-        SaveSystem.Delete();
-        fader.FadeTo("Beach");
-    }
-
-    public void CancelNewGame()
-    {
-        confirmNewGame.SetActive(false);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
-}
-```
-
-12. And **Collect** hands the amount to the Beach, through `Session`. `ReportScreen`:
-
-```csharp
-using TMPro;
-using UnityEngine;
-
-// The Report scene: whatever the last scene left in Session.Report. Welcome
-// back shows what you earned while away, and Collect takes it to the beach.
-public class ReportScreen : MonoBehaviour
-{
-    [SerializeField] TMP_Text title;
-    [SerializeField] TMP_Text lines;
-    [SerializeField] TMP_Text amount;
-    [SerializeField] SceneFader fader;
-
-    Report report;
-
-    void Start()
-    {
-        report = Session.Report;
-        if (report == null)
-        {
-            // The scene was started on its own, in the Editor: show a test report.
-            Debug.LogWarning("Report started without a Session.Report: showing a test one.", this);
-            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", 12345);
-            report.Lines.Add("Started on its own, from the Editor.");
-        }
-        title.text = report.Title;
-        lines.text = string.Join("\n", report.Lines);
-        amount.text = "+$" + NumberFormat.Money(report.Amount);
-    }
-
-    public void Collect()
-    {
-        Leave(report.Amount);
-    }
-
-    void Leave(long collected)
-    {
-        Session.AwayCollected = collected;
-        Session.Report = null;
-        fader.FadeTo("Beach");
-    }
-}
-```
-
-13. Why doesn't the Report add the money itself? The money lives in the Beach scene's
-    `Wallet`, which doesn't exist yet. The Report leaves the amount in `Session`; the Beach
-    picks it up when it loads. Each scene only touches what's in it.
-
-### Test it
-
-- Play the Title, **Continue** (or **New Game**), hire a manager or two, then the cog and
-  **Title**. Wait a minute and a bit (or two), then **Continue**: *Welcome back!*, *You were
-  away 1 min*, each manager's share, and the total. **Collect**: the money jumps by it.
-- **Two hours, without waiting.** In your `Practice` scene's `Practice` script (with
-  `using System;` at the top, for `TimeSpan`), in `Start`:
-
-```csharp
-SaveData data = SaveSystem.Load();
-data.savedAtTicks -= TimeSpan.FromHours(2).Ticks;
-SaveSystem.Save(data);
-Debug.Log("The save is now two hours old.");
-```
-
-  Play the `Practice` scene once, then play the Title and **Continue**: *2 h 00 min*, and
-  two hours of income. Stop before collecting, run Practice again with `FromHours(20)`:
-  *8 h 00 min*, the cap.
-- **A clock set backwards.** Change the line to `+= TimeSpan.FromHours(2).Ticks`: the save
-  now claims it was made in the future. **Continue** goes straight to the beach: a
-  negative time counts as none. (Without that `if`, the player would get minus two hours
-  of income: money taken away.)
-- Collect, then stop and play the Title again at once: **Continue** goes straight to the
-  beach. Less than a minute away is nothing to report.
-- Earn $1M while away, two or three times over: *Trophy: Night Shift*.
-
-### Commit
-
-*Earn while away: the time in the save, the cap, and Welcome back.*
-
-### Challenge
-
-`AwayEarnings` takes the time as a parameter, so it can be tested without waiting. In
-your `Practice` script, make a `SaveData` by hand (`savedAtTicks` and one `AwaySource` of
-$10 a second), and log `AwayEarnings.SecondsAway(data, now)` and `MakeReport(data,
-now).Amount` for a `now` 30 seconds, 1 hour and 10 hours later
-(`new DateTime(data.savedAtTicks).AddHours(1)`). Predict each answer first.
-
-## Chapter 13 — A New Beach, on a Branch
-
-**Goal:** **Juice Stars**. Everything you've ever earned turns into stars; open a new
-beach to cash them in, and every star adds 5 % to everything you earn, for good. Your
-businesses, upgrades, managers, van and money start again; your stars, trophies and
-life-long counts stay. It's built on a **Git branch**, and merged when it works.
-
-### Idea — starting again, faster
-
-An idle game's growth slows down: after an hour and a half, every next thing costs more
-than it's worth waiting for. Idle games fix that with a **reset that pays**: give up
-what you have, and start again with a bonus that makes everything faster. Here it's a
-**new beach**:
-
-| Starts again | Stays |
-| --- | --- |
-| the money | the Juice Stars, and their bonus |
-| the businesses (one Lemonade Cup again) | the trophies won |
-| the upgrades and the managers | everything you've earned in your life |
-| the van | the counts behind the trophies |
-
-**How many stars?** The balance sheet's formula: `floor(√(lifetime earnings ÷
-100,000,000))`. The square root makes each star cost more than the last:
-
-| Stars | Earned in your life |
-| --- | --- |
-| 1 | $100 million |
-| 2 | $400 million |
-| 5 | $2.5 billion |
-| 10 | $10 billion |
-
-The stars are a **total**: earn $2.5 billion and you're worth 5 stars. If you already
-have 2, a new beach gives you 3 more. The button waits until there's at least one star to
-win.
-
-**The bonus.** Each star is +5 % on everything: 5 stars, ×1.25. It's one more multiplier
-in `EarningsPerCycle`, and in the van's trip. Both ask an **`IncomeBonus`**, which knows
-the stars (and, in Chapter 15, a ×2 boost from the balloon).
-
-### Idea — a branch
-
-A new beach touches eight scripts. Halfway through, the game won't work. On `main`, a
-half-done change is in everyone's way. So the work goes on a **branch**
-(C# 1): a line of commits of its own, starting from `main`. Commit as often as you
-like there; `main` stays as it was. When the new beach works, you **merge** the branch
-into `main`, and the whole feature arrives at once.
-
-```
-main      ●───●───●──────────────────────●  merge: the new beach arrives
-               \                         /
-new-beach       ●── stars ──●── reset ──●
-```
-
-### Do it — the branch
-
-1. Save the scene. In GitHub Desktop, **Current Branch → New Branch**, name it
-   `new-beach`, **Create Branch**: it starts from `main`. The top bar says **Current
-   Branch: new-beach**. Everything you commit now goes on it.
-
-### Do it — the stars and their bonus
-
-2. In `Scripts/Income`, `IncomeBonus`:
-
-```csharp
-using System;
-using UnityEngine;
-
-// What multiplies everything you earn: the Juice Stars, each worth +5 % for
-// good. Chapter 15 adds a boost.
-public class IncomeBonus : MonoBehaviour
-{
-    const float StarBonus = 0.05f;
-
-    public int Stars { get; private set; }
-    public float Multiplier { get { return 1f + StarBonus * Stars; } }
-
-    public event Action Changed;
-
-    public void SetStars(int stars)
-    {
-        Stars = stars;
-        Changed?.Invoke();
-    }
-
-    // Loading a save.
-    public void Restore(int stars)
-    {
-        Stars = stars;
-        Changed?.Invoke();
-    }
-}
-```
-
-3. Add it to the `Income` object. Now each business multiplies its earnings by the bonus,
-   and can go back to how the game starts. `JuiceStand`'s last form:
-
-```csharp:JuiceStand.cs
-using System;
-using UnityEngine;
-
-// One business on the beach: how many you own, what the upgrades did to it,
-// and its cycle. Squeeze starts a cycle; when the bar fills it sells, and a
-// business with a manager starts the next cycle by itself. It earns more for
-// every one you own, and twice as much at each milestone.
-public class JuiceStand : MonoBehaviour, IIncomeSource
-{
-    static readonly int[] Milestones = { 25, 50, 100, 200, 300, 400 };
-
-    [SerializeField] StandInfo info;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] int ownedAtStart;          // 1 for the Lemonade Cup: you start with one
-
-    float priceMultiplier = 1f;
-    float speedMultiplier = 1f;
-
-    public StandInfo Info { get { return info; } }
-    public int Owned { get; private set; }
-    public bool IsAutomated { get; private set; }
-    public bool IsRunning { get; private set; }
-    public float Progress { get; private set; }     // 0 to 1, through the cycle
-    public float CycleSeconds { get { return info.CycleSeconds / speedMultiplier; } }
-    public string SourceName { get { return info.DisplayName; } }
-    public bool EarnsWhileAway { get { return IsAutomated && Owned > 0; } }
-
-    // What one cycle sells for now: every one you own, the upgrades, the milestones
-    // and the bonus. Worked out in a double: a long times a float is worked out as
-    // a float, which can't hold every whole number above 16,777,216.
-    public long EarningsPerCycle
-    {
-        get { return (long)(info.EarningsPerCycle * Owned * (double)priceMultiplier * MilestoneMultiplier * bonus.Multiplier); }
-    }
-
-    public long IncomePerSecond
-    {
-        get
-        {
-            if (!EarnsWhileAway)
-            {
-                return 0;
-            }
-            return (long)(EarningsPerCycle / (double)CycleSeconds);
-        }
-    }
-
-    // The next milestone to reach, or 0 when every one is reached.
-    public int NextMilestone
-    {
-        get
-        {
-            foreach (int milestone in Milestones)
-            {
-                if (Owned < milestone)
-                {
-                    return milestone;
-                }
-            }
-            return 0;
-        }
-    }
-
-    float MilestoneMultiplier
-    {
-        get
-        {
-            float multiplier = 1f;
-            foreach (int milestone in Milestones)
-            {
-                if (Owned >= milestone)
-                {
-                    multiplier *= 2f;
-                }
-            }
-            return multiplier;
-        }
-    }
-
-    public event Action<long> CupSold;      // what the cycle sold for
-    public event Action Squeezed;           // a tap started a cycle
-    public event Action<int> Bought;        // how many were bought
-    public event Action Changed;            // owned, multipliers or manager
-
-    void Awake()
-    {
-        Owned = ownedAtStart;
-    }
-
-    void Update()
-    {
-        if (!IsRunning)
-        {
-            return;
-        }
-        Progress += Time.deltaTime / CycleSeconds;
-        // A fast, managed business can finish more than one cycle in a frame.
-        while (Progress >= 1f)
-        {
-            Progress -= 1f;
-            CupSold?.Invoke(EarningsPerCycle);
-            if (!IsAutomated)
-            {
-                Progress = 0f;
-                IsRunning = false;
-                return;
-            }
-        }
-    }
-
-    // A tap, on the beach or on the row. Nothing happens while a cycle runs.
-    public void Squeeze()
-    {
-        if (Owned == 0 || IsRunning)
-        {
-            return;
-        }
-        IsRunning = true;
-        Squeezed?.Invoke();
-    }
-
-    public void Buy(int count)
-    {
-        Owned += count;
-        if (IsAutomated)
-        {
-            IsRunning = true;   // a manager hired before you owned one starts now
-        }
-        Bought?.Invoke(count);
-        Changed?.Invoke();
-    }
-
-    public void MultiplyPrice(float factor)
-    {
-        priceMultiplier *= factor;
-        Changed?.Invoke();
-    }
-
-    public void MultiplySpeed(float factor)
-    {
-        speedMultiplier *= factor;
-        Changed?.Invoke();
-    }
-
-    // A manager squeezes for you, from now on.
-    public void Automate()
-    {
-        IsAutomated = true;
-        if (Owned > 0)
-        {
-            IsRunning = true;
-        }
-        Changed?.Invoke();
-    }
-
-    // Loading a save: how many you owned. The upgrades are applied again afterwards.
-    public void Restore(int owned)
-    {
-        Owned = owned;
-        Changed?.Invoke();
-    }
-
-    // A new beach: back to how the game starts.
-    public void ResetStand()
-    {
-        Owned = ownedAtStart;
-        priceMultiplier = 1f;
-        speedMultiplier = 1f;
-        IsAutomated = false;
-        IsRunning = false;
-        Progress = 0f;
-        Changed?.Invoke();
-    }
-}
-```
-
-4. Two changes: the **bonus** in `EarningsPerCycle`, one more multiplier in the `double`
-   sum; and **`ResetStand`**, the starting count again, the multipliers back to 1, no
-   manager, no cycle running. Set each business's **Bonus** to the `Income` object (select
-   all five, then drag).
-5. The van's trip gets the bonus too, and can be reset. `DeliveryVan`'s last form:
-
-```csharp:DeliveryVan.cs
-using System;
-using UnityEngine;
-
-// The delivery van: it opens with your first Juice Factory, then drives crates
-// along the road and earns at the end of every trip, by itself. Bigger Van
-// levels it up: each level carries more. It's an IIncomeSource like a managed
-// business, though it shares nothing else with one.
-public class DeliveryVan : MonoBehaviour, IIncomeSource
-{
-    [SerializeField] JuiceStand factory;            // the van opens with the first factory
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] SpriteRenderer body;
-    [SerializeField] long earningsPerTrip = 50000;  // for each level
-    [SerializeField] float tripSeconds = 10f;
-    [SerializeField] long firstCost = 1000000;
-    [SerializeField] float costGrowth = 1.5f;
-    [SerializeField] float roadStartX = -7f;
-    [SerializeField] float roadEndX = 7f;
-
-    float tripProgress;
-
-    public int Level { get; private set; }
-    public bool IsOpen { get { return factory.Owned > 0 || Level > 0; } }
-    public string SourceName { get { return "Delivery Van"; } }
-    public bool EarnsWhileAway { get { return Level > 0; } }
-    public long EarningsPerTrip { get { return (long)(earningsPerTrip * Level * (double)bonus.Multiplier); } }
-
-    public long IncomePerSecond
-    {
-        get
-        {
-            if (Level == 0)
-            {
-                return 0;
-            }
-            return (long)(EarningsPerTrip / (double)tripSeconds);
-        }
-    }
-
-    public long NextCost
-    {
-        get { return (long)Math.Ceiling(firstCost * Math.Pow(costGrowth, Level)); }
-    }
-
-    public event Action<long> Delivered;
-    public event Action Changed;
-
-    void Start()
-    {
-        body.enabled = Level > 0;
-    }
-
-    void Update()
-    {
-        if (Level == 0)
-        {
-            return;
-        }
-        tripProgress += Time.deltaTime / tripSeconds;
-        if (tripProgress >= 1f)
-        {
-            tripProgress -= 1f;
-            Delivered?.Invoke(EarningsPerTrip);
-        }
-        Vector3 position = body.transform.localPosition;
-        position.x = Mathf.Lerp(roadStartX, roadEndX, tripProgress);
-        body.transform.localPosition = position;
-    }
-
-    // Bigger Van: true if the wallet could pay.
-    public bool TryLevelUp(Wallet wallet)
-    {
-        if (!IsOpen || !wallet.TrySpend(NextCost))
-        {
-            return false;
-        }
-        Level++;
-        body.enabled = true;
-        Changed?.Invoke();
-        return true;
-    }
-
-    public void Restore(int level)
-    {
-        Level = level;
-        body.enabled = Level > 0;
-        Changed?.Invoke();
-    }
-
-    public void ResetVan()
-    {
-        Restore(0);
-        tripProgress = 0f;
-    }
-}
-```
-
-6. `ResetVan` calls `Restore(0)`: a new beach is a game loaded at level 0. Set the van's
-   **Bonus**.
-7. The wallet empties its pocket, but not its memory. `Wallet`'s last form (keep your test
-   helper at the end):
-
-```csharp:Wallet.cs
-using System;
-using UnityEngine;
-
-// The money. It listens to every business and every other income, adds what
-// they sell, and tells anyone who shows the money, or whose button depends on
-// it, that it changed. A long, not an int: an int stops at 2,147,483,647, and
-// a juice empire passes that in its first hour.
-public class Wallet : MonoBehaviour
-{
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] DeliveryVan van;
-
-    public long Money { get; private set; }
-    public long LifetimeEarned { get; private set; }    // never goes down: Juice Stars come from it
-
-    public event Action<long> MoneyChanged;
-
-    void OnEnable()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold += Add;
-        }
-        van.Delivered += Add;
-    }
-
-    void OnDisable()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold -= Add;
-        }
-        van.Delivered -= Add;
-    }
-
-    public void Add(long amount)
-    {
-        Money += amount;
-        LifetimeEarned += amount;
-        MoneyChanged?.Invoke(Money);
-    }
-
-    // True, and the money spent, only if there was enough.
-    public bool TrySpend(long amount)
-    {
-        if (amount > Money)
-        {
-            return false;
-        }
-        Money -= amount;
-        MoneyChanged?.Invoke(Money);
-        return true;
-    }
-
-    // Loading a save.
-    public void Restore(long money, long lifetimeEarned)
-    {
-        Money = money;
-        LifetimeEarned = lifetimeEarned;
-        MoneyChanged?.Invoke(Money);
-    }
-
-    // A new beach: the money starts again; what you've earned in your life doesn't.
-    public void ResetMoney()
-    {
-        Money = 0;
-        MoneyChanged?.Invoke(Money);
-    }
-}
-```
-
-8. `ResetMoney` sets `Money` to 0 and leaves `LifetimeEarned` alone: the stars come from
-   it. And the upgrades can all be bought again. `Upgrades`'s last form:
-
-```csharp:Upgrades.cs
-using System;
-using System.Collections.Generic;
-using UnityEngine;
-
-// Which upgrades are bought, and buying one: the money is spent, the upgrade
-// is applied to every business it's for, and its id is kept for the save.
-public class Upgrades : MonoBehaviour
-{
-    [SerializeField] UpgradeLibrary library;
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] Wallet wallet;
-
-    readonly List<string> boughtIds = new List<string>();
-
-    public UpgradeLibrary Library { get { return library; } }
-    public IReadOnlyList<string> BoughtIds { get { return boughtIds; } }
-
-    public event Action<Upgrade> Bought;
-
-    public bool IsBought(Upgrade upgrade)
-    {
-        return boughtIds.Contains(upgrade.Id);
-    }
-
-    public bool TryBuy(Upgrade upgrade)
-    {
-        if (IsBought(upgrade) || !wallet.TrySpend(upgrade.Cost))
-        {
-            return false;
-        }
-        Apply(upgrade);
-        Bought?.Invoke(upgrade);
-        return true;
-    }
-
-    // Loading a save: every upgrade bought before, applied again, for nothing.
-    public void Restore(IEnumerable<string> ids)
-    {
-        foreach (string id in ids)
-        {
-            if (!library.TryGetUpgrade(id, out Upgrade upgrade))
-            {
-                Debug.LogWarning($"The save has an upgrade this game doesn't know: {id}", this);
-            }
-            else if (!IsBought(upgrade))
-            {
-                Apply(upgrade);
-            }
-        }
-    }
-
-    // A new beach: every upgrade can be bought again.
-    public void ResetAll()
-    {
-        boughtIds.Clear();
-    }
-
-    void Apply(Upgrade upgrade)
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            if (upgrade.AppliesTo(stand))
-            {
-                upgrade.ApplyTo(stand);
-            }
-        }
-        boughtIds.Add(upgrade.Id);
-    }
-}
-```
-
-9. `ResetAll` only forgets the ids: the businesses' own `ResetStand` puts their
-   multipliers back. Each part resets what it owns.
-10. On the top bar, the stars. In `Scripts/UI`, `StarsText`, and add it to `Stars`
-    (**Bonus** the `Income` object, **Text** `Stars Text`):
-
-```csharp:StarsText.cs
-using TMPro;
-using UnityEngine;
-
-// The Juice Stars at the top, changed only when the stars change.
-public class StarsText : MonoBehaviour
-{
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] TMP_Text text;
-
-    void OnEnable()
-    {
-        bonus.Changed += Refresh;
-    }
-
-    void OnDisable()
-    {
-        bonus.Changed -= Refresh;
-    }
-
-    void Start()
-    {
-        Refresh();
-    }
-
-    void Refresh()
-    {
-        text.text = bonus.Stars.ToString();
-    }
-}
-```
-
-11. Commit, on the branch: *Add Juice Stars and their bonus*. The History tab shows it on
-    `new-beach`.
-
-### Do it — opening a new beach
-
-12. In `Scripts/Flow`, `NewBeach`:
-
-```csharp:NewBeach.cs
-using System;
-using UnityEngine;
-
-// Opening a new beach: everything you've earned in your life turns into Juice
-// Stars, each +5 % on everything, for good. The businesses, upgrades, van and
-// money start again; the stars, the trophies and the life-long counts stay.
-public class NewBeach : MonoBehaviour
-{
-    const double EarningsPerStarSquared = 100000000;    // stars = √(life-long earnings ÷ 100 million)
-
-    [SerializeField] Wallet wallet;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
-    [SerializeField] GameStats stats;
-    [SerializeField] BeachGame game;
-    [SerializeField] SceneFader fader;
-
-    // Every star your life-long earnings are worth, counting those you have.
-    public int StarsEarned
-    {
-        get { return (int)Math.Floor(Math.Sqrt(wallet.LifetimeEarned / EarningsPerStarSquared)); }
-    }
-
-    public int NewStars { get { return Math.Max(0, StarsEarned - bonus.Stars); } }
-    public bool CanOpen { get { return NewStars > 0; } }
-
-    public void Open()
-    {
-        if (!CanOpen)
-        {
-            return;
-        }
-        int won = NewStars;
-        bonus.SetStars(StarsEarned);
-        wallet.ResetMoney();
-        foreach (JuiceStand stand in stands)
-        {
-            stand.ResetStand();
-        }
-        upgrades.ResetAll();
-        van.ResetVan();
-        stats.AddBeach();
-
-        Report report = new Report(ReportKind.NewBeach, "Your new beach", won);
-        report.Lines.Add($"You have {bonus.Stars} Juice Stars: everything earns +{bonus.Stars * 5} %, for good.");
-        report.Lines.Add("Your businesses start again, by a new beach.");
-        Session.Report = report;
-        game.Save();
-        fader.FadeTo("Report");
-    }
-}
-```
-
-13. Read `Open` as a list of what changes. The stars come from `LifetimeEarned`, with
-    `Math.Sqrt` and `Math.Floor`; `NewStars` subtracts the ones you have. Then everything
-    in the "starts again" column resets, `GameStats` counts a beach (for *New Horizons*),
-    and a `Report` of the other kind goes to the Report scene: **Your new beach**, with
-    the stars won as its amount. It saves first, so nothing is lost if the game closes
-    on the way.
-14. Add `NewBeach` to `Beach Game`, beside `BeachGame`, and fill it: **Wallet**, **Bonus**
-    (`Income`), **Stands**, **Upgrades**, **Van**, **Stats** (`Trophies`), **Game** (`Beach
-    Game`), **Fader**.
-
-### Do it — the New Beach tab
-
-15. Open the **New Beach Panel** prefab. In `Content`:
-
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Star` | an Image | top–center | (0, −20) | 230 × 230 | `glowing_star_3d`, Preserve Aspect |
-| `Have` | a text | top–center | (0, −280) | 880 × 110 | `You have 0 Juice Stars.`, size 40, brown, centred |
-| `Win` | a text | top–center | (0, −400) | 880 × 110 | `Earn more for your next star.`, size 40, brown, centred |
-| `What Stays` | a text | top–center | (0, −530) | 880 × 170 | `Your businesses, upgrades, managers, van and money start again. Your stars, trophies and life-long earnings stay.`, size 30, light brown, centred |
-| `Open Button` | **Candy Button Green** | bottom–center | (0, 40) | 560 × 140 | `Open a new beach`; **Transition** Sprite Swap, **Disabled Sprite** `Button Grey` |
-
-16. In `Scripts/Flow`, `NewBeachPanel`:
-
-```csharp:NewBeachPanel.cs
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// The New Beach panel: the stars you have, the stars a new beach would give,
-// and the button, which waits until there's at least one star to win.
-public class NewBeachPanel : MonoBehaviour
-{
-    const float RefreshSeconds = 0.5f;
-
-    [SerializeField] NewBeach newBeach;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] TMP_Text haveText;
-    [SerializeField] TMP_Text winText;
-    [SerializeField] Button openButton;
-
-    float nextRefreshTime;
-
-    void OnEnable()
-    {
-        Refresh();
-    }
-
-    void Update()
-    {
-        if (Time.unscaledTime >= nextRefreshTime)
-        {
-            Refresh();
-        }
-    }
-
-    void Refresh()
-    {
-        nextRefreshTime = Time.unscaledTime + RefreshSeconds;
-        haveText.text = $"You have {bonus.Stars} Juice Stars: +{bonus.Stars * 5} % on everything.";
-        if (newBeach.CanOpen)
-        {
-            winText.text = $"A new beach now gives you +{newBeach.NewStars} more.";
-        }
-        else
-        {
-            winText.text = "Earn more for your next star.";
-        }
-        openButton.interactable = newBeach.CanOpen;
-    }
-}
-```
-
-17. Add it to the prefab's root (**Have Text**, **Win Text**, **Open Button**). In the
-    scene, its instance needs **New Beach** (`Beach Game`) and **Bonus** (`Income`), and
-    the **Open Button**'s On Click: **Beach Game → NewBeach → Open**.
-
-### Do it — the stars in the save, and the report
-
-18. The save keeps the stars. `SaveData`:
-
-```csharp
-using System.Collections.Generic;
-
-// Everything juice-tycoon.json keeps. JsonUtility saves public fields only,
-// and can't save a Dictionary or a DateTime: the businesses are a list, the
-// upgrades and trophies are ids, and the time is a long, DateTime's Ticks.
-[System.Serializable]
-public class SaveData
-{
-    public int version = 1;
-    public long money;
-    public long lifetimeEarned;
-    public int stars;
-    public List<StandSave> stands = new List<StandSave>();
-    public List<string> upgrades = new List<string>();
-    public int vanLevel;
-    public StatsSave stats = new StatsSave();
-    public List<string> trophies = new List<string>();
-    // When it was saved, and what earned by itself then: enough to work out
-    // what you earned while away, before the Beach scene is even loaded.
-    public long savedAtTicks;
-    public List<AwaySource> awaySources = new List<AwaySource>();
-}
-
-// One business: which, and how many you own.
-[System.Serializable]
-public class StandSave
-{
-    public string id;
-    public int owned;
-}
-
-// The counts behind Sam's achievements, for the player's whole life.
-[System.Serializable]
-public class StatsSave
-{
-    public long cupsSold;
-    public long taps;
-    public long balloonsPopped;
-    public long beachesOpened;
-    public long awayEarned;
-    public long upgradesBought;
-}
-
-// Something that earns while you're away, and how much each second.
-[System.Serializable]
-public class AwaySource
-{
-    public string name;
-    public long perSecond;
-}
-```
-
-19. `BeachGame` saves them, and gives them back to the bonus. Two lines, and the field:
-
-```csharp
-using System;
-using LanternHill.Achievements;
-using UnityEngine;
-
-// The Beach scene's start and its saving. It loads the save into every part
-// of the game, adds what Welcome back collected, and saves every 30 seconds,
-// when a phone sends the game to the background, and when the scene closes.
-public class BeachGame : MonoBehaviour
-{
-    [SerializeField] Wallet wallet;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
-    [SerializeField] GameStats stats;
-    [SerializeField] AchievementTracker tracker;
-    [SerializeField] IncomeSources income;
-    [SerializeField] float autosaveSeconds = 30f;
-
-    float nextSaveTime;
-    bool hasLoaded;         // saving before the save is loaded would write a new game over it
-
-    void Start()
-    {
-        Load();
-        hasLoaded = true;
-        if (Session.AwayCollected > 0)
-        {
-            wallet.Add(Session.AwayCollected);
-            stats.AddAwayEarnings(Session.AwayCollected);
-            Session.AwayCollected = 0;      // add it once
-            Save();
-        }
-        nextSaveTime = Time.unscaledTime + autosaveSeconds;
-    }
-
-    void Update()
-    {
-        if (Time.unscaledTime >= nextSaveTime)
-        {
-            Save();
-            nextSaveTime = Time.unscaledTime + autosaveSeconds;
-        }
-    }
-
-    // A phone switching to another app; a browser tab hidden.
-    void OnApplicationPause(bool isPaused)
-    {
-        if (isPaused)
-        {
-            Save();
-        }
-    }
-
-    void OnApplicationQuit()
-    {
-        Save();
-    }
-
-    // Leaving the scene: for the Title, or for the Report after a new beach.
-    void OnDestroy()
-    {
-        Save();
-    }
-
-    public void Save()
-    {
-        // Unity can call OnApplicationPause before Start: a game starting in the
-        // background does. The scene isn't loaded yet; there's nothing to save.
-        if (!hasLoaded)
-        {
-            return;
-        }
-        SaveData data = new SaveData();
-        data.money = wallet.Money;
-        data.lifetimeEarned = wallet.LifetimeEarned;
-        data.stars = bonus.Stars;
-        foreach (JuiceStand stand in stands)
-        {
-            StandSave saved = new StandSave();
-            saved.id = stand.Info.Id;
-            saved.owned = stand.Owned;
-            data.stands.Add(saved);
-        }
-        data.upgrades.AddRange(upgrades.BoughtIds);
-        data.vanLevel = van.Level;
-        data.stats = stats.ToSave();
-        data.trophies.AddRange(tracker.WonIds);
-        data.savedAtTicks = DateTime.UtcNow.Ticks;
-        // What earns by itself now.
-        foreach (IIncomeSource source in income.All)
-        {
-            if (source.EarnsWhileAway && source.IncomePerSecond > 0)
-            {
-                AwaySource away = new AwaySource();
-                away.name = source.SourceName;
-                away.perSecond = source.IncomePerSecond;
-                data.awaySources.Add(away);
-            }
-        }
-        SaveSystem.Save(data);
-    }
-
-    void Load()
-    {
-        if (!SaveSystem.HasSave)
-        {
-            return;     // a new game: everything as the scene starts
-        }
-        SaveData data = SaveSystem.Load();
-        wallet.Restore(data.money, data.lifetimeEarned);
-        bonus.Restore(data.stars);
-        foreach (StandSave saved in data.stands)
-        {
-            foreach (JuiceStand stand in stands)
-            {
-                if (stand.Info.Id == saved.id)
-                {
-                    stand.Restore(saved.owned);
-                }
-            }
-        }
-        // After the stands: the upgrades multiply and automate them again.
-        upgrades.Restore(data.upgrades);
-        van.Restore(data.vanLevel);
-        stats.Restore(data.stats);
-        tracker.Restore(data.trophies);
-    }
-}
-```
-
-20. Set its **Bonus**. The Title shows the stars under **Continue**. In `TitleScreen`,
-    the detail line and its comment change:
-
-```csharp
-using System;
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// The Title scene's buttons. Continue reads the save: if you were away long
-// enough to earn something, the Report scene welcomes you back first. New Game
-// asks before it deletes a save.
-public class TitleScreen : MonoBehaviour
-{
-    [SerializeField] Button continueButton;
-    [SerializeField] TMP_Text continueDetail;    // the money and stars in the save
-    [SerializeField] GameObject confirmNewGame;
-    [SerializeField] GameObject quitButton;
-    [SerializeField] SceneFader fader;
-
-    void Start()
-    {
-        confirmNewGame.SetActive(false);
-        // A web page can't quit itself: there's no Quit on the Web.
-        quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);
-        bool hasSave = SaveSystem.HasSave;
-        continueButton.interactable = hasSave;
-        continueDetail.text = "";
-        if (hasSave)
-        {
-            SaveData data = SaveSystem.Load();
-            continueDetail.text = $"${NumberFormat.Money(data.money)}  ·  Juice Stars: {data.stars}";
-        }
-    }
-
-    public void Continue()
-    {
-        SaveData data = SaveSystem.Load();
-        Report welcome = AwayEarnings.MakeReport(data, DateTime.UtcNow);
-        if (welcome == null)
-        {
-            fader.FadeTo("Beach");
-            return;
-        }
-        Session.Report = welcome;
-        fader.FadeTo("Report");
-    }
-
-    // New Game: straight in with no save; asks first when there is one.
-    public void AskNewGame()
-    {
-        if (SaveSystem.HasSave)
-        {
-            confirmNewGame.SetActive(true);
-        }
-        else
-        {
-            StartNewGame();
-        }
-    }
-
-    public void StartNewGame()
-    {
-        SaveSystem.Delete();
-        fader.FadeTo("Beach");
-    }
-
-    public void CancelNewGame()
-    {
-        confirmNewGame.SetActive(false);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
-}
-```
-
-21. Lilita One has no ★ (a font only has the letters its designer drew; a missing one
-    shows as a box), so the words say *Juice Stars*.
-22. The Report scene gets its second use. In the Report scene, a **Candy Button Green**
-    in `Window`, `Open Beach Button`: bottom–center, **Pos** (0, 70), 600 × 150, label `To
-    the beach!`, size 56. Then `ReportScreen`:
-
-```csharp
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// The Report scene: whatever the last scene left in Session.Report. Welcome
-// back offers Collect; Your new beach has one button, back to the beach.
-public class ReportScreen : MonoBehaviour
-{
-    [SerializeField] TMP_Text title;
-    [SerializeField] Image picture;
-    [SerializeField] Sprite newBeachPicture;    // the picture is the money bag, for Welcome back
-    [SerializeField] TMP_Text lines;
-    [SerializeField] TMP_Text amount;
-    [SerializeField] GameObject collectButton;
-    [SerializeField] GameObject openBeachButton;
-    [SerializeField] SceneFader fader;
-
-    Report report;
-
-    void Start()
-    {
-        report = Session.Report;
-        if (report == null)
-        {
-            // The scene was started on its own, in the Editor: show a test report.
-            Debug.LogWarning("Report started without a Session.Report: showing a test one.", this);
-            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", 12345);
-            report.Lines.Add("Started on its own, from the Editor.");
-        }
-        title.text = report.Title;
-        lines.text = string.Join("\n", report.Lines);
-        bool isWelcome = report.Kind == ReportKind.WelcomeBack;
-        if (isWelcome)
-        {
-            amount.text = "+$" + NumberFormat.Money(report.Amount);
-        }
-        else
-        {
-            amount.text = report.Amount == 1 ? "+1 star" : $"+{report.Amount} stars";
-            picture.sprite = newBeachPicture;
-        }
-        collectButton.SetActive(isWelcome);
-        openBeachButton.SetActive(!isWelcome);
-    }
-
-    public void Collect()
-    {
-        Leave(report.Amount);
-    }
-
-    public void OpenBeach()
-    {
-        Leave(0);
-    }
-
-    void Leave(long collected)
-    {
-        Session.AwayCollected = collected;
-        Session.Report = null;
-        fader.FadeTo("Beach");
-    }
-}
-```
-
-23. One scene, two uses: the `Kind` decides the amount's words, the picture, and which
-    button shows. Fill the new fields: **Picture** (`Picture`), **New Beach Picture**
-    (`glowing_star_3d`), **Collect Button** and **Open Beach Button** (the GameObjects).
-    **Open Beach Button**'s On Click: **ReportScreen → OpenBeach**.
-
-### Test it
-
-- A star needs $100 million earned. Give yourself a second test helper, next to the first
-  in `Wallet`, with `[ContextMenu("Test: Add $100M")]` and `Add(100000000)`.
-- **Play.** The New Beach tab says *Earn more for your next star*, and its button is grey.
-  **Test: Add $100M** once: *A new beach now gives you +1 more*. Four times in all ($400M):
-  +2.
-- **Open a new beach.** *Your new beach*, *+2 stars* under the glowing star, *You have 2
-  Juice Stars: everything earns +10 %, for good.* **To the beach!**: one Lemonade Cup,
-  $0, no upgrades, no van; the top bar says 2 stars; *Trophy: New Horizons*. Buy
-  up to 25 cups: they earn $55 a cycle, not $50.
-- Open the Trophies tab: every trophy you'd won is still won.
-- Back to the Title: **Continue** says *Juice Stars: 2*.
-
-### Commit, and merge
-
-24. Commit on the branch: *Open a new beach: the reset, the panel and the report*.
-25. **See what a branch is.** In GitHub Desktop, **Current Branch → main**. Unity
-    reloads: the New Beach tab is empty again, `NewBeach.cs` is gone, and the game is as
-    it was this morning. Switch back to `new-beach`: it's all there. (Save your scene
-    before switching, every time: Git changes the files under Unity.)
-26. **Merge.** Switch to `main`. **Branch → Merge into Current Branch…**, choose
-    `new-beach`, **Create a merge commit**. Your two commits are on `main` now. **Push
-    origin**.
-27. The branch has done its job: **Branch → Delete…** removes `new-beach`. Its commits
-    stay, on `main`.
-
-### Challenge
-
-The balance sheet's formula gives stars for everything earned in your life, so a second
-new beach right after the first gives nothing until you've earned more. Change the
-**What Stays** text, or the **Win** line, to tell the player how much more they need to
-earn for their next star. (`(stars + 1)²` × $100 million is the total that gives it.)
-
-## C# 14 — The Input Actions Asset
-
-**Goal:** you can make an Input Actions asset, use its actions from code, switch action
-maps for a pause menu, and let players change a key and keep it (the Level Reference's
-Level 4 topic: New Input System; Associate: Programming — determine code for a specified
-interaction or logic).
-
-### Idea — from devices to actions
-
-Until now, your code has read devices: `Keyboard.current` and `Pointer.current`, each
-checked for `null`. That writes every device into the code; a player can't swap Space for
-another key; and a pause menu has to stop every script that reads Space.
-
-An **Input Actions asset** splits it in two. An **action** names what the player wants to
-do (*Boost*, *End Turn*, *Steer*), and its **bindings** say which controls do it: Space,
-a gamepad button, a touch. Your code listens to the action; the asset holds the controls.
-The old `Input` class is in the table only because exams use it: here it throws errors.
-
-| To… | the old `Input` class | the Input System's devices | an Input Actions asset |
-| --- | --- | --- | --- |
-| react to a press | `Input.GetKeyDown(KeyCode.Space)` | `Keyboard.current.spaceKey.wasPressedThisFrame` | `boostAction.action.performed += OnBoost;` |
-| check a held key | `Input.GetKey(KeyCode.Space)` | `Keyboard.current.spaceKey.isPressed` | `boostAction.action.IsPressed()` |
-| steer | `Input.GetAxis("Horizontal")` | four keys, checked one by one | `steerAction.action.ReadValue<Vector2>()` |
-| find the pointer | `Input.mousePosition` | `Pointer.current.position.ReadValue()` | a Value action bound to the pointer's position |
-| let the player change a key | not while playing | change the code | `PerformInteractiveRebinding` |
-
-### Idea — making the asset
-
-**Assets → Create → Input Actions** makes one; double-click it to open its window:
-
-| Part of the window | Holds |
-| --- | --- |
-| **Action Maps** (left) | groups of actions that work together: *Driving*, *Menu* |
-| **Actions** (middle) | the map's actions, each with its bindings under it |
-| **Action Properties** or **Binding Properties** (right) | the settings of whatever you selected |
-| **Save Asset** (top) | saves your changes; or tick **Auto-Save** |
-
-| Each action's **Action Type** | For | Example |
-| --- | --- | --- |
-| **Button** | a press | Boost, End Turn, Pause |
-| **Value** | something that changes, with a **Control Type** such as **Vector 2** | Steer, from WASD or a stick |
-| **Pass Through** | every change from every device, unfiltered | rarely needed: a pointer's position |
-
-Select a binding, open its **Path**, and pick a control from the list, or press **Listen**
-and then the key. For WASD, use the action's **+** menu:
-**Add Up\Down\Left\Right Composite** makes one binding from four keys. One action can have
-many bindings: give Boost both Space and the gamepad's south button.
-
-### Idea — an action in code
-
-A script gets an action through an `InputActionReference` field: drag the action into it,
-or pick it from the field's list. `performed` is a C# event (C# 5), so subscribe
-in `OnEnable` and unsubscribe in `OnDisable`. The handler takes a `CallbackContext`:
-
-```csharp
-using UnityEngine;
-using UnityEngine.InputSystem;
-
-public class KartBoost : MonoBehaviour
-{
-    [SerializeField] InputActionReference boostAction;
-
-    void OnEnable()
-    {
-        boostAction.action.performed += OnBoost;
-        boostAction.action.actionMap.Enable();      // nothing fires until it's enabled
-    }
-
-    void OnDisable()
-    {
-        boostAction.action.performed -= OnBoost;
-    }
-
-    void OnBoost(InputAction.CallbackContext context)
-    {
-        Debug.Log("Boost!");
-    }
-}
-```
-
-Space and the gamepad button both print `Boost!`, and the script names neither. Besides
-`performed`, an action has two more events:
-
-| Event | For a Button | For a Value |
-| --- | --- | --- |
-| `started` | the press begins | the control moves from rest |
-| `performed` | the press counts: use this one | every change of value |
-| `canceled` | the button is let go | back at rest |
-
-> **Watch out:** the actions in your own asset start **disabled**, and a disabled action
-> never fires, with no error. Enable its map with `Enable()`.
-
-> **Note:** Unity 6 also has **project-wide actions**: one asset, chosen in **Edit →
-> Project Settings → Input System Package**, enabled for you and read through
-> `InputSystem.actions`. New projects come with one, **InputSystem_Actions**. This course
-> makes its own asset, to learn every part of one.
-
-### Idea — reading a Value action
-
-A Value action changes all the time, so read it every frame with `ReadValue`:
-
-```csharp
-using UnityEngine;
-using UnityEngine.InputSystem;
-
-public class KartSteering : MonoBehaviour
-{
-    [SerializeField] InputActionReference steerAction;
-    [SerializeField] float turnSpeed = 120f;    // degrees a second
-    [SerializeField] float driveSpeed = 8f;     // units a second
-
-    void Update()
-    {
-        Vector2 steer = steerAction.action.ReadValue<Vector2>();
-        transform.Rotate(0f, steer.x * turnSpeed * Time.deltaTime, 0f);
-        transform.Translate(Vector3.forward * steer.y * driveSpeed * Time.deltaTime);
-    }
-}
-```
-
-**D** gives `(1, 0)`, **W** gives `(0, 1)`, and a stick gives anything in between.
-
-### Idea — action maps: one at a time
-
-With a pause menu open, Space mustn't boost the kart behind it. Put the game's actions in
-a Driving map and the menu's in a Menu map, and keep only one enabled. Pause and Resume
-are both Escape, but only the enabled map hears it. Their `performed` handlers call:
-
-```csharp
-[SerializeField] InputActionReference pauseAction;      // in the Driving map
-[SerializeField] InputActionReference resumeAction;     // in the Menu map
-
-void Pause()
-{
-    pauseAction.action.actionMap.Disable();     // Steer and Boost stop too
-    resumeAction.action.actionMap.Enable();
-}
-
-void Resume()
-{
-    resumeAction.action.actionMap.Disable();
-    pauseAction.action.actionMap.Enable();
-}
-```
-
-### Idea — rebinding: the player picks a key
-
-`PerformInteractiveRebinding` waits for the next control the player presses, and makes it
-the binding's new path. It's a chain of calls, then `Start()`:
-
-```csharp
-using TMPro;
-using UnityEngine;
-using UnityEngine.InputSystem;
-
-// One row of a controls menu: the action's key, and a Change button that calls
-// StartRebinding through its On Click () list.
-public class KeyRebinder : MonoBehaviour
-{
-    const string BindingsKey = "Bindings";
-
-    [SerializeField] InputActionReference action;
-    [SerializeField] int bindingIndex;          // which binding: 0 is the action's first
-    [SerializeField] TMP_Text keyText;
-
-    InputActionRebindingExtensions.RebindingOperation rebinding;
-
-    void Start()
-    {
-        ShowKey();
-    }
-
-    public void StartRebinding()
-    {
-        bool wasEnabled = action.action.enabled;
-        action.action.Disable();                // an action can't be rebound while it's on
-        keyText.text = "Press a key...";
-        rebinding = action.action.PerformInteractiveRebinding(bindingIndex)
-            .WithControlsExcluding("<Pointer>")             // clicking Change isn't a key
-            .WithCancelingThrough("<Keyboard>/escape")      // Escape keeps the old key
-            .OnComplete(operation => Finish(wasEnabled))    // a key was chosen
-            .OnCancel(operation => Finish(wasEnabled))      // or it wasn't
-            .Start();
-    }
-
-    void Finish(bool enableAgain)
-    {
-        rebinding.Dispose();                    // frees the operation: always do it
-        rebinding = null;
-        if (enableAgain)
-        {
-            action.action.Enable();
-        }
-        PlayerPrefs.SetString(BindingsKey, action.asset.SaveBindingOverridesAsJson());
-        PlayerPrefs.Save();
-        ShowKey();
-    }
-
-    // "<Keyboard>/k" becomes "K"; OmitDevice leaves out the word Keyboard.
-    void ShowKey()
-    {
-        string path = action.action.bindings[bindingIndex].effectivePath;
-        keyText.text = InputControlPath.ToHumanReadableString(path, InputControlPath.HumanReadableStringOptions.OmitDevice);
-    }
-}
-```
-
-> **Watch out:** `action.GetBindingDisplayString()` also names a key, but by the
-> computer's keyboard layout: on an Arabic layout, K shows as **ن**, which your game's
-> font may not have. `ToHumanReadableString` always gives **K**.
-
-### Idea — keeping the new keys
-
-A rebind lasts until the game closes. `SaveBindingOverridesAsJson()` gives every changed
-binding as one string for PlayerPrefs (C# 13); a card game's End Turn, set to K:
-
-```json
-{"bindings":[{"action":"Battle/End Turn","id":"830b9d5d-1263-4f52-9be6-9373795c84a8","path":"<Keyboard>/k","interactions":"null","processors":"null"}]}
-```
-
-Load it back in `Awake`, before anything shows a key; `ResetControls` undoes every change:
-
-```csharp
-const string BindingsKey = "Bindings";
-
-[SerializeField] InputActionReference boostAction;
-
-void Awake()
-{
-    string json = PlayerPrefs.GetString(BindingsKey, "");
-    if (json != "")
-    {
-        boostAction.asset.LoadBindingOverridesFromJson(json);
-    }
-    boostAction.action.actionMap.Enable();
-}
-
-// Called by a Reset Controls button.
-public void ResetControls()
-{
-    boostAction.asset.RemoveAllBindingOverrides();
-    PlayerPrefs.DeleteKey(BindingsKey);
-}
-```
-
-### Do it
-
-1. Make an Input Actions asset with a Driving map: **Steer** (Value, Vector 2, with a
-   WASD composite) and **Boost** (Button: Space and the gamepad's south button). Save it.
-2. Put `KartBoost` and `KartSteering` on a cube, fill in the references, and drive.
-3. Remove the line that enables the map, and play. What happens? What does the Console say?
-4. Add a Menu map with Resume, and a script whose `performed` handlers call `Pause` and
-   `Resume`. Check that Space does nothing while it's paused.
-5. Add a `KeyRebinder` row for Boost, and the loading code. Change Boost to **B**, stop,
-   and play again: is it still B?
-
-### Challenge
-
-Add a row for Boost's gamepad binding (its `bindingIndex` is 1) and a **Reset Controls**
-button. What if the player gives Boost and Pause the same key? Find a way to warn them.
-
-## Chapter 14 — Shortcuts
-
-**Goal:** the keyboard shortcuts a PC player expects: **1** to **5** squeeze the
-businesses, **Tab** changes how many Buy buys, **U**, **M** and **T** open the Upgrades,
-Managers and Trophies, **Esc** opens Settings, and with a panel open, **Esc** closes it.
-Every key can be changed in Settings, and the change is remembered. On a phone, nothing
-changes: taps already work.
-
-### Idea — taps for free, keys on purpose
-
-Everything you've built is tapped or clicked: buttons on the canvas, and the businesses
-and the balloon through the camera's Physics 2D Raycaster. The **EventSystem** turns a
-mouse click and a finger's tap into the same thing, so the game already works on a
-phone. Try it in the Device Simulator: no code needed.
-
-What a phone doesn't have is a keyboard. For PC and Web players, the **Input Actions
-asset** (C# 14) names what the keys do:
-
-| Map | Action | Type | Key |
-| --- | --- | --- | --- |
-| `Beach` | `Squeeze 1` … `Squeeze 5` | Button | 1 … 5 |
-| `Beach` | `Buy Amount` | Button | Tab |
-| `Beach` | `Upgrades`, `Managers`, `Trophies` | Button | U, M, T |
-| `Beach` | `Menu` | Button | Escape |
-| `Panel` | `Close` | Button | Escape |
-
-**Two maps, one switched on at a time.** With the Upgrades panel open, pressing **1**
-mustn't squeeze the Lemonade Cup behind it, and **Esc** should close the panel, not open
-Settings over it. So when a panel opens, the `Beach` map is switched off and the `Panel`
-map on; when the last panel closes, the other way round. The panel switcher already
-knows when that happens: it only has to say so, with an event.
-
-### Do it — the actions
-
-1. In `Assets/Input`, **Assets → Create → Input Actions**, `Juice Tycoon Controls`.
-   Double-click it.
-2. **Action Maps**, **+**: `Beach`. In it, **+** for each action in the table, with
-   **Action Type** **Button**. For each binding (the **<No Binding>** under the action),
-   click **Path**, then **Listen**, and press the key. Then **+**, a second map, `Panel`,
-   with one action, `Close`, on **Escape**. **Save Asset** (or tick **Auto-Save**).
-
-### Do it — the switcher says when a panel opens
-
-3. `PanelSwitcher` gets a property and an event. Its last form:
-
-```csharp:PanelSwitcher.cs
-using System;
-using UnityEngine;
-
-// The panels over the Beach (Upgrades, Managers, Trophies, New Beach,
-// Settings): one open at a time. A tab's button calls Toggle with its panel,
-// set in the button's On Click () list; a panel's close button calls CloseAll.
-public class PanelSwitcher : MonoBehaviour
-{
-    [SerializeField] GameObject[] panels;
-
-    public bool IsAnyOpen { get; private set; }
-
-    public event Action<bool> OpenChanged;  // true when a panel opens, false when the last closes
-
-    void Start()
-    {
-        CloseAll();
-    }
-
-    // Opens this panel and closes the others; a second press closes it.
-    public void Toggle(GameObject panel)
-    {
-        bool wasOpen = panel.activeSelf;
-        foreach (GameObject each in panels)
-        {
-            each.SetActive(false);
-        }
-        panel.SetActive(!wasOpen);
-        SetOpen(!wasOpen);
-    }
-
-    public void CloseAll()
-    {
-        foreach (GameObject each in panels)
-        {
-            each.SetActive(false);
-        }
-        SetOpen(false);
-    }
-
-    void SetOpen(bool isOpen)
-    {
-        if (isOpen == IsAnyOpen)
-        {
-            return;
-        }
-        IsAnyOpen = isOpen;
-        OpenChanged?.Invoke(isOpen);
-    }
-}
-```
-
-4. `OpenChanged` carries a `bool`: `true` when a panel opens over the beach, `false` when
-   the last one closes. `SetOpen` raises it only on a change: switching from Upgrades to
-   Managers is still "a panel is open", and says nothing.
-
-### Do it — remembering the keys
-
-5. In `Scripts/Save`, `GameSettings`:
-
-```csharp
+10. Read `Load`'s order. The spots are built **before** the upgrades are applied: a hired
+    runner walks to a crate, and the Apple Bar's crate must be built first. A new game
+    and a loaded one go the same way: a new game is a `SaveData` with nothing in it,
+    loaded like any other.
+11. On the Beach, an empty `Beach Game`, with **Beach Game**: **Wallet**, **Cash Piles**
+    the four bars' cash piles, **Build List**, **Upgrades**, **Chef** (the scene's
+    `Chef`'s **Chef Levels**), **Kart**, **Stats** and **Tracker** (on `Trophies`).
+12. **Leaving saves.** On the Settings panel in the Beach, the `Title Button`'s **On Click
+    ()** gets a second line, **above** the fade: **+**, drag in `Beach Game`, **BeachGame →
+    Save**. The listeners run in the order they're listed, so the game is saved, then the
+    fade begins. (Drag the lines by their handles to reorder them.)
+
+> **Watch out: `hasLoaded`.** It looks like a line you could do without. Unity calls
+> `OnApplicationPause` whenever the game's pause state changes, and that can be **before
+> `Start`**: a game that starts in the background does it (an Editor without focus, a
+> phone that's busy). Without `hasLoaded`, `Save` would run then, writing the scene's
+> starting state (nothing built, $0) over the real save, and *then* `Start` would load
+> that. Never assume one of Unity's calls comes after another unless the docs promise it.
+
+### Do it — your own keys
+
+13. In `Save`, `GameSettings`:
+
+```csharp:GameSettings.cs
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10799,7 +11504,29 @@ using UnityEngine.InputSystem;
 // Unity project shares the same PlayerPrefs.
 public static class GameSettings
 {
+    const string MusicVolumeKey = "JuiceTycoon.MusicVolume";
+    const string EffectsVolumeKey = "JuiceTycoon.EffectsVolume";
     const string BindingsKey = "JuiceTycoon.Bindings";
+    const float DefaultMusicVolume = 0.5f;
+    const float DefaultEffectsVolume = 0.8f;
+
+    public static float MusicVolume
+    {
+        get { return PlayerPrefs.GetFloat(MusicVolumeKey, DefaultMusicVolume); }
+        set { PlayerPrefs.SetFloat(MusicVolumeKey, value); }
+    }
+
+    public static float EffectsVolume
+    {
+        get { return PlayerPrefs.GetFloat(EffectsVolumeKey, DefaultEffectsVolume); }
+        set { PlayerPrefs.SetFloat(EffectsVolumeKey, value); }
+    }
+
+    // Writes the settings to disk now, rather than when the game quits.
+    public static void Save()
+    {
+        PlayerPrefs.Save();
+    }
 
     // Every key the player has changed, as one line of JSON.
     public static void SaveBindings(InputActionAsset actions)
@@ -10826,165 +11553,11 @@ public static class GameSettings
 }
 ```
 
-6. Settings go in **PlayerPrefs**, not the save file (C# 13): they're small,
-    they belong to this computer rather than this game's progress, and **Delete Save**
-    shouldn't reset your keys. A changed key is an **override** on top of the asset's own
-    binding; `SaveBindingOverridesAsJson` writes only the overrides.
-
-### Do it — the shortcuts
-
-7. In `Scripts/Input`, `Shortcuts`:
-
-```csharp:Shortcuts.cs
-using System;
-using UnityEngine;
-using UnityEngine.InputSystem;
-
-// The keyboard shortcuts, from the Input Actions asset: 1 to 5 squeeze the
-// businesses, Tab changes how many Buy buys, U, M and T open the panels, and
-// Escape opens Settings. While a panel is open, the Beach map is off and the
-// Panel map is on: the number keys can't squeeze behind the shop, and Escape
-// closes the panel instead. Taps and clicks need none of this: the EventSystem
-// already sends them to the buttons and the sprites.
-public class Shortcuts : MonoBehaviour
-{
-    [SerializeField] InputActionAsset actions;
-    [SerializeField] JuiceStand[] stands;       // in the order of the keys
-    [SerializeField] BuyAmountBar amounts;
-    [SerializeField] PanelSwitcher panels;
-    [SerializeField] GameObject upgradesPanel;
-    [SerializeField] GameObject managersPanel;
-    [SerializeField] GameObject trophiesPanel;
-    [SerializeField] GameObject settingsPanel;
-
-    InputActionMap beachMap;
-    InputActionMap panelMap;
-    InputAction[] squeezeActions;
-    Action<InputAction.CallbackContext>[] squeezeHandlers;
-
-    void Awake()
-    {
-        beachMap = actions.FindActionMap("Beach", true);
-        panelMap = actions.FindActionMap("Panel", true);
-        squeezeActions = new InputAction[stands.Length];
-        squeezeHandlers = new Action<InputAction.CallbackContext>[stands.Length];
-        for (int i = 0; i < stands.Length; i++)
-        {
-            // A copy for the lambda: every lambda would otherwise share i, and
-            // all squeeze the business after the last.
-            JuiceStand stand = stands[i];
-            squeezeActions[i] = beachMap.FindAction("Squeeze " + (i + 1), true);
-            squeezeHandlers[i] = context => stand.Squeeze();
-        }
-    }
-
-    void OnEnable()
-    {
-        GameSettings.LoadBindings(actions);
-        for (int i = 0; i < squeezeActions.Length; i++)
-        {
-            squeezeActions[i].performed += squeezeHandlers[i];
-        }
-        beachMap.FindAction("Buy Amount", true).performed += OnBuyAmount;
-        beachMap.FindAction("Upgrades", true).performed += OnUpgrades;
-        beachMap.FindAction("Managers", true).performed += OnManagers;
-        beachMap.FindAction("Trophies", true).performed += OnTrophies;
-        beachMap.FindAction("Menu", true).performed += OnMenu;
-        panelMap.FindAction("Close", true).performed += OnClose;
-        panels.OpenChanged += OnPanelOpenChanged;
-        OnPanelOpenChanged(panels.IsAnyOpen);
-    }
-
-    void OnDisable()
-    {
-        for (int i = 0; i < squeezeActions.Length; i++)
-        {
-            squeezeActions[i].performed -= squeezeHandlers[i];
-        }
-        beachMap.FindAction("Buy Amount", true).performed -= OnBuyAmount;
-        beachMap.FindAction("Upgrades", true).performed -= OnUpgrades;
-        beachMap.FindAction("Managers", true).performed -= OnManagers;
-        beachMap.FindAction("Trophies", true).performed -= OnTrophies;
-        beachMap.FindAction("Menu", true).performed -= OnMenu;
-        panelMap.FindAction("Close", true).performed -= OnClose;
-        panels.OpenChanged -= OnPanelOpenChanged;
-        beachMap.Disable();
-        panelMap.Disable();
-    }
-
-    void OnPanelOpenChanged(bool isOpen)
-    {
-        if (isOpen)
-        {
-            beachMap.Disable();
-            panelMap.Enable();
-        }
-        else
-        {
-            panelMap.Disable();
-            beachMap.Enable();
-        }
-    }
-
-    void OnBuyAmount(InputAction.CallbackContext context)
-    {
-        amounts.Next();
-    }
-
-    void OnUpgrades(InputAction.CallbackContext context)
-    {
-        panels.Toggle(upgradesPanel);
-    }
-
-    void OnManagers(InputAction.CallbackContext context)
-    {
-        panels.Toggle(managersPanel);
-    }
-
-    void OnTrophies(InputAction.CallbackContext context)
-    {
-        panels.Toggle(trophiesPanel);
-    }
-
-    void OnMenu(InputAction.CallbackContext context)
-    {
-        panels.Toggle(settingsPanel);
-    }
-
-    void OnClose(InputAction.CallbackContext context)
-    {
-        panels.CloseAll();
-    }
-}
-```
-
-8. Read it in three parts.
-   - **The five squeezes** are five actions, so `Awake` keeps them in an array, with a
-     lambda for each that squeezes its own stand. `JuiceStand stand = stands[i];` is the
-     copy each lambda keeps (the intern's `int n = i;` again). The lambdas are kept in an
-     array too, so `OnDisable` can unsubscribe the very same ones: `-=` with a new lambda
-     would remove nothing.
-   - **The other actions** call one method each, named `On` + what happened.
-   - **The maps** follow the panels: `OnPanelOpenChanged` switches one map off and the
-     other on. `OnEnable` calls it once itself, so the right map is on from the start.
-9. `GameSettings.LoadBindings` puts back the keys the player chose, before any action is
-   used.
-10. **Create Empty**, `Shortcuts`, with `Shortcuts`: **Actions** the asset, **Stands** the
-   five businesses in order, **Amounts** `Buy Bar`, **Panels** the `Panels` object, and
-   the four panels.
-
-### Do it — a row for each key
-
-11. In `Safe Area`, **Create Empty**, `Rebind Row`, 880 × 90, with a **Layout Element**
-    (**Preferred Height** 90, **Flexible Width** 1). In it:
-
-| Child | What | Anchor | Pos | Size | Set |
-| --- | --- | --- | --- | --- | --- |
-| `Action` | a text | middle–left | (0, 0) | 380 × 70 | `Squeeze 1`, size 36, brown, left |
-| `Key` | a text | middle–left | (390, 0) | 220 × 70 | `1`, size 36, light brown, centred |
-| `Change Button` | **Candy Button** | middle–right | (0, 0) | 220 × 84 | `Change`, size 34 |
-
-12. In `Scripts/Save`, `RebindRow`:
+14. Settings go in **PlayerPrefs**, not the save file (C# 14): they're small, they
+    belong to this computer rather than this game's progress, and **Delete Save** shouldn't
+    reset your keys. A changed key is an **override** on top of the asset's own binding;
+    `SaveBindingOverridesAsJson` writes only the overrides. The volumes are for Chapter 17.
+15. In `Save`, `RebindRow`:
 
 ```csharp:RebindRow.cs
 using TMPro;
@@ -10992,12 +11565,15 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-// One row of the Settings panel: a shortcut's name, its key, and Change.
-// Change waits for the next key pressed and makes it the action's new key,
-// then saves every changed key in PlayerPrefs.
+// One row of the Settings panel: a key's name, its key, and Change. Change
+// waits for the next key pressed and makes it the binding's new key, then
+// saves every changed key in PlayerPrefs. The Move action has several
+// bindings: WASD is a composite, and each of its four parts is a binding of
+// its own, with its own index (Up is 1, Down 2, Left 3, Right 4).
 public class RebindRow : MonoBehaviour
 {
     [SerializeField] InputActionReference action;
+    [SerializeField] int bindingIndex;
     [SerializeField] TMP_Text keyText;
     [SerializeField] Button changeButton;
 
@@ -11022,7 +11598,7 @@ public class RebindRow : MonoBehaviour
     // font doesn't have.
     public void Refresh()
     {
-        string path = action.action.bindings[0].effectivePath;
+        string path = action.action.bindings[bindingIndex].effectivePath;
         keyText.text = InputControlPath.ToHumanReadableString(path, InputControlPath.HumanReadableStringOptions.OmitDevice);
     }
 
@@ -11033,7 +11609,7 @@ public class RebindRow : MonoBehaviour
         action.action.Disable();
         keyText.text = "Press a key...";
 
-        rebinding = action.action.PerformInteractiveRebinding(0)
+        rebinding = action.action.PerformInteractiveRebinding(bindingIndex)
             .WithControlsHavingToMatchPath("<Keyboard>")
             .WithCancelingThrough("<Keyboard>/escape")
             .OnComplete(operation => Finish(wasEnabled))
@@ -11055,35 +11631,26 @@ public class RebindRow : MonoBehaviour
 }
 ```
 
-13. **Change** switches the action off (an action can't be rebound while it's listening),
+16. **Change** switches the action off (an action can't be rebound while it's listening),
     shows *Press a key...*, and starts `PerformInteractiveRebinding`: the Input System
     waits for the next key. Only keyboard keys count (`WithControlsHavingToMatchPath`), and
     **Esc** cancels. Either way, `Finish` tidies up, switches the action back on if it was,
-    saves, and shows the key's name.
-14. Add `RebindRow` to `Rebind Row` (**Key Text**, **Change Button**; **Action** stays
-    empty in the prefab). Drag it into `Prefabs/UI`, and delete it from the scene.
+    saves, and shows the key's name. `bindingIndex` says which of the action's bindings:
+    Move has eleven (the WASD composite and its four parts, the arrows' composite and its
+    four, the stick), and a row changes one of them.
+17. **The Rebind Row.** In `Safe Area`, an empty `Rebind Row`, 880 × 90, with a **Layout
+    Element** (**Preferred Height** 90, **Flexible Width** 1). In it:
 
-### Do it — the Settings panel
+| Child | What | Anchor | Pos | Size | Set |
+| --- | --- | --- | --- | --- | --- |
+| `Action` | a text | middle-left | (0, 0) | 380 × 70 | `Walk Up`, size 36, brown, left |
+| `Key` | a text | middle-left | (390, 0) | 220 × 70 | `W`, size 36, light brown, centred |
+| `Change Button` | **Candy Button** | middle-right | (0, 0) | 220 × 84 | `Change`, size 34 |
 
-15. Open the **Settings Panel** prefab. In `Content`:
-    - A text `Keys`: top–left, **Pos** (0, −220), 880 × 60, size 42, brown. (The space
-      above is for the volumes, in Chapter 15.)
-    - **Create Empty**, `Rebind Rows`: anchor **top–stretch** with Shift, **Pos Y** −290,
-      **Height** 820, with a **Vertical Layout Group** (**Control Child Size** both,
-      **Child Force Expand** neither). Drag nine **Rebind Row**s into it, and name them
-      after the actions: `Squeeze 1 Row` … `Squeeze 5 Row`, `Buy Amount Row`, `Upgrades
-      Row`, `Managers Row`, `Trophies Row`. Set each one's `Action` text, and its
-      **Action**: open the `Juice Tycoon Controls` asset in the Project window (the arrow
-      beside it) and drag the action from under it. Each action there is an **Input
-      Action Reference**, an asset that points at one action.
-    - A **Candy Button** `Reset Keys Button`, bottom–left, **Pos** (0, 20), 280 × 110,
-      `Reset Keys`; and a **Candy Button Red** `Delete Save Button`, bottom–center,
-      **Pos** (0, 20), 280 × 110, `Delete Save`.
-16. A question before deleting a save, like the Title's: copy the Title's `Confirm New
-    Game` (in the Title scene, **Ctrl+C**), open the Settings Panel prefab, select its
-    root, and **Ctrl+V**. Rename it `Confirm Delete`: question `Delete your save? Your
-    juice empire will be lost.`, its **Yes Button** label `Delete`.
-17. In `Scripts/Save`, `SettingsPanel`:
+Add **Rebind Row** (**Key Text**, **Change Button**; **Action** stays empty in the
+prefab). Into `Prefabs/UI`, and delete it from the scene.
+
+18. In `Save`, `SettingsPanel`, for now with the keys and Delete Save:
 
 ```csharp
 using UnityEngine;
@@ -11091,7 +11658,7 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 // The Settings panel, in the Title and on the Beach: the keys, and (in the
-// Title) Delete Save. Chapter 15 adds the volumes.
+// Title) Delete Save. Chapter 17 adds the volumes.
 public class SettingsPanel : MonoBehaviour
 {
     [SerializeField] InputActionAsset actions;
@@ -11141,35 +11708,143 @@ public class SettingsPanel : MonoBehaviour
 }
 ```
 
-18. Add it to the prefab's root: **Actions** the asset, **Rebind Rows** the nine,
-    **Confirm Delete**. Wire the buttons: **Reset Keys** → **ResetKeys**, **Delete Save**
-    → **AskToDeleteSave**, the confirm's **Delete** → **DeleteSave**, its **Cancel** →
-    **CancelDelete**. The Title and the Beach both get it, since both use the prefab.
+19. `onSaveDeleted` is a **UnityEvent** field, named `on` + what happened, as the style
+    guide says: whatever a scene wires to it in the Inspector runs after a delete. The
+    panel doesn't need to know who listens.
+20. **The Settings panel, filled.** Open the **Settings Panel** prefab. In `Content`:
+    - A text `Keys`: top-left with its pivot, **Pos Y** −220, 880 × 60, size 42, brown.
+      (The space above is for Chapter 17's volumes.)
+    - An empty `Rebind Rows`: top-stretch with its pivot at the top, **Pos Y** −290,
+      **Height** 820, with a **Vertical Layout Group** (**Control Child Size** both,
+      **Child Force Expand** neither). Five **Rebind Row**s in it:
 
-### Do it — Delete Save, where it makes sense
+| Row | `Action` text | **Action** | **Binding Index** |
+| --- | --- | --- | --- |
+| `Walk Up Row` | `Walk Up` | `Chef/Move` | 1 |
+| `Walk Down Row` | `Walk Down` | `Chef/Move` | 2 |
+| `Walk Left Row` | `Walk Left` | `Chef/Move` | 3 |
+| `Walk Right Row` | `Walk Right` | `Chef/Move` | 4 |
+| `Menu Row` | `Menu` | `Chef/Menu` | 0 |
 
-19. On the Beach, deleting the save would do nothing: leaving the Beach saves the game
-    again, a moment later. So in the `Beach` scene, select the Settings panel's `Delete
-    Save Button` and untick it, as you did the Title's `Title Button`.
-20. On the Title it works, but **Continue** would stay green: the Title looked for a save
-    once, in `Start`. `onSaveDeleted` is a **UnityEvent** field, named `on` + what
-    happened as the style guide says: whatever the scene wires to it in the Inspector
-    runs after a delete. The Settings panel doesn't need to know who listens. Give the
-    Title a method to wire to; `TitleScreen`'s last form:
+For **Action**, open the `Juice Tycoon Controls` asset in the Project window (the
+arrow beside it) and drag the action from under it: each is an **Input Action
+Reference**, an asset that points at one action.
+- A **Candy Button** `Reset Keys Button`, bottom-left, **Pos** (0, 20), 280 × 110,
+`Reset Keys`; and a **Candy Button Red** `Delete Save Button`, bottom-centre, **Pos**
+(0, 20), 280 × 110, `Delete Save`. (The `Title Button` is already bottom-right.)
+- **A question first.** An Image `Confirm Delete` on the panel's root, stretched with
+no gaps, black with **A** 153: it dims everything. In it, an Image `Window`, centred,
+860 × 520, `Panel`, **Sliced**, and in that: `Question` (a text stretched with **Left**
+60, **Top** 60, **Right** 60, **Bottom** 200: `Delete your save? Your juice bar will be
+lost.`, size 42, brown, centred); `Yes Button` (**Candy Button Red**, bottom-left,
+(60, 50), 330 × 120, `Delete`); `Cancel Button` (**Candy Button**, bottom-right,
+(−60, 50), 330 × 120, `Cancel`).
 
-```csharp:TitleScreen.cs
-using System;
+21. Add **Settings Panel** to the prefab's root: **Actions** the asset, **Rebind Rows** the
+    five, **Confirm Delete**. Wire the buttons: **Reset Keys** → **ResetKeys**, **Delete
+    Save** → **AskToDeleteSave**, the question's **Delete** → **DeleteSave**, its
+    **Cancel** → **CancelDelete**. The Title and the Beach both get it, since both use the
+    prefab.
+22. On the Beach, deleting the save would do nothing: leaving the Beach saves the game
+    again, a moment later. So in the `Beach` scene, untick the Settings panel's `Delete
+    Save Button`, as you did the Title's `Title Button`.
+
+### Do it — Escape opens Settings
+
+23. The final `Controls`: **Menu** (Escape, or a gamepad's Start) opens Settings, and the
+    keys you chose are loaded before anything reads them.
+
+```csharp:Controls.cs
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// The two action maps, and Escape. While a panel is open the Chef map is off
+// and the Panel map is on: the stick can't walk you off the Office mat while
+// you shop, and Escape closes the panel instead of opening Settings.
+public class Controls : MonoBehaviour
+{
+    [SerializeField] InputActionAsset actions;
+    [SerializeField] PanelSwitcher panels;
+    [SerializeField] GameObject settingsPanel;
+
+    InputActionMap chefMap;
+    InputActionMap panelMap;
+    InputAction menu;
+    InputAction close;
+
+    void Awake()
+    {
+        chefMap = actions.FindActionMap("Chef", true);
+        panelMap = actions.FindActionMap("Panel", true);
+        menu = chefMap.FindAction("Menu", true);
+        close = panelMap.FindAction("Close", true);
+    }
+
+    void OnEnable()
+    {
+        GameSettings.LoadBindings(actions);
+        menu.performed += OnMenu;
+        close.performed += OnClose;
+        panels.OpenChanged += OnPanelOpenChanged;
+        OnPanelOpenChanged(panels.IsAnyOpen);
+    }
+
+    void OnDisable()
+    {
+        menu.performed -= OnMenu;
+        close.performed -= OnClose;
+        panels.OpenChanged -= OnPanelOpenChanged;
+        chefMap.Disable();
+        panelMap.Disable();
+    }
+
+    void OnPanelOpenChanged(bool isOpen)
+    {
+        if (isOpen)
+        {
+            chefMap.Disable();
+            panelMap.Enable();
+        }
+        else
+        {
+            panelMap.Disable();
+            chefMap.Enable();
+        }
+    }
+
+    void OnMenu(InputAction.CallbackContext context)
+    {
+        panels.Toggle(settingsPanel);
+    }
+
+    void OnClose(InputAction.CallbackContext context)
+    {
+        panels.CloseAll();
+    }
+}
+```
+
+24. On `Controls`, drag the Settings panel into **Settings Panel**.
+
+### Do it — Continue, and New Game
+
+25. On the Title, a question before a save is thrown away: copy the Settings panel's
+    `Confirm Delete` (open the prefab, **Ctrl+C**), open the Title, select `Safe Area`, and
+    **Ctrl+V**. Rename it `Confirm New Game`: question `Start again? Your saved juice bar
+    will be deleted.`, its **Yes Button** label `Start Again`.
+26. `TitleScreen` learns about the save:
+
+```csharp
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// The Title scene's buttons. Continue reads the save: if you were away long
-// enough to earn something, the Report scene welcomes you back first. New Game
+// The Title scene's buttons. Continue goes back to the saved game; New Game
 // asks before it deletes a save.
 public class TitleScreen : MonoBehaviour
 {
     [SerializeField] Button continueButton;
-    [SerializeField] TMP_Text continueDetail;    // the money and stars in the save
+    [SerializeField] TMP_Text continueDetail;    // the money in the save
     [SerializeField] GameObject confirmNewGame;
     [SerializeField] GameObject quitButton;
     [SerializeField] SceneFader fader;
@@ -11192,7 +11867,387 @@ public class TitleScreen : MonoBehaviour
         if (hasSave)
         {
             SaveData data = SaveSystem.Load();
-            continueDetail.text = $"${NumberFormat.Money(data.money)}  ·  Juice Stars: {data.stars}";
+            continueDetail.text = "$" + NumberFormat.Money(data.money);
+        }
+    }
+
+    public void Continue()
+    {
+        fader.FadeTo("Beach");
+    }
+
+    // New Game: straight in with no save; asks first when there is one.
+    public void AskNewGame()
+    {
+        if (SaveSystem.HasSave)
+        {
+            confirmNewGame.SetActive(true);
+        }
+        else
+        {
+            StartNewGame();
+        }
+    }
+
+    public void StartNewGame()
+    {
+        SaveSystem.Delete();
+        fader.FadeTo("Beach");
+    }
+
+    public void CancelNewGame()
+    {
+        confirmNewGame.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+}
+```
+
+27. The test report is gone: Chapter 15 makes real ones. Fill the new fields (**Continue
+    Detail**, **Confirm New Game**), and wire the buttons: **Continue Button** →
+    **Continue**; **New Game Button** → **AskNewGame** (no longer **StartNewGame**); **Yes
+    Button** → **StartNewGame**; **Cancel Button** → **CancelNewGame**. And the Title's
+    Settings panel: its **On Save Deleted ()** → `Title Screen`, **TitleScreen →
+    ShowSave**.
+
+### Test it
+
+- Play the **Title**. **New Game**, then earn some money, build Table 1 and the second
+  juicer, buy *Sweet Oranges*, and pay half of Table 2. Cog, **Title**. **Continue** is
+  green now, with your money under it. **Continue**: the table, the bin and both juicers
+  are there, the price tag says `$8` (*Sweet Oranges* applied again, from its id), and
+  Table 2's spot has half to go. No toast for *First Sip*: it was won before, and
+  `Restore` doesn't raise `Unlocked`.
+- Hire a runner, go back to the Title, and continue: he walks out of the Staff Hut's door
+  again, and back to work. His upgrade's `ApplyTo` hired him, as when you bought it.
+- **Where's the file?** In `BeachGame.Start`, add `Debug.Log(Application.persistentDataPath);`
+  for a moment, Play, and copy the folder from the Console (on a Mac it's under
+  `~/Library/Application Support/`, on Windows under `AppData\LocalLow`). Open
+  `juice-tycoon.json` in a text editor: your game, as text. Take the log out again.
+- **Break it.** With the game stopped, delete the file's last `}` and save it. Play the
+  Title: the Console says the file is damaged and kept as `juice-tycoon.bad.json`;
+  **Continue** shows `$0`, and the game starts afresh. Nothing crashed. Delete both files
+  (or use **New Game**) to tidy up.
+- **New Game** with a save: the question. **Cancel**: nothing lost. **Start Again**: a new
+  game. **Delete Save** in the Title's Settings: **Continue** goes grey at once.
+- **Keys.** In Settings, **Change** beside *Walk Up*, and press **I**. Close the panel,
+  and walk with I. Stop, Play again: still I. **Reset Keys**: W again. **Escape** on the
+  beach opens Settings; with a panel open it closes it.
+
+### Commit
+
+*Save and load: the JSON save, Continue, New Game, and keys you choose.*
+
+### Challenge
+
+The save writes the whole file at once; if the computer died halfway through writing, the
+file could be cut in half. A safer way: write to `juice-tycoon.tmp` first, then replace the
+real file with it (`File.Copy(temp, real, true)`), so the real file is either the old one
+or the new one, never half of each. Change `SaveSystem.Save`, and keep the `try` /
+`catch`.
+
+## Chapter 15 — While You Were Away
+
+**Goal:** what makes an idle game idle. Close the game, come back later, and **Welcome
+back!** says how long you were away and what each staffed bar and the kart made meanwhile,
+up to 2 hours' worth. **Collect** adds it to your money. A clock set backwards can't fool
+it.
+
+### Idea — time, as a number
+
+To know how long you were away, the save must say **when** it was saved. C#'s
+`DateTime.UtcNow` is the time now; but `JsonUtility` can't save a `DateTime`. It can save
+a `long`, and a `DateTime` is one inside: its **`Ticks`**, the number of 100-nanosecond
+steps since the year 1. Ten million ticks make a second.
+
+```
+saved:   639,000,360,000,000,000 ticks
+now:     639,000,432,000,000,000 ticks
+away:    72,000,000,000 ticks ÷ 10,000,000 = 7,200 seconds = 2 hours
+```
+
+**UTC**, not local time: a phone that changes time zone, or a clock that jumps an hour for
+summer time, would otherwise give or take an hour of income.
+
+The **rules**, from the balance sheet:
+
+| You were away | What counts |
+| --- | --- |
+| less than a minute | nothing: no Welcome back |
+| 1 minute to 2 hours | all of it |
+| more than 2 hours | 2 hours: come back now and then |
+| a **negative** time | nothing: the phone's clock was set backwards |
+
+**What earned while you were away?** The Beach scene isn't even loaded when the Title
+works this out. So the save keeps it: when the game saves, it writes down each
+`IIncomeSource` that earns by itself, and how much a second. Coming back, each one's share
+is its per-second × the seconds away. Chapter 11's interface again: the save asks "what
+earns by itself?" and never "is it a bar or a kart?". A bar without both its helpers
+earns nothing while you're away: someone has to carry the fruit, and someone has to serve.
+
+### Do it — working it out
+
+1. `NumberFormat.Duration`, from Chapter 6, says how long: `45 s`, `12 min`, `2 h 00 min`.
+   Read it again now.
+2. In `Scripts/Flow`, `AwayEarnings`:
+
+```csharp:AwayEarnings.cs
+using System;
+
+// What you earned while you were away, worked out from the save: the time it
+// was saved, and what earned by itself each second then. Up to 2 hours count.
+// A clock set backwards makes the time negative: that counts as no time.
+public static class AwayEarnings
+{
+    const double MaxSeconds = 2 * 60 * 60;
+    const double ShortestAway = 60;     // under a minute, there's nothing to welcome you back for
+
+    public static double SecondsAway(SaveData data, DateTime now)
+    {
+        if (data.savedAtTicks == 0)
+        {
+            return 0;   // a new game: never saved
+        }
+        double seconds = (now.Ticks - data.savedAtTicks) / (double)TimeSpan.TicksPerSecond;
+        if (seconds < 0)
+        {
+            return 0;
+        }
+        return Math.Min(seconds, MaxSeconds);
+    }
+
+    // "Welcome back", with each source's part, or null when there's nothing to show.
+    public static Report MakeReport(SaveData data, DateTime now)
+    {
+        double seconds = SecondsAway(data, now);
+        if (seconds < ShortestAway || data.awaySources.Count == 0)
+        {
+            return null;
+        }
+        int total = 0;
+        foreach (AwaySource source in data.awaySources)
+        {
+            total += (int)(source.perSecond * seconds);
+        }
+        Report report = new Report(ReportKind.WelcomeBack, "Welcome back!", "+$" + NumberFormat.Money(total), total);
+        report.Lines.Add($"You were away {NumberFormat.Duration(seconds)}.");
+        foreach (AwaySource source in data.awaySources)
+        {
+            report.Lines.Add($"{source.name}: +${NumberFormat.Money((int)(source.perSecond * seconds))}");
+        }
+        return report;
+    }
+}
+```
+
+3. Three things to notice. `now` is a **parameter**, not `DateTime.UtcNow` inside: the
+   method works out the same answer for the same inputs, which is what makes it easy to
+   test (the Challenge does). `TimeSpan.TicksPerSecond` names the ten million, as the
+   style guide asks. And `(double)` before dividing: two `long`s would divide as whole
+   numbers, losing every part of a second.
+4. `MakeReport` returns `null` for "nothing to show". The caller must check for it: that's
+   the price of returning `null`, and the Title does, below.
+
+### Do it — saving the time, and collecting
+
+5. `Session` carries one more thing: what Welcome back collected, for the Beach to add. Its
+   last form:
+
+```csharp:Session.cs
+using UnityEngine;
+
+// What one scene leaves for the next, in static properties: they belong to no
+// scene, so they're still there after a scene loads. Static has a price: they
+// also outlive a Play in the Editor, so they're reset at the start of every
+// Play, before any scene loads.
+public static class Session
+{
+    // What the Report scene shows next.
+    public static Report Report { get; set; }
+
+    // What Welcome back collected, for the Beach scene to add to the money once.
+    public static int AwayCollected { get; set; }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    static void ResetForPlay()
+    {
+        Report = null;
+        AwayCollected = 0;
+    }
+}
+```
+
+6. `BeachGame` saves the time and the sources, and adds what was collected, once:
+
+```csharp
+using System;
+using LanternHill.Achievements;
+using UnityEngine;
+
+// The Beach scene's start and its saving. It loads the save into every part
+// of the game, adds what Welcome back collected, and saves every 30 seconds,
+// when a phone sends the game to the background, when the game quits, and when
+// Settings' Title button leaves the scene. Not in OnDestroy: by then the scene
+// is being taken down, and the kart or a bar may already be gone.
+public class BeachGame : MonoBehaviour
+{
+    [SerializeField] Wallet wallet;
+    [SerializeField] CashPile[] cashPiles;
+    [SerializeField] BuildList buildList;
+    [SerializeField] Upgrades upgrades;
+    [SerializeField] ChefLevels chef;
+    [SerializeField] JuiceKart kart;
+    [SerializeField] GameStats stats;
+    [SerializeField] AchievementTracker tracker;
+    [SerializeField] IncomeSources income;
+    [SerializeField] float autosaveSeconds = 30f;
+
+    float nextSaveTime;
+    bool hasLoaded;         // saving before the save is loaded would write a new game over it
+
+    void Start()
+    {
+        Load();
+        hasLoaded = true;
+        if (Session.AwayCollected > 0)
+        {
+            wallet.Add(Session.AwayCollected);
+            stats.AddAwayEarnings(Session.AwayCollected);
+            Session.AwayCollected = 0;      // add it once
+            Save();
+        }
+        nextSaveTime = Time.unscaledTime + autosaveSeconds;
+    }
+
+    void Update()
+    {
+        if (Time.unscaledTime >= nextSaveTime)
+        {
+            Save();
+            nextSaveTime = Time.unscaledTime + autosaveSeconds;
+        }
+    }
+
+    // A phone switching to another app; a browser tab hidden.
+    void OnApplicationPause(bool isPaused)
+    {
+        if (isPaused)
+        {
+            Save();
+        }
+    }
+
+    void OnApplicationQuit()
+    {
+        Save();
+    }
+
+    public void Save()
+    {
+        // Unity can call OnApplicationPause before Start: a game starting in the
+        // background does. The scene isn't loaded yet; there's nothing to save.
+        if (!hasLoaded)
+        {
+            return;
+        }
+        SaveData data = new SaveData();
+        // The notes still on the cash piles are yours: they're saved as money.
+        int waiting = 0;
+        foreach (CashPile pile in cashPiles)
+        {
+            waiting += pile.Total;
+        }
+        data.money = wallet.Money + waiting;
+        data.lifetimeEarned = wallet.LifetimeEarned + waiting;
+        data.built = buildList.BuiltIds();
+        data.paid = buildList.PaidSoFar();
+        data.upgrades.AddRange(upgrades.BoughtIds);
+        data.trayLevel = chef.TrayLevel;
+        data.flipFlopLevel = chef.FlipFlopLevel;
+        data.kartLevel = kart.Level;
+        data.stats = stats.ToSave();
+        data.trophies.AddRange(tracker.WonIds);
+        data.savedAtTicks = DateTime.UtcNow.Ticks;
+        // What earns by itself now.
+        foreach (IIncomeSource source in income.All)
+        {
+            if (source.EarnsWhileAway && source.IncomePerSecond > 0f)
+            {
+                AwaySource away = new AwaySource();
+                away.name = source.SourceName;
+                away.perSecond = source.IncomePerSecond;
+                data.awaySources.Add(away);
+            }
+        }
+        SaveSystem.Save(data);
+    }
+
+    void Load()
+    {
+        // A new game is a save with nothing in it.
+        SaveData data = SaveSystem.HasSave ? SaveSystem.Load() : new SaveData();
+        wallet.Restore(data.money, data.lifetimeEarned);
+        buildList.Restore(data.built, data.paid, 1f);
+        upgrades.Restore(data.upgrades);
+        chef.Restore(data.trayLevel, data.flipFlopLevel);
+        kart.Restore(data.kartLevel, 1f);
+        stats.Restore(data.stats);
+        tracker.Restore(data.trophies);
+    }
+}
+```
+
+7. Set its new **Income** field (the `Income` object). **Add it once**:
+   `Session.AwayCollected` goes back to 0 the moment it's added, and the game saves
+   straight away. Without that, a crash right after would bring back the old save and
+   Welcome back would pay twice. The money earned away also goes to `GameStats`, for Sam's
+   *Night Shift* trophy.
+
+### Do it — Welcome back
+
+8. The Title works out the report when you press **Continue**, and goes to the Report scene
+   if there's something to show. `TitleScreen`:
+
+```csharp
+using System;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// The Title scene's buttons. Continue reads the save: if you were away long
+// enough to earn something, the Report scene welcomes you back first. New Game
+// asks before it deletes a save.
+public class TitleScreen : MonoBehaviour
+{
+    [SerializeField] Button continueButton;
+    [SerializeField] TMP_Text continueDetail;    // the money in the save
+    [SerializeField] GameObject confirmNewGame;
+    [SerializeField] GameObject quitButton;
+    [SerializeField] SceneFader fader;
+
+    void Start()
+    {
+        confirmNewGame.SetActive(false);
+        // A web page can't quit itself: there's no Quit on the Web.
+        quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);
+        ShowSave();
+    }
+
+    // Continue, and what's in the save under it. Settings' Delete Save calls
+    // this too, through its On Save Deleted event.
+    public void ShowSave()
+    {
+        bool hasSave = SaveSystem.HasSave;
+        continueButton.interactable = hasSave;
+        continueDetail.text = "";
+        if (hasSave)
+        {
+            SaveData data = SaveSystem.Load();
+            continueDetail.text = "$" + NumberFormat.Money(data.money);
         }
     }
 
@@ -11240,35 +12295,618 @@ public class TitleScreen : MonoBehaviour
 }
 ```
 
-21. `ShowSave` is `Start`'s save part, moved into a public method so it can run again. In
-    the `Title` scene, select the Settings panel: its **On Save Deleted ()** list, **+**,
-    drag in `Title Screen`, and choose **TitleScreen → ShowSave**.
+9. And the Report scene's **Collect** takes the money to the beach. `ReportScreen`:
+
+```csharp
+using TMPro;
+using UnityEngine;
+
+// The Report scene: whatever the last scene left in Session.Report. Welcome
+// back's Collect takes what you earned to the beach.
+public class ReportScreen : MonoBehaviour
+{
+    [SerializeField] TMP_Text title;
+    [SerializeField] TMP_Text lines;
+    [SerializeField] TMP_Text amount;
+    [SerializeField] SceneFader fader;
+
+    Report report;
+
+    void Start()
+    {
+        report = Session.Report;
+        if (report == null)
+        {
+            // The scene was started on its own, in the Editor: show a test report.
+            Debug.LogWarning("Report started without a Session.Report: showing a test one.", this);
+            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", "+$12.3K", 12345);
+            report.Lines.Add("Started on its own, from the Editor.");
+        }
+        title.text = report.Title;
+        lines.text = string.Join("\n", report.Lines);
+        amount.text = report.Highlight;
+    }
+
+    public void Collect()
+    {
+        Leave(report.Amount);
+    }
+
+    void Leave(int collected)
+    {
+        Session.AwayCollected = collected;
+        Session.Report = null;
+        fader.FadeTo("Beach");
+    }
+}
+```
+
+10. `Leave` is one method for every way out: Chapter 19's **Collect ×2** leaves with twice
+    the amount, and Chapter 16's new beach with nothing.
 
 ### Test it
 
-- **Play** the Beach (click the Game view first, so it has the keyboard). **1** squeezes
-  the Lemonade Cup; open more businesses and try **2** to **5**. **Tab**: ×1, ×10, ×100,
-  Max, and round again.
-- **U**: the Upgrades panel. **1** now does nothing; **Esc** closes the panel. **M**, **T**:
-  their panels; the same key again closes them. **Esc** on the beach: Settings.
-- **Change** on the `Squeeze 1` row, then press **Q**: the row says `Q`, and **Q** squeezes
-  the cup; **1** doesn't. Stop and Play again: still **Q**. **Reset Keys**: **1** again.
-- On the Title, **Settings**, **Delete Save**: the question. **Cancel** keeps the save;
-  **Delete** deletes it, and **Continue** turns grey at once. On the Beach, Settings has
-  no Delete Save.
-- **The phone.** **Window → General → Device Simulator**, a phone, **Play**. Click the
-  businesses and the buttons with the mouse: on the simulator they're touches, and
-  everything works. There are no keys on a phone, and no code was needed.
+- Play the Title, **Continue** (or **New Game**), and get the Orange Bar a runner and a
+  cashier. Cog, **Title**. Wait a minute and a bit, then **Continue**: *Welcome back!*,
+  *You were away 1 min*, *Orange Bar: +$…*, and the total. **Collect**: the money jumps by
+  it.
+- **Two hours, without waiting.** In your `Practice` scene's `Practice` script (with
+  `using System;` at the top, for `TimeSpan`), in `Start`:
+
+```csharp
+SaveData data = SaveSystem.Load();
+data.savedAtTicks -= TimeSpan.FromHours(2).Ticks;
+SaveSystem.Save(data);
+Debug.Log("The save is now two hours old.");
+```
+
+  Play the `Practice` scene once, then play the Title and **Continue**: *2 h 00 min*, and
+  two hours of income. Stop before collecting, run Practice again with `FromHours(20)`:
+  *2 h 00 min* still, the cap.
+- **A clock set backwards.** Change the line to `+= TimeSpan.FromHours(2).Ticks`: the save
+  now claims it was made in the future. **Continue** goes straight to the beach: a
+  negative time counts as none. (Without that `if`, the player would get minus two hours
+  of income: money taken away.)
+- Collect, then stop and play the Title again at once: **Continue** goes straight to the
+  beach. Less than a minute away is nothing to report.
+- **New Game**, and this time hire only the Orange Bar's runner. Go to the Title, wait a
+  minute, **Continue**: straight to the beach. Open `juice-tycoon.json`: `awaySources` is
+  empty. One helper isn't enough, and the save knew it when it was written.
+- Earn $2,000 while away: *Trophy: Night Shift*.
 
 ### Commit
 
-*Add keyboard shortcuts, two action maps, and rebinding.*
+*Earn while away: the time in the save, the cap, and Welcome back.*
 
 ### Challenge
 
-Add a shortcut for **Max** on its own: **X** chooses Max, whatever was chosen before. A new
-action in the `Beach` map, a handler in `Shortcuts`, and one call: which `BuyAmountBar`
-method, with which number?
+`AwayEarnings` takes the time as a parameter, so it can be tested without waiting. In your
+`Practice` script, make a `SaveData` by hand (`savedAtTicks` and one `AwaySource` of $10 a
+second), and log `AwayEarnings.SecondsAway(data, now)` and `MakeReport(data, now).Amount`
+for a `now` 30 seconds, 1 hour and 10 hours later (`new
+DateTime(data.savedAtTicks).AddHours(1)`). Predict each answer first.
+
+## Chapter 16 — A New Beach, on a Branch
+
+**Goal:** the end of the build list, and a new start. The last spot builds **the Pier**;
+built, it sails you to the next beach: **Coral Cove**, then **Sunset Shore**, then round
+again. Each has its own sand, sea and sunlight, and pays more for every cup, though its
+spots cost more too. Your money, bars, upgrades, helpers, tray and kart start again; your
+trophies and life-long counts come with you. It's built on a **Git branch**, and merged
+when it works.
+
+### Idea — starting again, richer
+
+An idle game's growth slows down: after forty minutes the beach is full, and every next
+thing costs more than it's worth waiting for. Idle games fix that with a **reset that
+pays**: give up what you have, and start again somewhere everything is worth more.
+
+| Starts again | Stays |
+| --- | --- |
+| the money | the trophies won |
+| the build list: one Orange Bar again | everything you've earned in your life |
+| the upgrades and the helpers | the counts behind the trophies |
+| your tray, your flip-flops, the kart | |
+
+From the balance sheet, each beach in a **BeachInfo** asset:
+
+| Beach | Cups sell for | Spots cost | Sand | Sea | Sunlight |
+| --- | --- | --- | --- | --- | --- |
+| Sunny Bay | ×1 | ×1 | `#EBCB8B` | `#2FB0D0` | `#FFF4DC` |
+| Coral Cove | ×3 | ×2.5 | `#F2D2BF` | `#25B8B0` | `#FFEAE0` |
+| Sunset Shore | ×9 | ×6 | `#E7B488` | `#3C80C4` | `#FFC89A` |
+
+The save already has `beach`, a number that only goes up: 0, 1, 2, then 3, which is
+Sunny Bay again (`3 % 3` is 0). The `% beaches.Length` makes the list go round, however
+long the player plays. Coming round to Sunny Bay a second time, everything pays ×1 again:
+the challenge asks you to do better.
+
+The `BeachGame` gives each beach its look and its numbers as the scene loads: the sand's
+and the sea's colours, the sun's, the beach's name in the top bar, each bar's
+`SetBeachFactor` (from Chapter 9), the spots' cost (`BuildSpot.Restore`, from Chapter 14)
+and the kart's (`JuiceKart.Restore`, from Chapter 11). Those parameters were waiting for
+this chapter.
+
+### Idea — a branch
+
+A new beach touches seven scripts and the scene. Halfway through, the game won't work. On
+`main`, a half-done change is in everyone's way. So the work goes on a **branch**
+(C# 1): a line of commits of its own, starting from `main`. Commit as often as you
+like there; `main` stays as it was. When the new beach works, you **merge** the branch
+into `main`, and the whole feature arrives at once.
+
+```
+main      ●───●───●────────────────────────●  merge: the new beach arrives
+               \                           /
+new-beach       ●── beaches ──●── Pier ───●
+```
+
+### Do it — the branch
+
+1. Save the scene. In GitHub Desktop, **Current Branch → New Branch**, name it `new-beach`,
+   **Create Branch**: it starts from `main`. The top bar says **Current Branch:
+   new-beach**. Everything you commit now goes on it.
+
+### Do it — the beaches
+
+2. In `Scripts/Flow`, `BeachInfo`:
+
+```csharp:BeachInfo.cs
+using UnityEngine;
+
+// One beach: its name, its colours, and how much more everything pays and
+// costs there. The Pier sails to the next one.
+[CreateAssetMenu(fileName = "New Beach", menuName = "Juice/Beach Info")]
+public class BeachInfo : ScriptableObject
+{
+    [SerializeField] string displayName;
+    [SerializeField] Color sand = new Color(0.93f, 0.8f, 0.55f);
+    [SerializeField] Color sea = new Color(0.2f, 0.7f, 0.85f);
+    [SerializeField] Color sunlight = Color.white;
+    [SerializeField] float priceFactor = 1f;    // what a cup sells for
+    [SerializeField] float costFactor = 1f;     // what a build spot costs
+
+    public string DisplayName { get { return displayName; } }
+    public Color Sand { get { return sand; } }
+    public Color Sea { get { return sea; } }
+    public Color Sunlight { get { return sunlight; } }
+    public float PriceFactor { get { return priceFactor; } }
+    public float CostFactor { get { return costFactor; } }
+}
+```
+
+3. In `Data/Beaches`, **Create → Juice → Beach Info**, three times, from the table:
+   `Sunny Bay`, `Coral Cove`, `Sunset Shore`.
+4. `BeachGame`, again: it knows the beaches and which one this is, shows it, and passes its
+   numbers on as everything loads.
+
+```csharp
+using System;
+using LanternHill.Achievements;
+using TMPro;
+using UnityEngine;
+
+// The Beach scene's start and its saving. It finds the beach in the save,
+// gives it its colours and prices, builds again everything that was built,
+// adds what Welcome back collected, and saves every 30 seconds, when a phone
+// sends the game to the background, when the game quits, and when Settings'
+// Title button leaves the scene. Not in OnDestroy: by then the scene is being
+// taken down, and the kart or a bar may already be gone.
+public class BeachGame : MonoBehaviour
+{
+    [SerializeField] BeachInfo[] beaches;
+    [SerializeField] Wallet wallet;
+    [SerializeField] JuiceStand[] stands;
+    [SerializeField] CashPile[] cashPiles;
+    [SerializeField] BuildList buildList;
+    [SerializeField] Upgrades upgrades;
+    [SerializeField] ChefLevels chef;
+    [SerializeField] JuiceKart kart;
+    [SerializeField] GameStats stats;
+    [SerializeField] AchievementTracker tracker;
+    [SerializeField] IncomeSources income;
+    [SerializeField] Renderer sand;
+    [SerializeField] Renderer sea;
+    [SerializeField] Light sun;
+    [SerializeField] TMP_Text beachName;
+    [SerializeField] float autosaveSeconds = 30f;
+
+    int beachIndex;
+    float nextSaveTime;
+    bool hasLoaded;         // saving before the save is loaded would write a new game over it
+    bool isLeaving;         // sailing to a new beach: that beach is saved already
+
+    public int BeachIndex { get { return beachIndex; } }
+    public BeachInfo Beach { get { return beaches[beachIndex % beaches.Length]; } }
+    public BeachInfo NextBeach { get { return beaches[(beachIndex + 1) % beaches.Length]; } }
+
+    void Start()
+    {
+        Load();
+        hasLoaded = true;
+        if (Session.AwayCollected > 0)
+        {
+            wallet.Add(Session.AwayCollected);
+            stats.AddAwayEarnings(Session.AwayCollected);
+            Session.AwayCollected = 0;      // add it once
+            Save();
+        }
+        nextSaveTime = Time.unscaledTime + autosaveSeconds;
+    }
+
+    void Update()
+    {
+        if (Time.unscaledTime >= nextSaveTime)
+        {
+            Save();
+            nextSaveTime = Time.unscaledTime + autosaveSeconds;
+        }
+    }
+
+    // A phone switching to another app; a browser tab hidden.
+    void OnApplicationPause(bool isPaused)
+    {
+        if (isPaused)
+        {
+            Save();
+        }
+    }
+
+    void OnApplicationQuit()
+    {
+        Save();
+    }
+
+    // The Pier: the next beach is saved; this one mustn't save over it.
+    public void Leave()
+    {
+        isLeaving = true;
+    }
+
+    public void Save()
+    {
+        // Unity can call OnApplicationPause before Start: a game starting in the
+        // background does. The scene isn't loaded yet; there's nothing to save.
+        if (!hasLoaded || isLeaving)
+        {
+            return;
+        }
+        SaveData data = new SaveData();
+        data.beach = beachIndex;
+        // The notes still on the cash piles are yours: they're saved as money.
+        int waiting = 0;
+        foreach (CashPile pile in cashPiles)
+        {
+            waiting += pile.Total;
+        }
+        data.money = wallet.Money + waiting;
+        data.lifetimeEarned = wallet.LifetimeEarned + waiting;
+        data.built = buildList.BuiltIds();
+        data.paid = buildList.PaidSoFar();
+        data.upgrades.AddRange(upgrades.BoughtIds);
+        data.trayLevel = chef.TrayLevel;
+        data.flipFlopLevel = chef.FlipFlopLevel;
+        data.kartLevel = kart.Level;
+        data.stats = stats.ToSave();
+        data.trophies.AddRange(tracker.WonIds);
+        data.savedAtTicks = DateTime.UtcNow.Ticks;
+        foreach (IIncomeSource source in income.All)
+        {
+            if (source.EarnsWhileAway && source.IncomePerSecond > 0f)
+            {
+                AwaySource away = new AwaySource();
+                away.name = source.SourceName;
+                away.perSecond = source.IncomePerSecond;
+                data.awaySources.Add(away);
+            }
+        }
+        SaveSystem.Save(data);
+    }
+
+    void Load()
+    {
+        // A new game is a save with nothing in it.
+        SaveData data = SaveSystem.HasSave ? SaveSystem.Load() : new SaveData();
+        beachIndex = data.beach;
+        ShowBeach();
+        wallet.Restore(data.money, data.lifetimeEarned);
+        buildList.Restore(data.built, data.paid, Beach.CostFactor);
+        upgrades.Restore(data.upgrades);
+        chef.Restore(data.trayLevel, data.flipFlopLevel);
+        kart.Restore(data.kartLevel, Beach.PriceFactor);
+        stats.Restore(data.stats);
+        tracker.Restore(data.trophies);
+    }
+
+    // This beach's colours, its name, and what a cup sells for here.
+    void ShowBeach()
+    {
+        BeachInfo beach = Beach;
+        sand.material.color = beach.Sand;
+        sea.material.color = beach.Sea;
+        sun.color = beach.Sunlight;
+        beachName.text = beach.DisplayName;
+        foreach (JuiceStand stand in stands)
+        {
+            stand.SetBeachFactor(beach.PriceFactor);
+        }
+    }
+}
+```
+
+5. Read `ShowBeach`. `sand.material` (not `sharedMaterial`) gives this renderer **its own
+   copy** of the material the first time it's asked, so changing its colour changes this
+   sand only, in this Play, and not the `Sand` material asset in your project. And
+   `isLeaving`: once the Pier has saved the **next** beach, nothing may save this one over
+   it, not even the autosave in the second before the fade ends.
+6. **The beach's name.** In `Top Bar`, an Image `Beach Name`: `Panel Light`, **Sliced**,
+   middle-left with its pivot, **Pos X** `446`, 250 × 90; in it, a text `Text`, stretched
+   with **Left** and **Right** 12, **Top** and **Bottom** 6, `Sunny Bay`, size 34, light
+   brown, centred.
+7. On `Beach Game`: **Beaches** the three, in order; **Stands** the four bars; **Sand**,
+   **Sea** (their renderers), **Sun**, **Beach Name** (`Beach Name/Text`).
+
+### Do it — the Pier
+
+8. In `Scripts/Flow`, `NewBeach`:
+
+```csharp:NewBeach.cs
+using System;
+using LanternHill.Achievements;
+using UnityEngine;
+
+// The Pier: the last build spot. Built, it sails you to the next beach. What
+// you built and bought there, and your money, start again; the stats and
+// trophies come with you. The next beach is saved first, then the Report
+// scene says where you're going.
+public class NewBeach : MonoBehaviour
+{
+    [SerializeField] BuildSpot pier;
+    [SerializeField] BeachGame game;
+    [SerializeField] GameStats stats;
+    [SerializeField] AchievementTracker tracker;
+    [SerializeField] SceneFader fader;
+
+    void OnEnable()
+    {
+        pier.Built += Sail;
+    }
+
+    void OnDisable()
+    {
+        pier.Built -= Sail;
+    }
+
+    void Sail(BuildSpot spot)
+    {
+        stats.AddBeach();
+        BeachInfo next = game.NextBeach;
+        SaveData data = new SaveData();
+        data.beach = game.BeachIndex + 1;
+        data.stats = stats.ToSave();
+        data.trophies.AddRange(tracker.WonIds);
+        data.savedAtTicks = DateTime.UtcNow.Ticks;
+        SaveSystem.Save(data);
+        game.Leave();
+
+        Report report = new Report(ReportKind.NewBeach, "Beach complete!", next.DisplayName, 0);
+        report.Lines.Add($"Every cup sells for {next.PriceFactor:0.#} times as much there.");
+        report.Lines.Add("You start again on an empty beach. Your trophies come with you.");
+        Session.Report = report;
+        fader.FadeTo("Report");
+    }
+}
+```
+
+9. Read `Sail`. A brand-new `SaveData` is the next beach: everything at 0 and empty, but
+   the beach's number, the stats and the trophies. It's saved **first**: if the game
+   closed during the fade, you'd still have sailed. Then `game.Leave()`, so nothing saves
+   this beach over it. `{next.PriceFactor:0.#}` formats the number inside the string: `3`,
+   not `3.0`.
+10. **The Pier.** A material, `Pier`, `#A87C52`. An empty `Pier` at (7.4, 0, 8.2), on the
+    shore by the east palms, with six cubes in it, their colliders removed: each **Scale**
+    (1.6, 0.12, 1.1), at (0, 0.15, 0), (0, 0.15, 1.2), and so on to (0, 0.15, 6): planks
+    out into the sea. Untick it.
+11. **Its spot**: `Spot The Pier`, **Id** `pier`, `The Pier`, **Price** `5000`, at (7.4, 0,
+    7.2), **Builds** `Pier`, picture `Emoji/palm_tree_3d`. `Spot Juice Kart`'s **Next** is
+    `Spot The Pier`. Add it to the **Build List**: the list is now the balance sheet's,
+    twenty spots.
+12. On `Beach Game`, add **New Beach**: **Pier** `Spot The Pier`, **Game**, **Stats**,
+    **Tracker**, **Fader**.
+
+### Do it — Beach complete
+
+13. In the Report scene, in `Window`, a **Candy Button Green** `Open Beach Button`:
+    bottom-centre, **Pos Y** `70`, 600 × 150, `Set sail!`, size 56. The Report's last form
+    for now: Welcome back shows Collect; Beach complete shows Set sail! and a palm.
+
+```csharp
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// The Report scene: whatever the last scene left in Session.Report. Welcome
+// back offers Collect. Beach complete has one button, to the new beach.
+public class ReportScreen : MonoBehaviour
+{
+    [SerializeField] TMP_Text title;
+    [SerializeField] Image picture;
+    [SerializeField] Sprite newBeachPicture;    // the picture is the money bag, for Welcome back
+    [SerializeField] TMP_Text lines;
+    [SerializeField] TMP_Text amount;
+    [SerializeField] GameObject collectButton;
+    [SerializeField] GameObject openBeachButton;
+    [SerializeField] SceneFader fader;
+
+    Report report;
+
+    void Start()
+    {
+        report = Session.Report;
+        if (report == null)
+        {
+            // The scene was started on its own, in the Editor: show a test report.
+            Debug.LogWarning("Report started without a Session.Report: showing a test one.", this);
+            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", "+$12.3K", 12345);
+            report.Lines.Add("Started on its own, from the Editor.");
+        }
+        title.text = report.Title;
+        lines.text = string.Join("\n", report.Lines);
+        bool isWelcome = report.Kind == ReportKind.WelcomeBack;
+        amount.text = report.Highlight;
+        if (!isWelcome)
+        {
+            picture.sprite = newBeachPicture;
+        }
+        collectButton.SetActive(isWelcome);
+        openBeachButton.SetActive(!isWelcome);
+    }
+
+    public void Collect()
+    {
+        Leave(report.Amount);
+    }
+
+    public void OpenBeach()
+    {
+        Leave(0);
+    }
+
+    void Leave(int collected)
+    {
+        Session.AwayCollected = collected;
+        Session.Report = null;
+        fader.FadeTo("Beach");
+    }
+}
+```
+
+14. Fill the new fields: **Picture** (`Window/Picture`), **New Beach Picture**
+    `Emoji/palm_tree_3d`, **Collect Button**, **Open Beach Button**; and its On Click:
+    **ReportScreen → OpenBeach**.
+15. **The Title says where.** The final `TitleScreen` shows the beach in the save under
+    **Continue**:
+
+```csharp:TitleScreen.cs
+using System;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// The Title scene's buttons. Continue reads the save: if you were away long
+// enough to earn something, the Report scene welcomes you back first. New Game
+// asks before it deletes a save.
+public class TitleScreen : MonoBehaviour
+{
+    [SerializeField] Button continueButton;
+    [SerializeField] TMP_Text continueDetail;    // the money and the beach in the save
+    [SerializeField] BeachInfo[] beaches;
+    [SerializeField] GameObject confirmNewGame;
+    [SerializeField] GameObject quitButton;
+    [SerializeField] SceneFader fader;
+
+    void Start()
+    {
+        confirmNewGame.SetActive(false);
+        // A web page can't quit itself: there's no Quit on the Web.
+        quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);
+        ShowSave();
+    }
+
+    // Continue, and what's in the save under it. Settings' Delete Save calls
+    // this too, through its On Save Deleted event.
+    public void ShowSave()
+    {
+        bool hasSave = SaveSystem.HasSave;
+        continueButton.interactable = hasSave;
+        continueDetail.text = "";
+        if (hasSave)
+        {
+            SaveData data = SaveSystem.Load();
+            continueDetail.text = $"${NumberFormat.Money(data.money)}  ·  {beaches[data.beach % beaches.Length].DisplayName}";
+        }
+    }
+
+    public void Continue()
+    {
+        SaveData data = SaveSystem.Load();
+        Report welcome = AwayEarnings.MakeReport(data, DateTime.UtcNow);
+        if (welcome == null)
+        {
+            fader.FadeTo("Beach");
+            return;
+        }
+        Session.Report = welcome;
+        fader.FadeTo("Report");
+    }
+
+    // New Game: straight in with no save; asks first when there is one.
+    public void AskNewGame()
+    {
+        if (SaveSystem.HasSave)
+        {
+            confirmNewGame.SetActive(true);
+        }
+        else
+        {
+            StartNewGame();
+        }
+    }
+
+    public void StartNewGame()
+    {
+        SaveSystem.Delete();
+        fader.FadeTo("Beach");
+    }
+
+    public void CancelNewGame()
+    {
+        confirmNewGame.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+}
+```
+
+16. On `Title Screen`, **Beaches**: the three. The Title knows them only to name the one
+    in the save.
+
+### Test it
+
+- The Pier is at the end of a forty-minute list. As with the kart, add `Spot The Pier`
+  to the **Build List**'s **First** for a moment, with a **Price** of `1`.
+- **Play.** Build the Pier: the planks appear, the screen fades, and *Beach complete!*:
+  a palm, **Coral Cove**, *Every cup sells for 3 times as much there.* **Set sail!**: a
+  pink beach and a greener sea, `Coral Cove` in the top bar, one Orange Bar, $0. The
+  price tag says `Orange Bar  $15`; Table 1's spot costs $75. *Trophy: New Horizons*.
+- Open the Trophies: every trophy you'd won is still won. Back to the Title: **Continue**
+  says `$… · Coral Cove`.
+- Build the Pier again (it's still in **First**): *Sunset Shore*, a dusk-orange sun, cups at
+  ×9. Once more: Sunny Bay again.
+- Set the Pier back: **Price** `5000`, and not in **First**.
+
+### Commit, and merge
+
+17. Commit on the branch: *Sail to a new beach: three beaches, the Pier and the report*.
+18. **See what a branch is.** In GitHub Desktop, **Current Branch → main**. Unity reloads:
+    there's no Pier, `NewBeach.cs` and `BeachInfo.cs` are gone, and the game is as it was
+    this morning. Switch back to `new-beach`: it's all there. (Save your scene before
+    switching, every time: Git changes the files under Unity.)
+19. **Merge.** Switch to `main`. **Branch → Merge into Current Branch…**, choose
+    `new-beach`, **Create a merge commit**. Your commits are on `main` now. **Push
+    origin**.
+20. The branch has done its job: **Branch → Delete…** removes `new-beach`. Its commits stay,
+    on `main`.
+
+### Challenge
+
+Coming round to Sunny Bay a second time pays ×1 again, which feels like a step back. Make
+every lap round the beaches pay more: a beach's price factor times 10 for each time round
+(`beachIndex / beaches.Length`). Where does the change go, and what else would need the
+same factor? (Look at who calls `PriceFactor` and `CostFactor`.)
 
 ## C# 15 — Object Pooling
 
@@ -11323,7 +12961,7 @@ a sleeping one back on.
 A `Stack` (C# 6) suits a pool: `Push` puts an object back, `Pop` takes the
 last one put back, and which sleeping object you get doesn't matter. First the pooled
 object: a number that rises and fades. When it's done, it doesn't destroy itself. It
-raises an event (C# 5), and its pool takes it back:
+raises an event (C# 2), and its pool takes it back:
 
 ```csharp
 using System;
@@ -11528,54 +13166,135 @@ Pool the coins a juice stand throws: each has a Rigidbody 2D, flies up, falls, a
 back to the pool after a second. Reset its velocity. Then make the pool a fixed size of
 20 that takes back the oldest coin when it's empty. Which collection keeps them in order?
 
-## Chapter 15 — Juice and Sound
+## Chapter 17 — Juice and Sound
 
-**Goal:** the game feels alive. Every sale sends a "+$" number up from its business,
-dozens a minute, all reused from a **pool**. A **bonus balloon** floats across the sky
-every couple of minutes: tap it for a minute's income, or double income for 30 seconds.
-Squeezes, coins, purchases and trophies have their sounds, the beach its music, and
-Settings has a volume for each.
+**Goal:** the game feels alive, and costs nothing for it. Every orange, cup and note on the
+beach comes from a **pool** now: hundreds an hour, none made after the first few. Every
+customer who pays sends a "+$15" up from the counter, every lap of the kart a "+$60", from
+a pool of their own. Squeezes, coins, builds, upgrades and trophies have their sounds, the
+beach and the Title their music, and Settings has a volume for each.
 
-### Idea — dozens a minute, none made
+### Idea — hundreds an hour, none made
 
-Four businesses with managers sell every second or so, and each sale sends up a
-floating number that lives under a second. Made with `Instantiate` and thrown away with
-`Destroy`, that's thousands of objects an hour for the garbage collector to clean up,
-and a stutter each time it does. C# 15's answer, which the shared chapter
-built with these very numbers: keep the ones that finish, asleep, and wake one up for the
-next sale.
+Count what a busy beach moves: a fruit every second or so from each crate, a cup from
+each machine, a note for each cup sold, an empty cup at each table. Made with
+`Instantiate` and thrown away with `Destroy`, that's thousands of objects an hour for the
+garbage collector to clean up, and a stutter each time it does. C# 15's answer:
+keep the ones you're done with, asleep, and wake one up the next time.
 
-| Step | The pool |
+Chapter 4 put every `Instantiate` and `Destroy` of an item in one place, the **Item Pool**,
+for this day. Now it keeps a **sleeping stack for each kind** of item: a `Dictionary` from
+`ItemInfo` to `Stack<Item>`. An orange put back sleeps with the oranges; asked for an
+orange, the pool wakes one up, or makes one if none is asleep. Nothing that uses the pool
+changes: `Get` and `Release` keep their names and their parameters.
+
+| Step | The item pool |
 | --- | --- |
-| a sale | `Get`: pop a sleeping number off the `Stack`, or make one if it's empty |
-| the number plays | it rises and fades, then raises `Finished` |
-| `Finished` | `Release`: switch it off, push it back on the `Stack` |
+| a crate makes a fruit | `Get(orange)`: pop a sleeping orange, or make one |
+| the fruit goes into a juicer | `Release(item, delay)`: kept in a list with its time; at that time, put to sleep |
+| asleep | switched off, a child of the pool, on its kind's stack |
 
-A `Stack`, because any sleeping number will do, and the last one put back is the
-quickest to take. Ten are made at the start (**warm-up**); after that, the pool only
-grows if more than ten are in the air at once.
+A **delayed** release needs a timer per item. A coroutine per item would make garbage of
+its own, so the pool keeps two lists side by side (the items, and when each goes to
+sleep), and `Update` walks them **backwards**, removing as it goes.
 
-### Idea — a boost
+The **floating numbers** get their own small pool, with a **warm-up**: ten are made at the
+start, so the first sales don't make any.
 
-The balloon's second reward, ×2 income for 30 seconds, needs a **boost**: a multiplier
-that runs out. It belongs with the stars' bonus, in `IncomeBonus`, so everything that
-already asks for the `Multiplier` gets the boost for free. Chapter 17's ad gives the same
-boost, for 5 minutes. A second boost adds its time to the first, never ×4. And a boost
-still running when you leave is saved, so you don't lose it by quitting.
+### Do it — the item pool
 
-### Do it — the floating numbers
+1. The final `ItemPool`:
 
-1. In `Scripts/Juice`, `FloatingNumber`. For now it rises and fades in a coroutine
-   (Chapter 16 does it with DOTween):
+```csharp:ItemPool.cs
+using System.Collections.Generic;
+using UnityEngine;
+
+// Every item on the beach, pooled: a sleeping Stack for each kind. Get wakes
+// one up (or makes one when none sleeps); Release puts it to sleep, after a
+// delay when it's still hopping into a juicer or the bin. A busy beach moves
+// hundreds of oranges, cups and notes an hour: after the first few, none is
+// made or destroyed.
+public class ItemPool : MonoBehaviour
+{
+    readonly Dictionary<ItemInfo, Stack<Item>> sleeping = new Dictionary<ItemInfo, Stack<Item>>();
+    readonly List<Item> releasing = new List<Item>();
+    readonly List<float> releaseTimes = new List<float>();
+
+    public Item Get(ItemInfo info, Vector3 position)
+    {
+        Item item;
+        if (sleeping.TryGetValue(info, out Stack<Item> stack) && stack.Count > 0)
+        {
+            item = stack.Pop();
+            item.transform.SetParent(null);
+        }
+        else
+        {
+            item = Instantiate(info.Prefab);
+        }
+        item.transform.SetPositionAndRotation(position, Quaternion.identity);
+        item.Value = 0;
+        item.gameObject.SetActive(true);
+        return item;
+    }
+
+    public void Release(Item item)
+    {
+        item.gameObject.SetActive(false);
+        item.transform.SetParent(transform);
+        if (!sleeping.TryGetValue(item.Info, out Stack<Item> stack))
+        {
+            stack = new Stack<Item>();
+            sleeping.Add(item.Info, stack);
+        }
+        stack.Push(item);
+    }
+
+    // Puts it to sleep after its hop has landed.
+    public void Release(Item item, float delay)
+    {
+        releasing.Add(item);
+        releaseTimes.Add(Time.time + delay);
+    }
+
+    void Update()
+    {
+        for (int i = releasing.Count - 1; i >= 0; i--)
+        {
+            if (Time.time >= releaseTimes[i])
+            {
+                Release(releasing[i]);
+                releasing.RemoveAt(i);
+                releaseTimes.RemoveAt(i);
+            }
+        }
+    }
+}
+```
+
+2. Read `Get`. `TryGetValue` finds the kind's stack, if there is one yet; `&& stack.Count >
+   0` only then looks inside it. A sleeping item is a child of the pool, so it's taken out
+   (`SetParent(null)`) before it's put where it's needed. Then **everything the last use
+   changed** is set again: its place, its turn, its `Value` (a note that was worth $32
+   mustn't come back worth $32), and it's switched on. A pooled object is only as clean as
+   what you reset.
+3. **Play** and watch the Hierarchy: `Item Pool` fills up with switched-off oranges, cups
+   and notes, and stops growing. Pause after a few minutes, and count the oranges in the
+   whole scene: no more than the crates, the hands and the machine trays hold, plus a few
+   asleep.
+
+### Do it — floating numbers
+
+4. In `Scripts`, a folder `Juice`. In it, `FloatingNumber`, for now moved by its own
+   `Update`:
 
 ```csharp
 using System;
-using System.Collections;
 using TMPro;
 using UnityEngine;
 
-// A "+$1.2K" that rises from a business and fades. The NumberPool reuses it, so
-// Play sets everything the last use changed.
+// A "+$15" that rises over a counter, or the kart, and fades. The NumberPool
+// reuses it, so Play sets everything the last use changed.
 public class FloatingNumber : MonoBehaviour
 {
     const float RiseDistance = 1f;
@@ -11583,51 +13302,51 @@ public class FloatingNumber : MonoBehaviour
 
     [SerializeField] TMP_Text text;
 
+    Vector3 start;
+    float age;
+
     public event Action<FloatingNumber> Finished;
 
     public void Play(string message, Color colour, Vector3 position)
     {
+        start = position;
         transform.position = position;
         text.text = message;
         text.color = colour;
         text.alpha = 1f;
-        StopAllCoroutines();
-        StartCoroutine(RiseAndFade(position));
+        age = 0f;
     }
 
-    // Up fast, then slowing down; fading slowly, then fast.
-    IEnumerator RiseAndFade(Vector3 from)
+    void Update()
     {
-        for (float t = 0f; t < Lifetime; t += Time.deltaTime)
+        age += Time.deltaTime;
+        float t = Mathf.Clamp01(age / Lifetime);
+        // Fast at first, then slowing: an ease out.
+        float eased = 1f - (1f - t) * (1f - t) * (1f - t);
+        transform.position = start + Vector3.up * RiseDistance * eased;
+        text.alpha = 1f - t * t;
+        if (t >= 1f)
         {
-            float k = t / Lifetime;
-            transform.position = from + Vector3.up * (RiseDistance * (1f - (1f - k) * (1f - k)));
-            text.alpha = 1f - k * k;
-            yield return null;
+            Finished?.Invoke(this);
         }
-        Finished?.Invoke(this);
     }
 }
 ```
 
-2. **A pooled object resets everything in `Play`**: the position, the words, the colour,
-   the alpha. Whatever its last use left behind, the next starts clean.
-3. **GameObject → 3D Object → Text - TextMeshPro**: a text in the world, not on a canvas.
-   Name it `Text`, and put it in a new empty, `Floating Number`. On `Text`: size 5,
-   yellow, centred, **Wrapping** off, the Shadow preset, and under **Extra Settings**,
-   **Order in Layer** `30` (over the businesses). Its Rect Transform, 4 × 1. Add
-   `FloatingNumber` to `Floating Number` (**Text** its child), and drag it into
-   `Prefabs`. Delete it from the scene.
-4. In `Scripts/Juice`, `NumberPool`, the shared chapter's pool:
+5. `1 − (1 − t)³` starts steep and ends flat: the number shoots up and settles. `1 − t²`
+   does the opposite for the fade: it stays clear, then goes. Chapter 18 replaces both
+   with one line each. `Finished` tells the pool it's done; the number doesn't know it's
+   pooled.
+6. `NumberPool`, in `Juice`:
 
 ```csharp:NumberPool.cs
 using System.Collections.Generic;
 using UnityEngine;
 
 // Floating numbers, pooled. Get pops a sleeping one off the stack, or makes a new
-// one when it's empty; Release switches one off and pushes it back. With five
-// businesses selling, dozens rise every minute: none is made or destroyed after
-// the first few.
+// one when it's empty; Release switches one off and pushes it back. With four
+// bars and the kart selling, dozens rise every minute: none is made or
+// destroyed after the first few.
 public class NumberPool : MonoBehaviour
 {
     [SerializeField] FloatingNumber numberPrefab;
@@ -11678,753 +13397,156 @@ public class NumberPool : MonoBehaviour
 }
 ```
 
-5. `number.Finished += Release` when a number is made: it subscribes once, for its whole
-   life, and comes back to the pool by itself. **Create Empty**, `Number Pool`, with
-   `NumberPool`: **Number Prefab** the **Floating Number**.
-6. Each business sends up its sales. `StandSprite`:
+7. `number.Finished += Release` in `Make`: every number the pool makes comes back to it by
+   itself. The pool subscribes once, when it makes the number, and never again.
+8. **The prefab.** An empty `Floating Number`, with **Billboard** and **Floating Number**. A
+   child **3D Object → Text - TextMeshPro** (not the UI one: this text lives in the world),
+   `Text`: `+$1`, Lilita One, **Font Size** `6`, yellow, centred, **Wrapping** `Disabled`,
+   the Shadow preset, its **Rect Transform** 4 × 1, and in **Extra Settings**, **Order in
+   Layer** `30`, so it's drawn over the people. Drag it into **Text**, and the whole thing
+   into `Prefabs`.
+9. An empty `Number Pool`, with **Number Pool**: **Number Prefab** the prefab.
+10. `SaleNumbers`, in `Juice`:
+
+```csharp:SaleNumbers.cs
+using System;
+using UnityEngine;
+
+// A "+$15" rising over a counter whenever a customer pays, from the pool.
+public class SaleNumbers : MonoBehaviour
+{
+    [SerializeField] JuiceStand[] stands;
+    [SerializeField] NumberPool numbers;
+    [SerializeField] Color colour = new Color(1f, 0.85f, 0.25f);
+
+    Action<int>[] handlers;     // kept, so OnDisable can take the same ones off
+
+    void OnEnable()
+    {
+        handlers = new Action<int>[stands.Length];
+        for (int i = 0; i < stands.Length; i++)
+        {
+            // A copy for the lambda: every lambda would otherwise share i.
+            JuiceStand stand = stands[i];
+            handlers[i] = amount => Show(stand, amount);
+            stand.CustomerServed += handlers[i];
+        }
+    }
+
+    void OnDisable()
+    {
+        for (int i = 0; i < stands.Length; i++)
+        {
+            stands[i].CustomerServed -= handlers[i];
+        }
+    }
+
+    void Show(JuiceStand stand, int amount)
+    {
+        numbers.Show("+$" + NumberFormat.Money(amount), colour, stand.Counter.transform.position + Vector3.up * 2.5f);
+    }
+}
+```
+
+11. Read `OnEnable`. Each bar needs its own handler, one that knows which bar paid: a
+    **lambda** that captures `stand`. Two things make it work: the copy (`JuiceStand stand
+    = stands[i]`, as in the intern's shop, so each lambda has its own), and the array of
+    handlers, kept so `OnDisable` can take **the same** delegates off. A new lambda in
+    `OnDisable` would be a different delegate, and `-=` would remove nothing.
+12. Add **Sale Numbers** to `Number Pool`: **Stands** the four bars, **Numbers** the pool.
+13. The kart shows its lap too. `JuiceKart`, with a number for each lap:
 
 ```csharp
-using System.Collections;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-// A business on the beach, as a sprite: it appears when you own one, squeezes
-// when you tap it, and squashes and sends up a "+$" number when it sells. The
-// camera's Physics 2D Raycaster finds its collider for the tap.
-public class StandSprite : MonoBehaviour, IPointerClickHandler
-{
-    static readonly Color NumberColour = new Color(1f, 0.95f, 0.35f);
-
-    [SerializeField] JuiceStand stand;
-    [SerializeField] SpriteRenderer picture;
-    [SerializeField] Collider2D tapArea;
-    [SerializeField] NumberPool numbers;
-    [SerializeField] Vector3 numberOffset = new Vector3(0f, 1f, 0f);
-    [SerializeField] float squash = 0.15f;
-    [SerializeField] float squashTime = 0.25f;
-
-    Vector3 restingScale;
-
-    void Awake()
-    {
-        restingScale = picture.transform.localScale;
-    }
-
-    void OnEnable()
-    {
-        stand.Changed += Refresh;
-        stand.CupSold += OnCupSold;
-    }
-
-    void OnDisable()
-    {
-        stand.Changed -= Refresh;
-        stand.CupSold -= OnCupSold;
-    }
-
-    void Start()
-    {
-        Refresh();
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        stand.Squeeze();
-    }
-
-    void Refresh()
-    {
-        bool isOpen = stand.Owned > 0;
-        picture.enabled = isOpen;
-        tapArea.enabled = isOpen;
-    }
-
-    void OnCupSold(long amount)
-    {
-        numbers.Show("+" + NumberFormat.Money(amount), NumberColour, transform.position + numberOffset);
-        StopAllCoroutines();
-        StartCoroutine(Squash());
-    }
-
-    // Wider and shorter, then back again: a sale you can see.
-    IEnumerator Squash()
-    {
-        for (float t = 0f; t < squashTime; t += Time.deltaTime)
-        {
-            float amount = Mathf.Sin(t / squashTime * Mathf.PI) * squash;
-            picture.transform.localScale = restingScale + new Vector3(amount, -amount, 0f);
-            yield return null;
-        }
-        picture.transform.localScale = restingScale;
-    }
-}
-```
-
-7. Select the five businesses together and drag the `Number Pool` into their **Numbers**.
-
-### Do it — a boost, and saving it
-
-8. `IncomeBonus` gets the boost: a time that counts down, and a factor of 2 while it
-   runs. Its `Restore` takes the boost's time too, so the save and the Beach change with
-   it. All three only compile together:
-
-<!-- check: together -->
-```csharp:IncomeBonus.cs
 using System;
 using UnityEngine;
 
-// What multiplies everything you earn: the Juice Stars, each worth +5 % for
-// good, and a boost (from the balloon or an ad) that doubles it for a while.
-public class IncomeBonus : MonoBehaviour
+// The Juice Kart: a helper drives it round the beach road for ever, and each
+// lap sells by itself, straight into the Wallet. Each level sells more. It
+// earns while you're away: it's an IIncomeSource, like a staffed bar, and the
+// two share nothing else.
+public class JuiceKart : MonoBehaviour, IIncomeSource
 {
-    const float StarBonus = 0.05f;
-    const float BoostMultiplier = 2f;
+    static readonly int SittingId = Animator.StringToHash("Sitting");
 
-    public int Stars { get; private set; }
-    public float BoostSecondsLeft { get; private set; }
-    public bool IsBoosting { get { return BoostSecondsLeft > 0f; } }
-    public float BoostFactor { get { return IsBoosting ? BoostMultiplier : 1f; } }
-    public float Multiplier { get { return (1f + StarBonus * Stars) * BoostFactor; } }
+    [SerializeField] Walker walker;
+    [SerializeField] Animator driver;
+    [SerializeField] WalkPath road;
+    [SerializeField] Wallet wallet;
+    [SerializeField] NumberPool numbers;
+    [SerializeField] int[] lapEarnings = { 60, 90, 135, 200, 300 };
+    [SerializeField] int[] levelPrice = { 1500, 4000, 9000, 20000 };
 
+    float beachFactor = 1f;
+
+    public int Level { get; private set; }
+    public bool IsBuilt { get { return gameObject.activeInHierarchy; } }
+    public bool IsMax { get { return Level >= levelPrice.Length; } }
+    public int NextLevelPrice { get { return IsMax ? 0 : levelPrice[Level]; } }
+    public int LapEarnings { get { return Mathf.RoundToInt(lapEarnings[Level] * beachFactor); } }
+
+    public event Action<int> Lapped;    // the money of one lap
     public event Action Changed;
 
-    void Update()
-    {
-        if (!IsBoosting)
-        {
-            return;
-        }
-        BoostSecondsLeft -= Time.deltaTime;
-        if (!IsBoosting)
-        {
-            BoostSecondsLeft = 0f;
-            Changed?.Invoke();
-        }
-    }
-
-    // A second boost adds its time to the first.
-    public void StartBoost(float seconds)
-    {
-        BoostSecondsLeft += seconds;
-        Changed?.Invoke();
-    }
-
-    public void SetStars(int stars)
-    {
-        Stars = stars;
-        Changed?.Invoke();
-    }
-
-    // Loading a save: a boost still running when you left keeps its time.
-    public void Restore(int stars, float boostSecondsLeft)
-    {
-        Stars = stars;
-        BoostSecondsLeft = boostSecondsLeft;
-        Changed?.Invoke();
-    }
-}
-```
-
-```csharp:SaveData.cs
-using System.Collections.Generic;
-
-// Everything juice-tycoon.json keeps. JsonUtility saves public fields only,
-// and can't save a Dictionary or a DateTime: the businesses are a list, the
-// upgrades and trophies are ids, and the time is a long, DateTime's Ticks.
-[System.Serializable]
-public class SaveData
-{
-    public int version = 1;
-    public long money;
-    public long lifetimeEarned;
-    public int stars;
-    public float boostSecondsLeft;
-    public List<StandSave> stands = new List<StandSave>();
-    public List<string> upgrades = new List<string>();
-    public int vanLevel;
-    public StatsSave stats = new StatsSave();
-    public List<string> trophies = new List<string>();
-    // When it was saved, and what earned by itself then: enough to work out
-    // what you earned while away, before the Beach scene is even loaded.
-    public long savedAtTicks;
-    public List<AwaySource> awaySources = new List<AwaySource>();
-}
-
-// One business: which, and how many you own.
-[System.Serializable]
-public class StandSave
-{
-    public string id;
-    public int owned;
-}
-
-// The counts behind Sam's achievements, for the player's whole life.
-[System.Serializable]
-public class StatsSave
-{
-    public long cupsSold;
-    public long taps;
-    public long balloonsPopped;
-    public long beachesOpened;
-    public long awayEarned;
-    public long upgradesBought;
-}
-
-// Something that earns while you're away, and how much each second.
-[System.Serializable]
-public class AwaySource
-{
-    public string name;
-    public long perSecond;
-}
-```
-
-```csharp:BeachGame.cs
-using System;
-using LanternHill.Achievements;
-using UnityEngine;
-
-// The Beach scene's start and its saving. It loads the save into every part
-// of the game, adds what Welcome back collected, and saves every 30 seconds,
-// when a phone sends the game to the background, and when the scene closes.
-public class BeachGame : MonoBehaviour
-{
-    [SerializeField] Wallet wallet;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
-    [SerializeField] GameStats stats;
-    [SerializeField] AchievementTracker tracker;
-    [SerializeField] IncomeSources income;
-    [SerializeField] float autosaveSeconds = 30f;
-
-    float nextSaveTime;
-    bool hasLoaded;         // saving before the save is loaded would write a new game over it
-
-    void Start()
-    {
-        Load();
-        hasLoaded = true;
-        if (Session.AwayCollected > 0)
-        {
-            wallet.Add(Session.AwayCollected);
-            stats.AddAwayEarnings(Session.AwayCollected);
-            Session.AwayCollected = 0;      // add it once
-            Save();
-        }
-        nextSaveTime = Time.unscaledTime + autosaveSeconds;
-    }
-
-    void Update()
-    {
-        if (Time.unscaledTime >= nextSaveTime)
-        {
-            Save();
-            nextSaveTime = Time.unscaledTime + autosaveSeconds;
-        }
-    }
-
-    // A phone switching to another app; a browser tab hidden.
-    void OnApplicationPause(bool isPaused)
-    {
-        if (isPaused)
-        {
-            Save();
-        }
-    }
-
-    void OnApplicationQuit()
-    {
-        Save();
-    }
-
-    // Leaving the scene: for the Title, or for the Report after a new beach.
-    void OnDestroy()
-    {
-        Save();
-    }
-
-    public void Save()
-    {
-        // Unity can call OnApplicationPause before Start: a game starting in the
-        // background does. The scene isn't loaded yet; there's nothing to save.
-        if (!hasLoaded)
-        {
-            return;
-        }
-        SaveData data = new SaveData();
-        data.money = wallet.Money;
-        data.lifetimeEarned = wallet.LifetimeEarned;
-        data.stars = bonus.Stars;
-        data.boostSecondsLeft = bonus.BoostSecondsLeft;
-        foreach (JuiceStand stand in stands)
-        {
-            StandSave saved = new StandSave();
-            saved.id = stand.Info.Id;
-            saved.owned = stand.Owned;
-            data.stands.Add(saved);
-        }
-        data.upgrades.AddRange(upgrades.BoughtIds);
-        data.vanLevel = van.Level;
-        data.stats = stats.ToSave();
-        data.trophies.AddRange(tracker.WonIds);
-        data.savedAtTicks = DateTime.UtcNow.Ticks;
-        // What earns by itself now, without a boost that won't last while you're away.
-        foreach (IIncomeSource source in income.All)
-        {
-            if (source.EarnsWhileAway && source.IncomePerSecond > 0)
-            {
-                AwaySource away = new AwaySource();
-                away.name = source.SourceName;
-                away.perSecond = (long)(source.IncomePerSecond / (double)bonus.BoostFactor);
-                data.awaySources.Add(away);
-            }
-        }
-        SaveSystem.Save(data);
-    }
-
-    void Load()
-    {
-        if (!SaveSystem.HasSave)
-        {
-            return;     // a new game: everything as the scene starts
-        }
-        SaveData data = SaveSystem.Load();
-        wallet.Restore(data.money, data.lifetimeEarned);
-        bonus.Restore(data.stars, data.boostSecondsLeft);
-        foreach (StandSave saved in data.stands)
-        {
-            foreach (JuiceStand stand in stands)
-            {
-                if (stand.Info.Id == saved.id)
-                {
-                    stand.Restore(saved.owned);
-                }
-            }
-        }
-        // After the stands: the upgrades multiply and automate them again.
-        upgrades.Restore(data.upgrades);
-        van.Restore(data.vanLevel);
-        stats.Restore(data.stats);
-        tracker.Restore(data.trophies);
-    }
-}
-```
-<!-- check: end -->
-
-9. In `BeachGame.Save`, look at the away earnings: each source's income is divided by the
-   `BoostFactor`. A boost that runs out in a minute mustn't double eight hours of
-   earnings while you're away.
-10. The income text shows a running boost, and its time left. `IncomeText`'s last form:
-
-```csharp:IncomeText.cs
-using TMPro;
-using UnityEngine;
-
-// Under the money: what everything earns by itself each second, and a boost's
-// time left. It adds up the IIncomeSources four times a second, not every
-// frame: a number that changes this slowly needn't make a new string 60 times
-// a second.
-public class IncomeText : MonoBehaviour
-{
-    const float RefreshSeconds = 0.25f;
-
-    [SerializeField] IncomeSources income;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] TMP_Text text;
-
-    float nextRefreshTime;
-
-    void Update()
-    {
-        if (Time.unscaledTime < nextRefreshTime)
-        {
-            return;
-        }
-        nextRefreshTime = Time.unscaledTime + RefreshSeconds;
-        long perSecond = income.PerSecond;
-        string line = perSecond > 0 ? $"+{NumberFormat.Money(perSecond)} / s" : "Tap to squeeze!";
-        if (bonus.IsBoosting)
-        {
-            int seconds = Mathf.CeilToInt(bonus.BoostSecondsLeft);
-            line += $"   ×2 {seconds / 60}:{seconds % 60:00}";
-        }
-        text.text = line;
-    }
-}
-```
-
-11. Set its **Bonus** (the `Income` object). `{seconds % 60:00}` again: `4:05`, not `4:5`.
-
-### Do it — the balloon
-
-12. In `Scripts/Income`, `BonusBalloon`:
-
-```csharp:BonusBalloon.cs
-using System;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-// The bonus balloon: a sprite that drifts across the sky, bobbing. Tap it
-// before it's gone. The camera's Physics 2D Raycaster finds its collider, and
-// the EventSystem calls OnPointerClick, as for a UI button.
-public class BonusBalloon : MonoBehaviour, IPointerClickHandler
-{
-    [SerializeField] float speed = 1.2f;        // units a second
-    [SerializeField] float bobHeight = 0.3f;
-    [SerializeField] float bobSpeed = 2f;
-
-    Vector3 start;
-    Vector3 end;
-    float travelled;
-
-    public event Action<BonusBalloon> Popped;
-
-    void Update()
-    {
-        travelled += speed * Time.deltaTime;
-        float distance = Vector3.Distance(start, end);
-        if (travelled >= distance)
-        {
-            gameObject.SetActive(false);    // missed: it floated away
-            return;
-        }
-        Vector3 position = Vector3.Lerp(start, end, travelled / distance);
-        position.y += Mathf.Sin(travelled * bobSpeed) * bobHeight;
-        transform.position = position;
-    }
-
-    public void Fly(Vector3 from, Vector3 to)
-    {
-        start = from;
-        end = to;
-        travelled = 0f;
-        transform.position = from;
-        gameObject.SetActive(true);
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        gameObject.SetActive(false);
-        Popped?.Invoke(this);
-    }
-}
-```
-
-13. It drifts from one point to another with `Vector3.Lerp`, bobbing with `Mathf.Sin`, and
-    switches itself off when it gets there: a missed balloon. A tap reaches it the way it
-    reaches the businesses: the camera's Physics 2D Raycaster, a collider,
-    `IPointerClickHandler`.
-14. In the world, drag in `balloon_3d`: `Bonus Balloon`, at (0, 7, 0), **Scale** (0.7, 0.7,
-    1), **Order in Layer** `15`. **Add Component → Circle Collider 2D** (**Radius** 0.8), and
-    `BonusBalloon`.
-15. In `Scripts/Income`, `BalloonSpawner`:
-
-```csharp:BalloonSpawner.cs
-using System;
-using UnityEngine;
-
-// Sends the bonus balloon across the sky every minute and a half to two and a
-// half minutes. Popping it gives one of two rewards, chosen at random: a
-// minute of what you earn by yourself, or double income for 30 seconds.
-public class BalloonSpawner : MonoBehaviour
-{
-    const float RewardSeconds = 60f;
-    const float BoostSeconds = 30f;
-    const long SmallestReward = 50;     // before any manager, a minute's income is nothing
-
-    [SerializeField] BonusBalloon balloon;
-    [SerializeField] Wallet wallet;
-    [SerializeField] IncomeSources income;
-    [SerializeField] IncomeBonus bonus;
-    [SerializeField] NumberPool numbers;
-    [SerializeField] float shortestWait = 90f;
-    [SerializeField] float longestWait = 150f;
-    [SerializeField] Vector3 leftEdge = new Vector3(-7f, 6f, 0f);
-    [SerializeField] Vector3 rightEdge = new Vector3(7f, 7.5f, 0f);
-
-    float nextBalloonTime;
-
-    public event Action Popped;
-
     void OnEnable()
     {
-        balloon.Popped += OnBalloonPopped;
+        driver.SetBool(SittingId, true);
+        walker.Arrived += OnLap;
+        walker.WalkTo(road.Points());
     }
 
     void OnDisable()
     {
-        balloon.Popped -= OnBalloonPopped;
+        walker.Arrived -= OnLap;
     }
 
-    void Start()
+    void OnLap()
     {
-        balloon.gameObject.SetActive(false);
-        PlanNext();
+        int earned = LapEarnings;
+        wallet.Add(earned);
+        numbers.Show("+$" + NumberFormat.Money(earned), Color.white, transform.position + Vector3.up * 2f);
+        Lapped?.Invoke(earned);
+        walker.WalkTo(road.Points());
     }
 
-    void Update()
+    public bool TryLevelUp()
     {
-        if (Time.time < nextBalloonTime || balloon.gameObject.activeSelf)
+        if (IsMax || !wallet.TrySpend(NextLevelPrice))
         {
-            return;
+            return false;
         }
-        // Half the balloons go left to right, half right to left.
-        if (UnityEngine.Random.value < 0.5f)
-        {
-            balloon.Fly(leftEdge, rightEdge);
-        }
-        else
-        {
-            balloon.Fly(rightEdge, leftEdge);
-        }
-        PlanNext();
+        Level++;
+        Changed?.Invoke();
+        return true;
     }
 
-    void PlanNext()
+    public void Restore(int level, float beachPriceFactor)
     {
-        nextBalloonTime = Time.time + UnityEngine.Random.Range(shortestWait, longestWait);
+        Level = Mathf.Clamp(level, 0, levelPrice.Length);
+        beachFactor = beachPriceFactor;
+        Changed?.Invoke();
     }
 
-    void OnBalloonPopped(BonusBalloon popped)
+    // ------------------------------------------------------------ IIncomeSource
+
+    public string SourceName { get { return "Juice Kart"; } }
+
+    public float IncomePerSecond
     {
-        if (UnityEngine.Random.value < 0.5f)
-        {
-            long reward = Math.Max(SmallestReward, (long)(income.PerSecond * (double)RewardSeconds));
-            wallet.Add(reward);
-            numbers.Show("+" + NumberFormat.Money(reward), Color.yellow, popped.transform.position);
-        }
-        else
-        {
-            bonus.StartBoost(BoostSeconds);
-            numbers.Show("×2 for 30 s", Color.yellow, popped.transform.position);
-        }
-        Popped?.Invoke();
+        get { return IsBuilt ? LapEarnings / (road.Length() / walker.Speed) : 0f; }
     }
+
+    public bool EarnsWhileAway { get { return IsBuilt; } }
 }
 ```
 
-16. `UnityEngine.Random.value < 0.5f`: a coin toss. (`Random` alone would be ambiguous here:
-    `System`, used for `Action`, has a `Random` too, so the name says which.) The reward
-    is a minute of everything that earns by itself, `income.PerSecond`, the
-    `IIncomeSource`s once more; before any manager, that's nothing, so it's at least $50.
-17. **Create Empty**, `Balloon Spawner`, with `BalloonSpawner`: **Balloon**, **Wallet**,
-    **Income** and **Bonus** (both the `Income` object), **Numbers** (`Number Pool`).
-18. Sam's *Balloon Catcher* can count now. `GameStats`'s last form:
-
-```csharp:GameStats.cs
-using LanternHill.Achievements;
-using UnityEngine;
-
-// Our half of Sam's contract: the numbers his achievements count. Some are
-// counted here as things happen (cups sold, taps, balloons); the others are
-// read from the game when asked (the money earned, the businesses owned).
-// The counts are for the player's whole life: a new beach doesn't reset them.
-public class GameStats : MonoBehaviour, IStatSource
-{
-    [SerializeField] JuiceStand[] stands;
-    [SerializeField] Wallet wallet;
-    [SerializeField] Upgrades upgrades;
-    [SerializeField] DeliveryVan van;
-    [SerializeField] BalloonSpawner balloons;
-
-    public long CupsSold { get; private set; }
-    public long Taps { get; private set; }
-    public long BalloonsPopped { get; private set; }
-    public long BeachesOpened { get; private set; }
-    public long AwayEarned { get; private set; }
-    public long UpgradesBought { get; private set; }
-
-    void OnEnable()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold += OnCupSold;
-            stand.Squeezed += OnSqueezed;
-        }
-        upgrades.Bought += OnUpgradeBought;
-        balloons.Popped += OnBalloonPopped;
-    }
-
-    void OnDisable()
-    {
-        foreach (JuiceStand stand in stands)
-        {
-            stand.CupSold -= OnCupSold;
-            stand.Squeezed -= OnSqueezed;
-        }
-        upgrades.Bought -= OnUpgradeBought;
-        balloons.Popped -= OnBalloonPopped;
-    }
-
-    public long GetStat(Stat stat)
-    {
-        switch (stat)
-        {
-            case Stat.CupsSold: return CupsSold;
-            case Stat.MoneyEarned: return wallet.LifetimeEarned;
-            case Stat.BusinessesOwned: return BusinessesOwned();
-            case Stat.ManagersHired: return ManagersHired();
-            case Stat.UpgradesBought: return UpgradesBought;
-            case Stat.Taps: return Taps;
-            case Stat.BalloonsPopped: return BalloonsPopped;
-            case Stat.BeachesOpened: return BeachesOpened;
-            case Stat.AwayEarned: return AwayEarned;
-            case Stat.VanLevel: return van.Level;
-            default: return 0;
-        }
-    }
-
-    public void AddAwayEarnings(long amount)
-    {
-        AwayEarned += amount;
-    }
-
-    public void AddBeach()
-    {
-        BeachesOpened++;
-    }
-
-    public void Restore(StatsSave saved)
-    {
-        CupsSold = saved.cupsSold;
-        Taps = saved.taps;
-        BalloonsPopped = saved.balloonsPopped;
-        BeachesOpened = saved.beachesOpened;
-        AwayEarned = saved.awayEarned;
-        UpgradesBought = saved.upgradesBought;
-    }
-
-    public StatsSave ToSave()
-    {
-        StatsSave saved = new StatsSave();
-        saved.cupsSold = CupsSold;
-        saved.taps = Taps;
-        saved.balloonsPopped = BalloonsPopped;
-        saved.beachesOpened = BeachesOpened;
-        saved.awayEarned = AwayEarned;
-        saved.upgradesBought = UpgradesBought;
-        return saved;
-    }
-
-    long BusinessesOwned()
-    {
-        long total = 0;
-        foreach (JuiceStand stand in stands)
-        {
-            total += stand.Owned;
-        }
-        return total;
-    }
-
-    long ManagersHired()
-    {
-        long total = 0;
-        foreach (JuiceStand stand in stands)
-        {
-            if (stand.IsAutomated)
-            {
-                total++;
-            }
-        }
-        return total;
-    }
-
-    // A sale: one cycle of one business, however many of it you own.
-    void OnCupSold(long amount)
-    {
-        CupsSold++;
-    }
-
-    void OnSqueezed()
-    {
-        Taps++;
-    }
-
-    void OnUpgradeBought(Upgrade upgrade)
-    {
-        UpgradesBought++;
-    }
-
-    void OnBalloonPopped()
-    {
-        BalloonsPopped++;
-    }
-}
-```
-
-19. Set its **Balloons** (`Balloon Spawner`).
+14. On the scene's kart, drag in `Number Pool`.
 
 ### Do it — sound
 
-20. Select the two pieces of music, `Audio/Sunny` and `Audio/Chill`: **Load Type**
-    **Streaming**, **Apply**. A short sound is loaded whole; a three-minute song is read
-    from the file as it plays, so it doesn't sit in memory.
-21. The volumes are settings, kept in PlayerPrefs with the keys. `GameSettings`'s last
-    form:
-
-```csharp:GameSettings.cs
-using UnityEngine;
-using UnityEngine.InputSystem;
-
-// The player's settings, kept in PlayerPrefs: small values, one key each. The
-// keys are constants, so a typo is a compile error, not a setting that quietly
-// never loads. They start with the game's name because every game in one
-// Unity project shares the same PlayerPrefs.
-public static class GameSettings
-{
-    const string MusicVolumeKey = "JuiceTycoon.MusicVolume";
-    const string EffectsVolumeKey = "JuiceTycoon.EffectsVolume";
-    const string BindingsKey = "JuiceTycoon.Bindings";
-    const float DefaultMusicVolume = 0.5f;
-    const float DefaultEffectsVolume = 0.8f;
-
-    public static float MusicVolume
-    {
-        get { return PlayerPrefs.GetFloat(MusicVolumeKey, DefaultMusicVolume); }
-        set { PlayerPrefs.SetFloat(MusicVolumeKey, value); }
-    }
-
-    public static float EffectsVolume
-    {
-        get { return PlayerPrefs.GetFloat(EffectsVolumeKey, DefaultEffectsVolume); }
-        set { PlayerPrefs.SetFloat(EffectsVolumeKey, value); }
-    }
-
-    // Writes the settings to disk now, rather than when the game quits.
-    public static void Save()
-    {
-        PlayerPrefs.Save();
-    }
-
-    // Every key the player has changed, as one line of JSON.
-    public static void SaveBindings(InputActionAsset actions)
-    {
-        PlayerPrefs.SetString(BindingsKey, actions.SaveBindingOverridesAsJson());
-        PlayerPrefs.Save();
-    }
-
-    public static void LoadBindings(InputActionAsset actions)
-    {
-        string json = PlayerPrefs.GetString(BindingsKey, "");
-        if (json != "")
-        {
-            actions.LoadBindingOverridesFromJson(json);
-        }
-    }
-
-    public static void ResetBindings(InputActionAsset actions)
-    {
-        actions.RemoveAllBindingOverrides();
-        PlayerPrefs.DeleteKey(BindingsKey);
-        PlayerPrefs.Save();
-    }
-}
-```
-
-22. `PlayerPrefs.GetFloat(key, default)` gives the default until the player has chosen.
-    In `Scripts/Juice`, `MusicPlayer`:
+15. Select the two pieces of music, `Audio/Sunny` and `Audio/Chill`: **Load Type**
+    `Streaming`, **Apply**. A short sound is loaded whole; a three-minute song is read from
+    the file as it plays, so it doesn't sit in memory.
+16. In `Juice`, `MusicPlayer`:
 
 ```csharp:MusicPlayer.cs
 using UnityEngine;
@@ -12454,31 +13576,33 @@ public class MusicPlayer : MonoBehaviour
 }
 ```
 
-23. And `SoundPlayer`, every short sound through one Audio Source:
+17. And `SoundPlayer`:
 
 ```csharp:SoundPlayer.cs
 using UnityEngine;
 
-// The game's short sounds, through one Audio Source. Sales are the commonest:
-// five fast businesses could sell many times a second, so a coin plays at most
-// every tenth of a second.
+// The game's sounds, on one Audio Source: a squeeze when a machine makes a
+// cup, coins when a customer pays, a pop when something is built, and the
+// shop's and the trophies' sounds. Coins and squeezes are kept apart, so ten
+// at once don't make a roar.
 [RequireComponent(typeof(AudioSource))]
 public class SoundPlayer : MonoBehaviour
 {
-    const float ShortestCoinGap = 0.1f;
+    const float ShortestGap = 0.12f;
 
     [SerializeField] JuiceStand[] stands;
+    [SerializeField] Juicer[] juicers;
+    [SerializeField] BuildList buildList;
     [SerializeField] Upgrades upgrades;
-    [SerializeField] BalloonSpawner balloons;
     [SerializeField] AudioClip squeezeClip;
     [SerializeField] AudioClip coinClip;
-    [SerializeField] AudioClip buyClip;
+    [SerializeField] AudioClip builtClip;
     [SerializeField] AudioClip upgradeClip;
     [SerializeField] AudioClip trophyClip;
-    [SerializeField] AudioClip balloonClip;
 
     AudioSource source;
     float nextCoinTime;
+    float nextSqueezeTime;
 
     void Awake()
     {
@@ -12490,24 +13614,28 @@ public class SoundPlayer : MonoBehaviour
     {
         foreach (JuiceStand stand in stands)
         {
-            stand.Squeezed += OnSqueezed;
-            stand.CupSold += OnCupSold;
-            stand.Bought += OnBought;
+            stand.CustomerServed += OnCustomerServed;
         }
+        foreach (Juicer juicer in juicers)
+        {
+            juicer.CupMade += OnCupMade;
+        }
+        buildList.SpotBuilt += OnSpotBuilt;
         upgrades.Bought += OnUpgradeBought;
-        balloons.Popped += OnBalloonPopped;
     }
 
     void OnDisable()
     {
         foreach (JuiceStand stand in stands)
         {
-            stand.Squeezed -= OnSqueezed;
-            stand.CupSold -= OnCupSold;
-            stand.Bought -= OnBought;
+            stand.CustomerServed -= OnCustomerServed;
         }
+        foreach (Juicer juicer in juicers)
+        {
+            juicer.CupMade -= OnCupMade;
+        }
+        buildList.SpotBuilt -= OnSpotBuilt;
         upgrades.Bought -= OnUpgradeBought;
-        balloons.Popped -= OnBalloonPopped;
     }
 
     public void SetVolume(float volume)
@@ -12520,63 +13648,72 @@ public class SoundPlayer : MonoBehaviour
         source.PlayOneShot(trophyClip);
     }
 
-    void OnSqueezed()
+    public void PlayUpgrade()
     {
-        source.PlayOneShot(squeezeClip);
+        source.PlayOneShot(upgradeClip);
     }
 
-    void OnCupSold(long amount)
+    void OnCustomerServed(int amount)
     {
-        if (Time.unscaledTime < nextCoinTime)
+        if (Time.unscaledTime >= nextCoinTime)
         {
-            return;
+            nextCoinTime = Time.unscaledTime + ShortestGap;
+            source.PlayOneShot(coinClip, 0.7f);
         }
-        nextCoinTime = Time.unscaledTime + ShortestCoinGap;
-        source.PlayOneShot(coinClip, 0.6f);
     }
 
-    void OnBought(int count)
+    void OnCupMade()
     {
-        source.PlayOneShot(buyClip, 0.8f);
+        if (Time.unscaledTime >= nextSqueezeTime)
+        {
+            nextSqueezeTime = Time.unscaledTime + ShortestGap;
+            source.PlayOneShot(squeezeClip, 0.35f);
+        }
+    }
+
+    void OnSpotBuilt(BuildSpot spot)
+    {
+        source.PlayOneShot(builtClip);
     }
 
     void OnUpgradeBought(Upgrade upgrade)
     {
         source.PlayOneShot(upgradeClip);
     }
-
-    void OnBalloonPopped()
-    {
-        source.PlayOneShot(balloonClip);
-    }
 }
 ```
 
-24. Five businesses selling at once could ask for dozens of coins a second; one every
-    tenth of a second sounds the same, and doesn't drown everything else. `PlayOneShot`
-    plays a clip over whatever's playing, at its own volume (the second argument).
-25. In the Beach scene: **Create Empty**, `Music`, with an **Audio Source** (**AudioClip**
-    `Sunny`, **Play On Awake** off) and `MusicPlayer`. **Create Empty**, `Sounds`, with an
-    **Audio Source** (**Play On Awake** off) and `SoundPlayer`: **Stands**, **Upgrades**,
-    **Balloons**, and the six clips (`Squeeze`, `Coin`, `Buy`, `Upgrade`, `Trophy`,
-    `Balloon`). In the Title and the Report, a `Music` the same way, with `Chill`.
-26. The trophy's jingle plays when its toast shows, not when it's won: two trophies won
-    at once each get their jingle, a few seconds apart. `ToastQueue`'s last form:
+18. Read it. One `AudioSource`, and `PlayOneShot` for every sound: one-shots play on top of
+    each other on the same source, each to its end. But four bars paying in the same
+    second would be four coins at once, a roar. So coins and squeezes keep a **shortest
+    gap**: one within 0.12 s of the last is skipped. The second argument to `PlayOneShot`
+    is that sound's volume, times the source's: squeezes are quiet, because there are so
+    many of them.
+19. On the Beach: an empty `Music` with an **Audio Source** (**AudioClip** `Sunny`,
+    **Play On Awake** off, **Loop** on) and **Music Player**. An empty `Sounds`, with an
+    **Audio Source** (**Play On Awake** off) and **Sound Player**: **Stands** the four
+    bars, **Juicers** all eight (`t:Juicer` in the Hierarchy), **Build List**, **Upgrades**,
+    and the clips: **Squeeze** `Squeeze`, **Coin** `Coin`, **Built** `Balloon` (a pop),
+    **Upgrade** `Upgrade`, **Trophy** `Trophy`. On the Title and the Report: a `Music` with
+    `Chill`.
+20. The final `ToastQueue` plays the trophy sound with a trophy's toast:
 
 ```csharp:ToastQueue.cs
 using System.Collections.Generic;
 using LanternHill.Achievements;
 using UnityEngine;
 
-// Messages for the toast wait here, first come first shown: "Manager hired!",
-// and every trophy won. The toast shows them one at a time. A trophy's reward
-// is paid the moment it's won. Sam's module has a Toast of its own: with his
-// namespace in a using, "Toast" still means ours, because C# looks in this
-// file's own namespace before the ones a using brings in.
+// Messages for the toast wait here, first come first shown: "Runner hired!",
+// "Table built!", and every trophy won. The toast shows them one at a time. A
+// trophy's reward is paid the moment it's won. Sam's module has a Toast of its
+// own: with his namespace in a using, "Toast" still means ours, because C#
+// looks in this file's own namespace before the ones a using brings in.
 public class ToastQueue : MonoBehaviour
 {
     [SerializeField] AchievementTracker tracker;
     [SerializeField] Upgrades upgrades;
+    [SerializeField] BuildList buildList;
+    [SerializeField] Sprite builtPicture;
     [SerializeField] Toast toast;
     [SerializeField] Wallet wallet;
     [SerializeField] SoundPlayer sounds;
@@ -12587,6 +13724,7 @@ public class ToastQueue : MonoBehaviour
     {
         tracker.Unlocked += OnUnlocked;
         upgrades.Bought += OnUpgradeBought;
+        buildList.SpotBuilt += OnSpotBuilt;
         toast.Hidden += ShowNext;
     }
 
@@ -12594,17 +13732,24 @@ public class ToastQueue : MonoBehaviour
     {
         tracker.Unlocked -= OnUnlocked;
         upgrades.Bought -= OnUpgradeBought;
+        buildList.SpotBuilt -= OnSpotBuilt;
         toast.Hidden -= ShowNext;
     }
 
-    // Every upgrade bought comes here; only a manager gets a toast.
+    // Every upgrade bought comes here; only a helper gets a toast.
     void OnUpgradeBought(Upgrade upgrade)
     {
-        if (upgrade is ManagerUpgrade)
+        if (upgrade is HireUpgrade)
         {
-            waiting.Enqueue(new ToastMessage(upgrade.Picture, "Manager hired!", $"{upgrade.Target.DisplayName} squeezes by itself now.", false));
+            waiting.Enqueue(new ToastMessage(upgrade.Picture, upgrade.DisplayName + " hired!", upgrade.Description, false));
             ShowNext();
         }
+    }
+
+    void OnSpotBuilt(BuildSpot spot)
+    {
+        waiting.Enqueue(new ToastMessage(builtPicture, spot.DisplayName + " built!", "", false));
+        ShowNext();
     }
 
     void OnUnlocked(Achievement achievement)
@@ -12612,7 +13757,7 @@ public class ToastQueue : MonoBehaviour
         string line = achievement.Description;
         if (achievement.Reward > 0)
         {
-            wallet.Add(achievement.Reward);
+            wallet.Add((int)achievement.Reward);     // Sam's rewards are long; our money is int
             line += "  +$" + NumberFormat.Money(achievement.Reward);
         }
         waiting.Enqueue(new ToastMessage(achievement.Picture, "Trophy: " + achievement.Title, line, true));
@@ -12635,17 +13780,17 @@ public class ToastQueue : MonoBehaviour
 }
 ```
 
-27. Set its **Sounds**.
+21. On `Trophies`, drag `Sounds` into **Sounds**.
 
 ### Do it — the volumes
 
-28. Open the **Settings Panel** prefab. In `Content`, above `Keys`:
-    - A text `Music Label`, top–left, **Pos** (0, −10), 260 × 80, `Music`, size 40, brown.
-    - **UI (Canvas) → Slider**, `Music Slider`: anchor **top–right** with Shift, **Pos**
-      (−20, −32), 560 × 36. Its `Background` colour `#EAD7AE`, its `Fill Area/Fill` pink
-      (`#FF4FA3`), its `Handle Slide Area/Handle` 56 wide and blue (`#19B6E8`).
+22. Open the **Settings Panel** prefab. In `Content`, above `Keys`:
+    - A text `Music Label`, top-left, **Pos** (0, −10), 260 × 80, `Music`, size 40, brown.
+    - **UI → Slider**, `Music Slider`: top-right with its pivot, **Pos** (−20, −32), 560 ×
+      36. Its `Background` colour `#EAD7AE`, its `Fill Area/Fill` pink (`#FF4FA3`), its
+      `Handle Slide Area/Handle` 56 wide and blue (`#19B6E8`).
     - The same at **Pos Y** −110 and −132: `Effects Label` and `Effects Slider`.
-29. `SettingsPanel`'s last form:
+23. The final `SettingsPanel`:
 
 ```csharp:SettingsPanel.cs
 using UnityEngine;
@@ -12736,38 +13881,37 @@ public class SettingsPanel : MonoBehaviour
 }
 ```
 
-30. **`SetValueWithoutNotify`** moves the slider to the saved volume without raising
-    `onValueChanged`: opening the panel shouldn't count as the player changing it. The
-    volumes reach the players at once, so you hear them as you drag; PlayerPrefs writes
-    them to disk when the panel closes (`GameSettings.Save` in `OnDisable`), not 60 times
-    a second while you drag.
-31. Fill the prefab's two sliders. In each scene, set the Settings panel's **Music** (and,
-    on the Beach, **Sounds**). In the Title there are no sounds to set: `sounds` stays
-    empty, and `OnEffectsChanged` checks for it.
+24. `SetValueWithoutNotify`: putting the saved volume on the slider would otherwise call
+    `OnMusicChanged`, and save the value it just read. The volumes are written to disk
+    when the panel closes (`GameSettings.Save`), not on every step of a drag.
+25. In the prefab, drag in the two sliders. In each scene, the instance's **Music** is that
+    scene's `Music`; on the Beach, **Sounds** is `Sounds`. In the Title, **Sounds** stays
+    empty: there's nothing to hear there but the music, and the panel checks for `null`.
 
 ### Test it
 
-- **Play.** Squeeze: `+$1` rises from the cup and fades. Hire managers: numbers rise all
-  over the beach. Open `Number Pool` in the Hierarchy while it's busy: ten or so
-  `Floating Number(Clone)`s, switching on and off. Count them after a minute: no more.
-- Wait for the balloon (up to two and a half minutes; set **Shortest Wait** and **Longest
-  Wait** to 5 and 10 to test, then back to 90 and 150). Tap it: a pop, and either `+$`
-  something or `×2 for 30 s`, with `×2 0:30` counting down under the money and every
-  number on the beach doubled.
-- Pop ten balloons (with the short waits): *Trophy: Balloon Catcher*.
-- With a boost running, go back to the Title and **Continue**: the boost's time is still
-  there.
-- Settings: drag **Music** down while it plays. Stop, Play: the volume stayed.
+- **Play** the Title: music. Settings: drag **Music** down, and it fades as you drag. Stop,
+  Play again: the same volume.
+- On the beach: a squeeze for each cup a machine makes, coins when a customer pays, and
+  "+$15" rising over the counter. Build a spot: a pop. Buy an upgrade: its sound. Win a
+  trophy: its chime with the toast.
+- Hire runners and cashiers for two bars and watch the `Number Pool`: ten asleep at the
+  start, and more only if more than ten are in the air at once.
+- **Window → Analysis → Profiler**, with **Play**: look at the **GC Allocated In Frame**
+  line in the CPU module's chart. Then, in `ItemPool.Get`, put the old `return
+  Instantiate(info.Prefab, position, Quaternion.identity);` at the top for a moment:
+  the line jumps each time an item is made. Take it out. (Chapter 20 does this
+  properly.)
 
 ### Commit
 
-*Juice and sound: pooled numbers, the balloon, the boost, and the volumes.*
+*Pool every item, add floating numbers, sounds, music and volumes.*
 
 ### Challenge
 
-A **golden balloon**: one balloon in ten is gold (tint the Sprite Renderer `#FFD700`) and
-pays ten minutes of income instead of one. Where does the tint go, and where the reward?
-Keep `BonusBalloon` knowing nothing about money.
+The kart's number is white, the counters' gold. Give each bar its own colour (an orange
+for the Orange Bar, a green for the Apple Bar…) without adding a field to `SaleNumbers`.
+Where does a bar's colour belong? (In its `BarInfo`, beside its other numbers.)
 
 ## C# 16 — Packages and the Asset Store
 
@@ -12899,7 +14043,7 @@ public class Health : MonoBehaviour     // the pack's Health.cs, beside yours
 ```
 
 If the two files are the same, delete one. If they're different classes that happen to
-share a name, put one of them in a `namespace` (C# 9), or rename yours. Good
+share a name, put one of them in a `namespace` (C# 10), or rename yours. Good
 packages keep their code in a namespace, so this never happens.
 
 **A package that needs a newer version of another.** A new package may depend on, say, a
@@ -12962,12 +14106,12 @@ On a new branch, import a free 3D asset made for the Built-in pipeline. Fix its 
 materials. Do any fail to convert? Find out why, give them a URP shader, and decide
 whether to merge the branch, or delete it.
 
-## Chapter 16 — DOTween
+## Chapter 18 — DOTween
 
 **Goal:** **DOTween**, the free tweening engine most Unity games use, from the Asset Store.
-With it, the money counts up instead of jumping, every button bounces when pressed, and
-three animations you wrote as coroutines (the floating numbers, the business's squash,
-the toast) become a line or two each.
+With it, the money counts up instead of jumping, every button bounces when pressed,
+whatever you build pops up out of the sand, and three animations you wrote by hand (the
+items' hop, the floating numbers, the toast) become a line or two each.
 
 ### Idea — a tween
 
@@ -12977,7 +14121,7 @@ over. A **tween** is that shape, done once, by a library: you say what changes, 
 over how long, with which curve, and it does the loop.
 
 ```csharp
-// The toast sliding down, as a coroutine (Chapter 7): a method of its own.
+// The toast sliding down, as a coroutine (Chapter 10): a method of its own.
 yield return Slide(hiddenY, shownY);
 
 // The same with DOTween: one line, and it returns the tween, to chain more on it.
@@ -12985,18 +14129,24 @@ strip.DOAnchorPosY(shownY, slideTime).SetEase(Ease.OutBack);
 ```
 
 DOTween's methods are **extension methods**: `using DG.Tweening;` adds `DOAnchorPosY` to
-every `RectTransform`, `DOPunchScale` to every `Transform`, and so on. Each returns the
-**tween** it made, so more calls chain on with dots (a **fluent** style): `.SetEase(…)`
-for the curve, `.OnComplete(…)` for what to do after. A **Sequence** strings tweens
-together: one after another (`Append`), at the same time (`Join`), or with a wait
+every `RectTransform`, `DOLocalJump` and `DOPunchScale` to every `Transform`, and so on.
+Each returns the **tween** it made, so more calls chain on with dots (a **fluent** style):
+`.SetEase(…)` for the curve, `.OnComplete(…)` for what to do after. A **Sequence** strings
+tweens together: one after another (`Append`), at the same time (`Join`), or with a wait
 (`AppendInterval`).
 
 | Ease | Feels like | Here |
 | --- | --- | --- |
 | `OutQuad`, `OutCubic` | fast, then slowing down | the money counting, a number rising |
 | `InQuad` | slow, then fast | a number fading away |
-| `OutBack` | overshoots, then settles | the toast arriving |
+| `OutBack` | overshoots, then settles | the toast arriving, a table popping up |
 | `InBack` | pulls back, then goes | the toast leaving |
+
+A tween keeps running on its own until it's done, even if what it moves has gone. So each
+script **kills** its tweens when they'd be wrong: before starting a new one on the same
+thing, and when the object is switched off or destroyed. Or it **links** them:
+`.SetLink(gameObject)` ends a tween when that object is destroyed. If you forget, DOTween's
+safe mode catches it, and the Console says `Target or field is missing/null`.
 
 ### Do it — DOTween, from the Asset Store
 
@@ -13009,11 +14159,11 @@ together: one after another (`Append`), at the same time (`Join`), or with a wai
    files: everything goes in `Assets/Plugins/Demigiant`.
 3. The **DOTween Utility Panel** opens by itself (it's in **Tools → Demigiant** too). Click
    **Setup DOTween…**, then **Apply**: it switches on the modules for the parts of Unity
-   this project has (UI, Sprite, Audio, Physics 2D…), and adds `DOTWEEN` to the project's
-   **Scripting Define Symbols** (**Project Settings → Player**).
+   this project has (UI, Audio, Physics…), and adds `DOTWEEN` to the project's **Scripting
+   Define Symbols** (**Project Settings → Player**).
 4. **Commit it on its own:** *Add DOTween*. Someone reading the history later sees exactly
-   which files came from the Asset Store, and when; a package mixed into a commit with
-   your own changes hides both.
+   which files came from the Asset Store, and when; a package mixed into a commit with your
+   own changes hides both.
 5. Add a line to the Credits panel: `Tweens: <b>DOTween</b> by Demigiant`.
 
 ### Do it — the money counts up
@@ -13033,7 +14183,7 @@ public class MoneyText : MonoBehaviour
     [SerializeField] TMP_Text text;
     [SerializeField] float countTime = 0.4f;
 
-    long shown;
+    int shown;
     Tween counting;
 
     void OnEnable()
@@ -13052,13 +14202,13 @@ public class MoneyText : MonoBehaviour
         Show(wallet.Money);
     }
 
-    void OnMoneyChanged(long money)
+    void OnMoneyChanged(int money)
     {
         counting?.Kill();
         counting = DOTween.To(() => shown, Show, money, countTime).SetEase(Ease.OutQuad);
     }
 
-    void Show(long money)
+    void Show(int money)
     {
         shown = money;
         text.text = "$" + NumberFormat.Money(money);
@@ -13066,11 +14216,11 @@ public class MoneyText : MonoBehaviour
 }
 ```
 
-7. `DOTween.To` tweens anything you can read and write: here, a `long` the text shows.
-   `() => shown` is how to read it; `Show` is how to set it (a method that takes a `long`);
+7. `DOTween.To` tweens anything you can read and write: here, an `int` the text shows.
+   `() => shown` is how to read it; `Show` is how to set it (a method that takes an `int`);
    `money` is where to go, over `countTime` seconds. Each sale **kills** the count still
    running and starts a new one from where the number is: the money never jumps back.
-   `?.Kill()`: the first time, there's no tween yet.
+   `?.Kill()`: the first time, there's no tween yet. Leave **Count Time** at 0.4 s.
 
 ### Do it — every button bounces
 
@@ -13111,23 +14261,68 @@ public class PunchOnClick : MonoBehaviour
     void Punch()
     {
         transform.DOComplete();
-        transform.DOPunchScale(Vector3.one * strength, duration, 6);
+        // Linked: the click that buys an upgrade destroys its row, and this button with it.
+        transform.DOPunchScale(Vector3.one * strength, duration, 6).SetLink(gameObject);
     }
 }
 ```
 
-9. `DOPunchScale` grows the button by `strength` and springs back, 6 wobbles in
-   `duration`. `DOComplete` first: two quick taps would otherwise start a punch on top of
-   a punch, and the button could end up the wrong size. `[RequireComponent(typeof(Button))]`:
-   it only makes sense on a button.
+9. `DOPunchScale` grows the button by `strength` and springs back, 6 wobbles in `duration`.
+   `DOComplete` first: two quick taps would otherwise start a punch on top of a punch, and
+   the button could end up the wrong size. `[RequireComponent(typeof(Button))]`: it only
+   makes sense on a button. `SetLink(gameObject)`: an upgrade's Buy button is destroyed by
+   the very click that bounces it.
 10. Open the **Candy Button** prefab and add `PunchOnClick`. Then the **Icon Button**
     prefab. **Play**, and press anything: every candy button in the game bounces, the
     green, grey and red variants too, and every row's Buy button. One change to a base
-    prefab, everywhere: Chapter 3's promise, kept.
+    prefab, everywhere: C# 4's promise, kept.
 
-### Do it — the numbers, the squash and the toast
+### Do it — the hop, the numbers and the toast
 
-11. `FloatingNumber`'s last form, its coroutine replaced by a Sequence:
+11. `Item`'s last form, its coroutine replaced by two tweens at once:
+
+```csharp:Item.cs
+using DG.Tweening;
+using UnityEngine;
+
+// One orange, cup or note in the world. It hops from pile to pile: HopTo makes
+// it a child of where it's going and jumps it there, in a quarter of a second.
+// Chapter 18's DOTween does the jump in one call (Chapter 4 wrote it as a
+// coroutine). Value is a note's dollars; the other items leave it at 0.
+public class Item : MonoBehaviour
+{
+    public const float HopSeconds = 0.25f;
+    const float HopHeight = 0.9f;
+
+    [SerializeField] ItemInfo info;
+
+    Sequence hopping;
+
+    public ItemInfo Info { get { return info; } }
+    public int Value { get; set; }
+
+    public void HopTo(Transform parent, Vector3 localPosition)
+    {
+        transform.SetParent(parent, true);
+        hopping?.Kill();
+        hopping = DOTween.Sequence()
+            .Join(transform.DOLocalJump(localPosition, HopHeight, 1, HopSeconds))
+            .Join(transform.DOLocalRotateQuaternion(Quaternion.identity, HopSeconds));
+    }
+
+    // Put back in the pool mid-hop: the hop stops with it.
+    void OnDisable()
+    {
+        hopping?.Kill();
+    }
+}
+```
+
+12. `DOLocalJump(where, how high, how many jumps, how long)` is Chapter 4's arc, the
+    `4h · t(1 − t)`, done for you. `Join` turns it upright at the same time. `OnDisable`
+    kills the hop: an item put back in the pool mid-hop (a customer going home with its
+    cups) mustn't finish the hop asleep, and wake up somewhere odd.
+13. `FloatingNumber`'s last form:
 
 ```csharp:FloatingNumber.cs
 using System;
@@ -13135,10 +14330,10 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
-// A "+$1.2K" that rises from a business and fades. The NumberPool reuses it, so
-// Play sets everything the last use changed. One DOTween Sequence does the
-// rising and the fading together; the free DOTween has no TextMeshPro fade,
-// so the alpha is run with DOTween.To.
+// A "+$15" that rises over a counter, or the kart, and fades. The NumberPool
+// reuses it, so Play sets everything the last use changed. One DOTween
+// Sequence does the rising and the fading together; the free DOTween has no
+// TextMeshPro fade, so the alpha is run with DOTween.To.
 public class FloatingNumber : MonoBehaviour
 {
     const float RiseDistance = 1f;
@@ -13175,75 +14370,9 @@ public class FloatingNumber : MonoBehaviour
 }
 ```
 
-12. Two tweens **joined**, so they run together: `DOMoveY` rises, and the alpha fades.
-    Free DOTween has no fade for TextMeshPro (DOTween Pro adds one), so `DOTween.To` runs
-    the alpha, as `MoneyText` runs its number. `OnComplete(OnPlayed)` raises `Finished`:
-    the pool takes it back, as before. `OnDestroy` kills a Sequence still playing when the
-    scene closes.
-13. `StandSprite`'s last form:
-
-```csharp:StandSprite.cs
-using DG.Tweening;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-// A business on the beach, as a sprite: it appears when you own one, squeezes
-// when you tap it, and squashes and sends up a "+$" number when it sells. The
-// camera's Physics 2D Raycaster finds its collider for the tap.
-public class StandSprite : MonoBehaviour, IPointerClickHandler
-{
-    static readonly Color NumberColour = new Color(1f, 0.95f, 0.35f);
-
-    [SerializeField] JuiceStand stand;
-    [SerializeField] SpriteRenderer picture;
-    [SerializeField] Collider2D tapArea;
-    [SerializeField] NumberPool numbers;
-    [SerializeField] Vector3 numberOffset = new Vector3(0f, 1f, 0f);
-    [SerializeField] float squash = 0.15f;
-
-    void OnEnable()
-    {
-        stand.Changed += Refresh;
-        stand.CupSold += OnCupSold;
-    }
-
-    void OnDisable()
-    {
-        stand.Changed -= Refresh;
-        stand.CupSold -= OnCupSold;
-        picture.transform.DOKill();
-    }
-
-    void Start()
-    {
-        Refresh();
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        stand.Squeeze();
-    }
-
-    void Refresh()
-    {
-        bool isOpen = stand.Owned > 0;
-        picture.enabled = isOpen;
-        tapArea.enabled = isOpen;
-    }
-
-    void OnCupSold(long amount)
-    {
-        numbers.Show("+" + NumberFormat.Money(amount), NumberColour, transform.position + numberOffset);
-        // Complete the last squash first, or a fast business would shrink for good.
-        picture.transform.DOComplete();
-        picture.transform.DOPunchScale(new Vector3(squash, -squash, 0f), 0.25f, 6);
-    }
-}
-```
-
-14. The coroutine and its `restingScale` are gone: `DOPunchScale` springs back to where it
-    started by itself. `DOComplete` first, again: a fast business sells before the last
-    squash ends.
+14. The `Update` is gone: the number does nothing between one `Play` and the next.
+    `Ease.OutCubic` is Chapter 17's `1 − (1 − t)³`, and `Ease.InQuad` its `t²`: the
+    curves have names now, and trying another is one word.
 15. `Toast`'s last form:
 
 ```csharp:Toast.cs
@@ -13254,7 +14383,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 // A strip that slides down from the top of the screen with a picture and two
-// lines, stays a moment, and slides back up: "Manager hired!", or a trophy
+// lines, stays a moment, and slides back up: "Runner hired!", or a trophy
 // won. One message at a time: ToastQueue waits until IsShowing is false.
 public class Toast : MonoBehaviour
 {
@@ -13310,45 +14439,259 @@ public class Toast : MonoBehaviour
 
 16. Down, wait, back up: `Append`, `AppendInterval`, `Append`, then `OnComplete`. It reads
     like the story it tells, as the coroutine did, and each slide's curve has a name.
+    `OnDestroy` kills the Sequence: leaving the scene mid-toast would otherwise leave
+    DOTween moving a strip that's gone.
+
+### Do it — what you build pops up
+
+17. A spot built while you watch should arrive with a little life; one built by loading a
+    save should just be there. `BuildSpot` and `BuildList` change together (Unity shows an
+    error until both are saved). The final `BuildSpot`:
+
+<!-- check: together -->
+
+```csharp:BuildSpot.cs
+using System;
+using DG.Tweening;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// A dashed square in the sand with a price. Stand on it and your money pours
+// in, a little at a time. When it's paid, what it builds appears, and so do
+// the spots that come after it. Leave halfway, and what you paid stays.
+public class BuildSpot : Station
+{
+    [SerializeField] string id;                 // never changes: a save file stores it
+    [SerializeField] string displayName;
+    [SerializeField] int price = 30;
+    [SerializeField] GameObject builds;
+    [SerializeField] BuildSpot[] next;
+    [SerializeField] Wallet wallet;
+    [SerializeField] ItemPool pool;
+    [SerializeField] ItemInfo note;
+    [SerializeField] TMP_Text priceText;
+    [SerializeField] Image paidFill;
+
+    int paid;
+    float priceFactor = 1f;     // a later beach's spots cost more
+
+    public string Id { get { return id; } }
+    public string DisplayName { get { return displayName; } }
+    public int Price { get { return Mathf.RoundToInt(price * priceFactor); } }
+    public int Paid { get { return paid; } }
+    public bool IsBuilt { get; private set; }
+
+    public event Action<BuildSpot> Built;
+
+    protected override void Trade(Carrier carrier)
+    {
+        if (!carrier.IsChef || IsBuilt)
+        {
+            return;
+        }
+        // About thirty steps from empty to paid, however big the price.
+        int pay = Mathf.Min(Mathf.Max(1, Price / 30), Price - paid, wallet.Money);
+        if (pay <= 0 || !wallet.TrySpend(pay))
+        {
+            return;
+        }
+        paid += pay;
+        Item money = pool.Get(note, carrier.transform.position + Vector3.up * 1.2f);
+        money.HopTo(transform, Vector3.zero);
+        pool.Release(money, Item.HopSeconds);
+        Show();
+        if (paid >= Price)
+        {
+            Build(true);
+            Built?.Invoke(this);
+        }
+    }
+
+    // What it builds appears (popping up, when you've just paid for it), and
+    // the spots after it are offered. A save builds this way too, at once and
+    // for nothing.
+    public void Build(bool popUp)
+    {
+        IsBuilt = true;
+        paid = Price;
+        builds.SetActive(true);
+        if (popUp)
+        {
+            // Linked: the Pier's scene can end before its pop-up does.
+            builds.transform.DOScale(builds.transform.localScale, 0.4f).From(Vector3.zero).SetEase(Ease.OutBack).SetLink(builds);
+        }
+        gameObject.SetActive(false);
+        foreach (BuildSpot spot in next)
+        {
+            spot.Offer();
+        }
+    }
+
+    public void Offer()
+    {
+        if (!IsBuilt)
+        {
+            gameObject.SetActive(true);
+            Show();
+        }
+    }
+
+    // Loading a save: what was paid before, and this beach's prices.
+    public void Restore(int paidBefore, float beachPriceFactor)
+    {
+        priceFactor = beachPriceFactor;
+        paid = Mathf.Clamp(paidBefore, 0, Price);
+        Show();
+    }
+
+    void Show()
+    {
+        priceText.text = "$" + NumberFormat.Money(Price - paid);
+        paidFill.fillAmount = paid / (float)Price;
+    }
+}
+```
+
+And the final `BuildList`, whose `Restore` builds without the pop:
+
+```csharp:BuildList.cs
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+// Every build spot on the beach, in the designer's order, and the ones offered
+// at the start. A save keeps the ids of the spots built, and what was paid on
+// the others; Restore builds them again, then offers what comes next.
+public class BuildList : MonoBehaviour
+{
+    [SerializeField] BuildSpot[] spots;
+    [SerializeField] BuildSpot[] first;
+
+    public IReadOnlyList<BuildSpot> Spots { get { return spots; } }
+
+    public event Action<BuildSpot> SpotBuilt;
+
+    void OnEnable()
+    {
+        foreach (BuildSpot spot in spots)
+        {
+            spot.Built += OnBuilt;
+        }
+    }
+
+    void OnDisable()
+    {
+        foreach (BuildSpot spot in spots)
+        {
+            spot.Built -= OnBuilt;
+        }
+    }
+
+    void OnBuilt(BuildSpot spot)
+    {
+        SpotBuilt?.Invoke(spot);
+    }
+
+    public void Restore(List<string> builtIds, List<SpotPaid> paid, float priceFactor)
+    {
+        foreach (BuildSpot spot in spots)
+        {
+            spot.gameObject.SetActive(false);
+            int paidBefore = 0;
+            foreach (SpotPaid each in paid)
+            {
+                if (each.id == spot.Id)
+                {
+                    paidBefore = each.paid;
+                }
+            }
+            spot.Restore(paidBefore, priceFactor);
+        }
+        // In order: each one built offers the next, and a later one built hides it again.
+        foreach (BuildSpot spot in spots)
+        {
+            if (builtIds.Contains(spot.Id))
+            {
+                spot.Build(false);
+            }
+        }
+        foreach (BuildSpot spot in first)
+        {
+            spot.Offer();
+        }
+    }
+
+    public List<string> BuiltIds()
+    {
+        List<string> ids = new List<string>();
+        foreach (BuildSpot spot in spots)
+        {
+            if (spot.IsBuilt)
+            {
+                ids.Add(spot.Id);
+            }
+        }
+        return ids;
+    }
+
+    public List<SpotPaid> PaidSoFar()
+    {
+        List<SpotPaid> paid = new List<SpotPaid>();
+        foreach (BuildSpot spot in spots)
+        {
+            if (!spot.IsBuilt && spot.Paid > 0)
+            {
+                SpotPaid each = new SpotPaid();
+                each.id = spot.Id;
+                each.paid = spot.Paid;
+                paid.Add(each);
+            }
+        }
+        return paid;
+    }
+}
+```
+
+<!-- check: end -->
+
+18. `DOScale(its own scale, 0.4 s).From(Vector3.zero)`: a tween **from** zero **to** what
+    it is now, with `OutBack`, so it grows a little too big and settles. Tweening to its own
+    scale keeps the counter's ×0.5 depth and the machine's ×0.6: a scale of 1 would have
+    made the counter twice as deep. `SetLink(builds)`: the Pier's pop-up can still be running
+    when its scene ends.
 
 ### Test it
 
-- **Play.** Squeeze: the money **counts up** to its new value. Buy: it counts down. Every
-  button you press bounces.
-- Hire managers: the numbers rise and fade as before, and the businesses squash. Hire two
-  at once: the two toasts, one after the other, overshooting as they arrive.
-- **Count the lines.** Before and after, braces included, comments not:
-
-| Animation | Coroutine | DOTween |
-| --- | --- | --- |
-| the toast's slides and wait | two coroutines: 19 lines | a Sequence and `OnFinished`: 10 lines |
-| the squash | a coroutine, a field and `Awake`: 18 lines | 3 lines |
-| a floating number | a coroutine with its own easing maths: 13 lines | a Sequence with named eases: 13 lines |
-
-  The floating number is no shorter, but `Ease.OutCubic` replaced `1f - (1f - k) * (1f -
-  k)`: the curve has a name, and trying another is one word.
-- **Window → Analysis → Profiler**, **Play**, and click a frame while numbers are rising.
+- **Play.** Sell a cup: the money **counts up** to its new value. Build something: it
+  counts down, and the table pops up out of the sand. Every button you press bounces.
+- Pick up oranges: they hop as before, with no coroutine. Hire helpers: the numbers rise and
+  fade as before. Hire two at once: the two toasts, one after the other, overshooting as
+  they arrive.
+- Go back to the Title and **Continue**: everything you'd built is there, without a pop.
+- **Window → Analysis → Profiler**, **Play**, and click a frame while things are hopping.
   In the **CPU Usage** module's **Hierarchy**, open `PlayerLoop`: the coroutines are gone;
   every tween in the game runs from one place, `DOTweenComponent.Update`.
 
 ### Commit
 
-*Animate with DOTween: the money, the buttons, the numbers, the squash and the toast.*
+*Animate with DOTween: the money, the buttons, the hops, the numbers, the toast and the
+builds.*
 
 ### Challenge
 
-The van drives in a straight line at one speed. Make it bob up and down a little as it
-drives, with a tween that never ends: `body.transform.DOLocalMoveY(0.08f, 0.3f)` with
-`.SetLoops(-1, LoopType.Yoyo)`. Where should it start, and where should it be killed?
+The kart drives at one height. Make its big cup bob up and down a little as it drives,
+with a tween that never ends: `DOLocalMoveY(0.65f, 0.3f)` with `.SetLoops(-1,
+LoopType.Yoyo)`. Where should it start, and where should it be killed?
 
-## Chapter 17 — Ads
+## Chapter 19 — Ads
 
-**Goal:** ads, the way a good phone game uses them: always the player's choice, and
-always for something. Watch one on **Welcome back** to collect twice as much; watch one
-from the **TV** on the top bar for double income for 5 minutes. One ad, the only one you
-don't choose, plays after opening a new beach, never during play. On a phone they're
-**Unity LevelPlay**'s ads; on the Web and PC, where no ad can run, a **pretend ad** does
-the same job.
+**Goal:** ads, the way a good phone game uses them: always the player's choice, and always
+for something. Watch one on **Welcome back** to collect twice as much; watch one from the
+**TV** on the top bar, and every sale is doubled for 3 minutes. One ad, the only one you
+don't choose, plays after the Pier, between two beaches, never during play. On a phone
+they're **Unity LevelPlay**'s ads; on the Web and PC, where no ad can run, a **pretend
+ad** does the same job.
 
 ### Idea — ads a player doesn't hate
 
@@ -13356,23 +14699,22 @@ Free phone games are paid for by ads, and two kinds matter here:
 
 | Kind | What it is | Here |
 | --- | --- | --- |
-| **Rewarded** | the player chooses to watch, and gets something for it | Collect ×2 on Welcome back; ×2 income for 5 minutes |
-| **Interstitial** | a full-screen ad between two parts of the game | once, after opening a new beach, before the beach |
+| **Rewarded** | the player chooses to watch, and gets something for it | Collect ×2 on Welcome back; every sale ×2 for 3 minutes |
+| **Interstitial** | a full-screen ad between two parts of the game | once, after the Pier, before the new beach |
 
-The studio's three rules: **never interrupt play** (no ad while you're tapping); **always
-optional**, except the one between beaches; **always say what you get** (the button says
-*Collect ×2*, with a TV on it).
+The studio's three rules: **never interrupt play** (no ad while you're carrying cups);
+**always optional**, except the one between beaches; **always say what you get** (the
+button says *Collect ×2*, with a TV on it).
 
 ### Idea — one interface, two kinds of ads
 
 **Unity LevelPlay** (the **Ads Mediation** package) is Unity's own ad system: it shows ads
 from many ad networks, and in the Editor it shows **mock ads**, with no account. But it
-only runs on phones (Android and iOS): on the Web or a PC it does nothing at all. And
-this game's Level 4 builds are for the Web and PC.
+only runs on phones (Android and iOS): on the Web or a PC it does nothing at all. And this
+game's Level 4 builds are for the Web and PC.
 
-The answer is Chapter 8's again, for a third time: an **interface**. The game asks an
-`IAdService` to show an ad, and says what to do afterwards. Two classes keep that
-contract:
+The answer is Chapter 11's again: an **interface**. The game asks an `IAdService` to show
+an ad, and says what to do afterwards. Two classes keep that contract:
 
 | | `PretendAds` | `LevelPlayAds` |
 | --- | --- | --- |
@@ -13383,11 +14725,21 @@ contract:
 **What to do afterwards.** An ad takes seconds, and the code can't wait for it. So the
 game hands over **what to do when it's watched**, as an `Action`:
 `ShowRewarded(() => Leave(report.Amount * 2))`. A lambda passed to a method, to be called
-later: the next step after Level 4's lambdas in `Sort` and in button listeners.
+later.
+
+### Idea — a boost
+
+The TV's reward, every sale ×2 for 3 minutes, is a **boost**: a multiplier that runs out.
+An `IncomeBoost` knows when it ends; its `Factor` is 2 until then, 1 after. A bar's
+`Price` and the kart's lap multiply by it, so the price tags double while it runs, and
+everything that sells gets it for free. Its `Changed` event tells the bars when it starts
+and ends, so their tags change at once. A boost still running when you leave is saved,
+so you don't lose it by quitting. While you're **away**, though, it doesn't count: a
+boost wouldn't last two hours.
 
 ### Do it — the contract, and pretend ads
 
-1. In `Scripts/Ads`, `IAdService`:
+1. In `Scripts`, a folder `Ads`. In it, `IAdService`:
 
 ```csharp:IAdService.cs
 using System;
@@ -13407,7 +14759,7 @@ public interface IAdService
 }
 ```
 
-2. In `Scripts/Ads`, `PretendAds`:
+2. `PretendAds`:
 
 ```csharp:PretendAds.cs
 using System;
@@ -13463,18 +14815,18 @@ public class PretendAds : MonoBehaviour, IAdService
 
 3. `whenDone?.Invoke()`: whatever the caller handed over, called when the countdown ends.
    The same coroutine serves both kinds: a pretend ad is always watched to the end.
-4. **Create Empty**, `Ads`. Add `PretendAds`. In it, a **Canvas** of its own, `Ad Canvas`:
+4. An empty `Ads`, with **Pretend Ads**. In it, a **Canvas** of its own, `Ad Canvas`:
    **Screen Space - Overlay**, **Sort Order** 60 (over the game, under the fader), with a
    **Canvas Scaler** like the game's (1080 × 1920, **Match** 0). In `Ad Canvas`:
 
 | Child | What | Anchor | Pos | Size | Set |
 | --- | --- | --- | --- | --- | --- |
-| `Pretend Ad` | an Image | stretch–stretch, no gaps | | | `#2A1A0C`: a whole screen, as an ad is |
+| `Pretend Ad` | an Image | stretched, no gaps | | | `#2A1A0C`: a whole screen, as an ad is |
 | `Pretend Ad/Television` | an Image | centre | (0, 260) | 360 × 360 | `television_3d`, Preserve Aspect |
 | `Pretend Ad/Words` | a text | centre | (0, −10) | 900 × 160 | `An ad would play here.`, size 56, white, centred, Shadow |
 | `Pretend Ad/Countdown` | a text | centre | (0, −200) | 300 × 180 | `5`, size 140, white, centred, Shadow |
 
-5. `PretendAds`: **Panel** `Pretend Ad`, **Countdown Text** `Countdown`.
+5. **Pretend Ads**: **Panel** `Pretend Ad`, **Countdown Text** `Countdown`.
 
 ### Do it — LevelPlay
 
@@ -13483,7 +14835,7 @@ public class PretendAds : MonoBehaviour, IAdService
 7. Unity asks to import the **Mobile Dependency Resolver**. Choose **Ignore**: it fetches
    the Android and iOS libraries a phone build needs (Level 6). It asks again each time
    Unity starts; **Ignore** each time.
-8. In `Scripts/Ads`, `LevelPlayAds`:
+8. In `Ads`, `LevelPlayAds`:
 
 ```csharp:LevelPlayAds.cs
 using System;
@@ -13613,20 +14965,20 @@ public class LevelPlayAds : MonoBehaviour, IAdService
      When the project's build target is Android or iOS, the compiler sees `return true;`;
      for anything else, `return false;`. The other line isn't even compiled. LevelPlay's
      own code does the same, which is why it does nothing on the Web or a PC.
-   - **Start, not Awake.** Unity calls `Awake` even on a component that's switched off,
-     and `AdServiceProvider` (next) switches this one off where LevelPlay can't run.
+   - **Start, not Awake.** Unity calls `Awake` even on a component that's switched off, and
+     `AdServiceProvider` (next) switches this one off where LevelPlay can't run.
    - **Load ahead.** An ad takes a moment to arrive, so each is loaded when LevelPlay
      starts, and loaded again after it's shown: the next one is ready when the player
      asks. `RewardedReady` says whether it is.
    - **The reward comes on its own event**, `OnAdRewarded`, before or after the ad closes
-     (LevelPlay's mock closes first). It's paid the moment it comes, once:
-     `afterRewarded = null` afterwards.
-10. Add `LevelPlayAds` to `Ads`. Its app key and ad unit ids are LevelPlay's test values
+     (LevelPlay's mock closes first). It's paid the moment it comes, once: `afterRewarded =
+     null` afterwards.
+10. Add **Level Play Ads** to `Ads`. Its app key and ad unit ids are LevelPlay's test values
     for the Editor; a real game puts its own there (Level 6).
 
 ### Do it — choosing one
 
-11. In `Scripts/Ads`, `AdServiceProvider`:
+11. In `Ads`, `AdServiceProvider`:
 
 ```csharp:AdServiceProvider.cs
 using UnityEngine;
@@ -13661,29 +15013,462 @@ public class AdServiceProvider : MonoBehaviour
 }
 ```
 
-12. The Inspector can't hold an `IAdService` (Chapter 8's problem again), so the
-    provider holds both kinds as what they are, and hands out one as what it can do:
-    `Service` returns an `IAdService`. Everything else in the game asks
-    `ads.Service.ShowRewarded(…)` and never knows which.
+12. The Inspector can't hold an `IAdService` (Chapter 11's problem again), so the provider
+    holds both kinds as what they are, and hands out one as what it can do: `Service`
+    returns an `IAdService`. Everything else in the game asks `ads.Service.ShowRewarded(…)`
+    and never knows which.
 13. Add it to `Ads`: **Pretend Ads** and **Level Play Ads** (both on `Ads` itself). Drag
     `Ads` into `Prefabs`. Put one in the Beach scene and one in the Report scene.
 
-### Do it — the TV button
+### Do it — the boost
 
-14. In `Scripts/Ads`, `BoostOffer`:
+14. In `Income`, `IncomeBoost`:
+
+```csharp:IncomeBoost.cs
+using System;
+using UnityEngine;
+
+// Every sale doubled for a while: the TV's rewarded ad. Factor is 2 while it
+// runs and 1 when it doesn't; the bars and the kart multiply by it.
+public class IncomeBoost : MonoBehaviour
+{
+    [SerializeField] float boostSeconds = 180f;
+
+    float endsAt;
+    bool wasRunning;
+
+    public bool IsRunning { get { return Time.time < endsAt; } }
+    public float SecondsLeft { get { return Mathf.Max(0f, endsAt - Time.time); } }
+    public float Factor { get { return IsRunning ? 2f : 1f; } }
+
+    public event Action Changed;
+
+    public void StartBoost()
+    {
+        endsAt = Time.time + boostSeconds;
+        wasRunning = true;
+        Changed?.Invoke();
+    }
+
+    // Loading a save: what was left of a boost.
+    public void Restore(float secondsLeft)
+    {
+        endsAt = Time.time + secondsLeft;
+        wasRunning = secondsLeft > 0f;
+        Changed?.Invoke();
+    }
+
+    void Update()
+    {
+        if (wasRunning && !IsRunning)
+        {
+            wasRunning = false;
+            Changed?.Invoke();
+        }
+    }
+}
+```
+
+15. `IsRunning` is worked out from the time each time it's asked: nothing counts down.
+    Only the moment it **ends** needs `Update`, to raise `Changed` once: `wasRunning`
+    remembers that it was.
+16. Four scripts multiply by it, and need it at once (Unity shows errors until all four are
+    saved). The final `JuiceStand`, `JuiceKart`, `BeachGame` (which saves the boost's time
+    left, and gives it back), and `BoostOffer`, the TV button:
+
+<!-- check: together -->
+
+```csharp:JuiceStand.cs
+using System;
+using UnityEngine;
+
+// One bar: the Orange Bar, the Apple Bar. It knows its BarInfo, its price and
+// its speed (upgrades multiply them), its stations and its two helpers. The
+// counter calls Sell, and CupSold tells the cash pile, the numbers and the
+// stats. A bar with a runner and a cashier earns by itself, even while you're
+// away: it's an IIncomeSource.
+public class JuiceStand : MonoBehaviour, IIncomeSource
+{
+    [SerializeField] BarInfo info;
+    [SerializeField] FruitCrate crate;
+    [SerializeField] Juicer[] juicers;
+    [SerializeField] Counter counter;
+    [SerializeField] Helper runner;
+    [SerializeField] Helper cashier;
+    [SerializeField] IncomeBoost boost;
+    [SerializeField] Transform staffDoor;   // the Staff Hut's: where a new helper appears
+
+    float priceFactor = 1f;
+    float speedFactor = 1f;
+    float beachFactor = 1f;
+
+    public BarInfo Info { get { return info; } }
+    public Counter Counter { get { return counter; } }
+    public bool IsOpen { get { return counter.gameObject.activeInHierarchy; } }
+    public bool HasRunner { get { return runner.IsWorking; } }
+    public bool HasCashier { get { return cashier.IsWorking; } }
+    public Vector3 CratePosition { get { return crate.transform.position; } }
+
+    // A cup's price now: the bar's own, its upgrades, the beach, and the TV's boost.
+    public int Price
+    {
+        get { return Mathf.RoundToInt(info.Price * priceFactor * beachFactor * boost.Factor); }
+    }
+
+    public float SecondsPerCup { get { return info.MachineSeconds / speedFactor; } }
+
+    public event Action<int> CupSold;       // the money for one cup
+    public event Action<int> CustomerServed;    // the money for the whole order
+    public event Action Changed;            // the price changed
+
+    void OnEnable()
+    {
+        boost.Changed += OnBoostChanged;
+    }
+
+    void OnDisable()
+    {
+        boost.Changed -= OnBoostChanged;
+    }
+
+    void OnBoostChanged()
+    {
+        Changed?.Invoke();
+    }
+
+    public void MultiplyPrice(float factor)
+    {
+        priceFactor *= factor;
+        Changed?.Invoke();
+    }
+
+    public void MultiplySpeed(float factor)
+    {
+        speedFactor *= factor;
+    }
+
+    // A later beach pays more for every cup.
+    public void SetBeachFactor(float factor)
+    {
+        beachFactor = factor;
+        Changed?.Invoke();
+    }
+
+    public void Sell(int cups)
+    {
+        int price = Price;
+        for (int i = 0; i < cups; i++)
+        {
+            CupSold?.Invoke(price);
+        }
+        CustomerServed?.Invoke(cups * price);
+    }
+
+    // The machine for the runner: the built one with the least fruit in it.
+    public Juicer EmptiestJuicer()
+    {
+        Juicer best = null;
+        foreach (Juicer juicer in juicers)
+        {
+            if (juicer.isActiveAndEnabled && (best == null || juicer.Fruit < best.Fruit))
+            {
+                best = juicer;
+            }
+        }
+        return best;
+    }
+
+    // Hired at the Staff Hut: the helper walks over from its door.
+    public void Hire(HelperKind kind)
+    {
+        Helper helper = kind == HelperKind.Runner ? runner : cashier;
+        if (!helper.IsWorking)
+        {
+            helper.StartWork(this, staffDoor.position);
+        }
+    }
+
+    // ------------------------------------------------------------ IIncomeSource
+
+    public string SourceName { get { return info.DisplayName; } }
+
+    // Every built machine making cups, with no boost: a boost won't last while you're away.
+    public float IncomePerSecond
+    {
+        get
+        {
+            if (!EarnsWhileAway)
+            {
+                return 0f;
+            }
+            int machines = 0;
+            foreach (Juicer juicer in juicers)
+            {
+                if (juicer.isActiveAndEnabled)
+                {
+                    machines++;
+                }
+            }
+            return machines / SecondsPerCup * info.Price * priceFactor * beachFactor;
+        }
+    }
+
+    public bool EarnsWhileAway { get { return IsOpen && HasRunner && HasCashier; } }
+}
+```
+
+```csharp:JuiceKart.cs
+using System;
+using UnityEngine;
+
+// The Juice Kart: a helper drives it round the beach road for ever, and each
+// lap sells by itself, straight into the Wallet. Each level sells more. It
+// earns while you're away: it's an IIncomeSource, like a staffed bar, and the
+// two share nothing else.
+public class JuiceKart : MonoBehaviour, IIncomeSource
+{
+    static readonly int SittingId = Animator.StringToHash("Sitting");
+
+    [SerializeField] Walker walker;
+    [SerializeField] Animator driver;
+    [SerializeField] WalkPath road;
+    [SerializeField] Wallet wallet;
+    [SerializeField] IncomeBoost boost;
+    [SerializeField] NumberPool numbers;
+    [SerializeField] int[] lapEarnings = { 60, 90, 135, 200, 300 };
+    [SerializeField] int[] levelPrice = { 1500, 4000, 9000, 20000 };
+
+    float beachFactor = 1f;
+
+    public int Level { get; private set; }
+    public bool IsBuilt { get { return gameObject.activeInHierarchy; } }
+    public bool IsMax { get { return Level >= levelPrice.Length; } }
+    public int NextLevelPrice { get { return IsMax ? 0 : levelPrice[Level]; } }
+    public int LapEarnings { get { return Mathf.RoundToInt(lapEarnings[Level] * beachFactor); } }
+
+    public event Action<int> Lapped;    // the money of one lap
+    public event Action Changed;
+
+    void OnEnable()
+    {
+        driver.SetBool(SittingId, true);
+        walker.Arrived += OnLap;
+        walker.WalkTo(road.Points());
+    }
+
+    void OnDisable()
+    {
+        walker.Arrived -= OnLap;
+    }
+
+    void OnLap()
+    {
+        int earned = Mathf.RoundToInt(LapEarnings * boost.Factor);
+        wallet.Add(earned);
+        numbers.Show("+$" + NumberFormat.Money(earned), Color.white, transform.position + Vector3.up * 2f);
+        Lapped?.Invoke(earned);
+        walker.WalkTo(road.Points());
+    }
+
+    public bool TryLevelUp()
+    {
+        if (IsMax || !wallet.TrySpend(NextLevelPrice))
+        {
+            return false;
+        }
+        Level++;
+        Changed?.Invoke();
+        return true;
+    }
+
+    public void Restore(int level, float beachPriceFactor)
+    {
+        Level = Mathf.Clamp(level, 0, levelPrice.Length);
+        beachFactor = beachPriceFactor;
+        Changed?.Invoke();
+    }
+
+    // ------------------------------------------------------------ IIncomeSource
+
+    public string SourceName { get { return "Juice Kart"; } }
+
+    public float IncomePerSecond
+    {
+        get { return IsBuilt ? LapEarnings / (road.Length() / walker.Speed) : 0f; }
+    }
+
+    public bool EarnsWhileAway { get { return IsBuilt; } }
+}
+```
+
+```csharp:BeachGame.cs
+using System;
+using LanternHill.Achievements;
+using TMPro;
+using UnityEngine;
+
+// The Beach scene's start and its saving. It finds the beach in the save,
+// gives it its colours and prices, builds again everything that was built,
+// adds what Welcome back collected, and saves every 30 seconds, when a phone
+// sends the game to the background, when the game quits, and when Settings'
+// Title button leaves the scene. Not in OnDestroy: by then the scene is being
+// taken down, and the kart or a bar may already be gone.
+public class BeachGame : MonoBehaviour
+{
+    [SerializeField] BeachInfo[] beaches;
+    [SerializeField] Wallet wallet;
+    [SerializeField] IncomeBoost boost;
+    [SerializeField] JuiceStand[] stands;
+    [SerializeField] CashPile[] cashPiles;
+    [SerializeField] BuildList buildList;
+    [SerializeField] Upgrades upgrades;
+    [SerializeField] ChefLevels chef;
+    [SerializeField] JuiceKart kart;
+    [SerializeField] GameStats stats;
+    [SerializeField] AchievementTracker tracker;
+    [SerializeField] IncomeSources income;
+    [SerializeField] Renderer sand;
+    [SerializeField] Renderer sea;
+    [SerializeField] Light sun;
+    [SerializeField] TMP_Text beachName;
+    [SerializeField] float autosaveSeconds = 30f;
+
+    int beachIndex;
+    float nextSaveTime;
+    bool hasLoaded;         // saving before the save is loaded would write a new game over it
+    bool isLeaving;         // sailing to a new beach: that beach is saved already
+
+    public int BeachIndex { get { return beachIndex; } }
+    public BeachInfo Beach { get { return beaches[beachIndex % beaches.Length]; } }
+    public BeachInfo NextBeach { get { return beaches[(beachIndex + 1) % beaches.Length]; } }
+
+    void Start()
+    {
+        Load();
+        hasLoaded = true;
+        if (Session.AwayCollected > 0)
+        {
+            wallet.Add(Session.AwayCollected);
+            stats.AddAwayEarnings(Session.AwayCollected);
+            Session.AwayCollected = 0;      // add it once
+            Save();
+        }
+        nextSaveTime = Time.unscaledTime + autosaveSeconds;
+    }
+
+    void Update()
+    {
+        if (Time.unscaledTime >= nextSaveTime)
+        {
+            Save();
+            nextSaveTime = Time.unscaledTime + autosaveSeconds;
+        }
+    }
+
+    // A phone switching to another app; a browser tab hidden.
+    void OnApplicationPause(bool isPaused)
+    {
+        if (isPaused)
+        {
+            Save();
+        }
+    }
+
+    void OnApplicationQuit()
+    {
+        Save();
+    }
+
+    // The Pier: the next beach is saved; this one mustn't save over it.
+    public void Leave()
+    {
+        isLeaving = true;
+    }
+
+    public void Save()
+    {
+        // Unity can call OnApplicationPause before Start: a game starting in the
+        // background does. The scene isn't loaded yet; there's nothing to save.
+        if (!hasLoaded || isLeaving)
+        {
+            return;
+        }
+        SaveData data = new SaveData();
+        data.beach = beachIndex;
+        // The notes still on the cash piles are yours: they're saved as money.
+        int waiting = 0;
+        foreach (CashPile pile in cashPiles)
+        {
+            waiting += pile.Total;
+        }
+        data.money = wallet.Money + waiting;
+        data.lifetimeEarned = wallet.LifetimeEarned + waiting;
+        data.boostSecondsLeft = boost.SecondsLeft;
+        data.built = buildList.BuiltIds();
+        data.paid = buildList.PaidSoFar();
+        data.upgrades.AddRange(upgrades.BoughtIds);
+        data.trayLevel = chef.TrayLevel;
+        data.flipFlopLevel = chef.FlipFlopLevel;
+        data.kartLevel = kart.Level;
+        data.stats = stats.ToSave();
+        data.trophies.AddRange(tracker.WonIds);
+        data.savedAtTicks = DateTime.UtcNow.Ticks;
+        foreach (IIncomeSource source in income.All)
+        {
+            if (source.EarnsWhileAway && source.IncomePerSecond > 0f)
+            {
+                AwaySource away = new AwaySource();
+                away.name = source.SourceName;
+                away.perSecond = source.IncomePerSecond;
+                data.awaySources.Add(away);
+            }
+        }
+        SaveSystem.Save(data);
+    }
+
+    void Load()
+    {
+        // A new game is a save with nothing in it.
+        SaveData data = SaveSystem.HasSave ? SaveSystem.Load() : new SaveData();
+        beachIndex = data.beach;
+        ShowBeach();
+        wallet.Restore(data.money, data.lifetimeEarned);
+        boost.Restore(data.boostSecondsLeft);
+        buildList.Restore(data.built, data.paid, Beach.CostFactor);
+        upgrades.Restore(data.upgrades);
+        chef.Restore(data.trayLevel, data.flipFlopLevel);
+        kart.Restore(data.kartLevel, Beach.PriceFactor);
+        stats.Restore(data.stats);
+        tracker.Restore(data.trophies);
+    }
+
+    // This beach's colours, its name, and what a cup sells for here.
+    void ShowBeach()
+    {
+        BeachInfo beach = Beach;
+        sand.material.color = beach.Sand;
+        sea.material.color = beach.Sea;
+        sun.color = beach.Sunlight;
+        beachName.text = beach.DisplayName;
+        foreach (JuiceStand stand in stands)
+        {
+            stand.SetBeachFactor(beach.PriceFactor);
+        }
+    }
+}
+```
 
 ```csharp:BoostOffer.cs
 using UnityEngine;
 using UnityEngine.UI;
 
-// The television button on the top bar: watch an ad, and everything earns
-// double for 5 minutes. It shows only when an ad is ready and no boost runs.
+// The television button on the top bar: watch an ad, and every sale is doubled
+// for 3 minutes. It shows only when an ad is ready and no boost runs.
 public class BoostOffer : MonoBehaviour
 {
     [SerializeField] AdServiceProvider ads;
-    [SerializeField] IncomeBonus bonus;
+    [SerializeField] IncomeBoost boost;
     [SerializeField] Button button;
-    [SerializeField] float boostSeconds = 300f;
 
     void OnEnable()
     {
@@ -13697,7 +15482,7 @@ public class BoostOffer : MonoBehaviour
 
     void Update()
     {
-        bool canOffer = ads.Service.RewardedReady && !bonus.IsBoosting;
+        bool canOffer = ads.Service.RewardedReady && !boost.IsRunning;
         if (button.gameObject.activeSelf != canOffer)
         {
             button.gameObject.SetActive(canOffer);
@@ -13711,28 +15496,39 @@ public class BoostOffer : MonoBehaviour
 
     void Boost()
     {
-        bonus.StartBoost(boostSeconds);
+        boost.StartBoost();
     }
 }
 ```
 
-15. The button shows only while an ad is ready and no boost runs. Ads are never pushed:
-    the button waits quietly in the corner. `Boost` is handed over as a **method group**,
-    `ShowRewarded(Boost)`: a method with no parameters is already an `Action`.
-16. In `Top Bar`, **Create Empty**, `Boost Offer`: anchor **middle–left** with Shift,
-    **Pos** (800, 0), 130 × 140. In it, an **Icon Button** `Boost Button`, centred, 126 ×
-    130, its `Icon` `television_3d`. Add `BoostOffer` to `Boost Offer` (not to the button:
-    it switches the button off, and a switched-off object's `Update` doesn't run): **Ads**
-    the scene's `Ads`, **Bonus** the `Income` object, **Button** `Boost Button`.
+<!-- check: end -->
+
+17. Read what changed. A bar's `Price` has one more factor, `boost.Factor`, and its
+    `OnEnable` listens to the boost so the price tag changes when it starts and stops.
+    `IncomePerSecond` leaves the boost out, on purpose: it's what you earn while away. The
+    kart's lap is multiplied when it's paid. `BeachGame` saves `boost.SecondsLeft`, and
+    `Restore` starts it again from there.
+18. `BoostOffer` shows the button only while an ad is ready and no boost runs. Ads are
+    never pushed: the button waits quietly in the corner. `Boost` is handed over as a
+    **method group**, `ShowRewarded(Boost)`: a method with no parameters is already an
+    `Action`.
+19. On the Beach, add **Income Boost** to the `Income` object, beside **Income Sources**.
+    Select the four bars, and drag `Income` into **Boost**; the same on the kart and on
+    `Beach Game`.
+20. **The TV.** In `Top Bar`, an empty `Boost Offer`: middle-right with its pivot, **Pos X**
+    `−292`, 124 × 130. In it, an **Icon Button** `Boost Button`, centred, 120 × 124, its
+    `Icon` `television_3d`. Add **Boost Offer** to `Boost Offer` (not to the button: it
+    switches the button off, and a switched-off object's `Update` doesn't run): **Ads** the
+    scene's `Ads`, **Boost** `Income`, **Button** `Boost Button`.
 
 ### Do it — Collect ×2, and the ad between beaches
 
-17. In the Report scene's `Window`, a **Candy Button Green** `Double Button`:
-    bottom–center, **Pos** (210, 70), 390 × 150, label `Collect ×2`, with its label's
-    **Left** at 100 to leave room for a TV: an **Image** `Television` in the button,
-    middle–left, **Pos** (24, 4), 80 × 80, `television_3d`. **Transition** **Sprite Swap**,
-    **Disabled Sprite** `Button Grey`.
-18. `ReportScreen`'s last form:
+21. In the Report scene's `Window`, a **Candy Button Green** `Double Button`: bottom-centre,
+    **Pos** (210, 70), 390 × 150, label `Collect ×2`, with its label's **Left** at 100 to
+    leave room for a TV: an **Image** `Television` in the button, middle-left, **Pos** (24,
+    4), 80 × 80, `television_3d`. **Transition** `Sprite Swap`, **Disabled Sprite** `Button
+    Grey`.
+22. `ReportScreen`'s last form:
 
 ```csharp:ReportScreen.cs
 using TMPro;
@@ -13740,8 +15536,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 // The Report scene: whatever the last scene left in Session.Report. Welcome
-// back offers Collect, or Collect ×2 for watching a rewarded ad. Your new
-// beach has one button, and the game's only interstitial ad before the beach.
+// back offers Collect, or Collect ×2 for watching a rewarded ad. Beach
+// complete has one button, and the game's only interstitial ad before the beach.
 public class ReportScreen : MonoBehaviour
 {
     [SerializeField] TMP_Text title;
@@ -13764,19 +15560,15 @@ public class ReportScreen : MonoBehaviour
         {
             // The scene was started on its own, in the Editor: show a test report.
             Debug.LogWarning("Report started without a Session.Report: showing a test one.", this);
-            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", 12345);
+            report = new Report(ReportKind.WelcomeBack, "Welcome back! (test)", "+$12.3K", 12345);
             report.Lines.Add("Started on its own, from the Editor.");
         }
         title.text = report.Title;
         lines.text = string.Join("\n", report.Lines);
         bool isWelcome = report.Kind == ReportKind.WelcomeBack;
-        if (isWelcome)
+        amount.text = report.Highlight;
+        if (!isWelcome)
         {
-            amount.text = "+$" + NumberFormat.Money(report.Amount);
-        }
-        else
-        {
-            amount.text = report.Amount == 1 ? "+1 star" : $"+{report.Amount} stars";
             picture.sprite = newBeachPicture;
         }
         collectButton.SetActive(isWelcome);
@@ -13805,7 +15597,7 @@ public class ReportScreen : MonoBehaviour
         ads.Service.ShowInterstitial(() => Leave(0));
     }
 
-    void Leave(long collected)
+    void Leave(int collected)
     {
         Session.AwayCollected = collected;
         Session.Report = null;
@@ -13814,31 +15606,34 @@ public class ReportScreen : MonoBehaviour
 }
 ```
 
-19. `CollectDouble` hands over a lambda: `() => Leave(report.Amount * 2)`. It's called when
-    the ad has been watched, seconds later; if the player closes a real ad early,
-    LevelPlay never rewards, and the lambda never runs: they can still **Collect**.
-    `OpenBeach` shows the interstitial, and leaves when it closes, watched or not.
-    `Update` keeps **Collect ×2** grey until an ad is ready.
-20. Set **Double Button** and **Ads** (the scene's `Ads`), and the button's On Click:
+23. `CollectDouble` hands over a lambda: `() => Leave(report.Amount * 2)`. It's called when
+    the ad has been watched, seconds later; if the player closes a real ad early, LevelPlay
+    never rewards, and the lambda never runs: they can still **Collect**. `OpenBeach` shows
+    the interstitial, and leaves when it closes, watched or not. `Update` keeps **Collect
+    ×2** grey until an ad is ready.
+24. Set **Double Button** and **Ads** (the scene's `Ads`), and the button's On Click:
     **ReportScreen → CollectDouble**.
-21. Add a line to the Credits: `Ads: <b>Unity LevelPlay</b>`.
+25. Add a line to the Credits: `Ads: <b>Unity LevelPlay</b>`.
 
 ### Test it
 
-- **Play** the Title, **Continue** with a Welcome back to show (Chapter 12's two hours).
+- **Play** the Title, **Continue** with a Welcome back to show (Chapter 15's two hours).
   **Collect ×2**: *An ad would play here.*, 5, 4, 3, 2, 1, and the beach, with twice the
   money.
-- On the beach, the TV on the top bar: the pretend ad, then `×2 4:59` under the money,
-  and the TV disappears until the boost ends.
-- Open a new beach: *Your new beach*, **To the beach!**, the pretend ad, then the beach.
+- On the beach, the TV on the top bar: the pretend ad, then every price tag doubles
+  (`Orange Bar  $10`), and the TV disappears. Three minutes later, the tags go back, and
+  the TV returns.
+- Start a boost, go back to the Title at once, and **Continue**: the tags are still
+  doubled. The boost was saved.
+- Build the Pier: *Beach complete!*, **Set sail!**, the pretend ad, then the new beach.
 - **Optional: LevelPlay's mock ads.** You need **Android Build Support** (**Unity Hub →
   Installs →** the cog **→ Add modules**: a big download). **File → Build Profiles**,
-  **Android**, **Switch Profile**. **Play**: the TV now shows LevelPlay's mock rewarded
-  ad, LevelPlay's own test screen with a countdown. When it's over, the boost starts.
-  Switch the profile back to your computer's (**Windows**, **macOS** or **Linux**) or
-  **Web** when you're done: Chapter 21 builds for those.
-- Untick **Use Level Play** on `Ads`: pretend ads everywhere, even on Android. A way to
-  test the game's side of ads with nothing else in the way.
+  **Android**, **Switch Profile**. **Play**: the TV now shows LevelPlay's mock rewarded ad,
+  LevelPlay's own test screen with a countdown. When it's over, the boost starts. Switch
+  the profile back to your computer's (**Windows**, **macOS** or **Linux**) or **Web** when
+  you're done: Chapter 23 builds for those.
+- Untick **Use Level Play** on `Ads`: pretend ads everywhere, even on Android. A way to test
+  the game's side of ads with nothing else in the way.
 
 ### Commit
 
@@ -13846,9 +15641,9 @@ public class ReportScreen : MonoBehaviour
 
 ### Challenge
 
-A third kind of `IAdService`, `NoAds`, for players who bought the game: `RewardedReady`
-is always `true`, and the rewards come at once, with no ad. Add it to `AdServiceProvider`
-with a tick box **No Ads**. Which other scripts change? (None should.)
+A third kind of `IAdService`, `NoAds`, for players who bought the game: `RewardedReady` is
+always `true`, and the rewards come at once, with no ad. Add it to `AdServiceProvider` with
+a tick box **No Ads**. Which other scripts change? (None should.)
 
 # Part 5 — Finish
 
@@ -14065,12 +15860,12 @@ Make a development build with **Autoconnect Profiler**, and compare its CPU Usag
 same moment in the Editor. Then repeat the picture experiment: import one large picture,
 and record its memory at three settings, as in the table.
 
-## Chapter 18 — Profile It
+## Chapter 20 — Profile It
 
-**Goal:** three performance problems in your game, each found with the right tool and
-fixed, or measured for the next chapter to fix: garbage made every frame (the
-**Profiler**), a screen rebuilt and drawn more than it needs (the **Profiler** and the
-**Frame Debugger**), and a picture filling memory (the **Memory Profiler**).
+**Goal:** three performance problems in your game, each found with the right tool and fixed,
+or measured for the next chapter to fix: garbage made every frame (the **Profiler**), a
+screen drawn in more pieces than it needs (the **Frame Debugger**), and a picture filling
+memory it doesn't need (the **Memory Profiler**).
 
 ### Idea — which tool for which problem
 
@@ -14083,103 +15878,122 @@ The exam asks this as a straight question (C# 17):
 | memory grows, or a phone runs out of it | **Memory Profiler** | what's in memory, and how big each thing is |
 
 A phone is where this matters: it has less of everything than your computer, and it gets
-hot and slows down when it works hard. An idle game is left running for minutes at a
-time, so a little waste every frame adds up.
+hot and slows down when it works hard. An idle game is left running for minutes at a time,
+so a little waste every frame adds up.
+
+**Measure, then change, then measure again.** Every number in this chapter is yours: your
+computer, your beach. Write each one down in the tables below, before and after. A fix you
+haven't measured is a guess, and some fixes cost something somewhere else.
 
 ### Do it — a package
 
-1. **Window → Package Manager**, **Unity Registry** on the left, search **Memory
-   Profiler**, **Install**. In GitHub Desktop: one new line in `Packages/manifest.json`,
+1. **Window → Package Manager**, **Unity Registry** on the left, search **Memory Profiler**,
+   **Install**. In GitHub Desktop: one new line in `Packages/manifest.json`,
    `"com.unity.memoryprofiler"`. The package itself isn't in your repository, only that
    line. Commit it: *Add the Memory Profiler package*.
 
 ### Do it — problem 1: garbage, every frame
 
-2. **Window → Analysis → Profiler**. Play the Beach, open the **Upgrades** tab, and leave
-   it open for a few seconds without touching anything, with the Profiler recording.
+2. **Window → Analysis → Profiler**. Play the Beach, step on the Office's mat, and leave
+   the panel open for a few seconds without touching anything, with the Profiler
+   recording.
 3. Click any frame of the **CPU Usage** graph and switch the lower half to **Hierarchy**.
    Sort by **GC Alloc**. Near the top: `UpgradeShop.Update`, on **every** frame, while
    nothing on the screen changes. Open it: `String.Concat`, from `"$" + Fmt(…)`, and the
-   strings `Fmt` builds, for fourteen rows, sixty times a second.
-4. Measured while this book was written, with the Upgrades panel open:
+   strings `Fmt` builds, for sixteen rows, many times a second.
+4. Note what you measure:
 
 | | Garbage each frame | Allocations each frame |
 | --- | --- | --- |
-| the intern's shop open | 1,612 bytes | 45 |
-| every panel closed | 82 bytes | 3 |
+| the intern's shop open | | |
+| every panel closed | | |
 
-   1.5 KB a frame is 90 KB a second, 5.4 MB a minute: garbage the **garbage collector**
-   must clear, all at once, every so often. That's the stutter. Close the panel: the
-   garbage stops, since a switched-off panel's `Update` doesn't run.
-5. Don't fix it here: the intern's code gets a proper clean-up in Chapter 19, and you'll
-   measure it again. Write the two numbers in your list from Chapter 7.
+   Expect a kilobyte or two a frame with the shop open: at 60 frames a second, that's
+   something like 100 KB a second, megabytes a minute, all garbage the **garbage
+   collector** must clear, all at once, every so often. That's the stutter. Close the
+   panel: the garbage stops, since a switched-off panel's `Update` doesn't run.
+
+5. Don't fix it here: the intern's code gets a proper clean-up in Chapter 21, and you'll
+   measure it again. Write the two numbers in your list from Chapter 9.
 
 > **Note:** the Editor itself makes garbage and takes time, so its numbers aren't a
 > phone's. A **Development Build** with **Autoconnect Profiler** (in **File → Build
 > Profiles**) profiles the real thing. To find *where* the waste is, the Editor is fine.
 
-### Do it — problem 2: a screen rebuilt, and drawn, more than it needs
+### Do it — problem 2: a screen drawn in too many pieces
 
-6. **The rebuild.** Every business's bar moves every frame: its **Fill Amount** changes.
-   When anything on a canvas changes, Unity rebuilds that canvas's whole mesh, and the
-   bars are on the game's one canvas, with the top bar, the list, the tabs, everything.
-   In the Profiler's **Hierarchy**, with managers running, type `Canvas` in its search box:
-   `Canvas.BuildBatch`, every frame.
-7. The fix is C# 2's: put what changes every frame on a **canvas of its own**. Select
-   `Stand List` (in `Bottom`), **Add Component → Canvas**, and **Add Component → Graphic
-   Raycaster** (a nested canvas needs its own, or its buttons can't be clicked). Now a
-   moving bar rebuilds only the list; the top bar, the tabs and the panels stay as they
-   were.
-8. Profile again: `Canvas.BuildBatch` still runs, but for a smaller canvas. Add the **UI
-   Details** module to the Profiler (**Profiler Modules**, top left): it lists each canvas,
-   and `Stand List` is one now.
-9. **The draws.** **Window → Analysis → Frame Debugger**, **Enable**, with the Beach
-   playing. The list on the left is every draw of one frame. Open the UI's part
+6. **Window → Analysis → Frame Debugger**, **Enable**, with the Beach playing and the Office
+   open. The list on the left is every draw of one frame. Open the UI's part
    (`UGUI.Rendering.RenderOverlays`) and click down it: each draw puts some of the screen
-   up. Count them. A picture from a different texture can't be drawn in the same draw as
-   the one before it, and every emoji is a texture of its own: a row needs several draws.
-   **Disable** it.
-10. A **Sprite Atlas** packs many sprites into one texture, so they can share draws. In
-    `Art`, **Assets → Create → 2D → Sprite Atlas**, `Juice Tycoon`. In its **Objects for
-    Packing**, **+** three times: the `Art/Emoji` folder, `Art/GUI/Buttons` and
-    `Art/GUI/Windows`. Under **Packing**, untick **Allow Rotation** and **Tight Packing**,
-    **Padding** 4: a 9-sliced panel and a UI image need their whole rectangle, upright.
-    **Pack Preview**: one big texture, every emoji and every button on it.
-11. **Edit → Project Settings → Editor**, **Sprite Packer**, **Mode**: **Sprite Atlas V2 -
-    Enabled** (the default). Play, and the Frame Debugger again: fewer draws for the same
-    screen. The Game view's **Stats** shows the **Batches** too: note them before and after.
+   up. A picture from a different texture can't be drawn in the same draw as the one
+   before it: the money's panel (the `Windows` sheet), then its coin (an emoji, a texture
+   of its own), then the TV (the `Buttons` sheet), then its emoji… Each change of texture
+   is a new draw. **Disable** it.
+7. The Game view's **Stats** (top right of the Game view) shows **Batches**: the number of
+   draws. Note it, with the Office open:
+
+| | Batches, the Office open |
+| --- | --- |
+| before the atlas | |
+| after the atlas | |
+
+8. A **Sprite Atlas** packs many sprites into one texture, so they can share draws. In
+   `Art`, **Assets → Create → 2D → Sprite Atlas**, `Juice Tycoon`. In its **Objects for
+   Packing**, **+** five times: the `Art/Emoji`, `Art/Ground` and `Art/Icons` folders, and
+   the two sheets, `Art/GUI/Buttons` and `Art/GUI/Windows`. Under **Packing**, untick
+   **Allow Rotation** and **Tight Packing**, **Padding** `4`: a 9-sliced panel and a UI
+   image need their whole rectangle, upright. **Pack Preview**: one big texture, every
+   emoji, mat, icon and button on it.
+9. **Edit → Project Settings → Editor**, **Sprite Packer**, **Mode**: `Sprite Atlas V2 -
+   Enabled` (the default). Play, open the Office, and look at **Batches** again, and at the
+   Frame Debugger: fewer draws for the same screen.
+10. The world's own canvases are a different story. Each mat, ring, price tag and bubble is
+    a **World Space** canvas of its own, so each is at least one draw, atlas or not. That
+    was a choice, in Chapter 3: a ring's fill changes every frame, and when anything on a
+    canvas changes, Unity rebuilds that canvas's whole mesh. With a canvas each, a turning
+    ring rebuilds only itself. In the Profiler, add the **UI Details** module (**Profiler
+    Modules**, top left): it lists the canvases, and which ones were rebuilt.
 
 ### Do it — problem 3: a picture in memory
 
-12. In Chapter 1, the beach was imported at full size with no compression. Play the Beach,
-    then **Window → Analysis → Memory Profiler** → **Capture New Snapshot**. Open it, look
-    under **Unity Objects** for **Texture2D**s, and find `Beach`. Measured for this book:
+11. In Chapter 1, KayKit's bar picture, `restaurantbits_texture`, came in at its full
+    size. Play the Beach, then **Window → Analysis → Memory Profiler** → **Capture New
+    Snapshot**. Open it, look under **Unity Objects** for **Texture2D**s, and find it.
+12. Open the picture itself (select it in `Art/Bar`, and look at the preview): 1024 × 1024
+    pixels of colour patches, each a smooth gradient, 128 pixels wide. On the screen, a
+    counter covers a few centimetres; one patch of it, a few millimetres. Select it: **Max
+    Size** `256`, **Apply**. Every patch is still 32 pixels wide: plenty for a gradient.
+    Take a new snapshot and compare:
 
-| `Beach` | Size in memory | Format |
-| --- | --- | --- |
-| **Max Size** 4096, **Compression** None | 31.5 MB | 3072 × 1536, 3 bytes a pixel |
-| **Max Size** 2048, **Compression** Normal Quality | 2.0 MB | 2048 × 1024, half a byte a pixel |
+| `restaurantbits_texture` | Size in memory |
+| --- | --- |
+| **Max Size** 2048 (the picture's own 1024) | |
+| **Max Size** 256 | |
 
-13. Select `Art/Background/Beach`: **Max Size** `2048`, **Compression** **Normal Quality**,
-    **Apply**. Take a new snapshot and compare: fifteen times smaller.
-14. Does the game look worse? The beach is 30.7 units wide, and the screen shows 19 of
-    them: at 2048 pixels, that's still more than 1,200 of the picture's pixels across a
-    1080-pixel screen. No one can see the difference; everyone's phone feels the memory.
-    The artist asked for "every pixel". Tell Sam what you changed, and why, with the
-    snapshots.
+A quarter of the width and a quarter of the height: a sixteenth of the memory.
+
+13. Does the game look worse? Put the two side by side (undo, look, redo): the bar is the
+    same. Try `64`: now patches start to bleed into each other at their edges, and the
+    counters' colours change. The right size is the smallest that looks the same, and only
+    looking tells you which that is.
+14. One more snapshot: find your new Sprite Atlas texture. Packing everything into one
+    picture made the draws fewer, but the atlas is one big texture, and it holds every
+    sprite on the two GUI sheets, even the many the game never uses. That's the price of
+    problem 2's fix, in memory. Is it worth it? Write down both numbers, and say what you'd
+    tell Sam.
 
 > **Note:** the Editor's sizes are bigger than a build's (it keeps a copy of each picture
 > that a build doesn't), so compare snapshots with each other, not with a phone's memory.
 
 ### Commit
 
-*Profile it: a canvas for the list, a Sprite Atlas, and a smaller beach.*
+*Profile it: a Sprite Atlas, and a smaller bar picture.*
 
 ### Challenge
 
-The floating numbers make a little garbage too: each sale builds its `"+$1.25K"` string.
-Profile it with every business managed: how many bytes a second? Is it worth fixing?
-(Compare it with the intern's shop: the answer is a number, not a feeling.)
+The floating numbers make a little garbage too: each sale builds its `"+$15"` string.
+Profile it with every bar staffed: how many bytes a second? Is it worth fixing? (Compare
+it with the intern's shop: the answer is a number, not a feeling.)
 
 ## C# 18 — Coding Standards and Refactoring
 
@@ -14402,6 +16216,313 @@ Swap a script from your last game with a partner. Each of you refactors the othe
 fit the style guide, in small commits. Then review each other's diffs: could you follow
 every step? Did any of them change what the game does?
 
+## Chapter 21 — Clean Up the Intern's Code
+
+**Goal:** the intern's shop rewritten to Sam's style guide, in small steps, each tested and
+committed, without changing what the player sees, except four things the review finds:
+prices that read `$1000.0K`, buttons that look pressable when they aren't, rows for bars
+you haven't built, and lists in no order. The garbage Chapter 20 measured is gone.
+
+### Idea — refactor in small, safe steps
+
+**Refactoring** changes how code is written, never what it does (C# 18). The
+safe way is a series of small steps, each of which leaves a working game:
+
+```
+change one thing  →  Play: does the shop still work?  →  commit  →  next
+```
+
+If a step breaks something, you know which: the last one. And Git can take it back.
+
+The shop's biggest problem isn't any one line. It's that one script knows everything about
+every row: its children's names, which text is which, how a price is written, and it asks
+all of it again every frame. A **row** should know how to show itself, and the shop should
+only change what changed, when it changes. So the clean-up ends with two small classes:
+`UpgradeRow`, one upgrade's row, and `UpgradesPanel`, one script for both shops, the
+Office's and the Staff Hut's.
+
+### Do it — read it against the guide
+
+1. Open `UpgradeShop` beside `STYLE_GUIDE.md`, and your list from Chapter 9. Compare:
+
+| In the intern's code | The guide says |
+| --- | --- |
+| `public Upgrade[] list;` and four more | `[SerializeField]` private fields, never `public` |
+| `u`, `w`, `n`, `m` | names that say what they are |
+| `transform.Find("Name").GetComponent<TMP_Text>()`, every frame | references set once, in the Inspector |
+| `"$" + Fmt(…)` in `Update` | not allowed: string building in `Update` (Chapter 20's garbage) |
+| `if (…) x; else y;` with no braces | braces on every `if` and `else` |
+| `// update the rows`, `// format the money` | comments say why, not what |
+| `Fmt`: `$1000.0K` for a million, and `1000,0K` on a French computer | the game already has `NumberFormat` |
+| a button you can't afford looks like one you can | the rows' Buy buttons go grey (the Level Rows do) |
+| the Apple Bar's upgrades listed before the Apple Bar is built | `Upgrades.IsForSale` already knows |
+| each panel's list typed by hand, in the Inspector, in no order | the game has an `UpgradeLibrary` of every upgrade |
+
+### Do it — step 1: names and fields
+
+2. Rename the fields to say what they are, and make them private and `[SerializeField]`.
+   One trap: Unity remembers an Inspector value **by the field's name**. Rename `u` to
+   `upgrades`, and both panels forget their `Upgrades`. `[FormerlySerializedAs("u")]` tells
+   Unity the field used to be called `u`:
+
+```csharp
+using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
+using TMPro;
+
+// upgrade shop
+public class UpgradeShop : MonoBehaviour
+{
+    [FormerlySerializedAs("list")] [SerializeField] Upgrade[] forSale;
+    [FormerlySerializedAs("u")] [SerializeField] Upgrades upgrades;
+    [FormerlySerializedAs("w")] [SerializeField] Wallet wallet;
+    [FormerlySerializedAs("row")] [SerializeField] GameObject rowPrefab;
+    [SerializeField] Transform content;
+    GameObject[] rows;
+
+    void Start()
+    {
+        // make the rows
+        rows = new GameObject[forSale.Length];
+        for (int i = 0; i < forSale.Length; i++)
+        {
+            rows[i] = Instantiate(rowPrefab, content);
+            int n = i;
+            rows[i].transform.Find("Buy Button").GetComponent<Button>().onClick.AddListener(() => upgrades.TryBuy(forSale[n]));
+        }
+    }
+
+    void Update()
+    {
+        // update the rows
+        for (int i = 0; i < forSale.Length; i++)
+        {
+            if (upgrades.IsBought(forSale[i]))
+                rows[i].SetActive(false);
+            else
+                rows[i].SetActive(true);
+            rows[i].transform.Find("Picture").GetComponent<Image>().sprite = forSale[i].Picture;
+            rows[i].transform.Find("Name").GetComponent<TMP_Text>().text = forSale[i].DisplayName;
+            rows[i].transform.Find("Description").GetComponent<TMP_Text>().text = forSale[i].Description;
+            rows[i].transform.Find("Buy Button/Label").GetComponent<TMP_Text>().text = "$" + Fmt(forSale[i].Cost);
+            if (wallet.Money >= forSale[i].Cost)
+                rows[i].transform.Find("Buy Button").GetComponent<Button>().interactable = true;
+            else
+                rows[i].transform.Find("Buy Button").GetComponent<Button>().interactable = false;
+        }
+    }
+
+    // format the money
+    string Fmt(int m)
+    {
+        if (m >= 1000)
+            return (m / 1000f).ToString("0.0") + "K";
+        return m.ToString();
+    }
+}
+```
+
+3. Select the two panels in the Beach scene: every field still filled in, under its new
+   names. Save the scene (**Ctrl+S** or **Cmd+S**): it's written with the new names now.
+   Play, buy an upgrade and hire a helper: as before. Commit: *Rename the shop's fields*.
+
+### Do it — step 2: a row that shows itself
+
+4. In `Scripts/UI`, `UpgradeRow`:
+
+```csharp:UpgradeRow.cs
+using System;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+// One upgrade in the Office or the Staff Hut: its picture, name, what it
+// does, and its price on a button that's green when you can afford it.
+public class UpgradeRow : MonoBehaviour
+{
+    [SerializeField] Image picture;
+    [SerializeField] TMP_Text nameText;
+    [SerializeField] TMP_Text descriptionText;
+    [SerializeField] Button buyButton;
+    [SerializeField] Image buyButtonImage;
+    [SerializeField] TMP_Text priceText;
+    [SerializeField] Sprite canBuySprite;
+    [SerializeField] Sprite cannotBuySprite;
+
+    Upgrade upgrade;
+
+    public event Action<Upgrade> BuyPressed;
+
+    void OnEnable()
+    {
+        buyButton.onClick.AddListener(OnBuyPressed);
+    }
+
+    void OnDisable()
+    {
+        buyButton.onClick.RemoveListener(OnBuyPressed);
+    }
+
+    public void Show(Upgrade shown)
+    {
+        upgrade = shown;
+        picture.sprite = upgrade.Picture;
+        nameText.text = upgrade.DisplayName;
+        descriptionText.text = upgrade.Description;
+        priceText.text = "$" + NumberFormat.Money(upgrade.Cost);
+    }
+
+    public void SetAffordable(int money)
+    {
+        bool canBuy = upgrade.Cost <= money;
+        buyButton.interactable = canBuy;
+        buyButtonImage.sprite = canBuy ? canBuySprite : cannotBuySprite;
+    }
+
+    void OnBuyPressed()
+    {
+        BuyPressed?.Invoke(upgrade);
+    }
+}
+```
+
+5. The row is given its upgrade once, in `Show`, and draws it once. After that only
+   `SetAffordable` runs, when the money changes: a bool, a button, a sprite, no strings. It
+   doesn't buy anything itself: it raises `BuyPressed`, and whoever made the row decides.
+   The price uses `NumberFormat.Money`: `$1.00M`. It's the same shape as Chapter 9's
+   `LevelRow`, on purpose.
+6. Open the **Upgrade Row** prefab and add **Upgrade Row**: **Picture**, **Name Text**,
+   **Description Text**, **Buy Button** and its Image, **Price Text** (`Buy Button/Label`),
+   and the two sprites, `Button Green` and `Button Grey`. The intern's shop still works: it
+   ignores the script and finds the children by name, as before. Play to check. Commit:
+   *Add UpgradeRow*.
+
+### Do it — step 3: one panel, both shops
+
+7. In `Scripts/UI`, `UpgradesPanel`:
+
+```csharp:UpgradesPanel.cs
+using System.Collections.Generic;
+using UnityEngine;
+
+// The Office's Upgrades panel, and the Staff Hut's panel: the same script,
+// with Show Staff ticked for the second. Each lists the upgrades for sale
+// (not bought yet, for a bar you've built), cheapest first, made in code. The
+// rows are made when the panel opens and after a purchase; the money changing
+// only turns their buttons green or grey.
+public class UpgradesPanel : MonoBehaviour
+{
+    [SerializeField] bool showStaff;
+    [SerializeField] Upgrades upgrades;
+    [SerializeField] Wallet wallet;
+    [SerializeField] UpgradeRow rowPrefab;
+    [SerializeField] Transform content;
+    [SerializeField] GameObject allBoughtText;
+
+    readonly List<UpgradeRow> rows = new List<UpgradeRow>();
+
+    void OnEnable()
+    {
+        wallet.MoneyChanged += OnMoneyChanged;
+        Rebuild();
+    }
+
+    void OnDisable()
+    {
+        wallet.MoneyChanged -= OnMoneyChanged;
+    }
+
+    void Rebuild()
+    {
+        foreach (UpgradeRow row in rows)
+        {
+            row.BuyPressed -= Buy;
+            Destroy(row.gameObject);
+        }
+        rows.Clear();
+
+        List<Upgrade> forSale = new List<Upgrade>();
+        foreach (Upgrade upgrade in upgrades.Library.Upgrades)
+        {
+            // A helper is an upgrade too: this panel shows one kind or the other.
+            bool isHire = upgrade is HireUpgrade;
+            if (isHire == showStaff && upgrades.IsForSale(upgrade))
+            {
+                forSale.Add(upgrade);
+            }
+        }
+        forSale.Sort((a, b) => a.Cost.CompareTo(b.Cost));
+
+        foreach (Upgrade upgrade in forSale)
+        {
+            UpgradeRow row = Instantiate(rowPrefab, content);
+            row.Show(upgrade);
+            row.SetAffordable(wallet.Money);
+            row.BuyPressed += Buy;
+            rows.Add(row);
+        }
+        allBoughtText.SetActive(forSale.Count == 0);
+    }
+
+    void Buy(Upgrade upgrade)
+    {
+        if (upgrades.TryBuy(upgrade))
+        {
+            Rebuild();
+        }
+    }
+
+    void OnMoneyChanged(int money)
+    {
+        foreach (UpgradeRow row in rows)
+        {
+            row.SetAffordable(money);
+        }
+    }
+}
+```
+
+8. Read it as the answers to your list:
+   - **What to show** comes from the library, not from a list typed by hand: every upgrade
+     for sale (`IsForSale`: not bought, and its bar built), of the panel's kind. `upgrade is
+     HireUpgrade`, compared with `showStaff`, splits them: one script, two panels.
+   - **In order:** `forSale.Sort((a, b) => a.Cost.CompareTo(b.Cost))`, cheapest first, a
+     lambda that compares two upgrades.
+   - **When:** the rows are made when the panel opens (`OnEnable`) and after a purchase
+     (`Rebuild`); the money changing only calls `SetAffordable`. No `Update` at all.
+   - **Tidy:** `Rebuild` unsubscribes from each old row before destroying it.
+9. Open the **Upgrades Panel** prefab and add **Upgrades Panel**: **Row Prefab** the
+   **Upgrade Row**, **Content** its `List`, **All Bought Text** its `All Bought`. Then the
+   **Staff Panel** prefab: the same, and tick **Show Staff**.
+10. In the Beach scene, on each of the two panels: set **Upgrades** and **Wallet**, then
+    remove the **Upgrade Shop** component (the ⋮ menu → **Remove Component**).
+11. Play: both shops work, from the new script. Then delete `UpgradeShop.cs`. Play again,
+    to be sure nothing used it. Commit: *Replace the intern's shop with UpgradesPanel*.
+
+### Test it
+
+- **The Office**, with only the Orange Bar: its four upgrades, cheapest first: *Sweet
+  Oranges* `$100`, *Faster Juicer* `$150`, *Orange Zest* `$600`, *Turbo Juicer* `$800`. No
+  Apple Bar rows yet. A button you can't afford is grey, and turns green as the money comes
+  in. Build the Apple Bar: its four join the list, in price order.
+- Hire everyone in the **Staff Hut** for the bars you've built: *Everyone's hired: build
+  another bar to hire more.*
+- **Profile it again**, as in Chapter 20: the Office open for a few seconds, **GC Alloc**.
+  Write the number beside Chapter 20's: the same as with every panel closed. The shop makes
+  no garbage at all now.
+
+### Commit
+
+Three commits, one per step, are already in your History. Look at them in GitHub Desktop:
+each one's diff is small enough to read.
+
+### Challenge
+
+The rows are destroyed and made again after every purchase. With 24 upgrades that's fine;
+with 500, it wouldn't be. How would you change `UpgradesPanel` to hide the bought row
+instead, and keep the others? What would `Rebuild` still need to do, and when?
+
 ## C# 19 — Debug Messages and Compile Errors
 
 **Goal:** you can write debug messages that show exactly why code fails, and read a
@@ -14536,7 +16657,7 @@ public class Kart : Vehicle         // error CS0534: 'Kart' does not implement i
 One typo, two errors: `Drve` overrides nothing in `Vehicle`, so `Drive` is still
 missing. Fix the name, and both go. On its own, CS0534 means you haven't written the
 abstract method yet, and CS0115 means the name or the parameters don't match any method
-in the base class (C# 7).
+in the base class (C# 8).
 
 ```csharp
 public interface IDamageable
@@ -14550,7 +16671,7 @@ public class Crate : MonoBehaviour, IDamageable     // error CS0535: 'Crate' doe
 ```
 
 A class that promises an interface must have every member of it, `public`, with the
-same parameters (C# 8). And neither can be made with `new`: an abstract
+same parameters (C# 9). And neither can be made with `new`: an abstract
 class or an interface is a plan, not a thing. Make one of the classes built on it.
 
 ```csharp
@@ -14561,8 +16682,8 @@ Vehicle vehicle = new Vehicle();    // error CS0144: Cannot create an instance o
 
 | Wrong | The compiler says | Fix |
 | --- | --- | --- |
-| `racer.LapFinished = OnLapFinished;` | `error CS0070: The event 'Racer.LapFinished' can only appear on the left hand side of += or -= (except when used from within the type 'Racer')` | subscribe with `+=`; only `Racer` can raise or reset its event (C# 5) |
-| two `Countdown` classes, often after importing a package | `error CS0101: The namespace '<global namespace>' already contains a definition for 'Countdown'` | delete the copy, rename yours, or use a namespace (C# 9) |
+| `racer.LapFinished = OnLapFinished;` | `error CS0070: The event 'Racer.LapFinished' can only appear on the left hand side of += or -= (except when used from within the type 'Racer')` | subscribe with `+=`; only `Racer` can raise or reset its event (C# 2) |
+| two `Countdown` classes, often after importing a package | `error CS0101: The namespace '<global namespace>' already contains a definition for 'Countdown'` | delete the copy, rename yours, or use a namespace (C# 10) |
 | `kart.Boost();` when `Kart` has no `Boost` | `error CS1061: 'Kart' does not contain a definition for 'Boost' and no accessible extension method 'Boost' accepting a first argument of type 'Kart' could be found (are you missing a using directive or an assembly reference?)` | fix the typo, use the right class, or write the member |
 | `string cardId = 17;` | `error CS0029: Cannot implicitly convert type 'int' to 'string'` | the right type, `"17"`, or a conversion |
 | `speed *= boost;`, with `boost` declared inside an `if` above it | `error CS0103: The name 'boost' does not exist in the current context` | fix the typo, or declare it before the `if`, outside its braces |
@@ -14647,310 +16768,7 @@ Write a script with four compile errors from this chapter, each one realistic. S
 a partner. Who can name every cause, and fix it, from the Console alone, without
 running the game?
 
-## Chapter 19 — Clean Up the Intern's Code
-
-**Goal:** the intern's Upgrades shop rewritten to Sam's style guide, in small steps, each
-tested and committed, without changing what the player sees, except three things the
-review finds: prices that read `$1000.0K`, buttons that look pressable when they aren't,
-and lists in no order. The garbage Chapter 18 measured is gone.
-
-### Idea — refactor in small, safe steps
-
-**Refactoring** changes how code is written, never what it does (C# 18). The
-safe way is a series of small steps, each of which leaves a working game:
-
-```
-change one thing  →  Play: does the shop still work?  →  commit  →  next
-```
-
-If a step breaks something, you know which: the last one. And Git can take it back.
-
-The shop's biggest problem isn't any one line. It's that one script knows everything
-about every row: its children's names, which text is which, how a price is written, and
-it asks all of it again sixty times a second. A **row** should know how to show itself,
-and the shop should only change what changed, when it changes. So the clean-up ends with
-two small classes: `UpgradeRow`, one upgrade's row, and `UpgradesPanel`, one script for
-both shops.
-
-### Do it — read it against the guide
-
-1. Open `UpgradeShop` beside `STYLE_GUIDE.md`, and your list from Chapter 7. Compare:
-
-| In the intern's code | The guide says |
-| --- | --- |
-| `public Upgrade[] list;` and four more | `[SerializeField]` private fields, never `public`; names that say what they are |
-| `u`, `w`, `n`, `m` | names that say what they are |
-| `transform.Find("Name").GetComponent<TMP_Text>()`, every frame | references set once, in the Inspector |
-| `"$" + Fmt(…)` in `Update` | not allowed: string building in `Update` (Chapter 18's 1.6 KB a frame) |
-| `if (…) x; else y;` with no braces | braces on every `if` and `else` |
-| `// update the rows`, `// format the money` | comments say why, not what |
-| `Fmt`: `$1000.0K` for a million, and `1000,0K` on a French computer | the game already has `NumberFormat` |
-| a button you can't afford looks like one you can | the rows' Buy buttons go grey (Chapter 6) |
-| each panel's list typed by hand, in the Inspector, in no order | the game has an `UpgradeLibrary` of every upgrade |
-
-### Do it — step 1: names and fields
-
-2. Rename the fields to say what they are, and make them private and `[SerializeField]`.
-   One trap: Unity remembers an Inspector value **by the field's name**. Rename `u` to
-   `upgrades`, and both panels forget their `Upgrades`. `[FormerlySerializedAs("u")]` tells
-   Unity the field used to be called `u`:
-
-```csharp
-using UnityEngine;
-using UnityEngine.Serialization;
-using UnityEngine.UI;
-using TMPro;
-
-// upgrade shop
-public class UpgradeShop : MonoBehaviour
-{
-    [FormerlySerializedAs("list")] [SerializeField] Upgrade[] forSale;
-    [FormerlySerializedAs("u")] [SerializeField] Upgrades upgrades;
-    [FormerlySerializedAs("w")] [SerializeField] Wallet wallet;
-    [FormerlySerializedAs("row")] [SerializeField] GameObject rowPrefab;
-    [SerializeField] Transform content;
-    GameObject[] rows;
-
-    void Start()
-    {
-        // make the rows
-        rows = new GameObject[forSale.Length];
-        for (int i = 0; i < forSale.Length; i++)
-        {
-            rows[i] = Instantiate(rowPrefab, content);
-            int n = i;
-            rows[i].transform.Find("Buy Button").GetComponent<Button>().onClick.AddListener(() => upgrades.TryBuy(forSale[n]));
-        }
-    }
-
-    void Update()
-    {
-        // update the rows
-        for (int i = 0; i < forSale.Length; i++)
-        {
-            if (upgrades.IsBought(forSale[i]))
-                rows[i].SetActive(false);
-            else
-                rows[i].SetActive(true);
-            rows[i].transform.Find("Picture").GetComponent<Image>().sprite = forSale[i].Picture;
-            rows[i].transform.Find("Name").GetComponent<TMP_Text>().text = forSale[i].DisplayName;
-            rows[i].transform.Find("Description").GetComponent<TMP_Text>().text = forSale[i].Description;
-            rows[i].transform.Find("Buy Button/Label").GetComponent<TMP_Text>().text = "$" + Fmt(forSale[i].Cost);
-            if (wallet.Money >= forSale[i].Cost)
-                rows[i].transform.Find("Buy Button").GetComponent<Button>().interactable = true;
-            else
-                rows[i].transform.Find("Buy Button").GetComponent<Button>().interactable = false;
-        }
-    }
-
-    // format the money
-    string Fmt(long m)
-    {
-        if (m >= 1000)
-            return (m / 1000f).ToString("0.0") + "K";
-        return m.ToString();
-    }
-}
-```
-
-3. Select the two panels in the Beach scene: every field still filled in, under its new
-   names. Save the scene (**Ctrl+S** or **Cmd+S**): it's written with the new names now.
-   Play, buy an upgrade and a manager: as before. Commit: *Rename the shop's fields*.
-
-### Do it — step 2: a row that shows itself
-
-4. In `Scripts/UI`, `UpgradeRow`:
-
-```csharp:UpgradeRow.cs
-using System;
-using TMPro;
-using UnityEngine;
-using UnityEngine.UI;
-
-// One upgrade in the Upgrades or Managers panel: its picture, name, what it
-// does, and its price on a button that's green when you can afford it.
-public class UpgradeRow : MonoBehaviour
-{
-    [SerializeField] Image picture;
-    [SerializeField] TMP_Text nameText;
-    [SerializeField] TMP_Text descriptionText;
-    [SerializeField] Button buyButton;
-    [SerializeField] Image buyButtonImage;
-    [SerializeField] TMP_Text priceText;
-    [SerializeField] Sprite canBuySprite;
-    [SerializeField] Sprite cannotBuySprite;
-
-    Upgrade upgrade;
-
-    public event Action<Upgrade> BuyPressed;
-
-    void OnEnable()
-    {
-        buyButton.onClick.AddListener(OnBuyPressed);
-    }
-
-    void OnDisable()
-    {
-        buyButton.onClick.RemoveListener(OnBuyPressed);
-    }
-
-    public void Show(Upgrade shown)
-    {
-        upgrade = shown;
-        picture.sprite = upgrade.Picture;
-        nameText.text = upgrade.DisplayName;
-        descriptionText.text = upgrade.Description;
-        priceText.text = "$" + NumberFormat.Money(upgrade.Cost);
-    }
-
-    public void SetAffordable(long money)
-    {
-        bool canBuy = upgrade.Cost <= money;
-        buyButton.interactable = canBuy;
-        buyButtonImage.sprite = canBuy ? canBuySprite : cannotBuySprite;
-    }
-
-    void OnBuyPressed()
-    {
-        BuyPressed?.Invoke(upgrade);
-    }
-}
-```
-
-5. The row is given its upgrade once, in `Show`, and draws it once. After that only
-   `SetAffordable` runs, when the money changes: a bool, a button, a sprite, no strings.
-   It doesn't buy anything itself: it raises `BuyPressed`, and whoever made the row
-   decides. The price uses `NumberFormat.Money`: `$1.00M`.
-6. Open the **Upgrade Row** prefab and add `UpgradeRow`: **Picture**, **Name Text**,
-   **Description Text**, **Buy Button** and its Image, **Price Text** (`Buy Button/Label`),
-   and the two sprites, `Button Green` and `Button Grey`. The intern's shop still works:
-   it ignores the script and finds the children by name, as before. Play to check.
-   Commit: *Add UpgradeRow*.
-
-### Do it — step 3: one panel, both shops
-
-7. In `Scripts/UI`, `UpgradesPanel`:
-
-```csharp:UpgradesPanel.cs
-using System.Collections.Generic;
-using UnityEngine;
-
-// The Upgrades panel, and the Managers panel: the same script, with Show
-// Managers ticked for the second. Each lists the upgrades not bought yet,
-// cheapest first, made in code. The rows are made when the panel opens and
-// after a purchase; the money changing only turns their buttons green or grey.
-public class UpgradesPanel : MonoBehaviour
-{
-    [SerializeField] bool showManagers;
-    [SerializeField] Upgrades upgrades;
-    [SerializeField] Wallet wallet;
-    [SerializeField] UpgradeRow rowPrefab;
-    [SerializeField] Transform content;
-    [SerializeField] GameObject allBoughtText;
-
-    readonly List<UpgradeRow> rows = new List<UpgradeRow>();
-
-    void OnEnable()
-    {
-        wallet.MoneyChanged += OnMoneyChanged;
-        Rebuild();
-    }
-
-    void OnDisable()
-    {
-        wallet.MoneyChanged -= OnMoneyChanged;
-    }
-
-    void Rebuild()
-    {
-        foreach (UpgradeRow row in rows)
-        {
-            row.BuyPressed -= Buy;
-            Destroy(row.gameObject);
-        }
-        rows.Clear();
-
-        List<Upgrade> forSale = new List<Upgrade>();
-        foreach (Upgrade upgrade in upgrades.Library.Upgrades)
-        {
-            // A manager is an upgrade too: this panel shows one kind or the other.
-            bool isManager = upgrade is ManagerUpgrade;
-            if (isManager == showManagers && !upgrades.IsBought(upgrade))
-            {
-                forSale.Add(upgrade);
-            }
-        }
-        forSale.Sort((a, b) => a.Cost.CompareTo(b.Cost));
-
-        foreach (Upgrade upgrade in forSale)
-        {
-            UpgradeRow row = Instantiate(rowPrefab, content);
-            row.Show(upgrade);
-            row.SetAffordable(wallet.Money);
-            row.BuyPressed += Buy;
-            rows.Add(row);
-        }
-        allBoughtText.SetActive(forSale.Count == 0);
-    }
-
-    void Buy(Upgrade upgrade)
-    {
-        if (upgrades.TryBuy(upgrade))
-        {
-            Rebuild();
-        }
-    }
-
-    void OnMoneyChanged(long money)
-    {
-        foreach (UpgradeRow row in rows)
-        {
-            row.SetAffordable(money);
-        }
-    }
-}
-```
-
-8. Read it as the answers to your list:
-   - **What to show** comes from the library, not from a list typed by hand: every
-     upgrade not bought yet, of the panel's kind. `upgrade is ManagerUpgrade`, compared
-     with `showManagers`, splits them: one script, two panels.
-   - **In order:** `forSale.Sort((a, b) => a.Cost.CompareTo(b.Cost))`, cheapest first, a
-     lambda that compares two upgrades.
-   - **When:** the rows are made when the panel opens (`OnEnable`) and after a purchase
-     (`Rebuild`); the money changing only calls `SetAffordable`. No `Update` at all.
-   - **Tidy:** `Rebuild` unsubscribes from each old row before destroying it.
-9. Open the **Upgrades Panel** prefab and add `UpgradesPanel`: **Row Prefab** the
-   **Upgrade Row**, **Content** its `List`, **All Bought Text** its `All Bought`. Open the
-   **Managers Panel** prefab: it has the script too, since it's a variant of Upgrades
-   Panel; tick **Show Managers** there (an override).
-10. In the Beach scene, on each of the two panels: set **Upgrades** and **Wallet**, then
-    remove the **Upgrade Shop** component (the ⋮ menu → **Remove Component**).
-11. Play: both shops work, from the new script. Then delete `UpgradeShop.cs`. Play again,
-    to be sure nothing used it. Commit: *Replace the intern's shop with UpgradesPanel*.
-
-### Test it
-
-- **Upgrades**: the cheapest first, `$25.0K` for *Fresh Lemons*, `$1.00M` for *Watermelon
-  Wave*, `$1.00B` for *Golden Juice*. A button you can't afford is grey, and turns green
-  as the money comes in.
-- Buy everything in **Managers**: *Every business has a manager!*
-- **Profile it again**, as in Chapter 18: the Upgrades panel open for a few seconds,
-  **GC Alloc**. Measured for this book: 82 bytes and 3 allocations a frame, the same as
-  with every panel closed. The shop makes no garbage at all now.
-
-### Commit
-
-Three commits, one per step, are already in your History. Look at them in GitHub
-Desktop: each one's diff is small enough to read.
-
-### Challenge
-
-The rows are destroyed and made again after every purchase. With 19 upgrades that's
-fine; with 500, it wouldn't be. How would you change `UpgradesPanel` to hide the bought
-row instead, and keep the others? What would `Rebuild` still need to do, and when?
-
-## Chapter 20 — Break It, Then Fix It
+## Chapter 22 — Break It, Then Fix It
 
 **Goal:** Level 4's common mistakes, made on purpose, one at a time: read the Console's
 message, find the cause, fix it, and use Git to undo what you did. Do this chapter on a
@@ -14959,8 +16777,8 @@ branch, `breaking`, and delete it at the end.
 ### Idea — read the message, then the code
 
 C# 19 gave the method: the file and line, the code (`CS0534`), the message;
-then the code at that line. For a runtime error, the **stack trace**: the line at the top
-is where it happened, the lines below are how the game got there.
+then the code at that line. For a runtime error, the **stack trace**: the line at the top is
+where it happened, the lines below are how the game got there.
 
 1. In GitHub Desktop, **Current Branch → New Branch**, `breaking`. Nothing you break here
    reaches `main`.
@@ -14989,10 +16807,10 @@ Assets/Scripts/Upgrades/SpeedUpgrade.cs(5,14): error CS0534: 'SpeedUpgrade' does
    `AplyTo`. And the real one is missing again, so CS0534 comes back too: one typo, two
    errors.
 
-4. **Delete `IncomePerSecond` from `DeliveryVan`.**
+4. **Delete `IncomePerSecond` from `JuiceKart`.**
 
 ```
-Assets/Scripts/Income/DeliveryVan.cs(8,43): error CS0535: 'DeliveryVan' does not implement interface member 'IIncomeSource.IncomePerSecond'
+Assets/Scripts/Income/JuiceKart.cs(8,41): error CS0535: 'JuiceKart' does not implement interface member 'IIncomeSource.IncomePerSecond'
 ```
 
    An interface is a contract: a class that signs it must have every member.
@@ -15004,15 +16822,15 @@ Assets/Scripts/Income/DeliveryVan.cs(8,43): error CS0535: 'DeliveryVan' does not
 Assets/Scripts/UI/UpgradeRow.cs(44,24): error CS0144: Cannot create an instance of the abstract type or interface 'Upgrade'
 ```
 
-   There's no such thing as a plain upgrade: only recipes, equipment and managers. (And a
+   There's no such thing as a plain upgrade: only recipes, machines and helpers. (And a
    ScriptableObject is never made with `new` anyway: an asset, or
    `ScriptableObject.CreateInstance`.)
 
-6. **In `SoundPlayer.OnBought`, after the sound, write `stands[0].CupSold(10);`**, as if to
-   sell a cup from outside.
+6. **In `SoundPlayer.OnUpgradeBought`, after the sound, write `stands[0].CupSold(10);`**, as
+   if to sell a cup from outside.
 
 ```
-Assets/Scripts/Juice/SoundPlayer.cs(82,19): error CS0070: The event 'JuiceStand.CupSold' can only appear on the left hand side of += or -= (except when used from within the type 'JuiceStand')
+Assets/Scripts/Juice/SoundPlayer.cs(101,19): error CS0070: The event 'JuiceStand.CupSold' can only appear on the left hand side of += or -= (except when used from within the type 'JuiceStand')
 ```
 
    Only the class that owns an event may raise it. Others subscribe and unsubscribe: that's
@@ -15020,24 +16838,23 @@ Assets/Scripts/Juice/SoundPlayer.cs(82,19): error CS0070: The event 'JuiceStand.
 
 ### Do it — runtime errors
 
-7. **Forget to unsubscribe.** In `Shortcuts.OnDisable`, delete the line
-   `beachMap.FindAction("Upgrades", true).performed -= OnUpgrades;`. Play the **Title**,
-   **Continue** to the beach, then the cog and **Title**, and **Continue** again. On the
-   beach, press **U**:
+7. **Forget to unsubscribe.** In `Controls.OnDisable`, delete the line `menu.performed -=
+   OnMenu;`. Play the **Title**, **Continue** to the beach, then the cog and **Title**, and
+   **Continue** again. On the beach, press **Escape**:
 
 ```
-MissingReferenceException while executing 'performed' callbacks of 'Beach/Upgrades[/Keyboard/u]'
+MissingReferenceException while executing 'performed' callbacks of 'Chef/Menu[/Keyboard/escape]'
 MissingReferenceException: The object of type 'UnityEngine.GameObject' has been destroyed but you are still trying to access it.
 Your script should either check if it is null or you should not destroy the object.
 ```
 
-   Read the stack trace: `PanelSwitcher.Toggle`, called from `Shortcuts.OnUpgrades`. The
-   **first** beach's `Shortcuts`, destroyed with its scene, is still subscribed: the
-   action belongs to an **asset**, and assets outlive scenes. Its handler runs, and reaches
-   for its Upgrades panel, which was destroyed with it. The panel still opens: the second
-   beach's handler runs too. A bug that doesn't stop the game is the kind that ships. The
-   fix is the line you deleted: *subscribe in `OnEnable`, unsubscribe in `OnDisable`,
-   always both*. Discard the change.
+   Read the stack trace: `PanelSwitcher.Toggle`, called from `Controls.OnMenu`. The
+   **first** beach's `Controls`, destroyed with its scene, is still subscribed: the action
+   belongs to an **asset**, and assets outlive scenes. Its handler runs, and reaches for its
+   Settings panel, which was destroyed with it. Settings still opens: the second beach's
+   handler runs too. A bug that doesn't stop the game is the kind that ships. The fix is the
+   line you deleted: *subscribe in `OnEnable`, unsubscribe in `OnDisable`, always both*.
+   Discard the change.
 
 8. **Leave a field empty.** Select `Boost Offer` on the top bar, and clear its **Button**
    field (click it, **Delete**). **Play**:
@@ -15047,8 +16864,8 @@ UnassignedReferenceException: The variable button of BoostOffer has not been ass
 You probably need to assign the button variable of the BoostOffer script in the inspector.
 ```
 
-   Unity names the field and the script for you, and it happens at once, in `OnEnable`.
-   Put it back with **Ctrl+Z**, or discard the scene's changes.
+   Unity names the field and the script for you, and it happens at once, in `OnEnable`. Put
+   it back with **Ctrl+Z**, or discard the scene's changes.
 
 9. **A coroutine on a switched-off object.** Untick the `Ads` object in the Beach, and
    **Play**. The TV still shows (the pretend ads say they're ready); press it:
@@ -15064,12 +16881,12 @@ Coroutine couldn't be started because the the game object 'Ads' is inactive!
 
 ### Do it — undo a commit
 
-10. Make a mistake *and commit it*: in `Data/Stands/Lemonade Cup`, set **Cost Growth** to
-    `1.7`, and commit *Make lemonade dearer* on your branch. Play: the second cup costs
-    $7, the tenth $475. Nobody would buy a tenth.
-11. In GitHub Desktop's **History**, right-click that commit → **Revert Changes in
-    Commit**. A new commit undoes the old one; the history keeps both, so a team can see
-    what happened. Play: $5, as the balance sheet says.
+10. Make a mistake *and commit it*: in `Data/Bars/Orange Bar`, set **Crate Seconds** to `12`,
+    and commit *Slow down the orange crate* on your branch. Play: one orange every twelve
+    seconds. Nobody would wait for that.
+11. In GitHub Desktop's **History**, right-click that commit → **Revert Changes in Commit**.
+    A new commit undoes the old one; the history keeps both, so a team can see what
+    happened. Play: 1.2 seconds, as the balance sheet says.
 12. Switch back to `main`, and delete the `breaking` branch.
 
 ### Commit
@@ -15078,15 +16895,15 @@ Nothing to commit on `main`. Everything you broke stayed on the branch.
 
 ### Challenge
 
-Make a mistake for a friend: on a branch of your own, break one thing (a compile error or
-a runtime one), and commit it. Swap computers. Find each other's mistake from the Console
+Make a mistake for a friend: on a branch of your own, break one thing (a compile error or a
+runtime one), and commit it. Swap computers. Find each other's mistake from the Console
 alone, and fix it.
 
-## Chapter 21 — Ship It
+## Chapter 23 — Ship It
 
 **Goal:** Juice Tycoon built for the **web**, playable on itch.io in a tall window, with a
-mouse or a finger, and for **your computer** (Windows or Mac), in a window shaped like a
-phone, with a Quit button. Your juice empire is saved in both. A **release tag** in Git
+mouse, the keys or a thumb, and for **your computer** (Windows or Mac), in a window shaped
+like a phone, with a Quit button. Your juice bar is saved in both. A **release tag** in Git
 marks the version you shipped.
 
 ### Idea — one project, two builds, shaped like a phone
@@ -15101,72 +16918,77 @@ marks the version you shipped.
 | Saving when you leave | every 30 s, and when the tab is hidden: closing a tab may not run `OnApplicationQuit` | every 30 s, and when the window closes |
 
 `TitleScreen` already hides **Quit** on the web, and `AdServiceProvider` already chooses
-the pretend ads where LevelPlay can't run. Real ads on a real phone, and the phone builds
-themselves, are Level 6's.
+the pretend ads where LevelPlay can't run. The stick already works under a finger: it
+pretends to be a gamepad, and a phone's browser sends touches. Real ads on a real phone,
+and the phone builds themselves, are Level 6's.
 
 ### Do it — tidy up for release
 
-1. Take the test helpers out of `Wallet`: the two `[ContextMenu]` methods from Chapters 6
-   and 13. They only run in the Editor, but they're not part of the game, and a reviewer
-   will ask. Play once to check nothing used them. Commit: *Remove the test helpers*.
+1. Take out what you left in for testing: a `Debug.Log` of the save's folder (Chapter 14),
+   the Juice Kart's or the Pier's spot still in the **Build List**'s **First**, a price of
+   `1` on a spot, the kart's level prices. Search the project for `Debug.Log(` and read
+   each one: keep the ones that report a real problem. Play once from the Title. Commit:
+   *Tidy up for release*.
 
 ### Do it — the player settings
 
 2. **Edit → Project Settings → Player**: **Company Name** *Lantern Hill Games*, **Product
    Name** *Juice Tycoon*. The product name is the app's name, and part of the save file's
    folder: change it, and the game looks for its save somewhere new.
-3. Under **Resolution and Presentation**, for the PC: **Fullscreen Mode** **Windowed**,
-   **Default Screen Width** 720, **Default Screen Height** 1280. For the Web (its own tab
-   in the same section): **Default Canvas Width** 540, **Height** 960. A phone game in a
-   wide window would leave the canvas scaler stretching a 1080-wide layout across 1920
-   pixels: the tall window keeps the shape you designed.
+3. Under **Resolution and Presentation**, for the PC: **Fullscreen Mode** `Windowed`,
+   **Default Screen Width** 720, **Default Screen Height** 1280. For the Web (its own tab in
+   the same section): **Default Canvas Width** 540, **Height** 960. A phone game in a wide
+   window would leave the canvas scaler stretching a 1080-wide layout across 1920 pixels:
+   the tall window keeps the shape you designed.
 4. **File → Build Profiles**. The **Scene List**: `Title`, `Report` and `Beach`, in that
    order, all ticked.
 
 ### Do it — check it on phones
 
-5. **Window → General → Device Simulator**, and Play from the Title on two phones: one
-   with a notch, one without. Go through everything once: the safe area keeps the money
-   and the tabs clear on both; a tall phone gets a longer list, not smaller buttons.
+5. **Window → General → Device Simulator**, and Play from the Title on two phones: one with
+   a notch, one without. Go through everything once: the safe area keeps the money and the
+   buttons clear on both; a tall phone shows more beach, not smaller buttons; the stick
+   appears under your thumb wherever it lands in the lower half.
 
 ### Do it — the web build
 
 6. In **Build Profiles**, select **Web**, and **Switch Platform** (it takes a while: every
    picture is imported again for the web).
-7. In the Web profile's **Player Settings**, **Publishing Settings**: **Compression
-   Format** **Disabled** (itch.io serves the files as they are, and a compressed build
-   would need the server's help).
+7. In the Web profile's **Player Settings**, **Publishing Settings**: **Compression Format**
+   `Disabled` (itch.io serves the files as they are, and a compressed build would need the
+   server's help).
 8. **Build**, into a new folder, `Builds/Web` (it's in the `.gitignore`: builds stay out of
    Git). Zip the **contents** of `Builds/Web`, so `index.html` is at the top of the zip.
-9. On itch.io: **Upload new project**, **Kind of project: HTML**, upload the zip, tick
-   **This file will be played in the browser**, set the viewport to 540 × 960, and tick
-   **Mobile friendly**, **Portrait**. Save, and open the page.
+9. On itch.io: **Upload new project**, **Kind of project: HTML**, upload the zip, tick **This
+   file will be played in the browser**, set the viewport to 540 × 960, and tick **Mobile
+   friendly**, **Portrait**. Save, and open the page.
 
 ### Test it — the web build
 
-- The Title fades in; there's no **Quit**. **New Game**, earn, hire a manager, and buy the
-  first upgrades.
-- Close the tab. Wait two minutes, then open the page again: **Continue** shows your
-  money, and **Welcome back** what the manager made. The browser kept your save.
+- The Title fades in; there's no **Quit**. **New Game**, build a table and the second
+  juicer, and hire the Orange Bar's runner and cashier.
+- Close the tab. Wait two minutes, then open the page again: **Continue** shows your money,
+  and **Welcome back** what the Orange Bar made. The browser kept your save.
 - The TV and **Collect ×2** show the pretend ad: on the web, nothing else can.
-- On a phone: tap the businesses and the buttons. Everything works with a thumb.
+- On a phone: drag your thumb, and the chef runs. Step on the Office's mat, and tap the
+  buttons. Everything works with a thumb.
 - In your browser's settings, clear the site's data: back to the first run.
 
 ### Do it — the PC build
 
 10. In **Build Profiles**, select **Windows** or **macOS** (whichever you're on), **Switch
     Platform**, and **Build** into `Builds/PC`.
-11. Run it: a tall window; **Quit** is there; the keys work, and so does changing them.
-    The save lives in the player's own folders (on a Mac,
+11. Run it: a tall window; **Quit** is there; the keys work, and so does changing them. The
+    save lives in the player's own folders (on a Mac,
     `~/Library/Application Support/Lantern Hill Games/Juice Tycoon`). The company name is
     part of that path, so the game you played in the Editor before step 2 is in a
     `DefaultCompany` folder instead.
 
 ### Do it — tag the release
 
-12. Commit everything: *Ship version 1.0*. In GitHub Desktop's **History**, right-click
-    that commit → **Create Tag…**, `v1.0`. **Push origin**, and push the tag when it asks.
-    On GitHub, your repository's **Releases** and **Tags** show `v1.0`: whatever happens to
+12. Commit everything: *Ship version 1.0*. In GitHub Desktop's **History**, right-click that
+    commit → **Create Tag…**, `v1.0`. **Push origin**, and push the tag when it asks. On
+    GitHub, your repository's **Releases** and **Tags** show `v1.0`: whatever happens to
     `main` next, anyone can get back the exact game you shipped.
 
 ### Commit
@@ -15176,8 +16998,8 @@ themselves, are Level 6's.
 ### Challenge
 
 Add the version number to the Title, from **Player Settings → Version** (read it in code
-with `Application.version`), and ship 1.0.1 with one small improvement of your own (a
-sixth business? a golden balloon? a daily gift?), tagged `v1.0.1`.
+with `Application.version`), and ship 1.0.1 with one small improvement of your own (a fifth
+bar? a lemon crate? a daily gift?), tagged `v1.0.1`.
 
 # Part 6 — The Exam
 
@@ -15211,27 +17033,27 @@ has a place in this course:
 
 | Domain | Objective | Where you learned it |
 | --- | --- | --- |
-| Programming | Evaluate code for integration into a system architected by a lead | C# 9, C# 8 |
+| Programming | Evaluate code for integration into a system architected by a lead | C# 10, C# 9 |
 | Programming | Apply coding standards set by senior programmers | C# 18; Level 3's naming conventions |
-| Programming | Determine code for a specified interaction or logic | Levels 1–4: every chapter; C# 7, C# 5 |
-| Programming | Implement transitions between scenes | C# 11 |
-| Programming | Save data between scenes and sessions (static, PlayerPrefs) | C# 10, C# 11, C# 13 |
-| Programming | Use Unity API methods, given the API docs | Level 2: the Unity docs; C# 13, C# 14 |
-| Programming | Choose GameObject properties, scripts and components for a task | Levels 1 and 2; C# 3, C# 2 |
-| Programming | Inheritance vs. interfaces | C# 7, C# 8 |
+| Programming | Determine code for a specified interaction or logic | Levels 1–4: every chapter; C# 8, C# 2 |
+| Programming | Implement transitions between scenes | C# 12 |
+| Programming | Save data between scenes and sessions (static, PlayerPrefs) | C# 11, C# 12, C# 14 |
+| Programming | Use Unity API methods, given the API docs | Level 2: the Unity docs; C# 14, C# 3 |
+| Programming | Choose GameObject properties, scripts and components for a task | Levels 1 and 2; C# 4, C# 7 |
+| Programming | Inheritance vs. interfaces | C# 8, C# 9 |
 | Programming | Choose data structures: lists, arrays, dictionaries | Level 2; C# 6 |
 | Programming | Choose data types: floats, bools, strings | Level 2; C# 6 |
 | Programming | Build to WebGL or PC | Level 1; the last of your game's build chapters |
-| UI | Lay out UI with anchors, pivots and groups | C# 2 |
-| UI | Display data in UI elements | Levels 1 and 3; C# 2 |
-| UI | Respond to user input with the UnityEvent system | Level 2: UI events; C# 5, C# 2 |
+| UI | Lay out UI with anchors, pivots and groups | C# 7 |
+| UI | Display data in UI elements | Levels 1 and 3; C# 7 |
+| UI | Respond to user input with the UnityEvent system | Level 2: UI events; C# 2, C# 7 |
 | Debugging | Use debug messages to find why code fails | Levels 0 to 3; C# 19 |
 | Debugging | Identify the cause of a compile error | Levels 0 and 3; C# 19 |
-| Debugging | Identify null-variable errors | Level 2; Level 3's finding errors; C# 12 |
+| Debugging | Identify null-variable errors | Level 2; Level 3's finding errors; C# 13 |
 | Debugging | Refactor code to fit coding standards | C# 18 |
 | Debugging | Select profiling tools for performance problems | C# 17, C# 15 |
-| Assets | Use prefabs in a scene | Level 1; C# 3 |
-| Assets | Change nested prefabs and prefab variants, and predict the outcome | C# 3 |
+| Assets | Use prefabs in a scene | Level 1; C# 4 |
+| Assets | Change nested prefabs and prefab variants, and predict the outcome | C# 4 |
 | Assets | Primary purposes of version control | C# 1 |
 
 The **Check Yourself** part at the end of this book has two exam-style questions on
@@ -15245,24 +17067,24 @@ Unity lists these as the exam's prerequisites. You've done every one:
 | --- | --- |
 | 2–3 semesters of Unity classwork, or the equivalent | Levels 0 to 4 of this course |
 | a diverse range of Unity projects | a different game at every level since Level 0, each one built and published |
-| importing assets or code from the Asset Store or the Package Manager, and resolving conflicts | C# 16, C# 9 |
+| importing assets or code from the Asset Store or the Package Manager, and resolving conflicts | C# 16, C# 10 |
 | debugging non-complex problems | Levels 2 and 3; C# 19, C# 17 |
-| interpreting, integrating and modifying well-documented existing code | C# 9, C# 18 |
-| basic scene management | C# 11 |
-| creating and using prefabs | Level 1; C# 3 |
+| interpreting, integrating and modifying well-documented existing code | C# 10, C# 18 |
+| basic scene management | C# 12 |
+| creating and using prefabs | Level 1; C# 4 |
 | deploying a basic build | a published build at the end of every level |
 
 ### Idea — how the questions are written
 
 | The question says… | It wants… | Practise with |
 | --- | --- | --- |
-| "What does this code print?" | a trace on paper, line by line: which override runs, what a queue gives back first, what a dictionary holds | C# 7, C# 6 |
+| "What does this code print?" | a trace on paper, line by line: which override runs, what a queue gives back first, what a dictionary holds | C# 8, C# 6 |
 | "Which code implements…?" | the option that compiles **and** does the whole task: often two of them compile | every chapter's Do it |
 | "What's the cause of this error?" | the error's code, the line, and the one thing on it that's wrong | C# 19 |
-| "Which tool or component should you use…?" | the one made for that job: the Profiler for slow frames and garbage, the Frame Debugger for draw calls, the Memory Profiler for memory | C# 17, C# 2 |
-| "What happens when you change this prefab?" | the change followed down from the base to its variants and instances, stopping at every override | C# 3 |
+| "Which tool or component should you use…?" | the one made for that job: the Profiler for slow frames and garbage, the Frame Debugger for draw calls, the Memory Profiler for memory | C# 17, C# 7 |
+| "What happens when you change this prefab?" | the change followed down from the base to its variants and instances, stopping at every override | C# 4 |
 | "Which version follows the standard…?" | the option that keeps every rule the question gives, not your own habits | C# 18 |
-| "Which of these integrates correctly?" | the option that uses the module's contract, and leaves the module unchanged | C# 9 |
+| "Which of these integrates correctly?" | the option that uses the module's contract, and leaves the module unchanged | C# 10 |
 
 ### Idea — the traps, collected
 
@@ -15778,48 +17600,48 @@ missing. Why?
 
 | Q | Answer | Why | Review |
 | --- | --- | --- | --- |
-| 1 | B | A has the members, but never says it's an `IHighlightable`, so `GetComponentInParent` finds nothing. C isn't a component, so it can't be on a GameObject. D doesn't compile: an interface has nothing to override (CS0115). | C# 9 |
-| 2 | the `GameObject.Find` line | The counter already announces each change: delete the line, and let a combo text subscribe to `ComboChanged`. | C# 9 |
+| 1 | B | A has the members, but never says it's an `IHighlightable`, so `GetComponentInParent` finds nothing. C isn't a component, so it can't be on a GameObject. D doesn't compile: an interface has nothing to override (CS0115). | C# 10 |
+| 2 | the `GameObject.Find` line | The counter already announces each change: delete the line, and let a combo text subscribe to `ComboChanged`. | C# 10 |
 | 3 | C | A names the event like a handler; B isn't the past tense; D isn't PascalCase. | C# 18 |
 | 4 | D | A has the word `private`; B is a public field; C's `bool` isn't a question. | C# 18 |
-| 5 | `Picked up, healed twice`, then `True` | The object is a `BigPotion`, so its `Use` runs, and each `base.Use()` runs the version one level up first. A big potion is a kind of potion. | C# 7 |
-| 6 | C | A doesn't compile (CS0070); B subscribes again every frame, so one death plays the sound hundreds of times; D's lambda is a new method, so its `-=` takes nothing off. | C# 5 |
-| 7 | — | Add the Results scene to the Scene List, in **File → Build Profiles**: code can only load a scene that's in it. | C# 11 |
-| 8 | B | The time scale belongs to the whole game, not to a scene: set it back to 1 before loading. `Update` and the UI keep running; animations and particles on scaled time don't. | C# 11 |
-| 9 | — | 1 a `static` property: it's for this run only. 2 PlayerPrefs: a small setting. 3 a JSON file: game data, with a list in it. | C# 13 |
-| 10 | `Laps: 6` | With domain reload off, a static keeps last run's value: 3, then 3 more. A `[RuntimeInitializeOnLoadMethod]` reset fixes it. | C# 10 |
-| 11 | C | A can't tell which type to make (CS0411); `SaveData` has no constructor that takes text (B); `ToJson` goes the other way, and isn't generic (D). | C# 13 |
-| 12 | D | The reference isn't the action: its `.action` is (A is CS1061). B doesn't say which type to read; C: `performed` is an event. | C# 14 |
-| 13 | B | A Canvas Group's **Alpha** fades it and everything under it, and **Blocks Raycasts** stops the clicks. The others lay out or clip. | C# 11 |
-| 14 | C | Shared data that a designer tunes, and that doesn't change while playing, goes in an asset; what changes belongs on the object. In A, changes made while playing stay in the asset. | C# 4 |
-| 15 | D | They share a capability, not code, and none is a kind of another. A is impossible: a class has one base class, and theirs is `MonoBehaviour`. | C# 8 |
-| 16 | A | An interface has no fields and no bodies (C), and is implemented without `override` (D). | C# 8 |
+| 5 | `Picked up, healed twice`, then `True` | The object is a `BigPotion`, so its `Use` runs, and each `base.Use()` runs the version one level up first. A big potion is a kind of potion. | C# 8 |
+| 6 | C | A doesn't compile (CS0070); B subscribes again every frame, so one death plays the sound hundreds of times; D's lambda is a new method, so its `-=` takes nothing off. | C# 2 |
+| 7 | — | Add the Results scene to the Scene List, in **File → Build Profiles**: code can only load a scene that's in it. | C# 12 |
+| 8 | B | The time scale belongs to the whole game, not to a scene: set it back to 1 before loading. `Update` and the UI keep running; animations and particles on scaled time don't. | C# 12 |
+| 9 | — | 1 a `static` property: it's for this run only. 2 PlayerPrefs: a small setting. 3 a JSON file: game data, with a list in it. | C# 14 |
+| 10 | `Laps: 6` | With domain reload off, a static keeps last run's value: 3, then 3 more. A `[RuntimeInitializeOnLoadMethod]` reset fixes it. | C# 11 |
+| 11 | C | A can't tell which type to make (CS0411); `SaveData` has no constructor that takes text (B); `ToJson` goes the other way, and isn't generic (D). | C# 14 |
+| 12 | D | The reference isn't the action: its `.action` is (A is CS1061). B doesn't say which type to read; C: `performed` is an event. | C# 3 |
+| 13 | B | A Canvas Group's **Alpha** fades it and everything under it, and **Blocks Raycasts** stops the clicks. The others lay out or clip. | C# 12 |
+| 14 | C | Shared data that a designer tunes, and that doesn't change while playing, goes in an asset; what changes belongs on the object. In A, changes made while playing stay in the asset. | C# 5 |
+| 15 | D | They share a capability, not code, and none is a kind of another. A is impossible: a class has one base class, and theirs is `MonoBehaviour`. | C# 9 |
+| 16 | A | An interface has no fields and no bodies (C), and is implemented without `override` (D). | C# 9 |
 | 17 | `6 0 1` | `stock["Lemon"] = 6` replaces the 4; Mango is removed, so `TryGetValue` gives 0; one pair is left. | C# 6 |
 | 18 | — | 1 a `Queue`; 2 a `Stack`; 3 a `Dictionary<string, Card>`; 4 an array. | C# 6 |
 | 19 | — | 1 `int`; 2 `float`; 3 `bool`; 4 `string`. | C# 6 |
 | 20 | — | A `float` isn't exact: `0.1f` is a little more than 0.1, and ten of them don't land exactly on 0. Count whole hit points in an `int`, or check `<= 0f`. | C# 6 |
 | 21 | — | Hide the button in a Web build: a page can't close the browser's tab. `quitButton.SetActive(Application.platform != RuntimePlatform.WebGLPlayer);` | your game's last chapter |
-| 22 | B | A build opens with the scene at index 0, in **File → Build Profiles**. The open scene only decides where **Play** starts in the Editor (A). | C# 11 |
-| 23 | C | Anchors together at a corner keep the size and the distance from that corner. B and D stretch it. | C# 2 |
-| 24 | B | An element scales around its pivot: at (0.5, 0), the bottom edge stays put. A grows it downwards only; anchors don't decide how it scales. | C# 2 |
-| 25 | D | Two `int`s divide to a whole number: `3 / 4` is 0 (A), and B casts too late. C sets 3: a full bar. | C# 2 |
-| 26 | — | Set the text only when the coins change: the wallet raises an event, and the counter listens. Every frame makes a new string and rebuilds the Canvas, for nothing. | C# 2 |
-| 27 | A | A `for` loop has one `i`, read when the button is clicked: `fruits.Length` by then, past the end, so B throws an `IndexOutOfRangeException`. The copy gives each lambda its own. C and D don't compile. | C# 5 |
-| 28 | A | A UnityEvent is wired in the Inspector, so a designer can change it. B is wired in code; C checks every frame for nothing; D ties the script to one panel. | C# 5 |
+| 22 | B | A build opens with the scene at index 0, in **File → Build Profiles**. The open scene only decides where **Play** starts in the Editor (A). | C# 12 |
+| 23 | C | Anchors together at a corner keep the size and the distance from that corner. B and D stretch it. | C# 7 |
+| 24 | B | An element scales around its pivot: at (0.5, 0), the bottom edge stays put. A grows it downwards only; anchors don't decide how it scales. | C# 7 |
+| 25 | D | Two `int`s divide to a whole number: `3 / 4` is 0 (A), and B casts too late. C sets 3: a full bar. | C# 7 |
+| 26 | — | Set the text only when the coins change: the wallet raises an event, and the counter listens. Every frame makes a new string and rebuilds the Canvas, for nothing. | C# 7 |
+| 27 | A | A `for` loop has one `i`, read when the button is clicked: `fruits.Length` by then, past the end, so B throws an `IndexOutOfRangeException`. The copy gives each lambda its own. C and D don't compile. | C# 2 |
+| 28 | A | A UnityEvent is wired in the Inspector, so a designer can change it. B is wired in code; C checks every frame for nothing; D ties the script to one panel. | C# 2 |
 | 29 | B | The second argument, `this`, is the context: click the message, and that kart lights up. | C# 19 |
-| 30 | `Added 4`, `Skipped x` (a warning), `Added 6`, `Total: 10` | `int.Parse("x")` throws before its `Debug.Log` runs; the `catch` logs, and the loop goes on. | C# 12 |
+| 30 | `Added 4`, `Skipped x` (a warning), `Added 6`, `Total: 10` | `int.Parse("x")` throws before its `Debug.Log` runs; the `catch` logs, and the loop goes on. | C# 13 |
 | 31 | — | `Produce` takes a `float` here, and an `int` in `Generator`. So it overrides nothing (CS0115), and `Produce(int)` is still missing (CS0534). | C# 19 |
-| 32 | — | Add `using JuiceWorks.Shop;` at the top of `Wallet.cs`: the class's full name is now `JuiceWorks.Shop.ShopWindow`. | C# 9 |
-| 33 | — | The **Settings Panel** field was left empty in the Inspector. Drag the panel into it. | C# 12 |
+| 32 | — | Add `using JuiceWorks.Shop;` at the top of `Wallet.cs`: the class's full name is now `JuiceWorks.Shop.ShopWindow`. | C# 10 |
+| 33 | — | The **Settings Panel** field was left empty in the Inspector. Drag the panel into it. | C# 13 |
 | 34 | D | For a missing key, `TryGetValue` returns `false`, and the `out` variable holds its default: `null` for a class. Check the result, and warn about the id. | C# 6 |
 | 35 | A | A refactor changes how code is written, never what it does. B, C and D change what the game does. | C# 18 |
 | 36 | — | They're lost: Unity saves Inspector values by field name. Add `[FormerlySerializedAs("s")]`, from `UnityEngine.Serialization`, to the field. | C# 18 |
 | 37 | — | 1 the Profiler; 2 the Frame Debugger; 3 the Memory Profiler. | C# 17 |
 | 38 | B | A still builds a new string every frame; C only measures; D runs just as often. | C# 17 |
-| 39 | A | A prefab field typed as a component gives back that component, on the new copy. | C# 3 |
-| 40 | — | It's an override, kept by that instance only. Apply it: the **Overrides** drop-down → **Apply All**, or right-click **Value** and apply it to the prefab. | C# 3 |
-| 41 | D | A change to Tag reaches everything built on it, but the Sale Tag's own colour, an override, wins. | C# 3 |
-| 42 | C | An override applied to Stand reaches every Stand. The Sale Tag isn't a Stand, and Tag is underneath, so it doesn't change. | C# 3 |
+| 39 | A | A prefab field typed as a component gives back that component, on the new copy. | C# 4 |
+| 40 | — | It's an override, kept by that instance only. Apply it: the **Overrides** drop-down → **Apply All**, or right-click **Value** and apply it to the prefab. | C# 4 |
+| 41 | D | A change to Tag reaches everything built on it, but the Sale Tag's own colour, an override, wins. | C# 4 |
+| 42 | C | An override applied to Stand reaches every Stand. The Sale Tag isn't a Stand, and Tag is underneath, so it doesn't change. | C# 4 |
 | 43 | A | Version control keeps the project's history; it doesn't change the build. | C# 1 |
 | 44 | — | The `.meta` file holds the GUID that the prefabs use to find the picture. Without it, Unity makes a new `.meta` with a new GUID. Commit an asset and its `.meta` together. | C# 1 |
 

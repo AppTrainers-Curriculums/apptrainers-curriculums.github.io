@@ -5932,6 +5932,7 @@ Sam's rule, for objects made and destroyed while the game runs.
 | `Health` | a **Stat Badge** | (0.54, −0.805) | its `Fill` `#C2364F` |
 
    Each badge changes its `Fill`'s colour: an override on a nested prefab.
+
 6. Drag the `Familiar`'s fields in: `Art`, `Name`, the two badges' `Value` texts, and the
    `Frame`'s **Box Collider 2D** into **Frame Collider**. Make `Familiar Token` a prefab,
    and delete it from the scene.
@@ -5965,6 +5966,7 @@ public class FamiliarRow : MonoBehaviour
    It does on the table what a Horizontal Layout Group does on a canvas: count
    `transform.childCount`, and give each child its place from the middle. Add it to
    `Opponent Board` and `Player Board`, in the `Table`.
+
 8. Open the `Duelist Panel` prefab: drag `Familiar Token` into `Duelist`'s new **Familiar
    Prefab**. In the scene, drag each side's board into **Board**: the `Player Board` for
    the `Player Panel`, the `Opponent Board` for the `Opponent Panel`. A panel in the
@@ -12876,8 +12878,9 @@ merge: you can break the game freely, and `main` stays as it is.
 | Max Size 16384, **Compression None** | 1800 × 10800 | RGB24 | **129.8 MB** |
 | one 300 × 300 portrait, as the game imports it | 300 × 300 | DXT1 | 89 KB |
 
-    One picture, 130 MB: more than a cheap phone can spare for a whole game. The game
-    needs five 300 × 300 portraits: 445 KB. **Cut what you need; keep compression on.**
+One picture, 130 MB: more than a cheap phone can spare for a whole game. The game
+needs five 300 × 300 portraits: 445 KB. **Cut what you need; keep compression on.**
+
 14. Done with the experiments: switch back to `main`, and delete the `profiling` branch
     without merging. Nothing you broke ever reached `main`.
 

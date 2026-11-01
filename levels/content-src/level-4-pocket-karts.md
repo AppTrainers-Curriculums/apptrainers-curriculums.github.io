@@ -12400,6 +12400,7 @@ public class SettingsPanel : MonoBehaviour
    follow it, **Negative** first: so Steer's `A` (Negative) is 1 and `D` (Positive) is 2,
    and Throttle's `S` is 1 and `W` is 2. Open your asset and check: if yours lists them
    the other way round, swap the numbers.
+
 9. Under the rows, `Reset Controls` (*Reset keys*, sky) → **SettingsPanel →
    ResetControls**, and `Delete Save` (*Delete save*, tomato) → **SettingsPanel →
    AskToDeleteSave**. And `Confirm Delete`: an Image over the whole window (black, alpha

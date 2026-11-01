@@ -186,7 +186,7 @@ export const levels = [
     sidebarLabel: 'Level 4 — Juice Tycoon',
     cardTitle: 'Level 4 — Juice Tycoon',
     cardDescription:
-      "Level 4 made for a phone: an idle tycoon by the sea, played upright. Businesses and upgrades are ScriptableObjects, three kinds of upgrade share an abstract class, a business and a delivery van both earn through an interface, money is a long, the game keeps earning while you're away, a new beach resets it for Juice Stars, DOTween animates it, ads come through an interface, and the achievements arrive from the studio lead as a module you plug in. 21 build chapters and the 20 Level 4 C# Concept chapters, ending with practice for the Unity Certified Associate: Programmer exam.",
+      "Level 4 in 3D, made for a phone: run a juice bar on the beach with your thumb, carrying fruit to the juicers and cups to the counter. Items and bars are ScriptableObjects, every pile is a Stack and every queue of customers a Queue, every station shares an abstract class, a staffed bar and the Juice Kart both earn through an interface, the game keeps earning while you're away, the Pier sails to a new beach, DOTween animates it, ads come through an interface, and the achievements arrive from the studio lead as a module you plug in. 23 build chapters and the 20 Level 4 C# Concept chapters, ending with practice for the Unity Certified Associate: Programmer exam.",
     published: true,
     protected: true,
     salt: 'd08f62f388b854903cf24d5100b02797',
